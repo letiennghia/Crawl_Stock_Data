@@ -1,0 +1,160 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "figure_title",
+            "block_content": "4.2. Co cấu bộ máy quản lý",
+            "block_bbox": [
+                230,
+                1596,
+                284,
+                2055
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 45,
+            "global_group_id": 45,
+            "block_polygon_points": [
+                [
+                    230.0,
+                    1596.0
+                ],
+                [
+                    284.0,
+                    1596.0
+                ],
+                [
+                    284.0,
+                    2055.0
+                ],
+                [
+                    230.0,
+                    2055.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                406,
+                200,
+                1317,
+                2040
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 46,
+            "global_group_id": 46,
+            "block_polygon_points": [
+                [
+                    406.0,
+                    200.0
+                ],
+                [
+                    1317.0,
+                    200.0
+                ],
+                [
+                    1317.0,
+                    2040.0
+                ],
+                [
+                    406.0,
+                    2040.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.5523213744163513,
+                "coordinate": [
+                    230,
+                    1596,
+                    284,
+                    2055
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        230.0,
+                        1596.0
+                    ],
+                    [
+                        284.0,
+                        1596.0
+                    ],
+                    [
+                        284.0,
+                        2055.0
+                    ],
+                    [
+                        230.0,
+                        2055.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.952037513256073,
+                "coordinate": [
+                    406,
+                    200,
+                    1317,
+                    2040
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        406.0,
+                        200.0
+                    ],
+                    [
+                        1317.0,
+                        200.0
+                    ],
+                    [
+                        1317.0,
+                        2040.0
+                    ],
+                    [
+                        406.0,
+                        2040.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

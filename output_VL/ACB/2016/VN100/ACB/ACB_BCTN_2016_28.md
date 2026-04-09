@@ -1,0 +1,11 @@
+cho vay giám nhẹ đối với các ngành và lĩnh vực được ưu tiên khuyến khích. Cung ứng tiền nói lỗng ở mức hợp lý và cần thiết. Thanh khoản hệ thống tương đối đổi dào. Lãi suất liên ngân hàng tính bình quân giám mạnh so với các năm trước. Tỷ giá hối đoái không có biến động lớn, gần như ổn định trong suốt 3 quý đầu năm và giảm giá nhẹ VND vào những tháng cuối năm phù hợp với cung cầu ngoại hối và diễn biến thị trường quốc tế. Cả năm VND giám khoảng 1%, thấp xa so với kỳ vọng. Nhu cầu ngoại tệ được đáp ứng bình thường. Dự trữ ngoại hối tăng thêm, lên mức 41 tỷ USD, đạt trên 12 tuần nhập khẩu.
+
+Năm 2016, tổng phương tiện thanh toán tăng 17,88% so với cuối năm 2015, cao hơn mức tăng 13,55% của năm 2015, chủ yếu do cung tiền đề mua ngoại tệ dự trữ. Tổng tiền gửi huy động tăng 18,38%; tổng dự nợ cho vay tăng 18,71%; tỷ lệ dự nợ trên vốn huy động đạt 85%, giảm 0,7% so với năm 2015.
+
+Cán cân thương mại thắng dư 2,6 tỷ USD. Cán cân thanh toán tổng thể ước thắng dư 8,5 tỷ USD. Lường vốn đầu tư trực tiếp và gián tiếp vào Việt Nam tuy tốc độ tăng không cao bằng năm 2015, song vẫn tiếp tục tăng chứng tô kinh tế Việt Nam vẫn là điểm đến hấp dẫn đối với giới đầu tư quốc tế.
+
+Đến cuối năm 2016, ngân hàng Việt Nam vẫn khá đông đảo mặc dù đã qua một số thương vụ sáp nhập và mua lại. Hiện có 4 ngân hàng thương mại nhà nước, 2 ngân hàng chính sách thuộc sở hữu Nhà nước, 31 ngân hàng thương mại cổ phần (vốn tư nhân là chính), 6 ngân hàng 100% vốn của nước ngoài, 2 ngân hàng liên doanh giữa trong nước và nước ngoài, và 53 chi nhánh ngân hàng nước ngoài.
+
+Hiệu quả kinh doanh toàn hệ thống ngân hàng có cải thiện hơn so với năm 2015. Tỷ lệ thu nhập lãi thuần (NIM) tính bình quân đạt mức 2,8%, cao hơn mức 2,7% năm 2015; lợi nhuận trước trích lập dự phòng rủi ro tăng 10% so 2015; lợi nhuận sau thuế ước tăng 26,8%. Tỷ lệ sinh lời của tài sản (ROA) và tỷ lệ sinh lời của vốn chủ sở hữu (ROE) tương ứng là 0,54% và 7,68%, tăng khá so với mức 0,46% và 6,42% của năm 2015. Tỷ lệ nợ xấu so với tổng dư nợ được giữ đồn định quanh mức 2,6%.
+
+Tổ chức xếp hàng tính dung Moody’s dự báo hệ thống ngân hàng Việt Nam sẽ đồn định trong vòng 12 - 18 tháng tới (năm 2017 và nửa đầu 2018) nhờ kinh tế đồn định và tăng trưởng tốt (6,1% năm 2016; 6% năm 2017). Tuy nhiên nợ xấu chưa xử lý đã tăng lên đến 7,1% vào giữa năm 2016; mức lãi cận biên NIM có thể giảm nhẹ do cạnh tranh

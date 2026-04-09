@@ -1,0 +1,1 @@
+Chênh lệch bình quân giữa lãi suất cho vay và chi phí vốn (NIM) là 2,84% (2013: 2,92%); ROE đạt 7,79% (2013: 7,59%); ROA đạt 0,65% (2013: 0,67%).

@@ -1,0 +1,979 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "Những thay đổi trong ban điều hành",
+            "block_bbox": [
+                221,
+                137,
+                803,
+                184
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 115,
+            "global_group_id": 115,
+            "block_polygon_points": [
+                [
+                    221.0,
+                    137.0
+                ],
+                [
+                    803.0,
+                    137.0
+                ],
+                [
+                    803.0,
+                    184.0
+                ],
+                [
+                    221.0,
+                    184.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>TT</td><td>Thành viên</td><td>Chức vụ</td><td>Lý do thay đổi</td></tr><tr><td>1</td><td>Ông Nguyễn Duy Nhứt</td><td>Phó Tổng giám đốc</td><td>Miễn nhiệm Phó Tổng giám đốc từ 01/7/2020 đề nghị hưu.</td></tr><tr><td>2</td><td>Ông Trần Minh Cảnh</td><td>Phó Tổng giám đốc</td><td>Bổ nhiệm Phó Tổng giám đốc từ 01/7/2020.</td></tr></table>",
+            "block_bbox": [
+                193,
+                190,
+                1453,
+                528
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 116,
+            "global_group_id": 116,
+            "block_polygon_points": [
+                [
+                    193.0,
+                    190.0
+                ],
+                [
+                    1453.0,
+                    190.0
+                ],
+                [
+                    1453.0,
+                    528.0
+                ],
+                [
+                    193.0,
+                    528.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Số lượng cán bộ nhân viên",
+            "block_bbox": [
+                220,
+                539,
+                668,
+                582
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 117,
+            "global_group_id": 117,
+            "block_polygon_points": [
+                [
+                    220.0,
+                    539.0
+                ],
+                [
+                    668.0,
+                    539.0
+                ],
+                [
+                    668.0,
+                    582.0
+                ],
+                [
+                    220.0,
+                    582.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Tính đến 31/12/2020, tổng số lao động của Tập đoàn là 5.978 người, với cơ cấu như sau:",
+            "block_bbox": [
+                204,
+                592,
+                1442,
+                679
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "global_block_id": 118,
+            "global_group_id": 118,
+            "block_polygon_points": [
+                [
+                    204.0,
+                    592.0
+                ],
+                [
+                    1442.0,
+                    592.0
+                ],
+                [
+                    1442.0,
+                    679.0
+                ],
+                [
+                    204.0,
+                    679.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>TT</td><td>Tiêu chí</td><td>Số lượng (người)</td><td>Tỷ trọng (%)</td></tr><tr><td>I</td><td>Theo trình độ lao động</td><td></td><td></td></tr><tr><td>1</td><td>Đại học và Trên Đại học</td><td>335</td><td>5.6%</td></tr><tr><td>2</td><td>Cao đẳng, Trung cấp nghề</td><td>400</td><td>6.7%</td></tr><tr><td>3</td><td>Sơ cấp, Công nhân Kỹ thuật</td><td>35</td><td>0.6%</td></tr><tr><td>4</td><td>Lao động phổ thông</td><td>5,208</td><td>87.1%</td></tr><tr><td>II</td><td>Theo đối tượng lao động</td><td></td><td></td></tr><tr><td>1</td><td>Lao động toàn thời gian</td><td>5,978</td><td>100.0%</td></tr><tr><td>2</td><td>Lao động bán thời gian</td><td>-</td><td>0.0%</td></tr><tr><td>III</td><td>Theo giới tính</td><td></td><td></td></tr><tr><td>1</td><td>Nam</td><td>3,173</td><td>53.1%</td></tr><tr><td>2</td><td>Nữ</td><td>2,805</td><td>46.9%</td></tr></table>",
+            "block_bbox": [
+                193,
+                714,
+                1451,
+                1303
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 119,
+            "global_group_id": 119,
+            "block_polygon_points": [
+                [
+                    193.0,
+                    714.0
+                ],
+                [
+                    1451.0,
+                    714.0
+                ],
+                [
+                    1451.0,
+                    1303.0
+                ],
+                [
+                    193.0,
+                    1303.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Một số chính sách đối với người lao động năm 2020",
+            "block_bbox": [
+                219,
+                1310,
+                1032,
+                1352
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 120,
+            "global_group_id": 120,
+            "block_polygon_points": [
+                [
+                    219.0,
+                    1310.0
+                ],
+                [
+                    1032.0,
+                    1310.0
+                ],
+                [
+                    1032.0,
+                    1352.0
+                ],
+                [
+                    219.0,
+                    1352.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Công ty áp dụng chính sách tiền lương và khen thưởng cho cán bộ công nhân viên theo đúng quy định pháp luật và quy chế lương thưởng của công ty dựa trên các cơ sở về hiệu quả công việc của từng người, theo mức độ hoàn thành kế hoạch sản xuất và lợi nhuận của công ty.",
+            "block_bbox": [
+                185,
+                1365,
+                1450,
+                1533
+            ],
+            "block_id": 6,
+            "block_order": 3,
+            "group_id": 6,
+            "global_block_id": 121,
+            "global_group_id": 121,
+            "block_polygon_points": [
+                [
+                    185.0,
+                    1365.0
+                ],
+                [
+                    1450.0,
+                    1365.0
+                ],
+                [
+                    1450.0,
+                    1533.0
+                ],
+                [
+                    185.0,
+                    1533.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Công ty còn tạo điều kiện cho người lao động tham gia các hoạt động thể dục thể thao, văn nghệ và các hoạt động tinh thần khác do Công đoàn, Các tổ chức đoàn thể ở địa phương tổ chức nhân các ngày lễ, các dịp kỷ niệm trong năm như: Quốc tế Phụ nữ, Quốc tế thiếu nhi, Ngày thành lập Công ty, năm mới...",
+            "block_bbox": [
+                184,
+                1543,
+                1449,
+                1712
+            ],
+            "block_id": 7,
+            "block_order": 4,
+            "group_id": 7,
+            "global_block_id": 122,
+            "global_group_id": 122,
+            "block_polygon_points": [
+                [
+                    184.0,
+                    1543.0
+                ],
+                [
+                    1449.0,
+                    1543.0
+                ],
+                [
+                    1449.0,
+                    1712.0
+                ],
+                [
+                    184.0,
+                    1712.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Các chế độ phúc lợi khác:",
+            "block_bbox": [
+                231,
+                1718,
+                676,
+                1761
+            ],
+            "block_id": 8,
+            "block_order": 5,
+            "group_id": 8,
+            "global_block_id": 123,
+            "global_group_id": 123,
+            "block_polygon_points": [
+                [
+                    231.0,
+                    1718.0
+                ],
+                [
+                    676.0,
+                    1718.0
+                ],
+                [
+                    676.0,
+                    1761.0
+                ],
+                [
+                    231.0,
+                    1761.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "✓ Thường các dịp Lễ, lương tháng 13, thưởng thành tích cuối năm.",
+            "block_bbox": [
+                234,
+                1767,
+                1230,
+                1813
+            ],
+            "block_id": 9,
+            "block_order": 6,
+            "group_id": 9,
+            "global_block_id": 124,
+            "global_group_id": 124,
+            "block_polygon_points": [
+                [
+                    234.0,
+                    1767.0
+                ],
+                [
+                    1230.0,
+                    1767.0
+                ],
+                [
+                    1230.0,
+                    1813.0
+                ],
+                [
+                    234.0,
+                    1813.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "✓ Khám sức khỏe định kỳ.",
+            "block_bbox": [
+                234,
+                1822,
+                647,
+                1867
+            ],
+            "block_id": 10,
+            "block_order": 7,
+            "group_id": 10,
+            "global_block_id": 125,
+            "global_group_id": 125,
+            "block_polygon_points": [
+                [
+                    234.0,
+                    1822.0
+                ],
+                [
+                    647.0,
+                    1822.0
+                ],
+                [
+                    647.0,
+                    1867.0
+                ],
+                [
+                    234.0,
+                    1867.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Động phục và Bảo hộ lao động.",
+            "block_bbox": [
+                234,
+                1874,
+                754,
+                1920
+            ],
+            "block_id": 11,
+            "block_order": 8,
+            "group_id": 11,
+            "global_block_id": 126,
+            "global_group_id": 126,
+            "block_polygon_points": [
+                [
+                    234.0,
+                    1874.0
+                ],
+                [
+                    754.0,
+                    1874.0
+                ],
+                [
+                    754.0,
+                    1920.0
+                ],
+                [
+                    234.0,
+                    1920.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Các khoản trợ cấp khác: Trợ cấp khó khăn, trợ cấp tang chế, chế độ nghỉ mất hàng năm; chế độ công tác phí; trợ cấp tiền xăng...",
+            "block_bbox": [
+                235,
+                1925,
+                1446,
+                2014
+            ],
+            "block_id": 12,
+            "block_order": 9,
+            "group_id": 12,
+            "global_block_id": 127,
+            "global_group_id": 127,
+            "block_polygon_points": [
+                [
+                    235.0,
+                    1925.0
+                ],
+                [
+                    1446.0,
+                    1925.0
+                ],
+                [
+                    1446.0,
+                    2014.0
+                ],
+                [
+                    235.0,
+                    2014.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Tổ chức du lịch để cải thiện tinh thần làm việc",
+            "block_bbox": [
+                236,
+                2021,
+                969,
+                2069
+            ],
+            "block_id": 13,
+            "block_order": 10,
+            "group_id": 13,
+            "global_block_id": 128,
+            "global_group_id": 128,
+            "block_polygon_points": [
+                [
+                    236.0,
+                    2021.0
+                ],
+                [
+                    969.0,
+                    2021.0
+                ],
+                [
+                    969.0,
+                    2069.0
+                ],
+                [
+                    236.0,
+                    2069.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "14",
+            "block_bbox": [
+                793,
+                2196,
+                835,
+                2226
+            ],
+            "block_id": 14,
+            "block_order": null,
+            "group_id": 14,
+            "global_block_id": 129,
+            "global_group_id": 129,
+            "block_polygon_points": [
+                [
+                    793.0,
+                    2195.999755859375
+                ],
+                [
+                    834.0,
+                    2195.999755859375
+                ],
+                [
+                    834.0,
+                    2224.999755859375
+                ],
+                [
+                    793.0,
+                    2224.999755859375
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3737303614616394,
+                "coordinate": [
+                    221,
+                    137,
+                    803,
+                    184
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        221.0,
+                        137.0
+                    ],
+                    [
+                        803.0,
+                        137.0
+                    ],
+                    [
+                        803.0,
+                        184.0
+                    ],
+                    [
+                        221.0,
+                        184.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9497857093811035,
+                "coordinate": [
+                    193,
+                    190,
+                    1453,
+                    528
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        193.0,
+                        190.0
+                    ],
+                    [
+                        1453.0,
+                        190.0
+                    ],
+                    [
+                        1453.0,
+                        528.0
+                    ],
+                    [
+                        193.0,
+                        528.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5380918979644775,
+                "coordinate": [
+                    220,
+                    539,
+                    668,
+                    582
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        220.0,
+                        539.0
+                    ],
+                    [
+                        668.0,
+                        539.0
+                    ],
+                    [
+                        668.0,
+                        582.0
+                    ],
+                    [
+                        220.0,
+                        582.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5791826248168945,
+                "coordinate": [
+                    204,
+                    592,
+                    1442,
+                    679
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        204.0,
+                        592.0
+                    ],
+                    [
+                        1442.0,
+                        592.0
+                    ],
+                    [
+                        1442.0,
+                        679.0
+                    ],
+                    [
+                        204.0,
+                        679.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9677528142929077,
+                "coordinate": [
+                    193,
+                    714,
+                    1451,
+                    1303
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        193.0,
+                        714.0
+                    ],
+                    [
+                        1451.0,
+                        714.0
+                    ],
+                    [
+                        1451.0,
+                        1303.0
+                    ],
+                    [
+                        193.0,
+                        1303.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.6787112951278687,
+                "coordinate": [
+                    219,
+                    1310,
+                    1032,
+                    1352
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        219.0,
+                        1310.0
+                    ],
+                    [
+                        1032.0,
+                        1310.0
+                    ],
+                    [
+                        1032.0,
+                        1352.0
+                    ],
+                    [
+                        219.0,
+                        1352.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.902329683303833,
+                "coordinate": [
+                    185,
+                    1365,
+                    1450,
+                    1533
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        185.0,
+                        1365.0
+                    ],
+                    [
+                        1450.0,
+                        1365.0
+                    ],
+                    [
+                        1450.0,
+                        1533.0
+                    ],
+                    [
+                        185.0,
+                        1533.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9298535585403442,
+                "coordinate": [
+                    184,
+                    1543,
+                    1449,
+                    1712
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        184.0,
+                        1543.0
+                    ],
+                    [
+                        1449.0,
+                        1543.0
+                    ],
+                    [
+                        1449.0,
+                        1712.0
+                    ],
+                    [
+                        184.0,
+                        1712.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8008385300636292,
+                "coordinate": [
+                    231,
+                    1718,
+                    676,
+                    1761
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        231.0,
+                        1718.0
+                    ],
+                    [
+                        676.0,
+                        1718.0
+                    ],
+                    [
+                        676.0,
+                        1761.0
+                    ],
+                    [
+                        231.0,
+                        1761.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8189895153045654,
+                "coordinate": [
+                    234,
+                    1767,
+                    1230,
+                    1813
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        234.0,
+                        1767.0
+                    ],
+                    [
+                        1230.0,
+                        1767.0
+                    ],
+                    [
+                        1230.0,
+                        1813.0
+                    ],
+                    [
+                        234.0,
+                        1813.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8314772844314575,
+                "coordinate": [
+                    234,
+                    1822,
+                    647,
+                    1867
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        234.0,
+                        1822.0
+                    ],
+                    [
+                        647.0,
+                        1822.0
+                    ],
+                    [
+                        647.0,
+                        1867.0
+                    ],
+                    [
+                        234.0,
+                        1867.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8417449593544006,
+                "coordinate": [
+                    234,
+                    1874,
+                    754,
+                    1920
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        234.0,
+                        1874.0
+                    ],
+                    [
+                        754.0,
+                        1874.0
+                    ],
+                    [
+                        754.0,
+                        1920.0
+                    ],
+                    [
+                        234.0,
+                        1920.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.91018146276474,
+                "coordinate": [
+                    235,
+                    1925,
+                    1446,
+                    2014
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        235.0,
+                        1925.0
+                    ],
+                    [
+                        1446.0,
+                        1925.0
+                    ],
+                    [
+                        1446.0,
+                        2014.0
+                    ],
+                    [
+                        235.0,
+                        2014.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8555497527122498,
+                "coordinate": [
+                    236,
+                    2021,
+                    969,
+                    2069
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        236.0,
+                        2021.0
+                    ],
+                    [
+                        969.0,
+                        2021.0
+                    ],
+                    [
+                        969.0,
+                        2069.0
+                    ],
+                    [
+                        236.0,
+                        2069.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.713246762752533,
+                "coordinate": [
+                    793,
+                    2196,
+                    835,
+                    2226
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        793.0,
+                        2195.999755859375
+                    ],
+                    [
+                        834.0,
+                        2195.999755859375
+                    ],
+                    [
+                        834.0,
+                        2224.999755859375
+                    ],
+                    [
+                        793.0,
+                        2224.999755859375
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,601 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "CÔNG TY CỔ PHẦN NAM VIỆT\nĐịa chỉ: 19D Trần Hưng Đạo, Phường Mỹ Quý, TP. Long Xuyên, Tinh An Giang\nBẢO CÁO TÀI CHÍNH HỢP NHẬT\nCho năm tài chính kết thúc ngày 31 tháng 12 năm 2024\nBản thuyết minh Báo cáo tài chính hợp nhất (tiếp theo)",
+            "block_bbox": [
+                152,
+                53,
+                1077,
+                242
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1059,
+            "global_group_id": 1059,
+            "block_polygon_points": [
+                [
+                    152.0,
+                    53.0
+                ],
+                [
+                    1077.0,
+                    53.0
+                ],
+                [
+                    1077.0,
+                    242.0
+                ],
+                [
+                    152.0,
+                    242.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "",
+            "block_bbox": [
+                226,
+                293,
+                1507,
+                591
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1060,
+            "global_group_id": 1056,
+            "block_polygon_points": [
+                [
+                    226.0,
+                    293.0
+                ],
+                [
+                    1507.0,
+                    293.0
+                ],
+                [
+                    1507.0,
+                    591.0
+                ],
+                [
+                    226.0,
+                    591.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Ông Doãn Tới dùng tài sản cá nhân để bảo đảm cho khoản vay của Tập đoàn tại Ngân hàng TNHH MTV Hong Leong Việt Nam, Ngân hàng United Overseas Bank và Ngân hàng Đại chúng TNHH KasikornBank (xem thuyết minh số V.21a).",
+            "block_bbox": [
+                226,
+                640,
+                1502,
+                762
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1061,
+            "global_group_id": 1061,
+            "block_polygon_points": [
+                [
+                    226.0,
+                    640.0
+                ],
+                [
+                    1502.0,
+                    640.0
+                ],
+                [
+                    1502.0,
+                    762.0
+                ],
+                [
+                    226.0,
+                    762.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Công nợ với các thành viên quản lý chủ chốt và các cá nhân có liên quan với các thành viên quản lý chủ chốt",
+            "block_bbox": [
+                225,
+                786,
+                1501,
+                861
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "global_block_id": 1062,
+            "global_group_id": 1062,
+            "block_polygon_points": [
+                [
+                    225.0,
+                    786.0
+                ],
+                [
+                    1501.0,
+                    786.0
+                ],
+                [
+                    1501.0,
+                    861.0
+                ],
+                [
+                    225.0,
+                    861.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Công nợ với các thành viên quản lý chủ chốt và các cá nhân có liên quan với các thành viên quản lý chủ chốt được trình bày tại các thuyết minh số V.15 và V.20a.",
+            "block_bbox": [
+                224,
+                860,
+                1501,
+                936
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "global_block_id": 1063,
+            "global_group_id": 1063,
+            "block_polygon_points": [
+                [
+                    224,
+                    860
+                ],
+                [
+                    224,
+                    935
+                ],
+                [
+                    1500,
+                    935
+                ],
+                [
+                    1500,
+                    860
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Thu nhập của các thành viên quản lý chủ chốt, Ủy ban kiểm toán và Ban kiểm toán nội bộ",
+            "block_bbox": [
+                225,
+                962,
+                1352,
+                1006
+            ],
+            "block_id": 5,
+            "block_order": 3,
+            "group_id": 5,
+            "global_block_id": 1064,
+            "global_group_id": 1064,
+            "block_polygon_points": [
+                [
+                    225.0,
+                    962.0
+                ],
+                [
+                    1352.0,
+                    962.0
+                ],
+                [
+                    1352.0,
+                    1006.0
+                ],
+                [
+                    225.0,
+                    1006.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Năm nay</td><td>Cộng thu nhập</td></tr><tr><td>Ông Đỗ Lập Nghiệp – Chủ tịch Hội đồng quản trị kiêm Phó Tổng Giám đốc</td><td>1.171.749.627</td></tr><tr><td>Ông Doãn Tới – Phó Chủ tịch Hội đồng quản trị kiêm Tổng Giám đốc</td><td>228.756.000</td></tr><tr><td>Bà Dương Thị Kim Hương – Phó Tổng Giám đốc</td><td>108.756.000</td></tr><tr><td>Ông Trần Minh Cảnh – Thành viên Hội đồng quản trị kiêm Phó Tổng Giám đốc</td><td>1.166.513.746</td></tr><tr><td>Ông Nguyễn Văn Vỹ – Phó Tổng Giám đốc</td><td>919.292.000</td></tr><tr><td>Bà Đỗ Thị Thanh Thủy – Thành viên Hội đồng quản trị kiêm Thành viên ủy ban kiểm toán</td><td>576.705.000</td></tr><tr><td>Bà Nguyễn Hà Thu Diễm – Kế toán trưởng</td><td>474.765.277</td></tr><tr><td>Bà Nguyễn Thị Minh Ý – Thành viên độc lập kiêm Chủ tịch Ủy ban kiểm toán</td><td>50.000.000</td></tr><tr><td>Ông Dương Minh Phong – Thành viên ban kiểm toán nội bộ</td><td>324.918.000</td></tr><tr><td>Ông Lê Tiến Đũng – Trường ban kiểm toán nội bộ</td><td>178.055.000</td></tr><tr><td>Cộng</td><td>5.199.510.650</td></tr><tr><td>Năm trước</td><td></td></tr><tr><td>Ông Đỗ Lập Nghiệp – Chủ tịch Hội đồng quản trị kiêm Phó Tổng Giám đốc</td><td>945.348.012</td></tr><tr><td>Ông Doãn Tới – Phó Chủ tịch Hội đồng quản trị kiểm Tổng Giám đốc</td><td>357.265.012</td></tr><tr><td>Bà Dương Thị Kim Hương – Phó Tổng Giám đốc</td><td>109.807.385</td></tr><tr><td>Ông Trần Minh Cảnh – Thành viên Hội đồng quản trị kiểm Phó Tổng Giám đốc</td><td>933.240.131</td></tr><tr><td>Ông Nguyễn Văn Vỹ – Phó Tổng Giám đốc</td><td>697.095.385</td></tr><tr><td>Ông Nguyễn Thanh Liêm – Phó Tổng Giám đốc</td><td>692.455.385</td></tr><tr><td>Bà Đỗ Thị Thanh Thủy – Thành viên Hội đồng quản trị kiểm Thành viên ủy ban kiểm toán</td><td>591.101.923</td></tr><tr><td>Ông Nguyễn Văn Dương – Giám đốc Tài chính</td><td>244.429.923</td></tr><tr><td>Bà Nguyễn Hà Thu Diễm – Kế toán trưởng</td><td>456.841.718</td></tr><tr><td>Bà Nguyễn Thị Minh Ý – Thành viên HĐQT độc lập kiểm Chủ tịch Ủy ban kiểm toán</td><td>60.000.000</td></tr><tr><td>Ông Lê Tiến Đũng – Trường ban kiểm toán nội bộ</td><td>327.804.385</td></tr><tr><td>Ông Dương Minh Phong – Thành viên ban kiểm toán nội bộ</td><td>179.602.385</td></tr><tr><td>Cộng</td><td>5.594.991.644</td></tr></table>",
+            "block_bbox": [
+                222,
+                1007,
+                1518,
+                2176
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 1065,
+            "global_group_id": 1065,
+            "block_polygon_points": [
+                [
+                    222.0,
+                    1007.0
+                ],
+                [
+                    1518.0,
+                    1007.0
+                ],
+                [
+                    1518.0,
+                    2176.0
+                ],
+                [
+                    222.0,
+                    2176.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Bản thuyết minh này là một bộ phận hợp thành và phải được cứng với Báo cáo tài chính hợp nhất",
+            "block_bbox": [
+                153,
+                2239,
+                1193,
+                2280
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 1066,
+            "global_group_id": 1066,
+            "block_polygon_points": [
+                [
+                    153.0,
+                    2239.0
+                ],
+                [
+                    1193.0,
+                    2239.0
+                ],
+                [
+                    1193.0,
+                    2280.0
+                ],
+                [
+                    153.0,
+                    2280.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "42",
+            "block_bbox": [
+                1461,
+                2239,
+                1500,
+                2272
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 1067,
+            "global_group_id": 1067,
+            "block_polygon_points": [
+                [
+                    1461.0,
+                    2239.0
+                ],
+                [
+                    1499.0,
+                    2239.0
+                ],
+                [
+                    1499.0,
+                    2271.0
+                ],
+                [
+                    1461.0,
+                    2271.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7905077338218689,
+                "coordinate": [
+                    152,
+                    53,
+                    1077,
+                    242
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        152.0,
+                        53.0
+                    ],
+                    [
+                        1077.0,
+                        53.0
+                    ],
+                    [
+                        1077.0,
+                        242.0
+                    ],
+                    [
+                        152.0,
+                        242.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.6805395483970642,
+                "coordinate": [
+                    226,
+                    293,
+                    1507,
+                    591
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        226.0,
+                        293.0
+                    ],
+                    [
+                        1507.0,
+                        293.0
+                    ],
+                    [
+                        1507.0,
+                        591.0
+                    ],
+                    [
+                        226.0,
+                        591.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.56510329246521,
+                "coordinate": [
+                    226,
+                    640,
+                    1502,
+                    762
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        226.0,
+                        640.0
+                    ],
+                    [
+                        1502.0,
+                        640.0
+                    ],
+                    [
+                        1502.0,
+                        762.0
+                    ],
+                    [
+                        226.0,
+                        762.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3567489683628082,
+                "coordinate": [
+                    225,
+                    786,
+                    1501,
+                    861
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        225.0,
+                        786.0
+                    ],
+                    [
+                        1501.0,
+                        786.0
+                    ],
+                    [
+                        1501.0,
+                        861.0
+                    ],
+                    [
+                        225.0,
+                        861.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3009168803691864,
+                "coordinate": [
+                    224,
+                    860,
+                    1501,
+                    936
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        224,
+                        860
+                    ],
+                    [
+                        224,
+                        935
+                    ],
+                    [
+                        1500,
+                        935
+                    ],
+                    [
+                        1500,
+                        860
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3002743721008301,
+                "coordinate": [
+                    225,
+                    962,
+                    1352,
+                    1006
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        225.0,
+                        962.0
+                    ],
+                    [
+                        1352.0,
+                        962.0
+                    ],
+                    [
+                        1352.0,
+                        1006.0
+                    ],
+                    [
+                        225.0,
+                        1006.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.7366369962692261,
+                "coordinate": [
+                    222,
+                    1007,
+                    1518,
+                    2176
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        222.0,
+                        1007.0
+                    ],
+                    [
+                        1518.0,
+                        1007.0
+                    ],
+                    [
+                        1518.0,
+                        2176.0
+                    ],
+                    [
+                        222.0,
+                        2176.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.4579451382160187,
+                "coordinate": [
+                    153,
+                    2239,
+                    1193,
+                    2280
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        153.0,
+                        2239.0
+                    ],
+                    [
+                        1193.0,
+                        2239.0
+                    ],
+                    [
+                        1193.0,
+                        2280.0
+                    ],
+                    [
+                        153.0,
+                        2280.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6149294376373291,
+                "coordinate": [
+                    1461,
+                    2239,
+                    1500,
+                    2272
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        1461.0,
+                        2239.0
+                    ],
+                    [
+                        1499.0,
+                        2239.0
+                    ],
+                    [
+                        1499.0,
+                        2271.0
+                    ],
+                    [
+                        1461.0,
+                        2271.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

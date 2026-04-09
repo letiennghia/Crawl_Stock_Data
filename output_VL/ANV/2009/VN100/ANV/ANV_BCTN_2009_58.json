@@ -1,0 +1,898 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1700,
+    "height": 2200,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "aside_text",
+            "block_content": "NAM VIET CORPORATION",
+            "block_bbox": [
+                166,
+                1450,
+                210,
+                1930
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 605,
+            "global_group_id": 605,
+            "block_polygon_points": [
+                [
+                    166.0,
+                    1450.0
+                ],
+                [
+                    210.0,
+                    1450.0
+                ],
+                [
+                    210.0,
+                    1930.0
+                ],
+                [
+                    166.0,
+                    1930.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                992,
+                58,
+                1487,
+                197
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 606,
+            "global_group_id": 606,
+            "block_polygon_points": [
+                [
+                    992,
+                    58
+                ],
+                [
+                    992,
+                    196
+                ],
+                [
+                    1111,
+                    196
+                ],
+                [
+                    1121,
+                    196
+                ],
+                [
+                    1486,
+                    196
+                ],
+                [
+                    1486,
+                    58
+                ],
+                [
+                    1121,
+                    58
+                ],
+                [
+                    1111,
+                    58
+                ],
+                [
+                    1035,
+                    58
+                ],
+                [
+                    1026,
+                    58
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Các khoản vay dài hạn sẽ được hoàn trả dựa vào hợp đồng vay theo lịch trình sau:",
+            "block_bbox": [
+                340,
+                315,
+                1415,
+                357
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "global_block_id": 607,
+            "global_group_id": 607,
+            "block_polygon_points": [
+                [
+                    340.0,
+                    315.0
+                ],
+                [
+                    1415.0,
+                    315.0
+                ],
+                [
+                    1415.0,
+                    357.0
+                ],
+                [
+                    340.0,
+                    357.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Năm hoàn trả</td><td></td><td>VND&#x27;000</td></tr><tr><td></td><td></td><td></td></tr><tr><td>2010</td><td></td><td>24.581.698</td></tr><tr><td>2011</td><td></td><td>17.244.565</td></tr><tr><td>2012</td><td></td><td>17.244.565</td></tr><tr><td>2013</td><td></td><td>17.244.565</td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td>76.315.393</td></tr></table>",
+            "block_bbox": [
+                332,
+                388,
+                1520,
+                766
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 608,
+            "global_group_id": 608,
+            "block_polygon_points": [
+                [
+                    332.0,
+                    388.0
+                ],
+                [
+                    1520.0,
+                    388.0
+                ],
+                [
+                    1520.0,
+                    766.0
+                ],
+                [
+                    332.0,
+                    766.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "19. Dự phòng trợ cấp thôi việc",
+            "block_bbox": [
+                341,
+                811,
+                841,
+                857
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "global_block_id": 609,
+            "global_group_id": 609,
+            "block_polygon_points": [
+                [
+                    341.0,
+                    811.0
+                ],
+                [
+                    841.0,
+                    811.0
+                ],
+                [
+                    841.0,
+                    857.0
+                ],
+                [
+                    341.0,
+                    857.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Biến động dự phòng trợ cấp thôi việc trong năm như sau:",
+            "block_bbox": [
+                341,
+                870,
+                1089,
+                912
+            ],
+            "block_id": 5,
+            "block_order": 3,
+            "group_id": 5,
+            "global_block_id": 610,
+            "global_group_id": 610,
+            "block_polygon_points": [
+                [
+                    341.0,
+                    870.0
+                ],
+                [
+                    1089.0,
+                    870.0
+                ],
+                [
+                    1089.0,
+                    912.0
+                ],
+                [
+                    341.0,
+                    912.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>VND&#x27;000</td></tr><tr><td>Số dư đầu năm</td><td>5.686.575</td></tr><tr><td>Sử dụng dự phòng trong năm</td><td>(1.438.480)</td></tr><tr><td></td><td></td></tr><tr><td>Số dư cuối năm</td><td>4.248.095</td></tr></table>",
+            "block_bbox": [
+                332,
+                940,
+                1522,
+                1210
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 611,
+            "global_group_id": 611,
+            "block_polygon_points": [
+                [
+                    332.0,
+                    940.0
+                ],
+                [
+                    1522.0,
+                    940.0
+                ],
+                [
+                    1522.0,
+                    1210.0
+                ],
+                [
+                    332.0,
+                    1210.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Theo Bộ luật Lao động Việt Nam, khi nhân viên làm việc cho công ty từ 12 tháng trở lên (\"nhân viên đủ điều kiện\") tự nguyện chấm dứt hợp đồng lao động của mình thì bên sử dụng lao động phải thanh toán tiền trợ cấp thôi việc cho nhân viên đó tính dựa trên số năm làm việc và mức lượng tại thời điểm thôi việc của nhân viên đó. Dự phòng trợ cấp thôi việc được lập trên cơ sở mức lượng hiện tại của nhân viên và thời gian họ làm việc cho Công ty.",
+            "block_bbox": [
+                337,
+                1253,
+                1539,
+                1477
+            ],
+            "block_id": 7,
+            "block_order": 4,
+            "group_id": 7,
+            "global_block_id": 612,
+            "global_group_id": 612,
+            "block_polygon_points": [
+                [
+                    337.0,
+                    1253.0
+                ],
+                [
+                    1539.0,
+                    1253.0
+                ],
+                [
+                    1539.0,
+                    1477.0
+                ],
+                [
+                    337.0,
+                    1477.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Theo Luật Bảo hiểm Xã hội, kể từ ngày 1 tháng 1 năm 2009, Công ty và các nhân viên phải đóng vào quỹ bảo hiểm thất nghiệp do Bảo hiểm Xã hội Việt Nam quản lý. Mức đóng bởi mỗi bên được tính bằng 1% của mức thấp hơn giữa lương cơ bản của nhân viên hoặc 20 mươi lần mức lương tối thiểu chung được Chính phủ quy định trong từng thời kỳ. Với việc áp dụng chế độ bảo hiểm thất nghiệp, Công ty không phải lập dự phòng trợ cấp thôi việc cho thời gian làm việc của nhân viên sau ngày 1 tháng 1 năm 2009. Tuy nhiên, trợ cấp thôi việc phải trả cho các nhân viên đủ điều kiện hiện có tại thời điểm 31 tháng 12 năm 2008 sẽ được xác định dựa trên số năm làm việc của nhân viên được tính đến 31 tháng 12 năm 2008 và mức lương bình quân của họ trong vòng sáu tháng trước thời điểm thôi việc.",
+            "block_bbox": [
+                337,
+                1507,
+                1538,
+                1872
+            ],
+            "block_id": 8,
+            "block_order": 5,
+            "group_id": 8,
+            "global_block_id": 613,
+            "global_group_id": 613,
+            "block_polygon_points": [
+                [
+                    337.0,
+                    1507.0
+                ],
+                [
+                    1538.0,
+                    1507.0
+                ],
+                [
+                    1538.0,
+                    1872.0
+                ],
+                [
+                    337.0,
+                    1872.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Cho năm kết thúc ngày 31 tháng 12 năm 2009, Công ty đã đóng 556 triệu VNĐ (31/12/2008: Không) vào quỹ bảo hiểm thất nghiệp và khoản này được ghi nhận vào chi phí nhân công trong Báo cáo kết quả hoạt động kinh doanh hợp nhất.",
+            "block_bbox": [
+                339,
+                1872,
+                1539,
+                1987
+            ],
+            "block_id": 9,
+            "block_order": 6,
+            "group_id": 9,
+            "global_block_id": 614,
+            "global_group_id": 614,
+            "block_polygon_points": [
+                [
+                    339.0,
+                    1872.0
+                ],
+                [
+                    1539.0,
+                    1872.0
+                ],
+                [
+                    1539.0,
+                    1987.0
+                ],
+                [
+                    339.0,
+                    1987.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "58",
+            "block_bbox": [
+                247,
+                2099,
+                286,
+                2135
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "global_block_id": 615,
+            "global_group_id": 615,
+            "block_polygon_points": [
+                [
+                    247.0,
+                    2099.0
+                ],
+                [
+                    285.0,
+                    2099.0
+                ],
+                [
+                    285.0,
+                    2134.0
+                ],
+                [
+                    247.0,
+                    2134.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Báo cáo thường niên 2009",
+            "block_bbox": [
+                344,
+                2103,
+                700,
+                2137
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 616,
+            "global_group_id": 616,
+            "block_polygon_points": [
+                [
+                    344.0,
+                    2103.0
+                ],
+                [
+                    700.0,
+                    2103.0
+                ],
+                [
+                    700.0,
+                    2137.0
+                ],
+                [
+                    344.0,
+                    2137.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8595559597015381,
+                "coordinate": [
+                    166,
+                    1450,
+                    210,
+                    1930
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        166.0,
+                        1450.0
+                    ],
+                    [
+                        210.0,
+                        1450.0
+                    ],
+                    [
+                        210.0,
+                        1930.0
+                    ],
+                    [
+                        166.0,
+                        1930.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.8388557434082031,
+                "coordinate": [
+                    996,
+                    61,
+                    1111,
+                    196
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        996.0,
+                        61.0
+                    ],
+                    [
+                        1111.0,
+                        61.0
+                    ],
+                    [
+                        1111.0,
+                        196.0
+                    ],
+                    [
+                        996.0,
+                        196.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.4510533809661865,
+                "coordinate": [
+                    992,
+                    58,
+                    1487,
+                    197
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        992,
+                        58
+                    ],
+                    [
+                        992,
+                        196
+                    ],
+                    [
+                        1111,
+                        196
+                    ],
+                    [
+                        1121,
+                        196
+                    ],
+                    [
+                        1486,
+                        196
+                    ],
+                    [
+                        1486,
+                        58
+                    ],
+                    [
+                        1121,
+                        58
+                    ],
+                    [
+                        1111,
+                        58
+                    ],
+                    [
+                        1035,
+                        58
+                    ],
+                    [
+                        1026,
+                        58
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.5467486381530762,
+                "coordinate": [
+                    1121,
+                    115,
+                    1484,
+                    190
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1121,
+                        115
+                    ],
+                    [
+                        1121,
+                        189
+                    ],
+                    [
+                        1483,
+                        189
+                    ],
+                    [
+                        1483,
+                        115
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8458237051963806,
+                "coordinate": [
+                    340,
+                    315,
+                    1415,
+                    357
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        340.0,
+                        315.0
+                    ],
+                    [
+                        1415.0,
+                        315.0
+                    ],
+                    [
+                        1415.0,
+                        357.0
+                    ],
+                    [
+                        340.0,
+                        357.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9607404470443726,
+                "coordinate": [
+                    332,
+                    388,
+                    1520,
+                    766
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        332.0,
+                        388.0
+                    ],
+                    [
+                        1520.0,
+                        388.0
+                    ],
+                    [
+                        1520.0,
+                        766.0
+                    ],
+                    [
+                        332.0,
+                        766.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8694896101951599,
+                "coordinate": [
+                    341,
+                    811,
+                    841,
+                    857
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        341.0,
+                        811.0
+                    ],
+                    [
+                        841.0,
+                        811.0
+                    ],
+                    [
+                        841.0,
+                        857.0
+                    ],
+                    [
+                        341.0,
+                        857.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8576532006263733,
+                "coordinate": [
+                    341,
+                    870,
+                    1089,
+                    912
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        341.0,
+                        870.0
+                    ],
+                    [
+                        1089.0,
+                        870.0
+                    ],
+                    [
+                        1089.0,
+                        912.0
+                    ],
+                    [
+                        341.0,
+                        912.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.95919269323349,
+                "coordinate": [
+                    332,
+                    940,
+                    1522,
+                    1210
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        332.0,
+                        940.0
+                    ],
+                    [
+                        1522.0,
+                        940.0
+                    ],
+                    [
+                        1522.0,
+                        1210.0
+                    ],
+                    [
+                        332.0,
+                        1210.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.953022837638855,
+                "coordinate": [
+                    337,
+                    1253,
+                    1539,
+                    1477
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        337.0,
+                        1253.0
+                    ],
+                    [
+                        1539.0,
+                        1253.0
+                    ],
+                    [
+                        1539.0,
+                        1477.0
+                    ],
+                    [
+                        337.0,
+                        1477.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9686799049377441,
+                "coordinate": [
+                    337,
+                    1507,
+                    1538,
+                    1872
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        337.0,
+                        1507.0
+                    ],
+                    [
+                        1538.0,
+                        1507.0
+                    ],
+                    [
+                        1538.0,
+                        1872.0
+                    ],
+                    [
+                        337.0,
+                        1872.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9404721260070801,
+                "coordinate": [
+                    339,
+                    1872,
+                    1539,
+                    1987
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        339.0,
+                        1872.0
+                    ],
+                    [
+                        1539.0,
+                        1872.0
+                    ],
+                    [
+                        1539.0,
+                        1987.0
+                    ],
+                    [
+                        339.0,
+                        1987.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7925698757171631,
+                "coordinate": [
+                    247,
+                    2099,
+                    286,
+                    2135
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        247.0,
+                        2099.0
+                    ],
+                    [
+                        285.0,
+                        2099.0
+                    ],
+                    [
+                        285.0,
+                        2134.0
+                    ],
+                    [
+                        247.0,
+                        2134.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8277878165245056,
+                "coordinate": [
+                    344,
+                    2103,
+                    700,
+                    2137
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        344.0,
+                        2103.0
+                    ],
+                    [
+                        700.0,
+                        2103.0
+                    ],
+                    [
+                        700.0,
+                        2137.0
+                    ],
+                    [
+                        344.0,
+                        2137.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

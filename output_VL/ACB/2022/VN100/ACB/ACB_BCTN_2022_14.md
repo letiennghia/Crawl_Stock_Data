@@ -1,0 +1,13 @@
+lời cao hàng đầu với tỷ suất lợi nhuận trên vốn chủ sở hữu trên 20%. Đề thực hiện tham vọng này, kế hoạch chuyển đổi đã được lập ra để quản lý chặt chẽ các dự án chiến lược quan trọng.
+
+Năm 2020, bảng tổng kết tài sản của ACB thể hiện sự tiếp tục tăng trưởng bền vững và có chất lượng, tiền gửi khách hàng và dự nợ cho vay lần lượt tăng ở mức hơn 15% và hơn 16%, cao hơn mức tăng bình quân ngành. Thanh khoản đổi đào, tỷ lệ nợ xấu thấp và khả năng sinh lời cao. ACB chuyển sản niêm yết từ HNX sang HOSE. ACB cũng thực hiện thành công thương vụ độc quyền bảo hiểm nhân thọ với Công ty TNHH Bảo hiểm Nhân thọ Sun Life Việt Nam (thành viên của Tập đoàn Sun Life có trụ sở chính ở Canada), có giá trị lớn. Các công ty con gia tăng đóng góp lợi nhuận cho Tập đoàn.
+
+##### • Giai đoạn 2021 – 2022
+
+Năm 2021, ACB tiếp tục thực hiện thành công các mục tiêu tài chính tín dụng, trong đó lợi nhuận trước thuế đạt gần 12 nghìn tỷ đồng, tăng 25% so với năm trước, nhờ đó ROE đạt 23,90%, thuộc nhóm đầu trên thị trường. Tỷ lệ nợ xấu ở mức thấp, 0,77%. ACB tích cực chuyển đổi số, ứng dụng công nghệ vào quá trình vận hành giúp tiết kiệm nguồn nhân lực và thời gian xử lý giao dịch, ví dụ như áp dụng công nghệ eKYC giúp khách hàng có thể mở tài khoản trực tuyến, nâng cấp ứng dụng trên thiết bị di động (mobile app) dành cho nhóm khách hàng cá nhân, triển khai tính năng giải ngân trực tuyến qua kênh ACB Online, và ra mất ứng dụng ACB Business Application cho khách hàng doanh nghiệp, v.v. nhằm giúp khách hàng thực hiện giao dịch thanh toán thuận tiện và nhanh chóng.
+
+Năm 2022, lợi nhuận trước thuế về đích với mức tăng trưởng Ấn tượng 43% cùng với ROE tiếp tục duy trì ở vị trí hàng đầu thị trường. Lần đầu tiên ACB đạt được NIM cao (4%) nhờ vào chiến lược tập trung vào bán lẻ, cấu trúc nguồn vốn và lãi suất linh hoạt trong bối cảnh thị trường biến động. ACB ra mắt thương hiệu Ngân hàng số ACB One, đánh dấu bước chuyển đổi lớn của ACB trong định hướng số hóa hoạt động kinh doanh, và tối ưu hoá trải nghiệm của khách hàng. Mức đủ vốn và năng lực quản trị rủi ro thanh khoản tại ACB được xác nhận là đáp ứng chuẩn mực của Basel III sau kết quả tư vấn của KPMG, theo đó ACB đã cơ bản tuân thủ toàn bộ các cấu phần trọng yếu trong bộ khung quản trị thanh khoản và an toàn vốn theo Basel III.
+
+### 1.3. Các biểu đồ tăng trưởng (Số liệu hợp nhất của Tập đoàn)
+
+#### 1.3.1. Tổng tài sản (tỷ đồng.)

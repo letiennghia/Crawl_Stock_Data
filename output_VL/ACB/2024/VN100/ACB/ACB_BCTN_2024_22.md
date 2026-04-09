@@ -1,0 +1,3 @@
+lý các datamart với khối lượng dữ liệu lớn. ACB cũng đã xây dựng đầy đủ các mô hình, có tính ứng dụng cao vào hoạt động kinh doanh và quản lý rủi ro.
+
+Việc hoàn thành IRB không chỉ giúp tối ưu hóa công tác tính vốn mà còn giúp ACB nâng cao năng lực quản trị rủi ro, giúp tăng cường mức độ chính xác và phù hợp của các công cụ ước lượng rủi ro với đặc thù rủi ro của chính mình. Việc triển khai thành công IRB là một đóng góp quan trọng trong việc hoàn thành các chuẩn mực Basel theo lộ trình của NHNN, cũng như một là bước tiến quan trọng việc cải tiến và nâng cao tiêu chuẩn quản lý rủi ro của ACB.

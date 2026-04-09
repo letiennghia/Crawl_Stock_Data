@@ -1,0 +1,1 @@
+<div style="text-align: center;">Đợt 2: Trong tháng 11 và tháng 12, ACB phát hành riêng lẻ tổng cộng 1.054 tỷ đồng (Một nghìn không trăm năm mươi bốn tỷ đồng) trái phiếu kỳ hạn mười (10) năm một (01) ngày.</div>

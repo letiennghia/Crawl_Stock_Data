@@ -1,0 +1,916 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "- Kinh doanh bất động sản, quyền sử dụng đất thuộc chủ sở hữu, chủ sử dụng hoặc đi thuê",
+            "block_bbox": [
+                320,
+                114,
+                1465,
+                199
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 35,
+            "global_group_id": 35,
+            "block_polygon_points": [
+                [
+                    320.0,
+                    114.0
+                ],
+                [
+                    1465.0,
+                    114.0
+                ],
+                [
+                    1465.0,
+                    199.0
+                ],
+                [
+                    320.0,
+                    199.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "3.2. Địa bàn kinh doanh: Navico là doanh nghiệp xuất khẩu cá tra hàng đầu thế giới đến hơn 100 Quốc gia trên khắp thế giới.",
+            "block_bbox": [
+                269,
+                213,
+                1463,
+                300
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 36,
+            "global_group_id": 36,
+            "block_polygon_points": [
+                [
+                    269.0,
+                    213.0
+                ],
+                [
+                    1463.0,
+                    213.0
+                ],
+                [
+                    1463.0,
+                    300.0
+                ],
+                [
+                    269.0,
+                    300.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Châu Á: Trung Quốc, Thái Lan, Malaysia, Đài Loan, Singapore, Án Độ...",
+            "block_bbox": [
+                322,
+                310,
+                1450,
+                358
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "global_block_id": 37,
+            "global_group_id": 37,
+            "block_polygon_points": [
+                [
+                    322.0,
+                    310.0
+                ],
+                [
+                    1450.0,
+                    310.0
+                ],
+                [
+                    1450.0,
+                    358.0
+                ],
+                [
+                    322.0,
+                    358.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Châu Âu: Anh, Pháp, Bí, Italya, Hà Lan, Tây Ban Nha, Thụy Điển, Hy Lạp, Rumamia, Ukraine....",
+            "block_bbox": [
+                319,
+                370,
+                1463,
+                459
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "global_block_id": 38,
+            "global_group_id": 38,
+            "block_polygon_points": [
+                [
+                    319.0,
+                    370.0
+                ],
+                [
+                    1463.0,
+                    370.0
+                ],
+                [
+                    1463.0,
+                    459.0
+                ],
+                [
+                    319.0,
+                    459.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Châu Mỹ: Mexico, Brazil, Colombia, Chi le, Argentina, Costa Rica, Canada...",
+            "block_bbox": [
+                319,
+                471,
+                1462,
+                556
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4,
+            "global_block_id": 39,
+            "global_group_id": 39,
+            "block_polygon_points": [
+                [
+                    319.0,
+                    471.0
+                ],
+                [
+                    1462.0,
+                    471.0
+                ],
+                [
+                    1462.0,
+                    556.0
+                ],
+                [
+                    319.0,
+                    556.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Trung Đông: Á Rập Saudi, Kuwait, UAE...",
+            "block_bbox": [
+                319,
+                572,
+                1007,
+                617
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5,
+            "global_block_id": 40,
+            "global_group_id": 40,
+            "block_polygon_points": [
+                [
+                    319.0,
+                    572.0
+                ],
+                [
+                    1007.0,
+                    572.0
+                ],
+                [
+                    1007.0,
+                    617.0
+                ],
+                [
+                    319.0,
+                    617.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Châu Phi: Ai Cập, Morocco, Ethiopia, Reunion...",
+            "block_bbox": [
+                316,
+                630,
+                1121,
+                676
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6,
+            "global_block_id": 41,
+            "global_group_id": 41,
+            "block_polygon_points": [
+                [
+                    316.0,
+                    630.0
+                ],
+                [
+                    1121.0,
+                    630.0
+                ],
+                [
+                    1121.0,
+                    676.0
+                ],
+                [
+                    316.0,
+                    676.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Thông tin về mô hình quản trị, tổ chức kinh doanh và bộ máy quản lý",
+            "block_bbox": [
+                202,
+                688,
+                1359,
+                735
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7,
+            "global_block_id": 42,
+            "global_group_id": 42,
+            "block_polygon_points": [
+                [
+                    202.0,
+                    688.0
+                ],
+                [
+                    1359.0,
+                    688.0
+                ],
+                [
+                    1359.0,
+                    735.0
+                ],
+                [
+                    202.0,
+                    735.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "4.1. Mô hình quản trị",
+            "block_bbox": [
+                266,
+                749,
+                622,
+                793
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8,
+            "global_block_id": 43,
+            "global_group_id": 43,
+            "block_polygon_points": [
+                [
+                    266.0,
+                    749.0
+                ],
+                [
+                    622.0,
+                    749.0
+                ],
+                [
+                    622.0,
+                    793.0
+                ],
+                [
+                    266.0,
+                    793.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Đại hội đồng cổ đông;",
+            "block_bbox": [
+                320,
+                804,
+                706,
+                850
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9,
+            "global_block_id": 44,
+            "global_group_id": 44,
+            "block_polygon_points": [
+                [
+                    320.0,
+                    804.0
+                ],
+                [
+                    706.0,
+                    804.0
+                ],
+                [
+                    706.0,
+                    850.0
+                ],
+                [
+                    320.0,
+                    850.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Hội đồng quản trị; Ủy ban kiếm toán trực thuộc Hội đồng quản trị;",
+            "block_bbox": [
+                320,
+                863,
+                1344,
+                911
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10,
+            "global_block_id": 45,
+            "global_group_id": 45,
+            "block_polygon_points": [
+                [
+                    320.0,
+                    863.0
+                ],
+                [
+                    1344.0,
+                    863.0
+                ],
+                [
+                    1344.0,
+                    911.0
+                ],
+                [
+                    320.0,
+                    911.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Ban Tổng giảm đốc.",
+            "block_bbox": [
+                321,
+                920,
+                677,
+                968
+            ],
+            "block_id": 11,
+            "block_order": 12,
+            "group_id": 11,
+            "global_block_id": 46,
+            "global_group_id": 46,
+            "block_polygon_points": [
+                [
+                    321.0,
+                    920.0
+                ],
+                [
+                    677.0,
+                    920.0
+                ],
+                [
+                    677.0,
+                    968.0
+                ],
+                [
+                    321.0,
+                    968.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "3",
+            "block_bbox": [
+                813,
+                2208,
+                837,
+                2244
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "global_block_id": 47,
+            "global_group_id": 47,
+            "block_polygon_points": [
+                [
+                    813.0,
+                    2208.0
+                ],
+                [
+                    836.0,
+                    2208.0
+                ],
+                [
+                    836.0,
+                    2243.0
+                ],
+                [
+                    813.0,
+                    2243.0
+                ]
+            ]
+        },
+        {
+            "block_label": "aside_text",
+            "block_content": "100",
+            "block_bbox": [
+                1558,
+                1059,
+                1603,
+                1360
+            ],
+            "block_id": 13,
+            "block_order": null,
+            "group_id": 13,
+            "global_block_id": 48,
+            "global_group_id": 48,
+            "block_polygon_points": [
+                [
+                    1558.0,
+                    1059.0
+                ],
+                [
+                    1603.0,
+                    1059.0
+                ],
+                [
+                    1603.0,
+                    1360.0
+                ],
+                [
+                    1558.0,
+                    1360.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8847776651382446,
+                "coordinate": [
+                    320,
+                    114,
+                    1465,
+                    199
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        320.0,
+                        114.0
+                    ],
+                    [
+                        1465.0,
+                        114.0
+                    ],
+                    [
+                        1465.0,
+                        199.0
+                    ],
+                    [
+                        320.0,
+                        199.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.835564911365509,
+                "coordinate": [
+                    269,
+                    213,
+                    1463,
+                    300
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        269.0,
+                        213.0
+                    ],
+                    [
+                        1463.0,
+                        213.0
+                    ],
+                    [
+                        1463.0,
+                        300.0
+                    ],
+                    [
+                        269.0,
+                        300.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8113044500350952,
+                "coordinate": [
+                    322,
+                    310,
+                    1450,
+                    358
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        322.0,
+                        310.0
+                    ],
+                    [
+                        1450.0,
+                        310.0
+                    ],
+                    [
+                        1450.0,
+                        358.0
+                    ],
+                    [
+                        322.0,
+                        358.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8771845698356628,
+                "coordinate": [
+                    319,
+                    370,
+                    1463,
+                    459
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        319.0,
+                        370.0
+                    ],
+                    [
+                        1463.0,
+                        370.0
+                    ],
+                    [
+                        1463.0,
+                        459.0
+                    ],
+                    [
+                        319.0,
+                        459.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8805638551712036,
+                "coordinate": [
+                    319,
+                    471,
+                    1462,
+                    556
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        319.0,
+                        471.0
+                    ],
+                    [
+                        1462.0,
+                        471.0
+                    ],
+                    [
+                        1462.0,
+                        556.0
+                    ],
+                    [
+                        319.0,
+                        556.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7936453223228455,
+                "coordinate": [
+                    319,
+                    572,
+                    1007,
+                    617
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        319.0,
+                        572.0
+                    ],
+                    [
+                        1007.0,
+                        572.0
+                    ],
+                    [
+                        1007.0,
+                        617.0
+                    ],
+                    [
+                        319.0,
+                        617.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7958253026008606,
+                "coordinate": [
+                    316,
+                    630,
+                    1121,
+                    676
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        316.0,
+                        630.0
+                    ],
+                    [
+                        1121.0,
+                        630.0
+                    ],
+                    [
+                        1121.0,
+                        676.0
+                    ],
+                    [
+                        316.0,
+                        676.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.738669216632843,
+                "coordinate": [
+                    202,
+                    688,
+                    1359,
+                    735
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        202.0,
+                        688.0
+                    ],
+                    [
+                        1359.0,
+                        688.0
+                    ],
+                    [
+                        1359.0,
+                        735.0
+                    ],
+                    [
+                        202.0,
+                        735.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7989685535430908,
+                "coordinate": [
+                    266,
+                    749,
+                    622,
+                    793
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        266.0,
+                        749.0
+                    ],
+                    [
+                        622.0,
+                        749.0
+                    ],
+                    [
+                        622.0,
+                        793.0
+                    ],
+                    [
+                        266.0,
+                        793.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7914401888847351,
+                "coordinate": [
+                    320,
+                    804,
+                    706,
+                    850
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        320.0,
+                        804.0
+                    ],
+                    [
+                        706.0,
+                        804.0
+                    ],
+                    [
+                        706.0,
+                        850.0
+                    ],
+                    [
+                        320.0,
+                        850.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8104092478752136,
+                "coordinate": [
+                    320,
+                    863,
+                    1344,
+                    911
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        320.0,
+                        863.0
+                    ],
+                    [
+                        1344.0,
+                        863.0
+                    ],
+                    [
+                        1344.0,
+                        911.0
+                    ],
+                    [
+                        320.0,
+                        911.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7867431044578552,
+                "coordinate": [
+                    321,
+                    920,
+                    677,
+                    968
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        321.0,
+                        920.0
+                    ],
+                    [
+                        677.0,
+                        920.0
+                    ],
+                    [
+                        677.0,
+                        968.0
+                    ],
+                    [
+                        321.0,
+                        968.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.5741481781005859,
+                "coordinate": [
+                    813,
+                    2208,
+                    837,
+                    2244
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        813.0,
+                        2208.0
+                    ],
+                    [
+                        836.0,
+                        2208.0
+                    ],
+                    [
+                        836.0,
+                        2243.0
+                    ],
+                    [
+                        813.0,
+                        2243.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.39204707741737366,
+                "coordinate": [
+                    1558,
+                    1059,
+                    1603,
+                    1360
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1558.0,
+                        1059.0
+                    ],
+                    [
+                        1603.0,
+                        1059.0
+                    ],
+                    [
+                        1603.0,
+                        1360.0
+                    ],
+                    [
+                        1558.0,
+                        1360.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

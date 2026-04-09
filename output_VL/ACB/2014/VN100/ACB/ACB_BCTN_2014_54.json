@@ -1,0 +1,223 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 992,
+    "height": 1403,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "Với Cộng đồng: ACB cam kết, trên cơ sở khả năng và nguồn lực của mình, góp phần vào sự thay đổi và hỗ trợ cộng đồng thông qua các hoạt động xã hội từ thiện tập trung vào các lĩnh vực giáo dục, y tế và sức khỏe công đồng, chăm lo cho các đối tượng chính sách và người nghèo, và hỗ trợ khác phục hậu quả của thiên tại.",
+            "block_bbox": [
+                139,
+                196,
+                858,
+                327
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 602,
+            "global_group_id": 602,
+            "block_polygon_points": [
+                [
+                    139.0,
+                    196.0
+                ],
+                [
+                    858.0,
+                    196.0
+                ],
+                [
+                    858.0,
+                    327.0
+                ],
+                [
+                    139.0,
+                    327.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2014",
+            "block_bbox": [
+                138,
+                1306,
+                275,
+                1328
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 603,
+            "global_group_id": 603,
+            "block_polygon_points": [
+                [
+                    138.0,
+                    1306.0
+                ],
+                [
+                    274.0,
+                    1306.0
+                ],
+                [
+                    274.0,
+                    1327.0
+                ],
+                [
+                    138.0,
+                    1327.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 54 of 57",
+            "block_bbox": [
+                739,
+                1310,
+                847,
+                1333
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 604,
+            "global_group_id": 604,
+            "block_polygon_points": [
+                [
+                    738.9999389648438,
+                    1309.9998779296875
+                ],
+                [
+                    845.9999389648438,
+                    1309.9998779296875
+                ],
+                [
+                    845.9999389648438,
+                    1331.9998779296875
+                ],
+                [
+                    738.9999389648438,
+                    1331.9998779296875
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9240334033966064,
+                "coordinate": [
+                    139,
+                    196,
+                    858,
+                    327
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        139.0,
+                        196.0
+                    ],
+                    [
+                        858.0,
+                        196.0
+                    ],
+                    [
+                        858.0,
+                        327.0
+                    ],
+                    [
+                        139.0,
+                        327.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8618496656417847,
+                "coordinate": [
+                    138,
+                    1306,
+                    275,
+                    1328
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        138.0,
+                        1306.0
+                    ],
+                    [
+                        274.0,
+                        1306.0
+                    ],
+                    [
+                        274.0,
+                        1327.0
+                    ],
+                    [
+                        138.0,
+                        1327.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8363398909568787,
+                "coordinate": [
+                    739,
+                    1310,
+                    847,
+                    1333
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        738.9999389648438,
+                        1309.9998779296875
+                    ],
+                    [
+                        845.9999389648438,
+                        1309.9998779296875
+                    ],
+                    [
+                        845.9999389648438,
+                        1331.9998779296875
+                    ],
+                    [
+                        738.9999389648438,
+                        1331.9998779296875
+                    ]
+                ]
+            }
+        ]
+    }
+}

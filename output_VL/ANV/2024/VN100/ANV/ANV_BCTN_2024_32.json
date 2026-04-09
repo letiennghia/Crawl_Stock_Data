@@ -1,0 +1,1042 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Thành viên Ban KTNB</td><td>Chức vụ</td><td>Số buổi hợp tham dự</td><td>Tỷ lệ</td><td>Lý do không tham dự</td></tr><tr><td>1</td><td>Lê Tiến Đũng</td><td>Trường Ban</td><td>29</td><td>100%</td><td></td></tr><tr><td>2</td><td>Duong Minh Phong</td><td>Thành viên</td><td>14</td><td>48,27%</td><td>Đi công tác</td></tr></table>",
+            "block_bbox": [
+                170,
+                210,
+                1447,
+                514
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 384,
+            "global_group_id": 384,
+            "block_polygon_points": [
+                [
+                    170.0,
+                    210.0
+                ],
+                [
+                    1447.0,
+                    210.0
+                ],
+                [
+                    1447.0,
+                    514.0
+                ],
+                [
+                    170.0,
+                    514.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "b. Hoạt động của Ban Kiểm toán nội bộ đối với HĐQT, Ban TGD:",
+            "block_bbox": [
+                165,
+                564,
+                1270,
+                613
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 385,
+            "global_group_id": 385,
+            "block_polygon_points": [
+                [
+                    165.0,
+                    564.0
+                ],
+                [
+                    1270.0,
+                    564.0
+                ],
+                [
+                    1270.0,
+                    613.0
+                ],
+                [
+                    165.0,
+                    613.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Tham dự các cuộc họp điều hành của Hội đồng Quản trị, Ban Tổng Giám đốc công ty.",
+            "block_bbox": [
+                163,
+                620,
+                1328,
+                710
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 386,
+            "global_group_id": 386,
+            "block_polygon_points": [
+                [
+                    163.0,
+                    620.0
+                ],
+                [
+                    1328.0,
+                    620.0
+                ],
+                [
+                    1328.0,
+                    710.0
+                ],
+                [
+                    163.0,
+                    710.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Giám sát việc triển khai kế hoạch và thực hiện Nghi quyết ĐHĐCD năm 2024.",
+            "block_bbox": [
+                165,
+                715,
+                1327,
+                804
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "global_block_id": 387,
+            "global_group_id": 387,
+            "block_polygon_points": [
+                [
+                    165.0,
+                    715.0
+                ],
+                [
+                    1327.0,
+                    715.0
+                ],
+                [
+                    1327.0,
+                    804.0
+                ],
+                [
+                    165.0,
+                    804.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Kiểm tra, giám sát các hoạt động điều hành, quản lý kinh doanh nhằm đảm bảo công ty hoạt động đúng theo quy định của Luật doanh nghiệp và Điều lệ công ty.",
+            "block_bbox": [
+                163,
+                810,
+                1328,
+                947
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "global_block_id": 388,
+            "global_group_id": 388,
+            "block_polygon_points": [
+                [
+                    163.0,
+                    810.0
+                ],
+                [
+                    1328.0,
+                    810.0
+                ],
+                [
+                    1328.0,
+                    947.0
+                ],
+                [
+                    163.0,
+                    947.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Giám sát trình tự thủ tục ban hành các văn bản pháp lý của HĐQT, Ban TGD và việc công bố thông tin theo quy định của pháp luật.",
+            "block_bbox": [
+                163,
+                951,
+                1328,
+                1043
+            ],
+            "block_id": 5,
+            "block_order": 5,
+            "group_id": 5,
+            "global_block_id": 389,
+            "global_group_id": 389,
+            "block_polygon_points": [
+                [
+                    163.0,
+                    951.0
+                ],
+                [
+                    1328.0,
+                    951.0
+                ],
+                [
+                    1328.0,
+                    1043.0
+                ],
+                [
+                    163.0,
+                    1043.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Kiểm soát các chế độ chính sách liên quan đến việc lập và trình bày báo cáo tài chính của công ty.",
+            "block_bbox": [
+                163,
+                1047,
+                1328,
+                1138
+            ],
+            "block_id": 6,
+            "block_order": 6,
+            "group_id": 6,
+            "global_block_id": 390,
+            "global_group_id": 390,
+            "block_polygon_points": [
+                [
+                    163.0,
+                    1047.0
+                ],
+                [
+                    1328.0,
+                    1047.0
+                ],
+                [
+                    1328.0,
+                    1138.0
+                ],
+                [
+                    163.0,
+                    1138.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Kiểm soát việc thực hiện, chấp hành các quy trình, quy định của các phòng ban.",
+            "block_bbox": [
+                163,
+                1145,
+                1330,
+                1235
+            ],
+            "block_id": 7,
+            "block_order": 7,
+            "group_id": 7,
+            "global_block_id": 391,
+            "global_group_id": 391,
+            "block_polygon_points": [
+                [
+                    163.0,
+                    1145.0
+                ],
+                [
+                    1330.0,
+                    1145.0
+                ],
+                [
+                    1330.0,
+                    1235.0
+                ],
+                [
+                    163.0,
+                    1235.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "c. Sự phối hợp hoạt động giữa Ban Kiểm toán nội bộ đối với hoạt động của ĐĐQT, Ban Tổng giám đốc và các cán bộ quản lý khác",
+            "block_bbox": [
+                163,
+                1241,
+                1327,
+                1333
+            ],
+            "block_id": 8,
+            "block_order": 8,
+            "group_id": 8,
+            "global_block_id": 392,
+            "global_group_id": 392,
+            "block_polygon_points": [
+                [
+                    163.0,
+                    1241.0
+                ],
+                [
+                    1327.0,
+                    1241.0
+                ],
+                [
+                    1327.0,
+                    1333.0
+                ],
+                [
+                    163.0,
+                    1333.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Luôn luôn phối hợp chặt chẽ với HĐQT và Ban Tổng giám đốc trong việc triển khai Nghị quyết ĐHCD, Nghị quyết của HĐQT.",
+            "block_bbox": [
+                163,
+                1339,
+                1328,
+                1430
+            ],
+            "block_id": 9,
+            "block_order": 9,
+            "group_id": 9,
+            "global_block_id": 393,
+            "global_group_id": 393,
+            "block_polygon_points": [
+                [
+                    163.0,
+                    1339.0
+                ],
+                [
+                    1328.0,
+                    1339.0
+                ],
+                [
+                    1328.0,
+                    1430.0
+                ],
+                [
+                    163.0,
+                    1430.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Tích cực tham gia đóng góp ý kiến trong các vấn đề thiếu sót trong quy trình kiểm soát nội bộ tại các phòng ban, đề xuất các giải pháp cải thiện những thiếu sót trong quy trình nhằm ngày càng hoàn thiện các chế độ, chính sách, quy trình quy định, quy chế, góp phần nâng cao năng lực quản trị điều hành và hạn chế rủi ro trong các hoạt động của công ty.",
+            "block_bbox": [
+                160,
+                1432,
+                1330,
+                1660
+            ],
+            "block_id": 10,
+            "block_order": 10,
+            "group_id": 10,
+            "global_block_id": 394,
+            "global_group_id": 394,
+            "block_polygon_points": [
+                [
+                    160.0,
+                    1432.0
+                ],
+                [
+                    1330.0,
+                    1432.0
+                ],
+                [
+                    1330.0,
+                    1660.0
+                ],
+                [
+                    160.0,
+                    1660.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3. Các giao dịch, thù lao và các khoản lợi ích của Hội đồng quản trị; Ban giám đốc và Ban kiểm soát/ Ủy ban kiểm toán.",
+            "block_bbox": [
+                156,
+                1673,
+                1326,
+                1760
+            ],
+            "block_id": 11,
+            "block_order": 11,
+            "group_id": 11,
+            "global_block_id": 395,
+            "global_group_id": 395,
+            "block_polygon_points": [
+                [
+                    156.0,
+                    1673.0
+                ],
+                [
+                    1326.0,
+                    1673.0
+                ],
+                [
+                    1326.0,
+                    1760.0
+                ],
+                [
+                    156.0,
+                    1760.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "a. Tiền lương, thường, thù lao và các khoản lợi ích của Hội đồng quản trị, Ban giám đốc và Ban kiểm toán:",
+            "block_bbox": [
+                226,
+                1771,
+                1326,
+                1860
+            ],
+            "block_id": 12,
+            "block_order": 12,
+            "group_id": 12,
+            "global_block_id": 396,
+            "global_group_id": 396,
+            "block_polygon_points": [
+                [
+                    226.0,
+                    1771.0
+                ],
+                [
+                    1326.0,
+                    1771.0
+                ],
+                [
+                    1326.0,
+                    1860.0
+                ],
+                [
+                    226.0,
+                    1860.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Năm 2024</td><td>Thu nhập</td></tr><tr><td>1. Ông Đỗ Lập Nghiệp - Chủ tịch Hội đồng quản trị kiêm Phó Tổng Giám đốc</td><td>1.171.749.627</td></tr></table>",
+            "block_bbox": [
+                162,
+                1866,
+                1390,
+                2050
+            ],
+            "block_id": 13,
+            "block_order": null,
+            "group_id": 13,
+            "global_block_id": 397,
+            "global_group_id": 397,
+            "block_polygon_points": [
+                [
+                    162.0,
+                    1866.0
+                ],
+                [
+                    1390.0,
+                    1866.0
+                ],
+                [
+                    1390.0,
+                    2050.0
+                ],
+                [
+                    162.0,
+                    2050.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "32",
+            "block_bbox": [
+                727,
+                2080,
+                760,
+                2109
+            ],
+            "block_id": 14,
+            "block_order": null,
+            "group_id": 14,
+            "global_block_id": 398,
+            "global_group_id": 398,
+            "block_polygon_points": [
+                [
+                    727.0,
+                    2080.0
+                ],
+                [
+                    759.0,
+                    2080.0
+                ],
+                [
+                    759.0,
+                    2108.0
+                ],
+                [
+                    727.0,
+                    2108.0
+                ]
+            ]
+        },
+        {
+            "block_label": "aside_text",
+            "block_content": "응 염 잔 글/회",
+            "block_bbox": [
+                1537,
+                604,
+                1582,
+                888
+            ],
+            "block_id": 15,
+            "block_order": null,
+            "group_id": 15,
+            "global_block_id": 399,
+            "global_group_id": 399,
+            "block_polygon_points": [
+                [
+                    1537.0,
+                    604.0
+                ],
+                [
+                    1582.0,
+                    604.0
+                ],
+                [
+                    1582.0,
+                    888.0
+                ],
+                [
+                    1537.0,
+                    888.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.952377438545227,
+                "coordinate": [
+                    170,
+                    210,
+                    1447,
+                    514
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        170.0,
+                        210.0
+                    ],
+                    [
+                        1447.0,
+                        210.0
+                    ],
+                    [
+                        1447.0,
+                        514.0
+                    ],
+                    [
+                        170.0,
+                        514.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.45659658312797546,
+                "coordinate": [
+                    165,
+                    564,
+                    1270,
+                    613
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        165.0,
+                        564.0
+                    ],
+                    [
+                        1270.0,
+                        564.0
+                    ],
+                    [
+                        1270.0,
+                        613.0
+                    ],
+                    [
+                        165.0,
+                        613.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8820774555206299,
+                "coordinate": [
+                    163,
+                    620,
+                    1328,
+                    710
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        163.0,
+                        620.0
+                    ],
+                    [
+                        1328.0,
+                        620.0
+                    ],
+                    [
+                        1328.0,
+                        710.0
+                    ],
+                    [
+                        163.0,
+                        710.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9048739671707153,
+                "coordinate": [
+                    165,
+                    715,
+                    1327,
+                    804
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        165.0,
+                        715.0
+                    ],
+                    [
+                        1327.0,
+                        715.0
+                    ],
+                    [
+                        1327.0,
+                        804.0
+                    ],
+                    [
+                        165.0,
+                        804.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9289577007293701,
+                "coordinate": [
+                    163,
+                    810,
+                    1328,
+                    947
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        163.0,
+                        810.0
+                    ],
+                    [
+                        1328.0,
+                        810.0
+                    ],
+                    [
+                        1328.0,
+                        947.0
+                    ],
+                    [
+                        163.0,
+                        947.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9076732397079468,
+                "coordinate": [
+                    163,
+                    951,
+                    1328,
+                    1043
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        163.0,
+                        951.0
+                    ],
+                    [
+                        1328.0,
+                        951.0
+                    ],
+                    [
+                        1328.0,
+                        1043.0
+                    ],
+                    [
+                        163.0,
+                        1043.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9140940308570862,
+                "coordinate": [
+                    163,
+                    1047,
+                    1328,
+                    1138
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        163.0,
+                        1047.0
+                    ],
+                    [
+                        1328.0,
+                        1047.0
+                    ],
+                    [
+                        1328.0,
+                        1138.0
+                    ],
+                    [
+                        163.0,
+                        1138.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9063637852668762,
+                "coordinate": [
+                    163,
+                    1145,
+                    1330,
+                    1235
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        163.0,
+                        1145.0
+                    ],
+                    [
+                        1330.0,
+                        1145.0
+                    ],
+                    [
+                        1330.0,
+                        1235.0
+                    ],
+                    [
+                        163.0,
+                        1235.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.851510226726532,
+                "coordinate": [
+                    163,
+                    1241,
+                    1327,
+                    1333
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        163.0,
+                        1241.0
+                    ],
+                    [
+                        1327.0,
+                        1241.0
+                    ],
+                    [
+                        1327.0,
+                        1333.0
+                    ],
+                    [
+                        163.0,
+                        1333.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9164591431617737,
+                "coordinate": [
+                    163,
+                    1339,
+                    1328,
+                    1430
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        163.0,
+                        1339.0
+                    ],
+                    [
+                        1328.0,
+                        1339.0
+                    ],
+                    [
+                        1328.0,
+                        1430.0
+                    ],
+                    [
+                        163.0,
+                        1430.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9505484104156494,
+                "coordinate": [
+                    160,
+                    1432,
+                    1330,
+                    1660
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        160.0,
+                        1432.0
+                    ],
+                    [
+                        1330.0,
+                        1432.0
+                    ],
+                    [
+                        1330.0,
+                        1660.0
+                    ],
+                    [
+                        160.0,
+                        1660.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9024249315261841,
+                "coordinate": [
+                    156,
+                    1673,
+                    1326,
+                    1760
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        156.0,
+                        1673.0
+                    ],
+                    [
+                        1326.0,
+                        1673.0
+                    ],
+                    [
+                        1326.0,
+                        1760.0
+                    ],
+                    [
+                        156.0,
+                        1760.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8502746224403381,
+                "coordinate": [
+                    226,
+                    1771,
+                    1326,
+                    1860
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        226.0,
+                        1771.0
+                    ],
+                    [
+                        1326.0,
+                        1771.0
+                    ],
+                    [
+                        1326.0,
+                        1860.0
+                    ],
+                    [
+                        226.0,
+                        1860.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9477540254592896,
+                "coordinate": [
+                    162,
+                    1866,
+                    1390,
+                    2050
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        162.0,
+                        1866.0
+                    ],
+                    [
+                        1390.0,
+                        1866.0
+                    ],
+                    [
+                        1390.0,
+                        2050.0
+                    ],
+                    [
+                        162.0,
+                        2050.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7025251984596252,
+                "coordinate": [
+                    727,
+                    2080,
+                    760,
+                    2109
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        727.0,
+                        2080.0
+                    ],
+                    [
+                        759.0,
+                        2080.0
+                    ],
+                    [
+                        759.0,
+                        2108.0
+                    ],
+                    [
+                        727.0,
+                        2108.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.7592355608940125,
+                "coordinate": [
+                    1537,
+                    604,
+                    1582,
+                    888
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1537.0,
+                        604.0
+                    ],
+                    [
+                        1582.0,
+                        604.0
+                    ],
+                    [
+                        1582.0,
+                        888.0
+                    ],
+                    [
+                        1537.0,
+                        888.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

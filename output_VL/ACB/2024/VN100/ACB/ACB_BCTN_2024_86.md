@@ -1,0 +1,20 @@
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan="3">STT</td><td rowspan="3">Chi tiết</td><td colspan="6">2024</td></tr><tr><td colspan="3">Giới tính</td><td colspan="3">Phân loại nhân viên</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Nam</td><td style='text-align: center; word-wrap: break-word;'>Nữ</td><td style='text-align: center; word-wrap: break-word;'>Tổng</td><td style='text-align: center; word-wrap: break-word;'>Nhân viên</td><td style='text-align: center; word-wrap: break-word;'>Quản lý</td><td style='text-align: center; word-wrap: break-word;'>Tổng</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>Tổng số giờ đào tạo</td><td style='text-align: center; word-wrap: break-word;'>242.821</td><td style='text-align: center; word-wrap: break-word;'>591.749</td><td style='text-align: center; word-wrap: break-word;'>834.570</td><td style='text-align: center; word-wrap: break-word;'>725.821</td><td style='text-align: center; word-wrap: break-word;'>108.749</td><td style='text-align: center; word-wrap: break-word;'>834.570</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2</td><td style='text-align: center; word-wrap: break-word;'>Số giờ đào tạo trung bình mỗi nhân viên</td><td style='text-align: center; word-wrap: break-word;'>55</td><td style='text-align: center; word-wrap: break-word;'>69</td><td style='text-align: center; word-wrap: break-word;'>64</td><td style='text-align: center; word-wrap: break-word;'>66</td><td style='text-align: center; word-wrap: break-word;'>54</td><td style='text-align: center; word-wrap: break-word;'>64</td></tr></table>
+
+b. Các chương trình phát triển kỹ năng và học tập liên tục để hỗ trợ người lao động đảm bảo có việc làm và phát triển sự nghiệp
+
+Trong năm 2024, ACB triển khai hơn 4.500 khóa đào tạo, bao gồm các chương trình thường niên theo quy định của NHNN và yêu cầu chung của ngân hàng. Ngoài ra, 245 khóa học mới cũng được thiết kế nhằm đáp ứng nhu cầu phát triển chuyên môn của từng nhân sự. Hệ thống đào tạo bao quát từ các khóa chuyên sâu về nghiệp vụ, kỹ năng thiết yếu, các vấn đề liên quan đến phát triển bền vững, đến các phương pháp đầy mạnh hiệu suất công việc và nâng cao sức khỏe tinh thần thông qua chương trình "Chăm sóc sức khỏe tinh thần người ACB".
+
+Bên cạnh đó, ACB xác định việc quy hoạch xây dựng và phát triển đội ngũ cán bộ tiềm năng là trọng tâm của Quản trị nguồn nhân lực, là yếu tố kiên quyết tác động đến chiến lược phát triển bền vững của Ngân hàng trong dài hạn. Chương trình ACB The Next Leader được triển khai hàng năm từ năm 2021 hướng đến việc tìm kiếm và bồi dưỡng đội ngũ nhân sự tiềm năng, và sẵn sàng kế thừa những vị trí chủ chốt trong tương lai. Chương trình giúp cho các thành viên được lựa chọn trau dồi kiến thức chuyên môn, nâng cao kỹ năng quản lý, rèn luyện bản lĩnh và khả năng lãnh đạo phù hợp với mô hình làm việc Work:Live:Learn; thúc đẩy hiệu quả công việc vượt trội và năng lực lãnh đạo của đội ngũ với phương pháp Learn:Do:Share hướng đến việc nuôi dưỡng tinh thần học tập và lan tỏa kinh nghiệm.
+
+## 9.8 Báo cáo liên quan đến trách nhiệm đối với công động địa phương
+
+Trong năm 2024, ACB tiếp tục thực hiện cam kết của mình thông qua việc tài trợ cho nhiều sáng kiến và dự án phát triển công đồng với tổng ngân sách khoảng 107 tỷ đồng tập trung vào một số sáng kiến và hoạt động sau:
+
+##### Hỗ trợ xây dựng cơ sở hạ tầng
+
+Ngân hàng đã hỗ trợ trao tặng 80 tỷ đồng cho Chương trình phát động hỗ trợ xóa nhà tạm, nhà đột nát trên phạm vi cả nước với chủ đề "Mái ấm cho đồng bào tôi" do Chính phủ phát động.
+
+Ngân hàng cũng thực hiện nhiều hoạt động ý nghĩa khác để hỗ trợ xây dựng cơ sở hạ tầng như đóng góp kinh phí hỗ trợ sửa chữa nhà cho hộ gia đình khó khăn tinh Bình Định, hỗ trợ huyện Hòa Vang xây dựng chương trình Nông thôn mới 2023-2025 và nhiều hoạt động khác.
+
+Hỗ trợ các hoạt động giáo dục đào tạo:

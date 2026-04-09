@@ -1,0 +1,349 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Bên A</td><td>Bên B</td><td>NỘI DUNG GIAO DỊCH</td></tr><tr><td></td><td></td><td></td><td>Mua dịch vụ khác</td></tr><tr><td>3</td><td>Công ty CP Nam Việt</td><td>Công ty TNHH Đại Tây Dương</td><td>Bán vật tư, bán điện</td></tr><tr><td></td><td></td><td></td><td>Mua vật tư</td></tr><tr><td></td><td></td><td></td><td>Mua tài sản</td></tr><tr><td></td><td></td><td></td><td>Thuê kho, tiền điện</td></tr><tr><td></td><td></td><td></td><td>Phí sử dụng hạ tầng</td></tr><tr><td>4</td><td>Công ty CP Nam Việt</td><td>Doãn Tới</td><td>Đi vay</td></tr><tr><td></td><td></td><td></td><td>Công ty chia cổ tức</td></tr><tr><td></td><td></td><td></td><td>Lãi vay</td></tr><tr><td>5</td><td>Công ty CP Nam Việt</td><td>Dương Thị Kim Hương</td><td>Đi vay</td></tr><tr><td></td><td></td><td></td><td>Lãi vay</td></tr><tr><td>6</td><td>Công ty CP Nam Việt</td><td>Doãn Chí Thanh</td><td>Đi vay</td></tr><tr><td></td><td></td><td></td><td>Công ty chia cổ tức</td></tr><tr><td></td><td></td><td></td><td>Lãi di vay</td></tr><tr><td>7</td><td>Công ty CP Nam Việt</td><td>Doãn Chí Thiên</td><td>Đi vay</td></tr><tr><td></td><td></td><td></td><td>Công ty chia cổ tức</td></tr><tr><td></td><td></td><td></td><td>Lãi vay</td></tr></table>",
+            "block_bbox": [
+                195,
+                131,
+                1451,
+                1615
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 389,
+            "global_group_id": 389,
+            "block_polygon_points": [
+                [
+                    195.0,
+                    131.0
+                ],
+                [
+                    1451.0,
+                    131.0
+                ],
+                [
+                    1451.0,
+                    1615.0
+                ],
+                [
+                    195.0,
+                    1615.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "d. Đánh giá việc thực hiện các quy định về quản trị công ty: Về quản trị Công ty thực hiện theo các Quy định của pháp luật, luôn công khai, minh bạch, có hiệu quả.",
+            "block_bbox": [
+                179,
+                1665,
+                1448,
+                1761
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 390,
+            "global_group_id": 390,
+            "block_polygon_points": [
+                [
+                    179.0,
+                    1665.0
+                ],
+                [
+                    1448.0,
+                    1665.0
+                ],
+                [
+                    1448.0,
+                    1761.0
+                ],
+                [
+                    179.0,
+                    1761.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "F. BÁO CÁO TÀI CHÍNH",
+            "block_bbox": [
+                599,
+                1823,
+                1062,
+                1877
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 391,
+            "global_group_id": 391,
+            "block_polygon_points": [
+                [
+                    599.0,
+                    1823.0
+                ],
+                [
+                    1062.0,
+                    1823.0
+                ],
+                [
+                    1062.0,
+                    1877.0
+                ],
+                [
+                    599.0,
+                    1877.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "35",
+            "block_bbox": [
+                791,
+                2096,
+                836,
+                2133
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 392,
+            "global_group_id": 392,
+            "block_polygon_points": [
+                [
+                    791.0,
+                    2096.0
+                ],
+                [
+                    836.0,
+                    2096.0
+                ],
+                [
+                    836.0,
+                    2133.0
+                ],
+                [
+                    791.0,
+                    2133.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                1514,
+                1161,
+                1576,
+                1376
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 393,
+            "global_group_id": 393,
+            "block_polygon_points": [
+                [
+                    1514.0,
+                    1161.0
+                ],
+                [
+                    1576.0,
+                    1161.0
+                ],
+                [
+                    1576.0,
+                    1376.0
+                ],
+                [
+                    1514.0,
+                    1376.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9692202210426331,
+                "coordinate": [
+                    195,
+                    131,
+                    1451,
+                    1615
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        195.0,
+                        131.0
+                    ],
+                    [
+                        1451.0,
+                        131.0
+                    ],
+                    [
+                        1451.0,
+                        1615.0
+                    ],
+                    [
+                        195.0,
+                        1615.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5143782496452332,
+                "coordinate": [
+                    179,
+                    1665,
+                    1448,
+                    1761
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        179.0,
+                        1665.0
+                    ],
+                    [
+                        1448.0,
+                        1665.0
+                    ],
+                    [
+                        1448.0,
+                        1761.0
+                    ],
+                    [
+                        179.0,
+                        1761.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8187263607978821,
+                "coordinate": [
+                    599,
+                    1823,
+                    1062,
+                    1877
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        599.0,
+                        1823.0
+                    ],
+                    [
+                        1062.0,
+                        1823.0
+                    ],
+                    [
+                        1062.0,
+                        1877.0
+                    ],
+                    [
+                        599.0,
+                        1877.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.745811939239502,
+                "coordinate": [
+                    791,
+                    2096,
+                    836,
+                    2133
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        791.0,
+                        2096.0
+                    ],
+                    [
+                        836.0,
+                        2096.0
+                    ],
+                    [
+                        836.0,
+                        2133.0
+                    ],
+                    [
+                        791.0,
+                        2133.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.34548062086105347,
+                "coordinate": [
+                    1514,
+                    1161,
+                    1576,
+                    1376
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1514.0,
+                        1161.0
+                    ],
+                    [
+                        1576.0,
+                        1161.0
+                    ],
+                    [
+                        1576.0,
+                        1376.0
+                    ],
+                    [
+                        1514.0,
+                        1376.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

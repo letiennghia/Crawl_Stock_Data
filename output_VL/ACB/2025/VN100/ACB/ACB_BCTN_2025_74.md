@@ -1,0 +1,16 @@
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Stt</td><td style='text-align: center; word-wrap: break-word;'>Chỉ tiêu hợp nhất</td><td style='text-align: center; word-wrap: break-word;'>Tăng trưởng so với năm 2025</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>Tổng tài sản</td><td style='text-align: center; word-wrap: break-word;'>16%</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2</td><td style='text-align: center; word-wrap: break-word;'>Dự nợ tín dụng</td><td style='text-align: center; word-wrap: break-word;'>16% (Không vượt quá hạn mức tăng trưởng tín dụng do Ngân hàng Nhà mước phê duyệt.)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>Huy động (bao gồm giấy tờ có giá)</td><td style='text-align: center; word-wrap: break-word;'>16%</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>4</td><td style='text-align: center; word-wrap: break-word;'>Lợi nhuận trước thuế</td><td style='text-align: center; word-wrap: break-word;'>14%</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>Tỷ lệ nợ xấu (nhóm 3 - nhóm 5)</td><td style='text-align: center; word-wrap: break-word;'>&lt; 2%</td></tr></table>
+
+Để đạt mục tiêu năm 2026 nêu trên, Ban điều hành tập trung triển khai các nhóm giải pháp sau:
+
+(1) Thúc đẩy tăng trưởng doanh thu lỗi bằng cách cá nhân hóa hành trình khách hàng và số hóa từ khâu đầu đến khâu cuối (end-to-end) các hành trình sản phẩm (tín dụng và phi tín dụng) để mở rộng quy mô và tăng năng suất.
+
+(2) Mở rộng hệ sinh thái sản phẩm tài chính (bảo hiểm/đầu tư và dịch vụ gia tăng) theo hướng mình bạch, phù hợp nhu cầu từng phần khúc, nhằm nâng trải nghiệm và gia tăng doanh thu dịch vụ bền vững.
+
+(3) Tăng tốc chuyển đổi số toàn diện: đấu tư công nghệ, dữ liệu và AI để tự động hóa vận hành, nâng hiệu quả quản trị, kiểm soát rùi ro và nâng trải nghiệm khách hàng. Đồng thời, nâng cấp hạ tầng và năng lực công nghệ phục vụ chuyển đổi số, tăng độ ổn định, an toàn và tích hợp.
+
+(4) Tuân thủ và quản trị rủi ro theo chuẩn mực cao: giữ vững uy tín và sự tin nhiệm thông qua tuân thủ nghiêm ngặt quy định của pháp luật, chuẩn mực quản trị doanh nghiệp và thông lệ quản lý rủi ro tiên tiến.
+
+(5) Phát triển bền vững gắn trách nhiệm xã hội (ESG): lồng ghép trách nhiệm xã hội vào chiến lược 2025–2030 với các trụ cột ưu tiên Sức khỏe, Giáo dục và Môi trường, triển khai xuyên suốt từ cấp tín dụng, phát triển sản phẩm đến quản trị rủi ro và hợp tác với khách hàng/đối tác.
+
+(6) Phát triển và phát huy vai trò các công ty con hướng tới Tập đoàn tài chính hiệu quả: tăng cường liên kết bán chéo trong toàn hệ sinh thái, chuẩn hóa quản trị/hiệu suất, mở rộng năng lực sản phẩm, kênh phân phối của các đơn vị thành viên, qua đó gia tăng đóng góp lợi nhuận hợp nhất và hoàn thiện hệ sinh thái tài chính của ACB.

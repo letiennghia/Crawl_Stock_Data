@@ -1,0 +1,349 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>3</td><td>Trần Minh Cảnh</td><td>Thành viên HDQT</td><td>29</td><td>100%</td><td></td><td></td></tr><tr><td>4</td><td>Nguyễn Thị Minh Y</td><td>Thành viên HDQT Độc lập</td><td>29</td><td>100%</td><td></td><td></td></tr><tr><td>5</td><td>Đỗ Thị Thanh Thủy</td><td>Thành viên HDQT</td><td>29</td><td>100%</td><td></td><td></td></tr></table>",
+            "block_bbox": [
+                177,
+                183,
+                1458,
+                435
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 369,
+            "global_group_id": 369,
+            "block_polygon_points": [
+                [
+                    177.0,
+                    183.0
+                ],
+                [
+                    1458.0,
+                    183.0
+                ],
+                [
+                    1458.0,
+                    435.0
+                ],
+                [
+                    177.0,
+                    435.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Nội dung và kết quả của các cuộc họp Hội đồng Quản Trị:",
+            "block_bbox": [
+                176,
+                461,
+                1078,
+                512
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 370,
+            "global_group_id": 370,
+            "block_polygon_points": [
+                [
+                    176.0,
+                    461.0
+                ],
+                [
+                    1078.0,
+                    461.0
+                ],
+                [
+                    1078.0,
+                    512.0
+                ],
+                [
+                    176.0,
+                    512.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "T",
+            "block_bbox": [
+                1549,
+                767,
+                1595,
+                1036
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 371,
+            "global_group_id": 371,
+            "block_polygon_points": [
+                [
+                    1549.0,
+                    767.0
+                ],
+                [
+                    1595.0,
+                    767.0
+                ],
+                [
+                    1595.0,
+                    1036.0
+                ],
+                [
+                    1549.0,
+                    1036.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Số nghị quyết</td><td>Ngày</td><td>Nội dung</td></tr><tr><td>1</td><td>08/NQ-HĐQT</td><td>02/01/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty NVSL về Cty NV</td></tr><tr><td>2</td><td>17/NQ-HĐQT</td><td>06/02/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty NVSL về Cty NV</td></tr><tr><td>3</td><td>33/NQ-HĐQT</td><td>27/03/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty ADDSL về Cty NV</td></tr><tr><td>4</td><td>39/NQ-HĐQT</td><td>27/03/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty ĐTDSL về Cty NV</td></tr><tr><td>5</td><td>31/NQ-HĐQT</td><td>02/04/2024</td><td>Nghị quyết HĐQT vv gia hạn thời gian tổ chức Đại hội cổ đông thương niên năm 2024</td></tr><tr><td>6</td><td>53/NQ-HĐQT</td><td>15/04/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty NVSL về Cty Nam Việt</td></tr><tr><td>7</td><td>43/NQ-HĐQT</td><td>26/04/2024</td><td>Nghị quyết HĐQT vv tổ chức Đại hội cổ đông thương niên năm 2024</td></tr><tr><td>8</td><td>79/NQ-HĐQT</td><td>12/06/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty ĐTDSL về Cty Nam Việt</td></tr><tr><td>9</td><td>82/NQ-HĐQT</td><td>12/06/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty ADDSL về Cty Nam Việt</td></tr><tr><td>10</td><td>85/NQ-HĐQT</td><td>12/06/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty NVSL về Cty Nam Việt</td></tr><tr><td>11</td><td>64/NQ-HĐQT</td><td>14/06/2024</td><td>Nghị quyết HĐQT vv thành lập NMDL ADD - Chi nhánh Cty Nam Việt</td></tr><tr><td>12</td><td>68/NQ-HĐQT</td><td>14/06/2024</td><td>Nghị quyết HĐQT vv thành lập NM DCBC ADD - Chi nhánh Cty Nam Việt</td></tr><tr><td>13</td><td>76/NQ-HĐQT</td><td>14/06/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty NVBP về Cty Nam Việt</td></tr><tr><td>14</td><td>88/NQ-HĐQT</td><td>14/06/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty CBTA về Cty Nam Việt</td></tr><tr><td>15</td><td>101/NQ-HĐQT</td><td>01/07/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty NVSL về Cty Nam Việt</td></tr><tr><td>16</td><td>109/NQ-HĐQT</td><td>03/07/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty NVBP về Cty Nam Việt</td></tr><tr><td>17</td><td>94/NQ-HĐQT</td><td>05/07/2024</td><td>Nghị quyết HĐQT vv triển khai phát hành CP tăng vốn cổ phần từ NVCSH</td></tr><tr><td>18</td><td>106/NQ-HĐQT</td><td>12/07/2024</td><td>Nghị quyết HĐQT vv cử người đại diện góp vốn của CTY Nam việt vào AMICOGEN</td></tr><tr><td>19</td><td>120/NQ-HĐQT</td><td>11/09/2024</td><td>Nghị quyết HĐQT vv chi trả cổ tức bằng tiền năm 2023</td></tr><tr><td>20</td><td>135/NQ-HĐQT</td><td>25/09/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty NVSL về Cty Nam Việt</td></tr><tr><td>21</td><td>138/NQ-HĐQT</td><td>26/09/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty ADDSL về Cty Nam Việt</td></tr><tr><td>22</td><td>141/NQ-HĐQT</td><td>26/09/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty DTDSL về Cty Nam Việt</td></tr><tr><td>23</td><td>128/NQ-HĐQT</td><td>02/10/2024</td><td>Nghị quyết HĐQT vv chốt DS cổ đông nhận CP phát hành tăng vốn cổ phần từ NVCSH</td></tr><tr><td>24</td><td>152/NQ-HĐQT</td><td>13/11/2024</td><td>Nghị quyết HĐQT vv tăng vốn điều lệ do phát hành CP tăng vốn cổ phần từ NVCSH</td></tr><tr><td>25</td><td>167/NQ-HĐQT</td><td>27/11/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty NVSL về Cty Nam Việt</td></tr><tr><td>26</td><td>173/NQ-HĐQT</td><td>10/12/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty NVBP về Cty Nam Việt</td></tr><tr><td>27</td><td>176/NQ-HĐQT</td><td>10/12/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty NVSL về Cty Nam Việt</td></tr><tr><td>28</td><td>179/NQ-HĐQT</td><td>10/12/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty DTDSL về Cty Nam Việt</td></tr><tr><td>29</td><td>182/NQ-HĐQT</td><td>10/12/2024</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty ADDSL về Cty Nam Việt</td></tr></table>",
+            "block_bbox": [
+                172,
+                590,
+                1385,
+                2085
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 372,
+            "global_group_id": 372,
+            "block_polygon_points": [
+                [
+                    172.0,
+                    590.0
+                ],
+                [
+                    1385.0,
+                    590.0
+                ],
+                [
+                    1385.0,
+                    2085.0
+                ],
+                [
+                    172.0,
+                    2085.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "30",
+            "block_bbox": [
+                736,
+                2082,
+                771,
+                2109
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 373,
+            "global_group_id": 373,
+            "block_polygon_points": [
+                [
+                    736,
+                    2082
+                ],
+                [
+                    736,
+                    2108
+                ],
+                [
+                    770,
+                    2108
+                ],
+                [
+                    770,
+                    2082
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.94403475522995,
+                "coordinate": [
+                    177,
+                    183,
+                    1458,
+                    435
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        177.0,
+                        183.0
+                    ],
+                    [
+                        1458.0,
+                        183.0
+                    ],
+                    [
+                        1458.0,
+                        435.0
+                    ],
+                    [
+                        177.0,
+                        435.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8127899765968323,
+                "coordinate": [
+                    176,
+                    461,
+                    1078,
+                    512
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        176.0,
+                        461.0
+                    ],
+                    [
+                        1078.0,
+                        461.0
+                    ],
+                    [
+                        1078.0,
+                        512.0
+                    ],
+                    [
+                        176.0,
+                        512.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.4974937438964844,
+                "coordinate": [
+                    1549,
+                    767,
+                    1595,
+                    1036
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1549.0,
+                        767.0
+                    ],
+                    [
+                        1595.0,
+                        767.0
+                    ],
+                    [
+                        1595.0,
+                        1036.0
+                    ],
+                    [
+                        1549.0,
+                        1036.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9757949709892273,
+                "coordinate": [
+                    172,
+                    590,
+                    1385,
+                    2085
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        172.0,
+                        590.0
+                    ],
+                    [
+                        1385.0,
+                        590.0
+                    ],
+                    [
+                        1385.0,
+                        2085.0
+                    ],
+                    [
+                        172.0,
+                        2085.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.5936827659606934,
+                "coordinate": [
+                    736,
+                    2082,
+                    771,
+                    2109
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        736,
+                        2082
+                    ],
+                    [
+                        736,
+                        2108
+                    ],
+                    [
+                        770,
+                        2108
+                    ],
+                    [
+                        770,
+                        2082
+                    ]
+                ]
+            }
+        ]
+    }
+}

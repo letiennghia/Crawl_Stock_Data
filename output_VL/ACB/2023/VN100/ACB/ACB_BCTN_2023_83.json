@@ -1,0 +1,790 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2294,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                359,
+                382,
+                1166,
+                932
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1099,
+            "global_group_id": 1099,
+            "block_polygon_points": [
+                [
+                    359.0,
+                    382.0
+                ],
+                [
+                    1166.0,
+                    382.0
+                ],
+                [
+                    1166.0,
+                    932.0
+                ],
+                [
+                    359.0,
+                    932.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "(1) Điện năng tiêu thụ của Tập đoàn ACB.",
+            "block_bbox": [
+                357,
+                952,
+                862,
+                995
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1100,
+            "global_group_id": 1100,
+            "block_polygon_points": [
+                [
+                    357.0,
+                    952.0
+                ],
+                [
+                    862.0,
+                    952.0
+                ],
+                [
+                    862.0,
+                    995.0
+                ],
+                [
+                    357.0,
+                    995.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "(2) Xăng tiêu thụ của Ngân hàng ACB, không bao gồm các công ty con.",
+            "block_bbox": [
+                356,
+                995,
+                1201,
+                1043
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1101,
+            "global_group_id": 1101,
+            "block_polygon_points": [
+                [
+                    356.0,
+                    995.0
+                ],
+                [
+                    1201.0,
+                    995.0
+                ],
+                [
+                    1201.0,
+                    1043.0
+                ],
+                [
+                    356.0,
+                    1043.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "+ Nhờ áp dụng các biện pháp tiết kiệm năng lượng như lắp đặt các thiết bị tiêu thụ điện năng lượng hiệu quả, tất các thiết bị khi không sử dụng, v.v. tổng lượng năng lượng tiêu thụ tăng trong năm 2023 đã giảm còn 181 Têrajun, so với mức 182 Têrajun năm 2021 và 208 Têrajun năm 2022, tương đương tỷ lệ giảm so với năm 2021 và 2022 lần lượt là 1% và 13%.",
+            "block_bbox": [
+                352,
+                1089,
+                1376,
+                1297
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "global_block_id": 1102,
+            "global_group_id": 1102,
+            "block_polygon_points": [
+                [
+                    349.89263916015625,
+                    1100.022705078125
+                ],
+                [
+                    1375.0,
+                    1089.0
+                ],
+                [
+                    1377.107177734375,
+                    1284.977294921875
+                ],
+                [
+                    351.99993896484375,
+                    1296.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "+ Đại da số năng lượng tiêu thụ chính của ACB là điện năng được mua trực tiếp từ EVN để vận hành cho các hoạt động tại toàn Tập đoàn ACB, với 132 Têrajun trong năm 2023, và chiếm tỷ lệ khoảng 73% so tổng lượng năng lượng tiêu thụ.",
+            "block_bbox": [
+                352,
+                1302,
+                1376,
+                1433
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "global_block_id": 1103,
+            "global_group_id": 1103,
+            "block_polygon_points": [
+                [
+                    352.0,
+                    1302.0
+                ],
+                [
+                    1376.0,
+                    1302.0
+                ],
+                [
+                    1376.0,
+                    1433.0
+                ],
+                [
+                    352.0,
+                    1433.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "+ Trong năm 2023 nhờ vào các chính sách tiết kiệm năng lượng, đặc biệt là việc triển khai sáng kiến tất máy tính sau giờ làm việc nhằm tiết kiệm điện đã giúp năng lượng tiêu thụ giảm 13%.",
+            "block_bbox": [
+                352,
+                1437,
+                1375,
+                1567
+            ],
+            "block_id": 5,
+            "block_order": 3,
+            "group_id": 5,
+            "global_block_id": 1104,
+            "global_group_id": 1104,
+            "block_polygon_points": [
+                [
+                    350.835693359375,
+                    1447.011474609375
+                ],
+                [
+                    1374.0,
+                    1437.0
+                ],
+                [
+                    1375.164306640625,
+                    1555.988525390625
+                ],
+                [
+                    352.0,
+                    1566.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "+ Xăng dùng cho các phương tiện vận chuyển mà ACB sở hữu hoặc kiểm soát (xe công vụ, xe chuyển dùng, v.v.) là loại năng lượng tiêu thụ chính thứ hai của ACB, với 49 Têrajun trong năm 2023, khoảng 27% so tổng lượng năng lượng tiêu thụ.",
+            "block_bbox": [
+                352,
+                1570,
+                1374,
+                1700
+            ],
+            "block_id": 6,
+            "block_order": 4,
+            "group_id": 6,
+            "global_block_id": 1105,
+            "global_group_id": 1105,
+            "block_polygon_points": [
+                [
+                    350.62518310546875,
+                    1582.016357421875
+                ],
+                [
+                    1373.0,
+                    1570.000244140625
+                ],
+                [
+                    1374.497802734375,
+                    1697.44287109375
+                ],
+                [
+                    352.12298583984375,
+                    1709.458984375
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "+ Trong năm 2023, ACB đã triển khai hệ thống điều xe mới, làm tăng hiệu quả sử dụng năng lượng đáng kể, kết quả là tổng lượng xăng tiêu thụ trong năm đã giảm 22% so với năm 2022.",
+            "block_bbox": [
+                353,
+                1702,
+                1375,
+                1831
+            ],
+            "block_id": 7,
+            "block_order": 5,
+            "group_id": 7,
+            "global_block_id": 1106,
+            "global_group_id": 1106,
+            "block_polygon_points": [
+                [
+                    353,
+                    1713
+                ],
+                [
+                    353,
+                    1830
+                ],
+                [
+                    1374,
+                    1820
+                ],
+                [
+                    1374,
+                    1702
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Nhận thức rõ năng lượng không tái tạo ngày càng khan hiểm không chỉ tại Việt Nam mà trên cả toàn cầu \"cũng như các tác động đến môi trường từ việc sử dụng năng lượng không tái tạo\", dù như cầu tiêu thụ năng lượng cho hoạt động tăng nhưng ACB luôn đặt mục tiêu giảm tiêu thụ năng lượng lên hàng đầu.",
+            "block_bbox": [
+                353,
+                1836,
+                1377,
+                2005
+            ],
+            "block_id": 8,
+            "block_order": 6,
+            "group_id": 8,
+            "global_block_id": 1107,
+            "global_group_id": 1107,
+            "block_polygon_points": [
+                [
+                    351.311767578125,
+                    1847.017822265625
+                ],
+                [
+                    1375.9998779296875,
+                    1835.999755859375
+                ],
+                [
+                    1377.6878662109375,
+                    1992.981689453125
+                ],
+                [
+                    352.999755859375,
+                    2003.999755859375
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Điện năng",
+            "block_bbox": [
+                356,
+                2018,
+                518,
+                2059
+            ],
+            "block_id": 9,
+            "block_order": 7,
+            "group_id": 9,
+            "global_block_id": 1108,
+            "global_group_id": 1108,
+            "block_polygon_points": [
+                [
+                    356.0,
+                    2018.0
+                ],
+                [
+                    518.0,
+                    2018.0
+                ],
+                [
+                    518.0,
+                    2059.0
+                ],
+                [
+                    356.0,
+                    2059.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2023",
+            "block_bbox": [
+                292,
+                2116,
+                506,
+                2154
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "global_block_id": 1109,
+            "global_group_id": 1109,
+            "block_polygon_points": [
+                [
+                    292.0,
+                    2116.0
+                ],
+                [
+                    506.0,
+                    2116.0
+                ],
+                [
+                    506.0,
+                    2154.0
+                ],
+                [
+                    292.0,
+                    2154.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "82/111",
+            "block_bbox": [
+                1269,
+                2108,
+                1374,
+                2141
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 1110,
+            "global_group_id": 1110,
+            "block_polygon_points": [
+                [
+                    1269.0,
+                    2108.0
+                ],
+                [
+                    1374.0,
+                    2108.0
+                ],
+                [
+                    1374.0,
+                    2141.0
+                ],
+                [
+                    1269.0,
+                    2141.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.9271935224533081,
+                "coordinate": [
+                    359,
+                    382,
+                    1166,
+                    932
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        359.0,
+                        382.0
+                    ],
+                    [
+                        1166.0,
+                        382.0
+                    ],
+                    [
+                        1166.0,
+                        932.0
+                    ],
+                    [
+                        359.0,
+                        932.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5682222247123718,
+                "coordinate": [
+                    357,
+                    952,
+                    862,
+                    995
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        357.0,
+                        952.0
+                    ],
+                    [
+                        862.0,
+                        952.0
+                    ],
+                    [
+                        862.0,
+                        995.0
+                    ],
+                    [
+                        357.0,
+                        995.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5153872966766357,
+                "coordinate": [
+                    356,
+                    995,
+                    1201,
+                    1043
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        356.0,
+                        995.0
+                    ],
+                    [
+                        1201.0,
+                        995.0
+                    ],
+                    [
+                        1201.0,
+                        1043.0
+                    ],
+                    [
+                        356.0,
+                        1043.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9415138959884644,
+                "coordinate": [
+                    352,
+                    1089,
+                    1376,
+                    1297
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        349.89263916015625,
+                        1100.022705078125
+                    ],
+                    [
+                        1375.0,
+                        1089.0
+                    ],
+                    [
+                        1377.107177734375,
+                        1284.977294921875
+                    ],
+                    [
+                        351.99993896484375,
+                        1296.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9274279475212097,
+                "coordinate": [
+                    352,
+                    1302,
+                    1376,
+                    1433
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        352.0,
+                        1302.0
+                    ],
+                    [
+                        1376.0,
+                        1302.0
+                    ],
+                    [
+                        1376.0,
+                        1433.0
+                    ],
+                    [
+                        352.0,
+                        1433.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9260457754135132,
+                "coordinate": [
+                    352,
+                    1437,
+                    1375,
+                    1567
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        350.835693359375,
+                        1447.011474609375
+                    ],
+                    [
+                        1374.0,
+                        1437.0
+                    ],
+                    [
+                        1375.164306640625,
+                        1555.988525390625
+                    ],
+                    [
+                        352.0,
+                        1566.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9326931834220886,
+                "coordinate": [
+                    352,
+                    1570,
+                    1374,
+                    1700
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        350.62518310546875,
+                        1582.016357421875
+                    ],
+                    [
+                        1373.0,
+                        1570.000244140625
+                    ],
+                    [
+                        1374.497802734375,
+                        1697.44287109375
+                    ],
+                    [
+                        352.12298583984375,
+                        1709.458984375
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9351507425308228,
+                "coordinate": [
+                    353,
+                    1702,
+                    1375,
+                    1831
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        353,
+                        1713
+                    ],
+                    [
+                        353,
+                        1830
+                    ],
+                    [
+                        1374,
+                        1820
+                    ],
+                    [
+                        1374,
+                        1702
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9334431290626526,
+                "coordinate": [
+                    353,
+                    1836,
+                    1377,
+                    2005
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        351.311767578125,
+                        1847.017822265625
+                    ],
+                    [
+                        1375.9998779296875,
+                        1835.999755859375
+                    ],
+                    [
+                        1377.6878662109375,
+                        1992.981689453125
+                    ],
+                    [
+                        352.999755859375,
+                        2003.999755859375
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6913043856620789,
+                "coordinate": [
+                    356,
+                    2018,
+                    518,
+                    2059
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        356.0,
+                        2018.0
+                    ],
+                    [
+                        518.0,
+                        2018.0
+                    ],
+                    [
+                        518.0,
+                        2059.0
+                    ],
+                    [
+                        356.0,
+                        2059.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.82069993019104,
+                "coordinate": [
+                    292,
+                    2116,
+                    506,
+                    2154
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        292.0,
+                        2116.0
+                    ],
+                    [
+                        506.0,
+                        2116.0
+                    ],
+                    [
+                        506.0,
+                        2154.0
+                    ],
+                    [
+                        292.0,
+                        2154.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7165060639381409,
+                "coordinate": [
+                    1269,
+                    2108,
+                    1374,
+                    2141
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        1269.0,
+                        2108.0
+                    ],
+                    [
+                        1374.0,
+                        2108.0
+                    ],
+                    [
+                        1374.0,
+                        2141.0
+                    ],
+                    [
+                        1269.0,
+                        2141.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

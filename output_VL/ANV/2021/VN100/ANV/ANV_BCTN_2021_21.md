@@ -1,0 +1,20 @@
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Đối tượng tham gia đào tạo</td><td style='text-align: center; word-wrap: break-word;'>Sô giờ đào tạo</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Nhóm 1: Người quản lý phụ trách công tác an toàn, vệ sinh lao động</td><td style='text-align: center; word-wrap: break-word;'>Ít nhất 16 giờ</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Nhóm 2: Người làm công tác an toàn, vệ sinh lao động</td><td style='text-align: center; word-wrap: break-word;'>Ít nhất 48 giờ</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Nhóm 3: Người lao động làm công việc có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động</td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Nhóm 4: Người lao động không thuộc các nhóm 1, 2, 3 và 5, bao gồm cả người học nghề, tập nghề, thủ việc để làm việc cho người sử dụng lao động.</td><td style='text-align: center; word-wrap: break-word;'>Ít nhất 24 giờ</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Nhóm 5: Người làm công tác y tế.</td><td style='text-align: center; word-wrap: break-word;'>Ít nhất 56 giờ</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Nhóm 6: An toàn, vệ sinh viên</td><td style='text-align: center; word-wrap: break-word;'>Ít nhất 4 giờ</td></tr></table>
+
+### Trách nhiệm đối với công động địa phương:
+
+- Navico hằng năm luôn có các hoạt động để đóng góp cho công đồng xã hội. Ngoài các hoạt động động góp sức lực trực tiếp cho việc giữ gìn công đồng xã hội, Công ty còn hỗ trợ tài chính cho công đồng địa phương.
+
+Những năm qua, Công ty đã có những đóng góp tài chính về:
+
+Công ty đóng góp quỹ Mùa Xuân.
+
+Công ty đóng góp quỹ Công tác xã hội từ thiện.
+
+Đóng góp Quỹ đền ơn đáp nghĩa.
+
+Đóng góp Quỹ học bổng (do gia đình Tổng Giám đốc tài trợ).
+
+Công ty khen thưởng cho con của CB-CNV lao động có thành tích trong học tập.
+
+<div style="text-align: center;"><img src="imgs/img_in_seal_box_1521_731_1601_981.jpg" alt="Image" width="4%" /></div>

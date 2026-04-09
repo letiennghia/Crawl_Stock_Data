@@ -1,0 +1,3 @@
+Thúc đẩy việc lan tòa và ứng dụng nhất quán các giá trị cốt lỗi của ACB đặc biệt trong bối cảnh đấy mạnh chuyển đổi số và triển khai Chiến lược 2025-2030.
+
+Thông qua các định hướng trên, HDQT ACB hướng tới xây dựng ngân hàng hiện đại, an toàn, lấy khách hàng làm trung tâm, vận hành trên nền tảng số, có năng lực quản trị tiến tiến và tạo ra giá trị lâu dài cho cổ đông, khách hàng, người lao động và xã hội.

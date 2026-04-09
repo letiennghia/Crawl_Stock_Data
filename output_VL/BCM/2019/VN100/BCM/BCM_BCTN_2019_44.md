@@ -1,0 +1,18 @@
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Stt</td><td style='text-align: center; word-wrap: break-word;'>Thành viên BKS</td><td style='text-align: center; word-wrap: break-word;'>Chức vụ</td><td style='text-align: center; word-wrap: break-word;'>Ngày bắt đầu là thành viên BKS</td><td style='text-align: center; word-wrap: break-word;'>Số buổi hợp BKS tham dự</td><td style='text-align: center; word-wrap: break-word;'>Tỷ lệ tham dự hợp</td><td style='text-align: center; word-wrap: break-word;'>Lý do không tham dự hợp</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1</td><td style='text-align: center; word-wrap: break-word;'>Bà Nguyễn Thị Thùy Dương</td><td style='text-align: center; word-wrap: break-word;'>Trưởng BKS</td><td style='text-align: center; word-wrap: break-word;'>25/01/2018</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>100%</td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2</td><td style='text-align: center; word-wrap: break-word;'>Ông Huỳnh Vĩnh Thành</td><td style='text-align: center; word-wrap: break-word;'>Thành viên BKS</td><td style='text-align: center; word-wrap: break-word;'>25/01/2018</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>100%</td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>Bà Huỳnh Thị Quế Anh</td><td style='text-align: center; word-wrap: break-word;'>Thành viên BKS</td><td style='text-align: center; word-wrap: break-word;'>25/01/2018</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>100%</td><td style='text-align: center; word-wrap: break-word;'></td></tr></table>
+
+## Hoạt động giám sát của BKS đối với HDQT, Ban Tổng Giám độc điều hành và cổ động:
+
+Ban kiểm soát thực hiện chức năng nhiệm vụ giám sát và đánh giá hiệu quả quản lý hoạt động của HĐQT, Ban Tổng giám đốc thông qua việc tham dự và đóng góp ý kiến các cuộc họp HĐQT, xem xét các nghị quyết, quyết định do HĐQT ban hành và thông qua các báo cáo tài chính quý, năm của Tổng Cộng ty.
+
+Các thành viên của HĐQT, Ban Tổng Giám Đốc đã thực hiện tốt chức năng nhiệm vụ được giao theo quy định của Điều lệ hoạt động trong việc điều hành hoạt động Tổng công ty nghị quyết ĐHDCĐ, các Nghi quyết, quyết định của HĐQT.
+
+Giám sát việc tuân thủ nghĩa vụ nộp thuê đổi với Nhà nước và các quy định của pháp luật, chế độ, chính sách của Nhà nước trong hoạt động sản xuất kinh doanh.
+
+Các thông tin về tình hình tài chính được công bố minh bạch công khai. Tổng công ty luôn công bố thông tin đầy đủ cho Ủy ban Chứng khoán Nhà nước, Sở Giao dịch Chứng khoán, cổ đông, theo quy định của pháp luật.
+
+Sự phối hợp hoạt động giữa BKS đối với hoạt động của HĐQT, Ban Tổng Giám đốc điều hành và các cán bộ quản lý khác:
+
+Hội đồng quản trị, Ban Tổng giám đốc đã cung cấp đầy đủ thông tin, tài liệu, phương tiện phục vụ cho công tác kiểm tra, giám sát tình hình hoạt động của Tổng công ty theo yêu cầu của Ban kiểm soát. Ban kiểm soát luôn được tạo điều kiện để hoạt động theo đúng Quy chế tổ chức và hoạt động của Ban kiểm soát.
+
+3. Các giao dịch, thù lao và các khoản lợi ích của Hội đồng quản trị, Ban giám đốc và Ban kiểm soát

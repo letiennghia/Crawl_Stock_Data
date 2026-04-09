@@ -1,0 +1,223 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2270,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "content",
+            "block_content": "6.7.3. Hoạt động đào tạo người lao động ___ 174\n6.8. Báo cáo liên quan đến trách nhiệm đối với công đồng địa phương ___ 175\n6.8.1. Dấu ấn CSR 2025 ___ 176\n6.8.2. Chăm sóc sức khỏe, y tế và an sinh ___ 176\n6.8.3. Bảo vệ môi trường ___ 177\n6.8.4. Hỗ trợ giáo dục ___ 177\n6.8.5. Phát triển hạ tầng và các phúc lợi xã hội khác ___ 177\nCHƯƠNG 7. BÁO CÁO TÀI CHÍNH ___ 179\n7.1. Ý kiến kiểm toán ___ 179\n7.2. Báo cáo tài chính được kiểm toán ___ 179",
+            "block_bbox": [
+                210,
+                188,
+                1482,
+                597
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 63,
+            "global_group_id": 63,
+            "block_polygon_points": [
+                [
+                    210.0,
+                    188.0
+                ],
+                [
+                    1482.0,
+                    188.0
+                ],
+                [
+                    1482.0,
+                    597.0
+                ],
+                [
+                    210.0,
+                    597.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Báo cáo thường niên ACB năm 2025",
+            "block_bbox": [
+                211,
+                2148,
+                715,
+                2184
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 64,
+            "global_group_id": 64,
+            "block_polygon_points": [
+                [
+                    211.0,
+                    2148.0
+                ],
+                [
+                    715.0,
+                    2148.0
+                ],
+                [
+                    715.0,
+                    2184.0
+                ],
+                [
+                    211.0,
+                    2184.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "4 / 179",
+            "block_bbox": [
+                1377,
+                2147,
+                1480,
+                2182
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 65,
+            "global_group_id": 65,
+            "block_polygon_points": [
+                [
+                    1377.0,
+                    2147.0
+                ],
+                [
+                    1480.0,
+                    2147.0
+                ],
+                [
+                    1480.0,
+                    2182.0
+                ],
+                [
+                    1377.0,
+                    2182.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 4,
+                "label": "content",
+                "score": 0.9745756387710571,
+                "coordinate": [
+                    210,
+                    188,
+                    1482,
+                    597
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        210.0,
+                        188.0
+                    ],
+                    [
+                        1482.0,
+                        188.0
+                    ],
+                    [
+                        1482.0,
+                        597.0
+                    ],
+                    [
+                        210.0,
+                        597.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8332164883613586,
+                "coordinate": [
+                    211,
+                    2148,
+                    715,
+                    2184
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        211.0,
+                        2148.0
+                    ],
+                    [
+                        715.0,
+                        2148.0
+                    ],
+                    [
+                        715.0,
+                        2184.0
+                    ],
+                    [
+                        211.0,
+                        2184.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8230860829353333,
+                "coordinate": [
+                    1377,
+                    2147,
+                    1480,
+                    2182
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        1377.0,
+                        2147.0
+                    ],
+                    [
+                        1480.0,
+                        2147.0
+                    ],
+                    [
+                        1480.0,
+                        2182.0
+                    ],
+                    [
+                        1377.0,
+                        2182.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

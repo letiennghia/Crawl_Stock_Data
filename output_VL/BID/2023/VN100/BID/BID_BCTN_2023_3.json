@@ -1,0 +1,223 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2340,
+    "height": 1654,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                1938,
+                119,
+                2236,
+                229
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 31,
+            "global_group_id": 31,
+            "block_polygon_points": [
+                [
+                    1938.0,
+                    119.0
+                ],
+                [
+                    2236.0,
+                    119.0
+                ],
+                [
+                    2236.0,
+                    229.0
+                ],
+                [
+                    1938.0,
+                    229.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "KIẾN TẠO\nTƯƠNG LAI\nXanh",
+            "block_bbox": [
+                1676,
+                590,
+                2241,
+                936
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 32,
+            "global_group_id": 32,
+            "block_polygon_points": [
+                [
+                    1676.0,
+                    590.0
+                ],
+                [
+                    2241.0,
+                    590.0
+                ],
+                [
+                    2241.0,
+                    936.0
+                ],
+                [
+                    1676.0,
+                    936.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "BÁO CÁO\nTHƯỜNG NIÊN\n2023",
+            "block_bbox": [
+                1442,
+                1333,
+                2236,
+                1485
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 33,
+            "global_group_id": 33,
+            "block_polygon_points": [
+                [
+                    1442.0,
+                    1333.0
+                ],
+                [
+                    2236.0,
+                    1333.0
+                ],
+                [
+                    2236.0,
+                    1485.0
+                ],
+                [
+                    1442.0,
+                    1485.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.44893407821655273,
+                "coordinate": [
+                    1938,
+                    119,
+                    2236,
+                    229
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1938.0,
+                        119.0
+                    ],
+                    [
+                        2236.0,
+                        119.0
+                    ],
+                    [
+                        2236.0,
+                        229.0
+                    ],
+                    [
+                        1938.0,
+                        229.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4856872260570526,
+                "coordinate": [
+                    1676,
+                    590,
+                    2241,
+                    936
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        1676.0,
+                        590.0
+                    ],
+                    [
+                        2241.0,
+                        590.0
+                    ],
+                    [
+                        2241.0,
+                        936.0
+                    ],
+                    [
+                        1676.0,
+                        936.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6653486490249634,
+                "coordinate": [
+                    1442,
+                    1333,
+                    2236,
+                    1485
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        1442.0,
+                        1333.0
+                    ],
+                    [
+                        2236.0,
+                        1333.0
+                    ],
+                    [
+                        2236.0,
+                        1485.0
+                    ],
+                    [
+                        1442.0,
+                        1485.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

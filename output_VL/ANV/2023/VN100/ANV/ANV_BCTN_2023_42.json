@@ -1,0 +1,407 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "CÔNG TY CỔ PHẦN NAM VIỆT",
+            "block_bbox": [
+                117,
+                38,
+                559,
+                81
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 512,
+            "global_group_id": 512,
+            "block_polygon_points": [
+                [
+                    117.0,
+                    38.0
+                ],
+                [
+                    559.0,
+                    38.0
+                ],
+                [
+                    559.0,
+                    81.0
+                ],
+                [
+                    117.0,
+                    81.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Địa chỉ: 19D Trần Hưng Đạo, Phường Mỹ Quý, TP. Long Xuyên, Tinh An Giang BẢO CÁO TÀI CHÍNH HỌP NHẬT\nCho năm tài chính kết thúc ngày 31 tháng 12 năm 2023\nBảng cần đôi kê toán hợp nhất (tiếp theo)",
+            "block_bbox": [
+                116,
+                79,
+                992,
+                217
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 513,
+            "global_group_id": 513,
+            "block_polygon_points": [
+                [
+                    116,
+                    199
+                ],
+                [
+                    124,
+                    216
+                ],
+                [
+                    792,
+                    216
+                ],
+                [
+                    912,
+                    199
+                ],
+                [
+                    984,
+                    182
+                ],
+                [
+                    991,
+                    79
+                ],
+                [
+                    124,
+                    79
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>CHÍ TIÊU</td><td>Mã số</td><td>Thuyết minh</td><td>Số cuối năm</td><td>Số đầu năm</td></tr><tr><td>B-</td><td>TÀI SẢN DÀI HẢN</td><td>200</td><td></td><td>2.162.065.751.899</td><td>2.212.552.178.058</td></tr><tr><td>I.</td><td>Các khoản phải thu dài hạn</td><td>210</td><td></td><td>32.632.443.257</td><td>22.608.094.440</td></tr><tr><td>1.</td><td>Phải thu dài hạn của khách hàng</td><td>211</td><td></td><td>-</td><td>-</td></tr><tr><td>2.</td><td>Trả trước cho người bán dài hạn</td><td>212</td><td></td><td>-</td><td>-</td></tr><tr><td>3.</td><td>Vốn kinh doanh ở đơn vị trực thuộc</td><td>213</td><td></td><td>-</td><td>-</td></tr><tr><td>4.</td><td>Phải thu nội bộ dài hạn</td><td>214</td><td></td><td>-</td><td>-</td></tr><tr><td>5.</td><td>Phải thu về cho vay dài hạn</td><td>215</td><td>V.5b</td><td>461.795.593</td><td>678.082.652</td></tr><tr><td>6.</td><td>Phải thu dài hạn khác</td><td>216</td><td>V.6b</td><td>32.170.647.664</td><td>21.930.011.788</td></tr><tr><td>7.</td><td>Dự phòng phải thu dài hạn khó đòi</td><td>219</td><td></td><td>-</td><td>-</td></tr><tr><td>II.</td><td>Tài sản cố định</td><td>220</td><td></td><td>1.031.788.418.453</td><td>1.102.095.359.611</td></tr><tr><td>1.</td><td>Tài sản cố định hữu hình</td><td>221</td><td>V.10</td><td>324.927.270.134</td><td>495.896.129.101</td></tr><tr><td>-</td><td>Nguyên giá</td><td>222</td><td></td><td>1.476.855.424.151</td><td>1.599.867.178.952</td></tr><tr><td>-</td><td>Giá trị hao mòn lũy kế</td><td>223</td><td></td><td>(1.151.928.154.017)</td><td>(1.103.971.049.851)</td></tr><tr><td>2.</td><td>Tài sản cố định thuê tài chính</td><td>224</td><td>V.11</td><td>360.415.020.182</td><td>253.960.185.490</td></tr><tr><td>-</td><td>Nguyên giá</td><td>225</td><td></td><td>427.728.087.319</td><td>293.366.167.308</td></tr><tr><td>-</td><td>Giá trị hao mòn lũy kế</td><td>226</td><td></td><td>(67.313.067.137)</td><td>(39.405.981.818)</td></tr><tr><td>3.</td><td>Tài sản cố định vô hình</td><td>227</td><td>V.12</td><td>346.446.128.137</td><td>352.239.045.020</td></tr><tr><td>-</td><td>Nguyên giá</td><td>228</td><td></td><td>375.481.151.250</td><td>375.640.450.157</td></tr><tr><td>-</td><td>Giá trị hao mòn lũy kế</td><td>229</td><td></td><td>(29.035.023.113)</td><td>(23.401.405.137)</td></tr><tr><td>III.</td><td>Bất động sản đầu tư</td><td>230</td><td></td><td>-</td><td>-</td></tr><tr><td>-</td><td>Nguyên giá</td><td>231</td><td></td><td>-</td><td>-</td></tr><tr><td>-</td><td>Giá trị hao mòn lũy kế</td><td>232</td><td></td><td>-</td><td>-</td></tr><tr><td>IV.</td><td>Tài sản dở đang dài hạn</td><td>240</td><td></td><td>918.169.485.953</td><td>896.238.268.370</td></tr><tr><td>1.</td><td>Chỉ phí sản xuất, kinh doanh dở dang dài hạn</td><td>241</td><td></td><td>-</td><td>-</td></tr><tr><td>2.</td><td>Chỉ phí xây dựng cơ bản dở dang</td><td>242</td><td>V.13</td><td>918.169.485.953</td><td>896.238.268.370</td></tr><tr><td>V.</td><td>Đầu tư tài chính dài hạn</td><td>250</td><td></td><td>71.816.442.593</td><td>76.153.322.937</td></tr><tr><td>1.</td><td>Đầu tư vào công ty con</td><td>251</td><td></td><td>-</td><td>-</td></tr><tr><td>2.</td><td>Đầu tư vào công ty liên doanh, liên kết</td><td>252</td><td>V.2b</td><td>64.978.217.413</td><td>69.001.451.300</td></tr><tr><td>3.</td><td>Đầu tư góp vốn vào đơn vị khác</td><td>253</td><td>V.2c</td><td>20.304.000.000</td><td>20.304.000.000</td></tr><tr><td>4.</td><td>Dự phòng đầu tư tài chính dài hạn</td><td>254</td><td>V.2c</td><td>(13.465.774.820)</td><td>(13.152.128.363)</td></tr><tr><td>5.</td><td>Đầu tư năm giữ đến ngày đảo hạn</td><td>255</td><td></td><td>-</td><td>-</td></tr><tr><td>VI.</td><td>Tài sản dài hạn khác</td><td>260</td><td></td><td>107.658.961.643</td><td>115.457.132.700</td></tr><tr><td>1.</td><td>Chỉ phí trả trước dài hạn</td><td>261</td><td>V.9b</td><td>95.920.727.945</td><td>99.797.062.338</td></tr><tr><td>2.</td><td>Tài sản thuê thu nhập hoãn lại</td><td>262</td><td>V.14</td><td>11.738.233.698</td><td>15.660.070.362</td></tr><tr><td>3.</td><td>Thiết bị, vật tư, phụ tùng thay thế dài hạn</td><td>263</td><td></td><td>-</td><td>-</td></tr><tr><td>4.</td><td>Tài sản dài hạn khác</td><td>268</td><td></td><td>-</td><td>-</td></tr><tr><td>5.</td><td>Lợi thế thương mại</td><td>269</td><td></td><td>-</td><td>-</td></tr><tr><td>TỔNG CỘNG TÀI SẢN</td><td>270</td><td></td><td>5.112.670.123.139</td><td>5.467.653.137.750</td><td></td></tr></table>",
+            "block_bbox": [
+                106,
+                224,
+                1597,
+                1920
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 514,
+            "global_group_id": 514,
+            "block_polygon_points": [
+                [
+                    106.0,
+                    224.0
+                ],
+                [
+                    1597.0,
+                    224.0
+                ],
+                [
+                    1597.0,
+                    1920.0
+                ],
+                [
+                    106.0,
+                    1920.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Báo cáo này phải được độc cùng với Bản thuyết mình Báo cáo tài chính hợp nhất",
+            "block_bbox": [
+                123,
+                2198,
+                914,
+                2235
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 515,
+            "global_group_id": 515,
+            "block_polygon_points": [
+                [
+                    123.0,
+                    2198.0
+                ],
+                [
+                    914.0,
+                    2198.0
+                ],
+                [
+                    914.0,
+                    2235.0
+                ],
+                [
+                    123.0,
+                    2235.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "7",
+            "block_bbox": [
+                1460,
+                2192,
+                1480,
+                2225
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 516,
+            "global_group_id": 516,
+            "block_polygon_points": [
+                [
+                    1460.0,
+                    2192.0
+                ],
+                [
+                    1479.0,
+                    2192.0
+                ],
+                [
+                    1479.0,
+                    2224.0
+                ],
+                [
+                    1460.0,
+                    2224.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6289902329444885,
+                "coordinate": [
+                    117,
+                    38,
+                    559,
+                    81
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        117.0,
+                        38.0
+                    ],
+                    [
+                        559.0,
+                        38.0
+                    ],
+                    [
+                        559.0,
+                        81.0
+                    ],
+                    [
+                        117.0,
+                        81.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5447341203689575,
+                "coordinate": [
+                    116,
+                    79,
+                    992,
+                    217
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        116,
+                        199
+                    ],
+                    [
+                        124,
+                        216
+                    ],
+                    [
+                        792,
+                        216
+                    ],
+                    [
+                        912,
+                        199
+                    ],
+                    [
+                        984,
+                        182
+                    ],
+                    [
+                        991,
+                        79
+                    ],
+                    [
+                        124,
+                        79
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9342504739761353,
+                "coordinate": [
+                    106,
+                    224,
+                    1597,
+                    1920
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        106.0,
+                        224.0
+                    ],
+                    [
+                        1597.0,
+                        224.0
+                    ],
+                    [
+                        1597.0,
+                        1920.0
+                    ],
+                    [
+                        106.0,
+                        1920.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.3140483498573303,
+                "coordinate": [
+                    1534,
+                    1489,
+                    1605,
+                    1775
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1542,
+                        1489
+                    ],
+                    [
+                        1534,
+                        1561
+                    ],
+                    [
+                        1534,
+                        1774
+                    ],
+                    [
+                        1604,
+                        1774
+                    ],
+                    [
+                        1604,
+                        1489
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.7571842670440674,
+                "coordinate": [
+                    123,
+                    2198,
+                    914,
+                    2235
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        123.0,
+                        2198.0
+                    ],
+                    [
+                        914.0,
+                        2198.0
+                    ],
+                    [
+                        914.0,
+                        2235.0
+                    ],
+                    [
+                        123.0,
+                        2235.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.4794895350933075,
+                "coordinate": [
+                    1460,
+                    2192,
+                    1480,
+                    2225
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        1460.0,
+                        2192.0
+                    ],
+                    [
+                        1479.0,
+                        2192.0
+                    ],
+                    [
+                        1479.0,
+                        2224.0
+                    ],
+                    [
+                        1460.0,
+                        2224.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

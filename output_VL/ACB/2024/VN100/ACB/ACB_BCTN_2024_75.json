@@ -1,0 +1,286 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2284,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "Ghi chú:",
+            "block_bbox": [
+                207,
+                197,
+                332,
+                237
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 997,
+            "global_group_id": 997,
+            "block_polygon_points": [
+                [
+                    207.0,
+                    197.0
+                ],
+                [
+                    332.0,
+                    197.0
+                ],
+                [
+                    332.0,
+                    237.0
+                ],
+                [
+                    207.0,
+                    237.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Tây Bắc:</td><td>Chưa hiện diện: 7/7, gồm có Lào Cai, Yên Bái, Phú Thọ, Điện Biên, Lai Châu, Sơn La, Hòa Bình.</td></tr><tr><td>Đông Bắc:</td><td>Thái Nguyên, Bắc Giang. Hiện diện: 2/7. Chưa hiện diện: Hà Giang, Cao Bằng, Bắc Kạn, Tuyên Quang, Lạng Sơn.</td></tr><tr><td>Đồng bằng sông Hồng:</td><td>Hà Nội, Vĩnh Phúc, Bắc Ninh, Quảng Ninh, Hải Dương, Hải Phòng, Hưng Yên, Hà Nam, Nam Định, Thái Bình. Hiện diện: 10/11. Chưa hiện diện: Ninh Bình.</td></tr><tr><td>Bắc Trung Bộ:</td><td>Thanh Hóa, Nghệ An, Hà Tĩnh, Quảng Bình, Quảng Trị. Hiện diện: 5/5.</td></tr><tr><td>Duyên hải Nam Trung Bộ:</td><td>Thừa Thiên Huế, Đà Nẵng, Quảng Nam, Quảng Ngãi, Bình Định, Phú Yên, Khánh Hòa, Ninh Thuận, Bình Thuận. Hiện diện 9/9.</td></tr><tr><td>Tây Nguyên:</td><td>Kon Tum, Gia Lai, Đắk Lắk, Lâm Đồng. Hiện diện: 4/5. Chưa hiện diện: Đắk Nông.</td></tr><tr><td>Đông Nam Bộ:</td><td>Bình Phước, Tây Ninh, Bình Dương, Đồng Nai, Bà Rịa - Vũng Tàu, TP. Hồ Chí Minh. Hiện diện: 6/6.</td></tr><tr><td>Đồng bằng sông Cửu Long:</td><td>Long An, Tiền Giang, Bến Tre, Đồng Tháp, Vĩnh Long, Trà Vinh, Cần Thơ, An Giang, Kiên Giang, Hậu Giang, Sóc Trăng, Bạc Liêu, Cà Mau. Hiện diện: 13/13.</td></tr></table>",
+            "block_bbox": [
+                209,
+                248,
+                1456,
+                1293
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 998,
+            "global_group_id": 998,
+            "block_polygon_points": [
+                [
+                    209.0,
+                    248.0
+                ],
+                [
+                    1456.0,
+                    248.0
+                ],
+                [
+                    1456.0,
+                    1293.0
+                ],
+                [
+                    209.0,
+                    1293.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2024",
+            "block_bbox": [
+                223,
+                2163,
+                463,
+                2200
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 999,
+            "global_group_id": 999,
+            "block_polygon_points": [
+                [
+                    223.0,
+                    2163.0
+                ],
+                [
+                    463.0,
+                    2163.0
+                ],
+                [
+                    463.0,
+                    2200.0
+                ],
+                [
+                    223.0,
+                    2200.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "73 / 86",
+            "block_bbox": [
+                1353,
+                2161,
+                1453,
+                2196
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 1000,
+            "global_group_id": 1000,
+            "block_polygon_points": [
+                [
+                    1353.0,
+                    2161.0
+                ],
+                [
+                    1453.0,
+                    2161.0
+                ],
+                [
+                    1453.0,
+                    2196.0
+                ],
+                [
+                    1353.0,
+                    2196.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3179992437362671,
+                "coordinate": [
+                    207,
+                    197,
+                    332,
+                    237
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        207.0,
+                        197.0
+                    ],
+                    [
+                        332.0,
+                        197.0
+                    ],
+                    [
+                        332.0,
+                        237.0
+                    ],
+                    [
+                        207.0,
+                        237.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.961764931678772,
+                "coordinate": [
+                    209,
+                    248,
+                    1456,
+                    1293
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        209.0,
+                        248.0
+                    ],
+                    [
+                        1456.0,
+                        248.0
+                    ],
+                    [
+                        1456.0,
+                        1293.0
+                    ],
+                    [
+                        209.0,
+                        1293.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8481394648551941,
+                "coordinate": [
+                    223,
+                    2163,
+                    463,
+                    2200
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        223.0,
+                        2163.0
+                    ],
+                    [
+                        463.0,
+                        2163.0
+                    ],
+                    [
+                        463.0,
+                        2200.0
+                    ],
+                    [
+                        223.0,
+                        2200.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8241194486618042,
+                "coordinate": [
+                    1353,
+                    2161,
+                    1453,
+                    2196
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        1353.0,
+                        2161.0
+                    ],
+                    [
+                        1453.0,
+                        2161.0
+                    ],
+                    [
+                        1453.0,
+                        2196.0
+                    ],
+                    [
+                        1353.0,
+                        2196.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,680 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1652,
+    "height": 2292,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>Số lượng cổ đông</td><td>Số lượng cổ phần</td><td>Tỷ lệ số hữu cổ phần</td></tr><tr><td>Cổ đông trong nước (1)</td><td>59.882</td><td>2.718.839.251</td><td>70,00%</td></tr><tr><td>- Tổ chức</td><td>296</td><td>882.168.182</td><td>22,71%</td></tr><tr><td>- Cá nhân</td><td>59.586</td><td>1.836.671.069</td><td>47,29%</td></tr><tr><td>Cổ đông nước ngoài (2)</td><td>152</td><td>1.165.211.107</td><td>30,00%</td></tr><tr><td>- Tổ chức</td><td>114</td><td>1.164.977.377</td><td>29,99%</td></tr><tr><td>- Cá nhân</td><td>38</td><td>233.730</td><td>0,01%</td></tr><tr><td>Cộng (1) &amp; (2)</td><td>60.034</td><td>3.884.050.358</td><td>100,00%</td></tr></table>",
+            "block_bbox": [
+                280,
+                370,
+                1359,
+                737
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 514,
+            "global_group_id": 514,
+            "block_polygon_points": [
+                [
+                    280.0,
+                    370.0
+                ],
+                [
+                    1359.0,
+                    370.0
+                ],
+                [
+                    1359.0,
+                    737.0
+                ],
+                [
+                    280.0,
+                    737.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                418,
+                772,
+                1290,
+                1184
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 515,
+            "global_group_id": 515,
+            "block_polygon_points": [
+                [
+                    418.0,
+                    772.0
+                ],
+                [
+                    1290.0,
+                    772.0
+                ],
+                [
+                    1290.0,
+                    1184.0
+                ],
+                [
+                    418.0,
+                    1184.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "5.2.5. Cổ đông lớn nước ngoài",
+            "block_bbox": [
+                275,
+                1232,
+                676,
+                1272
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "global_block_id": 516,
+            "global_group_id": 516,
+            "block_polygon_points": [
+                [
+                    275.0,
+                    1232.0
+                ],
+                [
+                    676.0,
+                    1232.0
+                ],
+                [
+                    676.0,
+                    1272.0
+                ],
+                [
+                    275.0,
+                    1272.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Tỷ lệ sở hữu nước ngoài tối đa tại ACB là 30%.\nCổ đông lớn nước ngoài sở hữu trực tiếp hoặc gián tiếp từ 5% vốn cổ phần có quyền biểu quyết trở lên, gồm có:",
+            "block_bbox": [
+                275,
+                1273,
+                842,
+                1318
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "global_block_id": 517,
+            "global_group_id": 517,
+            "block_polygon_points": [
+                [
+                    275.0,
+                    1273.0
+                ],
+                [
+                    842.0,
+                    1273.0
+                ],
+                [
+                    842.0,
+                    1318.0
+                ],
+                [
+                    275.0,
+                    1318.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                274,
+                1307,
+                1379,
+                1401
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 3,
+            "global_block_id": 518,
+            "global_group_id": 518,
+            "block_polygon_points": [
+                [
+                    1378,
+                    1307
+                ],
+                [
+                    406,
+                    1319
+                ],
+                [
+                    397,
+                    1319
+                ],
+                [
+                    274,
+                    1319
+                ],
+                [
+                    274,
+                    1400
+                ],
+                [
+                    1370,
+                    1389
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Tên</td><td>Địa chỉ</td><td>Ngành nghề</td><td>Số lượng cổ phần</td></tr><tr><td></td><td colspan=\"4\">Alp Asia Finance (Vietnam) Limited là tổ chức sở hữu cổ phần gián tiếp thông qua hai công ty con là cổ động của ACB sau đây:</td></tr><tr><td>1</td><td>Sather Gate Investments Limited</td><td>Kingston Chambers, PO Box 173, Road Town, Tortola, British Virgin Islands</td><td>Đầu tư</td><td>193.907.186 (4,99%)</td></tr><tr><td>2</td><td>Whistler Investments Limited</td><td>Kingston Chambers, PO Box 173, Road Town, Tortola, British Virgin Islands</td><td>Đầu tư</td><td>193.907.186 (4,99%)</td></tr></table>",
+            "block_bbox": [
+                281,
+                1393,
+                1362,
+                1928
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 519,
+            "global_group_id": 519,
+            "block_polygon_points": [
+                [
+                    281,
+                    1405
+                ],
+                [
+                    281,
+                    1927
+                ],
+                [
+                    1361,
+                    1916
+                ],
+                [
+                    1361,
+                    1393
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5.3. Tình hình thay đổi vốn đầu tư của chủ sở hữu",
+            "block_bbox": [
+                280,
+                1936,
+                924,
+                1981
+            ],
+            "block_id": 6,
+            "block_order": 4,
+            "group_id": 6,
+            "global_block_id": 520,
+            "global_group_id": 520,
+            "block_polygon_points": [
+                [
+                    280.0,
+                    1936.0
+                ],
+                [
+                    924.0,
+                    1936.0
+                ],
+                [
+                    924.0,
+                    1981.0
+                ],
+                [
+                    280.0,
+                    1981.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Sự thay đổi về vốn cô động như sau trong ba năm qua như sau:",
+            "block_bbox": [
+                278,
+                1987,
+                1025,
+                2036
+            ],
+            "block_id": 7,
+            "block_order": 5,
+            "group_id": 7,
+            "global_block_id": 521,
+            "global_group_id": 521,
+            "block_polygon_points": [
+                [
+                    277.5019836425781,
+                    1993.7255859375
+                ],
+                [
+                    1023.9725341796875,
+                    1984.719970703125
+                ],
+                [
+                    1024.470458984375,
+                    2025.994140625
+                ],
+                [
+                    277.9999084472656,
+                    2034.999755859375
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2023",
+            "block_bbox": [
+                303,
+                2114,
+                513,
+                2153
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 522,
+            "global_group_id": 522,
+            "block_polygon_points": [
+                [
+                    303.0,
+                    2114.0
+                ],
+                [
+                    513.0,
+                    2114.0
+                ],
+                [
+                    513.0,
+                    2153.0
+                ],
+                [
+                    303.0,
+                    2153.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "34/111",
+            "block_bbox": [
+                1277,
+                2102,
+                1382,
+                2136
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 523,
+            "global_group_id": 523,
+            "block_polygon_points": [
+                [
+                    1277.0,
+                    2102.0
+                ],
+                [
+                    1382.0,
+                    2102.0
+                ],
+                [
+                    1382.0,
+                    2136.0
+                ],
+                [
+                    1277.0,
+                    2136.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.969264566898346,
+                "coordinate": [
+                    280,
+                    370,
+                    1359,
+                    737
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        280.0,
+                        370.0
+                    ],
+                    [
+                        1359.0,
+                        370.0
+                    ],
+                    [
+                        1359.0,
+                        737.0
+                    ],
+                    [
+                        280.0,
+                        737.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.8946139216423035,
+                "coordinate": [
+                    418,
+                    772,
+                    1290,
+                    1184
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        418.0,
+                        772.0
+                    ],
+                    [
+                        1290.0,
+                        772.0
+                    ],
+                    [
+                        1290.0,
+                        1184.0
+                    ],
+                    [
+                        418.0,
+                        1184.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8365849256515503,
+                "coordinate": [
+                    275,
+                    1232,
+                    676,
+                    1272
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        275.0,
+                        1232.0
+                    ],
+                    [
+                        676.0,
+                        1232.0
+                    ],
+                    [
+                        676.0,
+                        1272.0
+                    ],
+                    [
+                        275.0,
+                        1272.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8122263550758362,
+                "coordinate": [
+                    275,
+                    1273,
+                    842,
+                    1318
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        275.0,
+                        1273.0
+                    ],
+                    [
+                        842.0,
+                        1273.0
+                    ],
+                    [
+                        842.0,
+                        1318.0
+                    ],
+                    [
+                        275.0,
+                        1318.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8992144465446472,
+                "coordinate": [
+                    274,
+                    1307,
+                    1379,
+                    1401
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        1378,
+                        1307
+                    ],
+                    [
+                        406,
+                        1319
+                    ],
+                    [
+                        397,
+                        1319
+                    ],
+                    [
+                        274,
+                        1319
+                    ],
+                    [
+                        274,
+                        1400
+                    ],
+                    [
+                        1370,
+                        1389
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9724609851837158,
+                "coordinate": [
+                    281,
+                    1393,
+                    1362,
+                    1928
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        281,
+                        1405
+                    ],
+                    [
+                        281,
+                        1927
+                    ],
+                    [
+                        1361,
+                        1916
+                    ],
+                    [
+                        1361,
+                        1393
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5318336486816406,
+                "coordinate": [
+                    280,
+                    1936,
+                    924,
+                    1981
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        280.0,
+                        1936.0
+                    ],
+                    [
+                        924.0,
+                        1936.0
+                    ],
+                    [
+                        924.0,
+                        1981.0
+                    ],
+                    [
+                        280.0,
+                        1981.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7914093136787415,
+                "coordinate": [
+                    278,
+                    1987,
+                    1025,
+                    2036
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        277.5019836425781,
+                        1993.7255859375
+                    ],
+                    [
+                        1023.9725341796875,
+                        1984.719970703125
+                    ],
+                    [
+                        1024.470458984375,
+                        2025.994140625
+                    ],
+                    [
+                        277.9999084472656,
+                        2034.999755859375
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8274598717689514,
+                "coordinate": [
+                    303,
+                    2114,
+                    513,
+                    2153
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        303.0,
+                        2114.0
+                    ],
+                    [
+                        513.0,
+                        2114.0
+                    ],
+                    [
+                        513.0,
+                        2153.0
+                    ],
+                    [
+                        303.0,
+                        2153.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8215104341506958,
+                "coordinate": [
+                    1277,
+                    2102,
+                    1382,
+                    2136
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        1277.0,
+                        2102.0
+                    ],
+                    [
+                        1382.0,
+                        2102.0
+                    ],
+                    [
+                        1382.0,
+                        2136.0
+                    ],
+                    [
+                        1277.0,
+                        2136.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

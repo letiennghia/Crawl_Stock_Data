@@ -1,0 +1,893 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2314,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                652,
+                0,
+                994,
+                56
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1156,
+            "global_group_id": 1156,
+            "block_polygon_points": [
+                [
+                    652.0,
+                    0.0
+                ],
+                [
+                    994.0,
+                    0.0
+                ],
+                [
+                    994.0,
+                    56.0
+                ],
+                [
+                    652.0,
+                    56.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "(ĐVT: tần CO₂)",
+            "block_bbox": [
+                1205,
+                245,
+                1406,
+                285
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1157,
+            "global_group_id": 1157,
+            "block_polygon_points": [
+                [
+                    1205.0,
+                    245.0
+                ],
+                [
+                    1406.0,
+                    245.0
+                ],
+                [
+                    1406.0,
+                    285.0
+                ],
+                [
+                    1205.0,
+                    285.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Các biện pháp giảm phát thải (tần  $ CO_{2} $)</td><td>2021</td><td>2022</td></tr><tr><td>Tiết kiệm giấy</td><td>73</td><td>112</td></tr></table>",
+            "block_bbox": [
+                214,
+                282,
+                1394,
+                482
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1158,
+            "global_group_id": 1158,
+            "block_polygon_points": [
+                [
+                    1393,
+                    294
+                ],
+                [
+                    1377,
+                    282
+                ],
+                [
+                    1336,
+                    282
+                ],
+                [
+                    1319,
+                    294
+                ],
+                [
+                    1187,
+                    282
+                ],
+                [
+                    1162,
+                    294
+                ],
+                [
+                    214,
+                    294
+                ],
+                [
+                    214,
+                    481
+                ],
+                [
+                    1393,
+                    470
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Lượng phát thải giảm theo năm",
+            "block_bbox": [
+                545,
+                530,
+                963,
+                571
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 1159,
+            "global_group_id": 1159,
+            "block_polygon_points": [
+                [
+                    545.0,
+                    530.0
+                ],
+                [
+                    963.0,
+                    530.0
+                ],
+                [
+                    963.0,
+                    571.0
+                ],
+                [
+                    545.0,
+                    571.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                543,
+                576,
+                1164,
+                996
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 1160,
+            "global_group_id": 1160,
+            "block_polygon_points": [
+                [
+                    543.0,
+                    576.0
+                ],
+                [
+                    1164.0,
+                    576.0
+                ],
+                [
+                    1164.0,
+                    996.0
+                ],
+                [
+                    543.0,
+                    996.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Trung hòa carbon:",
+            "block_bbox": [
+                199,
+                1045,
+                516,
+                1084
+            ],
+            "block_id": 5,
+            "block_order": 1,
+            "group_id": 5,
+            "global_block_id": 1161,
+            "global_group_id": 1161,
+            "block_polygon_points": [
+                [
+                    199.0,
+                    1045.0
+                ],
+                [
+                    507.0,
+                    1045.0
+                ],
+                [
+                    507.0,
+                    1083.0
+                ],
+                [
+                    199.0,
+                    1083.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Lượng phát thải khí nhà kinh phát sinh trong hoạt động vận hành hàng ngày, nhất là khí CO₂, là không thể tránh khỏi, nên ACB chủ trọng thực hiện các biện pháp trung hòa carbon bằng cách loại bỏ carbon hoặc đền bù carbon. Trong năm 2022, khoảng 182 tấn CO₂ tương đương đã được ACB đền bù thông qua sử dụng thảm tái chế và các chương trình Gần lại O.",
+            "block_bbox": [
+                207,
+                1105,
+                1410,
+                1256
+            ],
+            "block_id": 6,
+            "block_order": 2,
+            "group_id": 6,
+            "global_block_id": 1162,
+            "global_group_id": 1162,
+            "block_polygon_points": [
+                [
+                    207.0,
+                    1105.0
+                ],
+                [
+                    1410.0,
+                    1105.0
+                ],
+                [
+                    1410.0,
+                    1256.0
+                ],
+                [
+                    207.0,
+                    1256.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "(ĐVT: tần CO₂)",
+            "block_bbox": [
+                1202,
+                1269,
+                1407,
+                1307
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 1163,
+            "global_group_id": 1163,
+            "block_polygon_points": [
+                [
+                    1202.0,
+                    1269.0
+                ],
+                [
+                    1407.0,
+                    1269.0
+                ],
+                [
+                    1407.0,
+                    1307.0
+                ],
+                [
+                    1202.0,
+                    1307.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Các biện pháp trung hòa</td><td>2022</td></tr><tr><td>Thảm tái chế</td><td>181</td></tr><tr><td>Thu gom rác, tái chế giấy và trồng cây xanh</td><td>1</td></tr><tr><td>Tổng</td><td>182</td></tr></table>",
+            "block_bbox": [
+                256,
+                1308,
+                1396,
+                1655
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 1164,
+            "global_group_id": 1164,
+            "block_polygon_points": [
+                [
+                    256.0,
+                    1308.0
+                ],
+                [
+                    1396.0,
+                    1308.0
+                ],
+                [
+                    1396.0,
+                    1655.0
+                ],
+                [
+                    256.0,
+                    1655.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Bảng Tổng lượng trung hòa carbon năm 2022",
+            "block_bbox": [
+                553,
+                1679,
+                1160,
+                1722
+            ],
+            "block_id": 9,
+            "block_order": 3,
+            "group_id": 9,
+            "global_block_id": 1165,
+            "global_group_id": 1165,
+            "block_polygon_points": [
+                [
+                    553.0,
+                    1679.0
+                ],
+                [
+                    1160.0,
+                    1679.0
+                ],
+                [
+                    1160.0,
+                    1722.0
+                ],
+                [
+                    553.0,
+                    1722.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Thăm tái chế từ lưới đánh cá là loại thăm trong Chương trình Thăm trung hòa carbon (The Carbon Neutral Floors) được chứng nhận tiêu chuẩn PAS 2060 của Viện Tiêu chuẩn Anh về nỗ lực quản lý và giảm phát thải khí nhà kính. ACB đã dùng loại thăm này cho các tòa nhà lớn của mình.",
+            "block_bbox": [
+                208,
+                1745,
+                1409,
+                1893
+            ],
+            "block_id": 10,
+            "block_order": 4,
+            "group_id": 10,
+            "global_block_id": 1166,
+            "global_group_id": 1166,
+            "block_polygon_points": [
+                [
+                    208.0,
+                    1745.0
+                ],
+                [
+                    1409.0,
+                    1745.0
+                ],
+                [
+                    1409.0,
+                    1893.0
+                ],
+                [
+                    208.0,
+                    1893.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2022",
+            "block_bbox": [
+                232,
+                1996,
+                455,
+                2036
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 1167,
+            "global_group_id": 1167,
+            "block_polygon_points": [
+                [
+                    232.0,
+                    1996.0
+                ],
+                [
+                    455.0,
+                    1996.0
+                ],
+                [
+                    455.0,
+                    2036.0
+                ],
+                [
+                    232.0,
+                    2036.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 89 of 113",
+            "block_bbox": [
+                1121,
+                1992,
+                1318,
+                2032
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "global_block_id": 1168,
+            "global_group_id": 1168,
+            "block_polygon_points": [
+                [
+                    1121.0,
+                    1992.0
+                ],
+                [
+                    1318.0,
+                    1992.0
+                ],
+                [
+                    1318.0,
+                    2032.0
+                ],
+                [
+                    1121.0,
+                    2032.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.3888506293296814,
+                "coordinate": [
+                    652,
+                    0,
+                    994,
+                    56
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        652.0,
+                        0.0
+                    ],
+                    [
+                        994.0,
+                        0.0
+                    ],
+                    [
+                        994.0,
+                        56.0
+                    ],
+                    [
+                        652.0,
+                        56.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.48024243116378784,
+                "coordinate": [
+                    1205,
+                    245,
+                    1406,
+                    285
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1205.0,
+                        245.0
+                    ],
+                    [
+                        1406.0,
+                        245.0
+                    ],
+                    [
+                        1406.0,
+                        285.0
+                    ],
+                    [
+                        1205.0,
+                        285.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9294235706329346,
+                "coordinate": [
+                    214,
+                    282,
+                    1394,
+                    482
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1393,
+                        294
+                    ],
+                    [
+                        1377,
+                        282
+                    ],
+                    [
+                        1336,
+                        282
+                    ],
+                    [
+                        1319,
+                        294
+                    ],
+                    [
+                        1187,
+                        282
+                    ],
+                    [
+                        1162,
+                        294
+                    ],
+                    [
+                        214,
+                        294
+                    ],
+                    [
+                        214,
+                        481
+                    ],
+                    [
+                        1393,
+                        470
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.559550404548645,
+                "coordinate": [
+                    545,
+                    530,
+                    963,
+                    571
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        545.0,
+                        530.0
+                    ],
+                    [
+                        963.0,
+                        530.0
+                    ],
+                    [
+                        963.0,
+                        571.0
+                    ],
+                    [
+                        545.0,
+                        571.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.9051793217658997,
+                "coordinate": [
+                    543,
+                    576,
+                    1164,
+                    996
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        543.0,
+                        576.0
+                    ],
+                    [
+                        1164.0,
+                        576.0
+                    ],
+                    [
+                        1164.0,
+                        996.0
+                    ],
+                    [
+                        543.0,
+                        996.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7167055606842041,
+                "coordinate": [
+                    199,
+                    1045,
+                    516,
+                    1084
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        199.0,
+                        1045.0
+                    ],
+                    [
+                        507.0,
+                        1045.0
+                    ],
+                    [
+                        507.0,
+                        1083.0
+                    ],
+                    [
+                        199.0,
+                        1083.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9178523421287537,
+                "coordinate": [
+                    207,
+                    1105,
+                    1410,
+                    1256
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        207.0,
+                        1105.0
+                    ],
+                    [
+                        1410.0,
+                        1105.0
+                    ],
+                    [
+                        1410.0,
+                        1256.0
+                    ],
+                    [
+                        207.0,
+                        1256.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.5352534651756287,
+                "coordinate": [
+                    1202,
+                    1269,
+                    1407,
+                    1307
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1202.0,
+                        1269.0
+                    ],
+                    [
+                        1407.0,
+                        1269.0
+                    ],
+                    [
+                        1407.0,
+                        1307.0
+                    ],
+                    [
+                        1202.0,
+                        1307.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9510908722877502,
+                "coordinate": [
+                    256,
+                    1308,
+                    1396,
+                    1655
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        256.0,
+                        1308.0
+                    ],
+                    [
+                        1396.0,
+                        1308.0
+                    ],
+                    [
+                        1396.0,
+                        1655.0
+                    ],
+                    [
+                        256.0,
+                        1655.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.584942102432251,
+                "coordinate": [
+                    553,
+                    1679,
+                    1160,
+                    1722
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        553.0,
+                        1679.0
+                    ],
+                    [
+                        1160.0,
+                        1679.0
+                    ],
+                    [
+                        1160.0,
+                        1722.0
+                    ],
+                    [
+                        553.0,
+                        1722.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.861003577709198,
+                "coordinate": [
+                    208,
+                    1745,
+                    1409,
+                    1893
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        208.0,
+                        1745.0
+                    ],
+                    [
+                        1409.0,
+                        1745.0
+                    ],
+                    [
+                        1409.0,
+                        1893.0
+                    ],
+                    [
+                        208.0,
+                        1893.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8316855430603027,
+                "coordinate": [
+                    232,
+                    1996,
+                    455,
+                    2036
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        232.0,
+                        1996.0
+                    ],
+                    [
+                        455.0,
+                        1996.0
+                    ],
+                    [
+                        455.0,
+                        2036.0
+                    ],
+                    [
+                        232.0,
+                        2036.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8392670750617981,
+                "coordinate": [
+                    1121,
+                    1992,
+                    1318,
+                    2032
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1121.0,
+                        1992.0
+                    ],
+                    [
+                        1318.0,
+                        1992.0
+                    ],
+                    [
+                        1318.0,
+                        2032.0
+                    ],
+                    [
+                        1121.0,
+                        2032.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

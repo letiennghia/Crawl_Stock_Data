@@ -1,0 +1,223 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>TT</td><td>Họ và tên</td><td>Chức vụ</td><td>Quá trình công tác</td></tr><tr><td></td><td></td><td></td><td>Việt. - Từ năm 2001 đến tháng 09 năm 2006: Tổng Giám đốc Công ty TNHH Nam Việt. - Từ năm 1971 đến năm 2001: Sỹ quan quân đội (cấp bậc Thượng tá) đến 2001 nghỉ hưu. - Số lượng cổ phần sở hữu cá nhân: 71.805.000 cổ phần - 56,3% vốn điều lệ.</td></tr><tr><td>2</td><td>Ông Đỗ Lập Nghiệp</td><td>Chủ tịch HĐQT-Phó Tổng Giám đốc</td><td>- Năm sinh: 1975. - Trình độ chuyên môn: Thạc sỹ Quản trị Kinh doanh. - Quá trình công tác: - Từ tháng 01/2011: Thành viên Hội đồng quản trị, Phó Tổng Giám Đốc Công ty cổ phần Nam Việt. - Từ năm 2004 đến tháng 09 năm 2010: Giám đốc sản xuất Công ty CP Nam Việt. - Từ năm 2000 đến năm 2004: Phó Giám đốc Nhà máy đồng lạnh Thuy sản Nam Việt. - Số lượng cổ phần sở hữu cá nhân: 19.000 cổ phần - 0,15% vốn điều lệ.</td></tr><tr><td>3</td><td>Ông Trần Minh Cảnh</td><td>Thành viên HĐQT-Phó Tổng giám đốc</td><td>- Năm sinh: 1965. - Trình độ chuyên môn: Cử nhân Kinh tế. - Quá trình công tác: - Từ năm 2008 đến 2010: Phó Giám Đốc Tài chính, Công ty CP Nam Việt. - Từ 2010 đến tháng 06/2017: Giám Đốc Tài Chính, Công ty CP Nam Việt. - Từ 01/7/2020: Phó Tổng Giám đốc phụ trách tài chính. - Số lượng cổ phần sở hữu cá nhân: 0 cổ phần - 0% vốn điều lệ.</td></tr></table>",
+            "block_bbox": [
+                196,
+                196,
+                1458,
+                2031
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 153,
+            "global_group_id": 153,
+            "block_polygon_points": [
+                [
+                    196.0,
+                    196.0
+                ],
+                [
+                    1458.0,
+                    196.0
+                ],
+                [
+                    1458.0,
+                    2031.0
+                ],
+                [
+                    196.0,
+                    2031.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "14",
+            "block_bbox": [
+                753,
+                2102,
+                792,
+                2134
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 154,
+            "global_group_id": 154,
+            "block_polygon_points": [
+                [
+                    753.0,
+                    2102.0
+                ],
+                [
+                    791.0,
+                    2102.0
+                ],
+                [
+                    791.0,
+                    2133.0
+                ],
+                [
+                    753.0,
+                    2133.0
+                ]
+            ]
+        },
+        {
+            "block_label": "aside_text",
+            "block_content": "11-1",
+            "block_bbox": [
+                1576,
+                767,
+                1604,
+                1068
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 155,
+            "global_group_id": 155,
+            "block_polygon_points": [
+                [
+                    1576.0,
+                    767.0
+                ],
+                [
+                    1604.0,
+                    767.0
+                ],
+                [
+                    1604.0,
+                    1068.0
+                ],
+                [
+                    1576.0,
+                    1068.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9709908962249756,
+                "coordinate": [
+                    196,
+                    196,
+                    1458,
+                    2031
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        196.0,
+                        196.0
+                    ],
+                    [
+                        1458.0,
+                        196.0
+                    ],
+                    [
+                        1458.0,
+                        2031.0
+                    ],
+                    [
+                        196.0,
+                        2031.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6652536392211914,
+                "coordinate": [
+                    753,
+                    2102,
+                    792,
+                    2134
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        753.0,
+                        2102.0
+                    ],
+                    [
+                        791.0,
+                        2102.0
+                    ],
+                    [
+                        791.0,
+                        2133.0
+                    ],
+                    [
+                        753.0,
+                        2133.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.37373775243759155,
+                "coordinate": [
+                    1576,
+                    767,
+                    1604,
+                    1068
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1576.0,
+                        767.0
+                    ],
+                    [
+                        1604.0,
+                        767.0
+                    ],
+                    [
+                        1604.0,
+                        1068.0
+                    ],
+                    [
+                        1576.0,
+                        1068.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

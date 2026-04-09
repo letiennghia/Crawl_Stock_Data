@@ -1,0 +1,421 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "doc_title",
+            "block_content": "XÁC NHẬN CỦA ĐẠI DIỆN THEO PHÁP LUẬT\nCỦA CÔNG TY\n(Ký, ghi rõ ho tên, đóng dấu)\nTỔNG GIÁM ĐỐC",
+            "block_bbox": [
+                561,
+                283,
+                1475,
+                466
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 530,
+            "global_group_id": 530,
+            "block_polygon_points": [
+                [
+                    561.0,
+                    283.0
+                ],
+                [
+                    1475.0,
+                    283.0
+                ],
+                [
+                    1475.0,
+                    466.0
+                ],
+                [
+                    561.0,
+                    466.0
+                ]
+            ]
+        },
+        {
+            "block_label": "seal",
+            "block_content": "",
+            "block_bbox": [
+                778,
+                399,
+                1089,
+                749
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 531,
+            "global_group_id": 531,
+            "block_polygon_points": [
+                [
+                    786,
+                    449
+                ],
+                [
+                    778,
+                    483
+                ],
+                [
+                    778,
+                    715
+                ],
+                [
+                    786,
+                    748
+                ],
+                [
+                    913,
+                    748
+                ],
+                [
+                    929,
+                    732
+                ],
+                [
+                    961,
+                    715
+                ],
+                [
+                    1009,
+                    698
+                ],
+                [
+                    1057,
+                    682
+                ],
+                [
+                    1073,
+                    665
+                ],
+                [
+                    1081,
+                    648
+                ],
+                [
+                    1088,
+                    433
+                ],
+                [
+                    818,
+                    433
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Doãn Cói",
+            "block_bbox": [
+                1083,
+                702,
+                1242,
+                767
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "global_block_id": 532,
+            "global_group_id": 532,
+            "block_polygon_points": [
+                [
+                    1083.0,
+                    702.0
+                ],
+                [
+                    1242.0,
+                    702.0
+                ],
+                [
+                    1242.0,
+                    767.0
+                ],
+                [
+                    1083.0,
+                    767.0
+                ]
+            ]
+        },
+        {
+            "block_label": "seal",
+            "block_content": "",
+            "block_bbox": [
+                1396,
+                1463,
+                1452,
+                1638
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "global_block_id": 533,
+            "global_group_id": 533,
+            "block_polygon_points": [
+                [
+                    1396.0,
+                    1463.0
+                ],
+                [
+                    1452.0,
+                    1463.0
+                ],
+                [
+                    1452.0,
+                    1638.0
+                ],
+                [
+                    1396.0,
+                    1638.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "44",
+            "block_bbox": [
+                785,
+                2078,
+                827,
+                2115
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 534,
+            "global_group_id": 534,
+            "block_polygon_points": [
+                [
+                    785.0,
+                    2077.999755859375
+                ],
+                [
+                    826.0,
+                    2077.999755859375
+                ],
+                [
+                    826.0,
+                    2113.999755859375
+                ],
+                [
+                    785.0,
+                    2113.999755859375
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.32719892263412476,
+                "coordinate": [
+                    561,
+                    283,
+                    1475,
+                    466
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        561.0,
+                        283.0
+                    ],
+                    [
+                        1475.0,
+                        283.0
+                    ],
+                    [
+                        1475.0,
+                        466.0
+                    ],
+                    [
+                        561.0,
+                        466.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 20,
+                "label": "seal",
+                "score": 0.39471521973609924,
+                "coordinate": [
+                    778,
+                    399,
+                    1089,
+                    749
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        786,
+                        449
+                    ],
+                    [
+                        778,
+                        483
+                    ],
+                    [
+                        778,
+                        715
+                    ],
+                    [
+                        786,
+                        748
+                    ],
+                    [
+                        913,
+                        748
+                    ],
+                    [
+                        929,
+                        732
+                    ],
+                    [
+                        961,
+                        715
+                    ],
+                    [
+                        1009,
+                        698
+                    ],
+                    [
+                        1057,
+                        682
+                    ],
+                    [
+                        1073,
+                        665
+                    ],
+                    [
+                        1081,
+                        648
+                    ],
+                    [
+                        1088,
+                        433
+                    ],
+                    [
+                        818,
+                        433
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.71844482421875,
+                "coordinate": [
+                    1083,
+                    702,
+                    1242,
+                    767
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        1083.0,
+                        702.0
+                    ],
+                    [
+                        1242.0,
+                        702.0
+                    ],
+                    [
+                        1242.0,
+                        767.0
+                    ],
+                    [
+                        1083.0,
+                        767.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 20,
+                "label": "seal",
+                "score": 0.4818296432495117,
+                "coordinate": [
+                    1396,
+                    1463,
+                    1452,
+                    1638
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        1396.0,
+                        1463.0
+                    ],
+                    [
+                        1452.0,
+                        1463.0
+                    ],
+                    [
+                        1452.0,
+                        1638.0
+                    ],
+                    [
+                        1396.0,
+                        1638.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6548758745193481,
+                "coordinate": [
+                    785,
+                    2078,
+                    827,
+                    2115
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        785.0,
+                        2077.999755859375
+                    ],
+                    [
+                        826.0,
+                        2077.999755859375
+                    ],
+                    [
+                        826.0,
+                        2113.999755859375
+                    ],
+                    [
+                        785.0,
+                        2113.999755859375
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,223 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2308,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "BCTN ACB 2022",
+            "block_bbox": [
+                163,
+                429,
+                202,
+                650
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1434,
+            "global_group_id": 1434,
+            "block_polygon_points": [
+                [
+                    163.0,
+                    429.0
+                ],
+                [
+                    202.0,
+                    429.0
+                ],
+                [
+                    202.0,
+                    650.0
+                ],
+                [
+                    163.0,
+                    650.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page III of III3",
+            "block_bbox": [
+                160,
+                1835,
+                202,
+                2043
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1435,
+            "global_group_id": 1435,
+            "block_polygon_points": [
+                [
+                    160.0,
+                    1835.0
+                ],
+                [
+                    202.0,
+                    1835.0
+                ],
+                [
+                    202.0,
+                    2043.0
+                ],
+                [
+                    160.0,
+                    2043.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td rowspan=\"2\">Kết quả nổi bật 2022</td><td>Cổ đông &amp; Nhà đâu tư</td><td>Khách hàng</td><td>Nhân viên</td><td>Cơ quan quản lý Nhà nước</td><td>Đối tác cung cấp dịch vụ</td><td>Cộng đồng địa phương</td></tr><tr><td>- Chỉ trả cổ tức bằng cổ phiếu tỷ lệ 100:25.</td><td>- 41% khách hàng sản sang giới thiệu ACB cho bạn bè và người thân trong năm 2022.</td><td>- 57% nhân viên đánh giá là hài lòng và rất hài lòng với gói phúc lợi hiện tại.</td><td>- ACB đã nộp ngân sách hom 2.569 tỷ đồng thuế năm 2022, trong đó hom 1.580 tỷ đồng thuế thu nhập doanh nghiệp.</td><td>- Không có khiếu nại từ nhà cung cấp.</td><td>- ACB đã dành ngân sách hom 3 tỷ đồng cho các hoạt động công đồng xã hội.</td></tr></table>",
+            "block_bbox": [
+                983,
+                336,
+                1440,
+                2064
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1436,
+            "global_group_id": 1436,
+            "block_polygon_points": [
+                [
+                    983.0,
+                    336.0
+                ],
+                [
+                    1440.0,
+                    336.0
+                ],
+                [
+                    1440.0,
+                    2064.0
+                ],
+                [
+                    983.0,
+                    2064.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.5369076728820801,
+                "coordinate": [
+                    163,
+                    429,
+                    202,
+                    650
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        163.0,
+                        429.0
+                    ],
+                    [
+                        202.0,
+                        429.0
+                    ],
+                    [
+                        202.0,
+                        650.0
+                    ],
+                    [
+                        163.0,
+                        650.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.37228232622146606,
+                "coordinate": [
+                    160,
+                    1835,
+                    202,
+                    2043
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        160.0,
+                        1835.0
+                    ],
+                    [
+                        202.0,
+                        1835.0
+                    ],
+                    [
+                        202.0,
+                        2043.0
+                    ],
+                    [
+                        160.0,
+                        2043.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9668062925338745,
+                "coordinate": [
+                    983,
+                    336,
+                    1440,
+                    2064
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        983.0,
+                        336.0
+                    ],
+                    [
+                        1440.0,
+                        336.0
+                    ],
+                    [
+                        1440.0,
+                        2064.0
+                    ],
+                    [
+                        983.0,
+                        2064.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

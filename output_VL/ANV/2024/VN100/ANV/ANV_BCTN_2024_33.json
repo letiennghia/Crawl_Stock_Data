@@ -1,0 +1,349 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Năm 2024</td><td>Thu nhập</td></tr><tr><td>2. Ông Doãn Tới - Phó Chủ tịch Hội đồng quản trị kiêm Tổng Giám đốc</td><td>228.756.000</td></tr><tr><td>3. Bà Dương Thị Kim Hương - Phó Tổng Giám đốc</td><td>108.756.000</td></tr><tr><td>4. Ông Trần Minh Cảnh - Thành viên Hội đồng quản trị kiêm Phó Tổng Giám đốc</td><td>1.166.513.746</td></tr><tr><td>5. Ông Nguyễn Văn Vỹ - Phó Tổng Giám đốc</td><td>919.292.000</td></tr><tr><td>6. Ông Nguyễn Thanh Liêm - Phó Tổng Giám đốc</td><td>920.292.000</td></tr><tr><td>7. Bà Đỗ Thị Thanh Thủy - Thành viên Hội đồng quản trị - Kiêm Thành viên ủy ban kiểm toán - Bồ nhiệm TV HĐQT ngày 11/06/2022</td><td>576.705.000</td></tr><tr><td>8. Bà Nguyễn Hà Thu Diễm - Kế toán trưởng</td><td>474.765.277</td></tr><tr><td>9. Bà Nguyễn Thị Minh Ý - Thành viên HĐQT độc lập - Kiêm Chủ tịch Ủy ban kiểm toán</td><td>50.000.000</td></tr><tr><td>10. Ông Lê Tiến Dũng - Trường ban kiểm toán nội bộ</td><td>324.918.000</td></tr><tr><td>11. Ông Dương Minh Phong - Thành viên ban kiểm toán nội bộ</td><td>178.055.000</td></tr><tr><td>Cộng</td><td>6.119.802.650</td></tr></table>",
+            "block_bbox": [
+                185,
+                189,
+                1411,
+                1199
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 400,
+            "global_group_id": 400,
+            "block_polygon_points": [
+                [
+                    185.0,
+                    189.0
+                ],
+                [
+                    1411.0,
+                    189.0
+                ],
+                [
+                    1411.0,
+                    1199.0
+                ],
+                [
+                    185.0,
+                    1199.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "b. Giao dịch cổ phiếu của người nội bộ:",
+            "block_bbox": [
+                245,
+                1255,
+                827,
+                1297
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 401,
+            "global_group_id": 401,
+            "block_polygon_points": [
+                [
+                    245.0,
+                    1255.0
+                ],
+                [
+                    827.0,
+                    1255.0
+                ],
+                [
+                    827.0,
+                    1297.0
+                ],
+                [
+                    245.0,
+                    1297.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td rowspan=\"2\">TT</td><td rowspan=\"2\">Người thực hiện giao dịch</td><td rowspan=\"2\">Quan hệ với người nội bộ</td><td colspan=\"2\">Số cổ phiếu sở hữu đầu kỳ</td><td colspan=\"2\">Số cổ phiếu sở hữu cuối kỳ</td><td rowspan=\"2\">Lý do tăng giảm</td></tr><tr><td>Số lượng</td><td>Tỷ lệ</td><td>Số lượng</td><td>Tỷ lệ</td></tr><tr><td>1</td><td>Doãn Tới</td><td>Phó Chủ tịch HDQT-TGD</td><td>71.805.000</td><td>53,94%</td><td>143.610.000</td><td>53,85%</td><td>Nhận cổ phiếu thưởng tỷ lệ 1:1</td></tr><tr><td>2</td><td>Đỗ Lập Nghiệp</td><td>Chủ tịch HDQT-Phó TGD</td><td>469.000</td><td>0,35%</td><td>938.000</td><td>0,35%</td><td>Nhận cổ phiếu thưởng tỷ lệ 1:1</td></tr></table>",
+            "block_bbox": [
+                180,
+                1305,
+                1426,
+                2006
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 402,
+            "global_group_id": 402,
+            "block_polygon_points": [
+                [
+                    180.0,
+                    1305.0
+                ],
+                [
+                    1426.0,
+                    1305.0
+                ],
+                [
+                    1426.0,
+                    2006.0
+                ],
+                [
+                    180.0,
+                    2006.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "33",
+            "block_bbox": [
+                743,
+                2082,
+                775,
+                2110
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 403,
+            "global_group_id": 403,
+            "block_polygon_points": [
+                [
+                    743.0,
+                    2082.0
+                ],
+                [
+                    774.0,
+                    2082.0
+                ],
+                [
+                    774.0,
+                    2109.0
+                ],
+                [
+                    743.0,
+                    2109.0
+                ]
+            ]
+        },
+        {
+            "block_label": "aside_text",
+            "block_content": "네티 온오씨 캘네",
+            "block_bbox": [
+                1551,
+                676,
+                1598,
+                966
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 404,
+            "global_group_id": 404,
+            "block_polygon_points": [
+                [
+                    1551.0,
+                    676.0
+                ],
+                [
+                    1598.0,
+                    676.0
+                ],
+                [
+                    1598.0,
+                    966.0
+                ],
+                [
+                    1551.0,
+                    966.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9685085415840149,
+                "coordinate": [
+                    185,
+                    189,
+                    1411,
+                    1199
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        185.0,
+                        189.0
+                    ],
+                    [
+                        1411.0,
+                        189.0
+                    ],
+                    [
+                        1411.0,
+                        1199.0
+                    ],
+                    [
+                        185.0,
+                        1199.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.6238992810249329,
+                "coordinate": [
+                    245,
+                    1255,
+                    827,
+                    1297
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        245.0,
+                        1255.0
+                    ],
+                    [
+                        827.0,
+                        1255.0
+                    ],
+                    [
+                        827.0,
+                        1297.0
+                    ],
+                    [
+                        245.0,
+                        1297.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9674495458602905,
+                "coordinate": [
+                    180,
+                    1305,
+                    1426,
+                    2006
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        180.0,
+                        1305.0
+                    ],
+                    [
+                        1426.0,
+                        1305.0
+                    ],
+                    [
+                        1426.0,
+                        2006.0
+                    ],
+                    [
+                        180.0,
+                        2006.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6541450023651123,
+                "coordinate": [
+                    743,
+                    2082,
+                    775,
+                    2110
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        743.0,
+                        2082.0
+                    ],
+                    [
+                        774.0,
+                        2082.0
+                    ],
+                    [
+                        774.0,
+                        2109.0
+                    ],
+                    [
+                        743.0,
+                        2109.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.7294408082962036,
+                "coordinate": [
+                    1551,
+                    676,
+                    1598,
+                    966
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1551.0,
+                        676.0
+                    ],
+                    [
+                        1598.0,
+                        676.0
+                    ],
+                    [
+                        1598.0,
+                        966.0
+                    ],
+                    [
+                        1551.0,
+                        966.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

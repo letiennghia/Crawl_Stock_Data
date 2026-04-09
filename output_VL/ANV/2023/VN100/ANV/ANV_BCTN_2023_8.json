@@ -1,0 +1,223 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "Ngành nghề kinh : Sản xuất điện năng lượng mặt trời. doanh chính",
+            "block_bbox": [
+                219,
+                90,
+                1123,
+                183
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 76,
+            "global_group_id": 76,
+            "block_polygon_points": [
+                [
+                    219.0,
+                    90.0
+                ],
+                [
+                    1123.0,
+                    90.0
+                ],
+                [
+                    1123.0,
+                    183.0
+                ],
+                [
+                    219.0,
+                    183.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>vii. Tên Công ty</td><td>: Công ty TNHH MTV Bất động sản Nam Việt (giải thể ngày 23/8/2023)</td></tr><tr><td>Địa chỉ</td><td>19D Trần Hung Đạo, Phường Mỹ Quý, Thành phố Long Xuyên, Tình An Giang</td></tr><tr><td>Điện thoại</td><td>0296 3932486</td></tr><tr><td>Vốn điều lệ</td><td>9.000.000.000 VND</td></tr><tr><td>Vốn NAVICORP đã góp</td><td>9.000.000.000 VND</td></tr><tr><td>Tỷ lệ sở hữu của NAVICORP</td><td>100%</td></tr><tr><td>Ngành nghề kinh doanh chính</td><td>Kinh doanh bất động sản, quyền sử dụng đất thuộc chủ sở hữu, chủ sử dụng hoặc đi thuê</td></tr><tr><td>viii. Tên Công ty</td><td>: Công ty TNHH MTV Chế biến thức ăn Thủy sản Nam Việt</td></tr><tr><td>Địa chỉ</td><td>Lô A4 KCN Thốt Nốt, Phường Thới Thuận, Quận Thốt Nốt, Thành phố Cần Thơ</td></tr><tr><td>Điện thoại</td><td>02923.649.262</td></tr><tr><td>Vốn điều lệ</td><td>200.000.000.000 VND</td></tr><tr><td>Vốn NAVICORP đã góp</td><td>196.286.775.677 VND</td></tr><tr><td>Tỷ lệ sở hữu của NAVICORP</td><td>100%</td></tr><tr><td>Ngành nghề kinh doanh chính</td><td>Sản xuất thức ăn gia súc, gia cầm và thủy sản</td></tr><tr><td colspan=\"2\">Các công ty liên doanh</td></tr><tr><td>i. Tên Công ty</td><td>: Công ty TNHH Amicogen Nam Việt</td></tr><tr><td>Địa chỉ</td><td>Lô 4A, KCN Thốt Nốt, Phường Thới Thuận, Quận Thốt Nốt, Thành phố Cần Thơ.</td></tr><tr><td>Điện thoại</td><td>0296 649 769</td></tr><tr><td>Vốn điều lệ</td><td>138.480.000.000 VND</td></tr><tr><td>Vốn NAVICORP đã góp</td><td>69.240.000.000 VND</td></tr><tr><td>Tỷ lệ sở hữu của : NAVICORP</td><td>50%</td></tr><tr><td>Ngành nghề kinh : doanh chính</td><td>Sản xuất collagen và gelatin</td></tr></table>",
+            "block_bbox": [
+                205,
+                253,
+                1474,
+                1987
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 77,
+            "global_group_id": 77,
+            "block_polygon_points": [
+                [
+                    205.0,
+                    253.0
+                ],
+                [
+                    1474.0,
+                    253.0
+                ],
+                [
+                    1474.0,
+                    1987.0
+                ],
+                [
+                    205.0,
+                    1987.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "8",
+            "block_bbox": [
+                812,
+                2069,
+                829,
+                2094
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 78,
+            "global_group_id": 78,
+            "block_polygon_points": [
+                [
+                    812.0,
+                    2069.0
+                ],
+                [
+                    828.0,
+                    2069.0
+                ],
+                [
+                    828.0,
+                    2093.0
+                ],
+                [
+                    812.0,
+                    2093.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4237871766090393,
+                "coordinate": [
+                    219,
+                    90,
+                    1123,
+                    183
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        219.0,
+                        90.0
+                    ],
+                    [
+                        1123.0,
+                        90.0
+                    ],
+                    [
+                        1123.0,
+                        183.0
+                    ],
+                    [
+                        219.0,
+                        183.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9450215697288513,
+                "coordinate": [
+                    205,
+                    253,
+                    1474,
+                    1987
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        205.0,
+                        253.0
+                    ],
+                    [
+                        1474.0,
+                        253.0
+                    ],
+                    [
+                        1474.0,
+                        1987.0
+                    ],
+                    [
+                        205.0,
+                        1987.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.517202615737915,
+                "coordinate": [
+                    812,
+                    2069,
+                    829,
+                    2094
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        812.0,
+                        2069.0
+                    ],
+                    [
+                        828.0,
+                        2069.0
+                    ],
+                    [
+                        828.0,
+                        2093.0
+                    ],
+                    [
+                        812.0,
+                        2093.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

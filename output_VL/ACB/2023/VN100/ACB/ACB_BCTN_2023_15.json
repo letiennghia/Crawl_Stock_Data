@@ -1,0 +1,475 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2290,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "",
+            "block_bbox": [
+                275,
+                359,
+                1375,
+                1773
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 217,
+            "global_group_id": 213,
+            "block_polygon_points": [
+                [
+                    275.0,
+                    359.0
+                ],
+                [
+                    1375.0,
+                    359.0
+                ],
+                [
+                    1375.0,
+                    1773.0
+                ],
+                [
+                    275.0,
+                    1773.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "2. Ngành nghề và địa bàn kinh doanh",
+            "block_bbox": [
+                273,
+                1786,
+                764,
+                1830
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 218,
+            "global_group_id": 218,
+            "block_polygon_points": [
+                [
+                    273.0,
+                    1786.0
+                ],
+                [
+                    764.0,
+                    1786.0
+                ],
+                [
+                    764.0,
+                    1830.0
+                ],
+                [
+                    273.0,
+                    1830.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "2.1. Ngành nghề kinh doanh",
+            "block_bbox": [
+                274,
+                1841,
+                652,
+                1885
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "global_block_id": 219,
+            "global_group_id": 219,
+            "block_polygon_points": [
+                [
+                    274.0,
+                    1841.0
+                ],
+                [
+                    652.0,
+                    1841.0
+                ],
+                [
+                    652.0,
+                    1885.0
+                ],
+                [
+                    274.0,
+                    1885.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Xin xem Phần 1. (a) \"Thành lập và hoạt động\" trong Báo cáo tài chính hợp nhất năm 2023.",
+            "block_bbox": [
+                272,
+                1885,
+                1344,
+                1939
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "global_block_id": 220,
+            "global_group_id": 220,
+            "block_polygon_points": [
+                [
+                    272.0,
+                    1885.0
+                ],
+                [
+                    1344.0,
+                    1885.0
+                ],
+                [
+                    1344.0,
+                    1939.0
+                ],
+                [
+                    272.0,
+                    1939.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "2.2. Địa bàn kinh doanh",
+            "block_bbox": [
+                274,
+                1950,
+                600,
+                1992
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 221,
+            "global_group_id": 221,
+            "block_polygon_points": [
+                [
+                    274.0,
+                    1950.0
+                ],
+                [
+                    600.0,
+                    1950.0
+                ],
+                [
+                    600.0,
+                    1992.0
+                ],
+                [
+                    274.0,
+                    1992.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2023",
+            "block_bbox": [
+                299,
+                2111,
+                510,
+                2148
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 222,
+            "global_group_id": 222,
+            "block_polygon_points": [
+                [
+                    299.0,
+                    2111.0
+                ],
+                [
+                    510.0,
+                    2111.0
+                ],
+                [
+                    510.0,
+                    2148.0
+                ],
+                [
+                    299.0,
+                    2148.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "14/111",
+            "block_bbox": [
+                1275,
+                2099,
+                1378,
+                2134
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 223,
+            "global_group_id": 223,
+            "block_polygon_points": [
+                [
+                    1275.0,
+                    2099.0
+                ],
+                [
+                    1378.0,
+                    2099.0
+                ],
+                [
+                    1378.0,
+                    2134.0
+                ],
+                [
+                    1275.0,
+                    2134.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9706293940544128,
+                "coordinate": [
+                    275,
+                    359,
+                    1375,
+                    1773
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        275.0,
+                        359.0
+                    ],
+                    [
+                        1375.0,
+                        359.0
+                    ],
+                    [
+                        1375.0,
+                        1773.0
+                    ],
+                    [
+                        275.0,
+                        1773.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5324246287345886,
+                "coordinate": [
+                    273,
+                    1786,
+                    764,
+                    1830
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        273.0,
+                        1786.0
+                    ],
+                    [
+                        764.0,
+                        1786.0
+                    ],
+                    [
+                        764.0,
+                        1830.0
+                    ],
+                    [
+                        273.0,
+                        1830.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.3687145411968231,
+                "coordinate": [
+                    274,
+                    1841,
+                    652,
+                    1885
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        274.0,
+                        1841.0
+                    ],
+                    [
+                        652.0,
+                        1841.0
+                    ],
+                    [
+                        652.0,
+                        1885.0
+                    ],
+                    [
+                        274.0,
+                        1885.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.49399593472480774,
+                "coordinate": [
+                    272,
+                    1885,
+                    1344,
+                    1939
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        272.0,
+                        1885.0
+                    ],
+                    [
+                        1344.0,
+                        1885.0
+                    ],
+                    [
+                        1344.0,
+                        1939.0
+                    ],
+                    [
+                        272.0,
+                        1939.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.426476389169693,
+                "coordinate": [
+                    274,
+                    1950,
+                    600,
+                    1992
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        274.0,
+                        1950.0
+                    ],
+                    [
+                        600.0,
+                        1950.0
+                    ],
+                    [
+                        600.0,
+                        1992.0
+                    ],
+                    [
+                        274.0,
+                        1992.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8224742412567139,
+                "coordinate": [
+                    299,
+                    2111,
+                    510,
+                    2148
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        299.0,
+                        2111.0
+                    ],
+                    [
+                        510.0,
+                        2111.0
+                    ],
+                    [
+                        510.0,
+                        2148.0
+                    ],
+                    [
+                        299.0,
+                        2148.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7993504405021667,
+                "coordinate": [
+                    1275,
+                    2099,
+                    1378,
+                    2134
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        1275.0,
+                        2099.0
+                    ],
+                    [
+                        1378.0,
+                        2099.0
+                    ],
+                    [
+                        1378.0,
+                        2134.0
+                    ],
+                    [
+                        1275.0,
+                        2134.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

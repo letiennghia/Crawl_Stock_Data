@@ -1,0 +1,475 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2294,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "1.3.4. Tổng lợi nhuận trước thuế (tỷ đồng)",
+            "block_bbox": [
+                250,
+                245,
+                801,
+                295
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 210,
+            "global_group_id": 210,
+            "block_polygon_points": [
+                [
+                    248.923583984375,
+                    255.02975463867188
+                ],
+                [
+                    799.856689453125,
+                    239.81060791015625
+                ],
+                [
+                    801.190185546875,
+                    288.0831604003906
+                ],
+                [
+                    250.257080078125,
+                    303.30230712890625
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                255,
+                310,
+                1232,
+                675
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 211,
+            "global_group_id": 211,
+            "block_polygon_points": [
+                [
+                    255.0,
+                    310.0
+                ],
+                [
+                    1232.0,
+                    310.0
+                ],
+                [
+                    1232.0,
+                    675.0
+                ],
+                [
+                    255.0,
+                    675.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "1.3.5. Tổng quan tình hình kinh doanh trong năm năm (2019 - 2023)",
+            "block_bbox": [
+                249,
+                728,
+                1128,
+                778
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 212,
+            "global_group_id": 212,
+            "block_polygon_points": [
+                [
+                    248.53695678710938,
+                    736.3423461914062
+                ],
+                [
+                    1126.9810791015625,
+                    726.3373413085938
+                ],
+                [
+                    1127.444091796875,
+                    766.9949340820312
+                ],
+                [
+                    248.99996948242188,
+                    776.9999389648438
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Quy mô (tỷ đồng)</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Tổng tài sản</td><td>383.514</td><td>444.530</td><td>527.770</td><td>607.875</td><td>718.795</td></tr><tr><td>Tiền, vàng gửi và cho các TCTD khác vay</td><td>30.442</td><td>31.671</td><td>49.819</td><td>86.021</td><td>114.924</td></tr><tr><td>Cho vay khách hàng</td><td>268.701</td><td>311.479</td><td>361.913</td><td>413.706</td><td>487.602</td></tr><tr><td>Đầu tư tài chính</td><td>59.672</td><td>70.229</td><td>71.107</td><td>77.159</td><td>81.090</td></tr><tr><td>Tiền gửi của khách hàng</td><td>308.129</td><td>353.196</td><td>379.921</td><td>413.953</td><td>482.703</td></tr><tr><td>Tiền gửi và vay TCTD khác</td><td>19.249</td><td>23.875</td><td>54.394</td><td>67.841</td><td>89.507</td></tr><tr><td>Vốn chủ sở hữu</td><td>27.765</td><td>35.448</td><td>44.901</td><td>58.439</td><td>70.956</td></tr><tr><td>Vốn điều lệ</td><td>16.627</td><td>21.616</td><td>27.019</td><td>33.774</td><td>38.841</td></tr><tr><td>Kết quả kinh doanh (tỷ đồng)</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Thu nhập lãi thuần</td><td>12.112</td><td>14.582</td><td>18.945</td><td>23.534</td><td>24.960</td></tr><tr><td>Thu nhập ngoài lãi</td><td>3.985</td><td>3.579</td><td>4.619</td><td>5.257</td><td>7.787</td></tr><tr><td>Chi phí hoạt động</td><td>8.308</td><td>7.624</td><td>8.230</td><td>11.605</td><td>10.874</td></tr><tr><td>Chi phí dự phòng</td><td>274</td><td>941</td><td>3.336</td><td>71</td><td>1.804</td></tr><tr><td>Lợi nhuận trước thuế</td><td>7.516</td><td>9.596</td><td>11.998</td><td>17.114</td><td>20.068</td></tr><tr><td>Lợi nhuận sau thuế</td><td>6.010</td><td>7.683</td><td>9.603</td><td>13.688</td><td>16.045</td></tr><tr><td>Hệ sở an toàn vốn (%)</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>CAR</td><td>10,9</td><td>11,1</td><td>11,2</td><td>12,8</td><td>12,5</td></tr><tr><td>CAR cấp 1</td><td>9,7</td><td>10,4</td><td>11,3</td><td>12,7</td><td>12,9</td></tr><tr><td>Vốn chủ sở hữu/Tổng tài sản</td><td>7,2</td><td>8,0</td><td>8,5</td><td>9,6</td><td>9,9</td></tr><tr><td>Vốn chủ sở hữu/Tổng cho vay khách hàng</td><td>10,3</td><td>11,38</td><td>12,4</td><td>14,1</td><td>14,6</td></tr><tr><td>Khả nàng thanh khoản (%)</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Dự nợ cho vay/Tổng tải sản</td><td>70,1</td><td>70,1</td><td>68,6</td><td>68,1</td><td>67,8</td></tr><tr><td>Tổng dư nợ cho vay/Tổng tiền gửi khách hàng theo NHNN</td><td>77,6</td><td>79,3</td><td>79,0</td><td>78,4</td><td>78,1</td></tr><tr><td>Chất lượng tài sản</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Nợ xấu (tỷ đồng)</td><td>1.449</td><td>1.840</td><td>2.799</td><td>3.045</td><td>5.887</td></tr><tr><td>Nợ quá hạn (tỷ đồng)</td><td>2.080</td><td>2.416</td><td>4.697</td><td>5.388</td><td>9.062</td></tr><tr><td>Tỷ lệ nợ xấu (%)</td><td>0,5</td><td>0,6</td><td>0,8</td><td>0,7</td><td>1,2</td></tr><tr><td>Nhóm 5/Tổng nợ xấu (%)</td><td>62,3</td><td>66,1</td><td>49,3</td><td>71,1</td><td>66,2</td></tr><tr><td>Tỷ lệ nợ quá hạn (%)</td><td>0,8</td><td>0,8</td><td>1,3</td><td>1,3</td><td>1,9</td></tr><tr><td>Quỹ dự phòng rủi ro/Tổng nợ xấu (%)</td><td>175,0</td><td>160,3</td><td>209,4</td><td>159,3</td><td>91,2</td></tr><tr><td>(Vốn chủ sở hữu + Dự phòng) Tổng nợ xấu (số lần)</td><td>19</td><td>19</td><td>18</td><td>21</td><td>13</td></tr><tr><td>CASA (%)</td><td>19,1</td><td>21,6</td><td>25,5</td><td>22,3</td><td>22,0</td></tr><tr><td>Khả năng sinh lời (%)</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>ROE</td><td>24,6</td><td>24,3</td><td>23,9</td><td>26,5</td><td>24,8</td></tr><tr><td>ROA</td><td>1,7</td><td>1,9</td><td>2,0</td><td>2,4</td><td>2,4</td></tr><tr><td>NIM</td><td>3,4</td><td>3,5</td><td>3,9</td><td>4,1</td><td>3,8</td></tr><tr><td>Thu nhập ngoài lãi/Tổng thu nhập</td><td>24,8</td><td>19,7</td><td>19,6</td><td>18,3</td><td>23,8</td></tr><tr><td>Chi phí hoạt động/Tổng thu nhập</td><td>51,6</td><td>42,0</td><td>34,9</td><td>40,3</td><td>33,2</td></tr><tr><td>Chi phí dự phòng/Lợi nhuận trước dự phòng</td><td>3,5</td><td>8,9</td><td>21,8</td><td>0,4</td><td>8,2</td></tr></table>",
+            "block_bbox": [
+                255,
+                815,
+                1356,
+                1912
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 213,
+            "global_group_id": 213,
+            "block_polygon_points": [
+                [
+                    255.0,
+                    815.0
+                ],
+                [
+                    1356.0,
+                    815.0
+                ],
+                [
+                    1356.0,
+                    1912.0
+                ],
+                [
+                    255.0,
+                    1912.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2023",
+            "block_bbox": [
+                274,
+                1989,
+                487,
+                2028
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 214,
+            "global_group_id": 214,
+            "block_polygon_points": [
+                [
+                    274.0,
+                    1989.0
+                ],
+                [
+                    487.0,
+                    1989.0
+                ],
+                [
+                    487.0,
+                    2028.0
+                ],
+                [
+                    274.0,
+                    2028.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "13/111",
+            "block_bbox": [
+                1252,
+                1975,
+                1358,
+                2011
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 215,
+            "global_group_id": 215,
+            "block_polygon_points": [
+                [
+                    1252.0,
+                    1975.0
+                ],
+                [
+                    1358.0,
+                    1975.0
+                ],
+                [
+                    1358.0,
+                    2011.0
+                ],
+                [
+                    1252.0,
+                    2011.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": " $ x_{1} + x_{2} = 1 $",
+            "block_bbox": [
+                676,
+                2231,
+                979,
+                2273
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 216,
+            "global_group_id": 216,
+            "block_polygon_points": [
+                [
+                    676.0,
+                    2231.0
+                ],
+                [
+                    979.0,
+                    2231.0
+                ],
+                [
+                    979.0,
+                    2273.0
+                ],
+                [
+                    676.0,
+                    2273.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.578906238079071,
+                "coordinate": [
+                    250,
+                    245,
+                    801,
+                    295
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        248.923583984375,
+                        255.02975463867188
+                    ],
+                    [
+                        799.856689453125,
+                        239.81060791015625
+                    ],
+                    [
+                        801.190185546875,
+                        288.0831604003906
+                    ],
+                    [
+                        250.257080078125,
+                        303.30230712890625
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.9337497353553772,
+                "coordinate": [
+                    255,
+                    310,
+                    1232,
+                    675
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        255.0,
+                        310.0
+                    ],
+                    [
+                        1232.0,
+                        310.0
+                    ],
+                    [
+                        1232.0,
+                        675.0
+                    ],
+                    [
+                        255.0,
+                        675.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8579596877098083,
+                "coordinate": [
+                    249,
+                    728,
+                    1128,
+                    778
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        248.53695678710938,
+                        736.3423461914062
+                    ],
+                    [
+                        1126.9810791015625,
+                        726.3373413085938
+                    ],
+                    [
+                        1127.444091796875,
+                        766.9949340820312
+                    ],
+                    [
+                        248.99996948242188,
+                        776.9999389648438
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9734805226325989,
+                "coordinate": [
+                    255,
+                    815,
+                    1356,
+                    1912
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        255.0,
+                        815.0
+                    ],
+                    [
+                        1356.0,
+                        815.0
+                    ],
+                    [
+                        1356.0,
+                        1912.0
+                    ],
+                    [
+                        255.0,
+                        1912.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.773656964302063,
+                "coordinate": [
+                    274,
+                    1989,
+                    487,
+                    2028
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        274.0,
+                        1989.0
+                    ],
+                    [
+                        487.0,
+                        1989.0
+                    ],
+                    [
+                        487.0,
+                        2028.0
+                    ],
+                    [
+                        274.0,
+                        2028.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7602227926254272,
+                "coordinate": [
+                    1252,
+                    1975,
+                    1358,
+                    2011
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        1252.0,
+                        1975.0
+                    ],
+                    [
+                        1358.0,
+                        1975.0
+                    ],
+                    [
+                        1358.0,
+                        2011.0
+                    ],
+                    [
+                        1252.0,
+                        2011.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.44003555178642273,
+                "coordinate": [
+                    676,
+                    2231,
+                    979,
+                    2273
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        676.0,
+                        2231.0
+                    ],
+                    [
+                        979.0,
+                        2231.0
+                    ],
+                    [
+                        979.0,
+                        2273.0
+                    ],
+                    [
+                        676.0,
+                        2273.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

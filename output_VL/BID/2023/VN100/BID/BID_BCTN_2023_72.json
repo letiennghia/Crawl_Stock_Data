@@ -1,0 +1,664 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2340,
+    "height": 1654,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                104,
+                0,
+                413,
+                76
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1711,
+            "global_group_id": 1711,
+            "block_polygon_points": [
+                [
+                    104.0,
+                    0.0
+                ],
+                [
+                    413.0,
+                    0.0
+                ],
+                [
+                    413.0,
+                    76.0
+                ],
+                [
+                    104.0,
+                    76.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "HOẠT ĐỘNG QUẢN TRỊ CỒNG TY",
+            "block_bbox": [
+                1773,
+                47,
+                2053,
+                77
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1712,
+            "global_group_id": 1712,
+            "block_polygon_points": [
+                [
+                    1773.0,
+                    47.0
+                ],
+                [
+                    2053.0,
+                    47.0
+                ],
+                [
+                    2053.0,
+                    77.0
+                ],
+                [
+                    1773.0,
+                    77.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                2086,
+                31,
+                2231,
+                84
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1713,
+            "global_group_id": 1713,
+            "block_polygon_points": [
+                [
+                    2086.0,
+                    31.0
+                ],
+                [
+                    2231.0,
+                    31.0
+                ],
+                [
+                    2231.0,
+                    84.0
+                ],
+                [
+                    2086.0,
+                    84.0
+                ]
+            ]
+        },
+        {
+            "block_label": "doc_title",
+            "block_content": "HOẠT ĐỘNG QUẢN TRỊ CÔNG TY (tiếp theo)",
+            "block_bbox": [
+                105,
+                183,
+                865,
+                241
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "global_block_id": 1714,
+            "global_group_id": 1714,
+            "block_polygon_points": [
+                [
+                    105.0,
+                    183.0
+                ],
+                [
+                    865.0,
+                    183.0
+                ],
+                [
+                    865.0,
+                    241.0
+                ],
+                [
+                    105.0,
+                    241.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "ĐÁNH GIÁ CÔNG TÁC QUẢN TRỊ CÔNG TY THEO THỂ ĐIỂM\nQUẢN TRỊ CÔNG TY ASEAN (tiếp theo)",
+            "block_bbox": [
+                105,
+                253,
+                967,
+                344
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "global_block_id": 1715,
+            "global_group_id": 1715,
+            "block_polygon_points": [
+                [
+                    105.0,
+                    253.0
+                ],
+                [
+                    967.0,
+                    253.0
+                ],
+                [
+                    967.0,
+                    344.0
+                ],
+                [
+                    105.0,
+                    344.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Tiêu chí</td><td>Kết quả đánh giá</td><td>Cơ sở/Lý do đánh giá</td></tr><tr><td>D.5</td><td colspan=\"3\">Thành viên/vụ viên HDQT giao dịch cổ phiếu của công ty</td></tr><tr><td>D.5.1</td><td>Công ty có công bố giao dịch cổ phiếu của công ty do người nội bộ của công ty thực hiện?</td><td>✪</td><td>Thế hiện tại Báo cáo thuông niên - mục Quán tri Công ty</td></tr><tr><td>D.6</td><td colspan=\"3\">Kiểm toàn độc lập và Báo cáo kiểm toàn</td></tr><tr><td></td><td colspan=\"3\">Trường hợp cùng công ty kiểm toàn cung cấp cả dịch vụ kiểm toàn và phi kiểm toàn</td></tr><tr><td>D.6.1</td><td>Phí kiểm toàn và phi kiểm toàn có được công bố công khai?</td><td>✗</td><td>BIDV có công bố thông tin về ký kết hợp đồng với công ty kiểm toàn nhưng chưa công bố mức phi</td></tr><tr><td>D.6.2</td><td>Phí dịch vụ phi kiểm toàn có cao hơn phí dịch vụ kiểm toàn?</td><td>✪</td><td>Không, mục phí dịch vụ phi kiểm toàn của BIDV không cao hơn phí dịch vụ kiểm toàn</td></tr><tr><td>D.7</td><td colspan=\"3\">Phương tiện truyền thông</td></tr><tr><td></td><td colspan=\"3\">Công ty có sử dụng các hình thức truyền thông sau đây?</td></tr><tr><td>D.7.1</td><td>Báo cáo quý</td><td>✪</td><td>BIDV thực hiện cấp nhất kết quả kinh doanh và hoạt động đỉnh kỹ hàng quý trên Website Ngân hàng bảng song ngữ (Việt - Anh). Báo gồm: Cấp nhất kết quả kinh doanh, Báo cáo tài chính, Thông cáo báo chí, Tài liệu giới thiệu BIDV danh cho nhà đầu tư, Bản tin BIDV danh cho cổ đăng</td></tr><tr><td>D.7.2</td><td>Trang thông tin điện tử của công ty</td><td>✪</td><td>BIDV có website tài địa chỉ www.bidv.com.vn</td></tr><tr><td>D.7.3</td><td>Công ty có sử dụng hình thức truyền thông sau đây: Đánh giá của chuyên gia phân tích</td><td>✪</td><td>BIDV chủ động làm việc và cung cấp thông tin phục vụ báo cáo phân tích về Ngân hàng trong và ngoài nước</td></tr><tr><td>D.7.4</td><td>Thông tin trên phương tiện truyền thông/hợp bảo</td><td>✪</td><td>BIDV sử dụng các phương tiện truyền thông khác gồm: thông tin báo chí, truyền hình, mạng xã hội,...</td></tr><tr><td>D.8</td><td colspan=\"3\">Nóp/công bố báo cáo thưởng niên/báo cáo tài chính đùng hạn</td></tr><tr><td>D.8.1</td><td>Báo cáo tài chính năm dư kiểm toàn có được công bố công khai trong vòng 120 ngày kế từ thời điểm kết thúc năm tài chính?</td><td>✪</td><td>BIDV tuân thủ đấy đủ quy định hiện hành</td></tr><tr><td>D.8.2</td><td>Báo cáo thưởng niên có được công bố công khai trong vòng 120 ngày kế từ thời điểm kết thúc năm tài chính?</td><td>✪</td><td>BIDV tuân thủ đấy đủ quy định hiện hành</td></tr><tr><td>D.8.3</td><td>Sự trung thực và hợp lý của báo cáo tài chính năm có được thành viên HDQT và/hoặc thành viên điều hành có thẩm quyền của công ty khảng định?</td><td>✪</td><td>BIDV tuân thủ đấy đủ quy định hiện hành</td></tr></table>",
+            "block_bbox": [
+                108,
+                383,
+                1059,
+                1415
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 1716,
+            "global_group_id": 1716,
+            "block_polygon_points": [
+                [
+                    108.0,
+                    383.0
+                ],
+                [
+                    1059.0,
+                    383.0
+                ],
+                [
+                    1059.0,
+                    1415.0
+                ],
+                [
+                    108.0,
+                    1415.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Tuần thù đày đủ x. Tuần thù một phần/Các lĩnh vực cần cải thiên",
+            "block_bbox": [
+                1706,
+                341,
+                2231,
+                366
+            ],
+            "block_id": 6,
+            "block_order": 3,
+            "group_id": 6,
+            "global_block_id": 1717,
+            "global_group_id": 1717,
+            "block_polygon_points": [
+                [
+                    1718.0,
+                    341.0
+                ],
+                [
+                    2230.0,
+                    341.0
+                ],
+                [
+                    2230.0,
+                    365.0
+                ],
+                [
+                    1718.0,
+                    365.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Tiêu chí</td><td>Kết quả đánh giá</td><td>Cơ sở/Lý do đánh giá</td></tr><tr><td>D.9</td><td>Trang thông tin điện tử của công ty</td><td></td><td></td></tr><tr><td></td><td>Công ty có trang thông tin điện tử công bố thông tin cập nhất về:</td><td></td><td></td></tr><tr><td>D.9.1</td><td>Báo cáo Tai chính (quí gần nhất)</td><td>☑</td><td>Thế hiện đầy đủ tai Website Ngân hàng - mục Quan hệ nhà đầu tư</td></tr><tr><td>D.9.2</td><td>Công ty có trang thông tin điện tử công bố Tài liệu của chuyên gia phân tích và cơ quan truyền thông</td><td>☑</td><td>Thế hiện đầy đủ tài Website Ngân hàng - mục Quan hệ nhà đầu tư</td></tr><tr><td>D.9.3</td><td>Báo cáo thường niên có thể được tài về</td><td>☑</td><td>Thế hiện đầy đủ tài Website Ngân hàng - mục Quan hệ nhà đầu tư</td></tr><tr><td>D.9.4</td><td>Thông bảo và tài liệu hợp DHDCĐ và/hoặc DHCD bất thường</td><td>☑</td><td>Thế hiện đầy đủ tài Website Ngân hàng - mục Quan hệ nhà đầu tư</td></tr><tr><td>D.9.5</td><td>Biên bản hợp DHDCĐ và/hoặc DHCD bất thường</td><td>☑</td><td>Thế hiện đầy đủ tài Website Ngân hàng - mục Quan hệ nhà đầu tư</td></tr><tr><td>D.9.6</td><td>Điều lệ công ty có thể được tài về</td><td>☑</td><td>Thế hiện đầy đủ tài Website Ngân hàng - mục Quan hệ nhà đầu tư</td></tr><tr><td>D.10</td><td>Quan hệ nhà đầu tư</td><td></td><td></td></tr><tr><td>D.10.1</td><td>Công ty có công bố thông tin liên hệ (vd. số điện thoại, fax, và email) của cản bộ/bộ phận chịu trách nhiệm về quan hệ nhà đầu tư?</td><td>☑</td><td>Thế hiện đầy đủ tài Website Ngân hàng - mục Quan hệ nhà đầu tư</td></tr><tr><td>E.</td><td>Trách nhiệm của HDQT</td><td></td><td></td></tr><tr><td>E.1</td><td>Vai trò và trách nhiệm của thành viên HDQT</td><td></td><td></td></tr><tr><td></td><td>Trách nhiệm của HDQT và qui chế quản trị công ty được xác định rõ ràng</td><td></td><td></td></tr><tr><td>E.1.1</td><td>Công ty có công bố qui chế quản trị công ty / điều lệ host động của HDQT?</td><td>☑</td><td>Thế hiện tại Báo cáo Thương niên - mục Quân trị Công ty</td></tr><tr><td>E.1.2</td><td>Các loại quyết định phải có phế duyệt của thành viên HDQT có được công bố công khai?</td><td>☑</td><td>Công bố thông tin đầy đủ theo quy định tại website BIDV</td></tr><tr><td>E.1.3</td><td>Vai trò và trách nhiệm của thành viên HDQT có được quy định và công bố rõ ràng?</td><td>☑</td><td>Thế hiện tại Báo cáo Thương niên - mục Quân trị Công ty</td></tr><tr><td></td><td>Tâm nhìn/sử mệnh của công ty</td><td></td><td></td></tr><tr><td>E.1.4</td><td>Công ty có công bố tầm nhìn và sử mệnh được xem xét, cập nhất</td><td>☑</td><td>Thế hiện tại Báo cáo Thương niên và Website Ngân hàng</td></tr><tr><td>E.1.5</td><td>Thành viên HDQT có đóng vai trò lãnh đạo trong quá trình xây dựng/ theo dõi chiến lược của công ty ít nhất một năm?</td><td>☑</td><td>Thế hiện tại Báo cáo kết quả hoạt động của HDQT tại Tài liệu hợp DHDCĐ và tại Báo cáo thường niên - mục Hoạt động quản trị công ty</td></tr><tr><td>E.1.6</td><td>Thành viên HDQT có quy trình xem xét, giám sát, theo đổi việc thực hiện chiến lược của công ty?</td><td>☑</td><td>Thế hiện tại Báo cáo kết quả hoạt động của HDQT tại Tài liệu hợp DHDCĐ</td></tr></table>",
+            "block_bbox": [
+                1275,
+                370,
+                2226,
+                1435
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 1718,
+            "global_group_id": 1718,
+            "block_polygon_points": [
+                [
+                    1275.0,
+                    370.0
+                ],
+                [
+                    2226.0,
+                    370.0
+                ],
+                [
+                    2226.0,
+                    1435.0
+                ],
+                [
+                    1275.0,
+                    1435.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "140",
+            "block_bbox": [
+                106,
+                1558,
+                143,
+                1579
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 1719,
+            "global_group_id": 1719,
+            "block_polygon_points": [
+                [
+                    106.0,
+                    1558.0
+                ],
+                [
+                    142.0,
+                    1558.0
+                ],
+                [
+                    142.0,
+                    1578.0
+                ],
+                [
+                    106.0,
+                    1578.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "141",
+            "block_bbox": [
+                2200,
+                1558,
+                2234,
+                1579
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 1720,
+            "global_group_id": 1720,
+            "block_polygon_points": [
+                [
+                    2200.0,
+                    1558.0
+                ],
+                [
+                    2233.0,
+                    1558.0
+                ],
+                [
+                    2233.0,
+                    1578.0
+                ],
+                [
+                    2200.0,
+                    1578.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.7890561819076538,
+                "coordinate": [
+                    104,
+                    0,
+                    413,
+                    76
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        104.0,
+                        0.0
+                    ],
+                    [
+                        413.0,
+                        0.0
+                    ],
+                    [
+                        413.0,
+                        76.0
+                    ],
+                    [
+                        104.0,
+                        76.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8160990476608276,
+                "coordinate": [
+                    1773,
+                    47,
+                    2053,
+                    77
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1773.0,
+                        47.0
+                    ],
+                    [
+                        2053.0,
+                        47.0
+                    ],
+                    [
+                        2053.0,
+                        77.0
+                    ],
+                    [
+                        1773.0,
+                        77.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.7229118347167969,
+                "coordinate": [
+                    2086,
+                    31,
+                    2231,
+                    84
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        2086.0,
+                        31.0
+                    ],
+                    [
+                        2231.0,
+                        31.0
+                    ],
+                    [
+                        2231.0,
+                        84.0
+                    ],
+                    [
+                        2086.0,
+                        84.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.5324770212173462,
+                "coordinate": [
+                    105,
+                    183,
+                    865,
+                    241
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        105.0,
+                        183.0
+                    ],
+                    [
+                        865.0,
+                        183.0
+                    ],
+                    [
+                        865.0,
+                        241.0
+                    ],
+                    [
+                        105.0,
+                        241.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5863460302352905,
+                "coordinate": [
+                    105,
+                    253,
+                    967,
+                    344
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        105.0,
+                        253.0
+                    ],
+                    [
+                        967.0,
+                        253.0
+                    ],
+                    [
+                        967.0,
+                        344.0
+                    ],
+                    [
+                        105.0,
+                        344.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9647855758666992,
+                "coordinate": [
+                    108,
+                    383,
+                    1059,
+                    1415
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        108.0,
+                        383.0
+                    ],
+                    [
+                        1059.0,
+                        383.0
+                    ],
+                    [
+                        1059.0,
+                        1415.0
+                    ],
+                    [
+                        108.0,
+                        1415.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3490474224090576,
+                "coordinate": [
+                    1706,
+                    341,
+                    2231,
+                    366
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        1718.0,
+                        341.0
+                    ],
+                    [
+                        2230.0,
+                        341.0
+                    ],
+                    [
+                        2230.0,
+                        365.0
+                    ],
+                    [
+                        1718.0,
+                        365.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9635342359542847,
+                "coordinate": [
+                    1275,
+                    370,
+                    2226,
+                    1435
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1275.0,
+                        370.0
+                    ],
+                    [
+                        2226.0,
+                        370.0
+                    ],
+                    [
+                        2226.0,
+                        1435.0
+                    ],
+                    [
+                        1275.0,
+                        1435.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6962504982948303,
+                "coordinate": [
+                    106,
+                    1558,
+                    143,
+                    1579
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        106.0,
+                        1558.0
+                    ],
+                    [
+                        142.0,
+                        1558.0
+                    ],
+                    [
+                        142.0,
+                        1578.0
+                    ],
+                    [
+                        106.0,
+                        1578.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6468910574913025,
+                "coordinate": [
+                    2200,
+                    1558,
+                    2234,
+                    1579
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        2200.0,
+                        1558.0
+                    ],
+                    [
+                        2233.0,
+                        1558.0
+                    ],
+                    [
+                        2233.0,
+                        1578.0
+                    ],
+                    [
+                        2200.0,
+                        1578.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

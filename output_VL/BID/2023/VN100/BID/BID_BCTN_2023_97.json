@@ -1,0 +1,664 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2340,
+    "height": 1654,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                104,
+                0,
+                412,
+                76
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 2081,
+            "global_group_id": 2081,
+            "block_polygon_points": [
+                [
+                    104.0,
+                    0.0
+                ],
+                [
+                    412.0,
+                    0.0
+                ],
+                [
+                    412.0,
+                    76.0
+                ],
+                [
+                    104.0,
+                    76.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "CÔNG TY CON, LIÊN DOANH, LIÊN KẾT",
+            "block_bbox": [
+                1727,
+                44,
+                2051,
+                78
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 2082,
+            "global_group_id": 2082,
+            "block_polygon_points": [
+                [
+                    1727.0,
+                    44.0
+                ],
+                [
+                    2051.0,
+                    44.0
+                ],
+                [
+                    2051.0,
+                    78.0
+                ],
+                [
+                    1727.0,
+                    78.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                2086,
+                31,
+                2232,
+                85
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 2083,
+            "global_group_id": 2083,
+            "block_polygon_points": [
+                [
+                    2086.0,
+                    31.0
+                ],
+                [
+                    2232.0,
+                    31.0
+                ],
+                [
+                    2232.0,
+                    85.0
+                ],
+                [
+                    2086.0,
+                    85.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "CÁC CHI NHÁNH VÀ ĐƠN VỊ TRỰC THUỘC (tiếp theo)",
+            "block_bbox": [
+                104,
+                182,
+                1047,
+                242
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "global_block_id": 2084,
+            "global_group_id": 2084,
+            "block_polygon_points": [
+                [
+                    104.0,
+                    182.0
+                ],
+                [
+                    1047.0,
+                    182.0
+                ],
+                [
+                    1047.0,
+                    242.0
+                ],
+                [
+                    104.0,
+                    242.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Đơn vị</td><td>Địa chỉ</td></tr><tr><td>183</td><td>CN Bắc An Giang</td><td>Số 14, Đường Quang Trung, Phường Châu Phú B, Thành phố Châu Bốc, Tinh An Giang</td></tr><tr><td>184</td><td>CN Kiên Giang</td><td>Số 259-261, Đường Trần Phú, Phường Vĩnh Thanh Văn, Thành phố Rạch Gia, Tĩnh Kiên Giang</td></tr><tr><td>185</td><td>CN Phú Quốc</td><td>Số 196, Đường Nguyễn Trung Trục, Khu phố 11, Phường Dương Đồng, Thành phố Phu Quốc, Tĩnh Kiên Giang</td></tr><tr><td>186</td><td>CN Bắc Liêu</td><td>Số 169A, Đường 23/8, Phường 8, Thành phố Bạc Liêu, Tĩnh Bạc Liêu</td></tr><tr><td>187</td><td>CN Cà Mau</td><td>Số 05A, Đường An Dương Vương, Khóm 4, Phường 7, Thành phố Cà Mau, Tĩnh Cà Mau</td></tr><tr><td>188</td><td>CN Đất Mũi</td><td>Số 27, Đường Ngô Quyên, Phường 2, Thành phố Cà Mau, Tĩnh Cà Mau</td></tr><tr><td>189</td><td>CN Hậu Giang</td><td>Số 16, Đường Nguyễn Công Trữ, Phường I, Thành phố Vị Thanh, Tĩnh Hậu Giang</td></tr><tr><td>II</td><td>CHI NHÁNH NƯỚC NGOÀI</td><td></td></tr><tr><td>1</td><td>Yangon</td><td>9th Floor, HAGL - Myanmar Tower, No 192 Kabar Aye Pagoda Street, Bahan Township, Yangon City, Myanmar</td></tr><tr><td>III</td><td>ĐƠN VỊ SỰ NGHIỆP</td><td></td></tr><tr><td>1</td><td>Viện Đào tạo và Nghiên cứu</td><td>Số 773, đường Hồng Hà, Phương Chương Dương, Quận Hoàn Kiểm, TP Hà Nội</td></tr><tr><td>2</td><td>Trung tâm Công nghệ Thống tin</td><td>Số 7, phố Duy Tân, Phương Dịch Vọng Hậu, Quận Câu Giấy, TP Hà Nội</td></tr><tr><td>3</td><td>Trung tâm Dịch vụ Kho quý phía Nam</td><td>Tăng 4 Tòa nhà Sở giao dịch chứng khoản Thành phố Hồ Chí Minh, số 16 đường Vô Văn Kiệt, phương Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh</td></tr><tr><td>IV</td><td>VĂN PHÔNG DẠI DIỆN TRONG NƯỚC</td><td></td></tr><tr><td>1</td><td>Văn phòng đại diện tại TP Hồ Chí Minh</td><td>Số 30, Đường Hàm Nghị, Phương Bến Nghệ, Quận 1, TP Hồ Chí Minh</td></tr><tr><td>2</td><td>Văn phòng đại diện tại TP Đà Nẵng</td><td>Số 198, đường Nguyễn Tri Phương, Phương Chính Giản, Quận Thanh Khê, TP Đà Nẵng</td></tr><tr><td>V</td><td>VĂN PHÔNG DẠI DIỆN TẠI NƯỚC NGOÀI</td><td></td></tr><tr><td>1</td><td>Văn phòng đại diện BIDV tại Lào</td><td>No. 44, Lanexang Avenue, Hatsady Village, Chamthabouly District, Vientiane, Lao PDR</td></tr><tr><td>2</td><td>Văn phòng đại diện BIDV tại Campuchia</td><td>No. 314 National Road 1, Veal Sbov Ward, Chbar Ampouv District, Phnom Penh, Cambodia</td></tr><tr><td>3</td><td>Văn phòng đại diện BIDV tại Đài Bắc</td><td>3F5, No. 09 Song Jiang road, Zhong Shan district, Taipei city, Taiwan, China</td></tr><tr><td>4</td><td>Văn phòng đại diện BIDV tại Nga</td><td>2nd Floor, Building 2, No. 146, Yaroslavskoye Highway, Moscow, Russian Federation</td></tr></table>",
+            "block_bbox": [
+                105,
+                382,
+                1062,
+                1428
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 2085,
+            "global_group_id": 2085,
+            "block_polygon_points": [
+                [
+                    105.0,
+                    382.0
+                ],
+                [
+                    1062.0,
+                    382.0
+                ],
+                [
+                    1062.0,
+                    1428.0
+                ],
+                [
+                    105.0,
+                    1428.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "CÔNG TY CON, LIÊN DOANH, LIÊN KẾT",
+            "block_bbox": [
+                1271,
+                181,
+                2036,
+                240
+            ],
+            "block_id": 5,
+            "block_order": 2,
+            "group_id": 5,
+            "global_block_id": 2086,
+            "global_group_id": 2086,
+            "block_polygon_points": [
+                [
+                    1271.0,
+                    181.0
+                ],
+                [
+                    2036.0,
+                    181.0
+                ],
+                [
+                    2036.0,
+                    240.0
+                ],
+                [
+                    1271.0,
+                    240.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Tên công ty</td><td>Địa chỉ</td><td>Hoạt động kinh doanh chính</td><td>Vốn điều lệ</td><td>Vốn góp của BIDV</td><td>Tỷ lệ số hữu của BIDV tại 31/12/2022</td></tr><tr><td>1</td><td>Công ty Cho thuê Tài chính TNHH BIDV - SuMi TRUST (&quot;BSL&quot;)</td><td>Tầng 23, Tòa nhà TNR, 54A Nguyễn Chí Thanh, Láng Thượng, Đống Đa, Hà Nội.</td><td>Cho thuê tài chính</td><td>895,6 tỷ đồng</td><td>447,8 tỷ đồng</td><td>50,00%</td></tr><tr><td>2</td><td>Công ty TNHH Quân lý Nợ và Khai thác Tài sản BIDV (&quot;BAMC&quot;)</td><td>Tầng 12, số 263 dưỡng Cầu Giấy, phương Dịch Vọng, quản Cầu Giấy, Hà Nội.</td><td>Quản lý nợ và khai thác tài sản</td><td>100 tỷ đồng</td><td>100 tỷ đồng</td><td>100,00%</td></tr><tr><td>3</td><td>Công ty Cổ phản Chứng khoán BIDV (&quot;BSC&quot;)</td><td>Tầng 8,9 Tòa nhà Thái Holdings, 210 Trần Quang Khải, Hoàn Kiểm, Hà Nội.</td><td>Thị trường vốn</td><td>2,028 tỷ đồng</td><td>1,054 tỷ đồng</td><td>51,96%</td></tr><tr><td>4</td><td>Tống Cống ty Cổ phản Bảo hiểm BIDV (&quot;BIC&quot;)</td><td>Số 263 dưỡng Cầu Giấy, phương Dịch Vọng, quản Cầu Giấy, Hà Nội.</td><td>Bảo hiểm</td><td>1,172 tỷ đồng</td><td>598 tỷ đồng</td><td>51,00%</td></tr><tr><td>5</td><td>Công ty Cổ phản Chứng khoán MHB (&quot;MHBS&quot;)</td><td>153 Hai Bà Trung, Phương 6, Quận 3, TP. Hồ Chí Minh</td><td>Thị trường vốn</td><td>170 tỷ đồng</td><td>102 tỷ đồng</td><td>60,00%</td></tr><tr><td>6</td><td>Ngân hàng Đâu tư và Phát triển Campuchia (&quot;BIDC&quot;)</td><td>No 235, Preah Norodom Blvd, Sangkat Tonle Bassac, Khan Chamkamorn, Phnom Penh, Cambodia</td><td>Ngân hàng</td><td>100 triệu USD</td><td>98,5 triệu USD</td><td>98,50%</td></tr><tr><td>7</td><td>Ngân hàng Liên doanh Lão - Việt (&quot;LVB&quot;)</td><td>No 44, Lanexang Avenue, Hatsady Village, Chamthabouly District, Vientiane Capital, Lao PDR</td><td>Ngân hàng</td><td>791,35 tỷ LAK</td><td>1,294 tỷ đồng</td><td>65,00%</td></tr><tr><td>8</td><td>Ngân hàng Liên doanh Việt - Nga (&quot;VRB&quot;)</td><td>Số 75 Trần Hưng Đạo, phương Trần Hưng Đạo, Quân Hoàn Kiểm, Hà Nội.</td><td>Ngân hàng</td><td>3,008 tỷ đồng</td><td>1,505 tỷ đồng</td><td>50,00%</td></tr><tr><td>9</td><td>Công ty liên doanh Tháp BIDV (&quot;BIDV Tower&quot;)</td><td>Tầng 13, Tháp BIDV, 35 Hàng Với, Hà Nội.</td><td>Xây dựng, văn hành và quản lý khối văn phòng làm việc</td><td>209 tỷ đồng</td><td>115 tỷ đồng</td><td>55,00%</td></tr><tr><td>10</td><td>Công ty TNHH Bảo hiểm Nhân thọ BIDV Metlife (&quot;BML&quot;)</td><td>Tầng 3, tòa VCCI Tower, số 9 Đào Duy Anh, Phương Mai, Đăng Đa, HN.</td><td>Bảo hiểm - nhân thọ</td><td>1,145 tỷ đồng</td><td>401 tỷ đồng</td><td>37,25%</td></tr><tr><td>11</td><td>Công ty - cơ phản cho thuê máy bay Việt Nam (&quot;VALC&quot;)</td><td>Tầng 06, số 18 Lý Thương Kiệt, Phương Phan Chu Trình, Quận Hoàn Kiểm, Hà Nội.</td><td>Mua và cho thuê máy bay</td><td>1,319 tỷ đồng</td><td>244 tỷ đồng</td><td>18,52%</td></tr></table>",
+            "block_bbox": [
+                1271,
+                383,
+                2232,
+                1430
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 2087,
+            "global_group_id": 2087,
+            "block_polygon_points": [
+                [
+                    1271.0,
+                    383.0
+                ],
+                [
+                    2232.0,
+                    383.0
+                ],
+                [
+                    2232.0,
+                    1430.0
+                ],
+                [
+                    1271.0,
+                    1430.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Biên tập và sản xuất: Ban Truyền thông và Thương hiệu - BIDV",
+            "block_bbox": [
+                1462,
+                1483,
+                2045,
+                1513
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 2088,
+            "global_group_id": 2088,
+            "block_polygon_points": [
+                [
+                    1462.0,
+                    1483.0
+                ],
+                [
+                    2045.0,
+                    1483.0
+                ],
+                [
+                    2045.0,
+                    1513.0
+                ],
+                [
+                    1462.0,
+                    1513.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "190",
+            "block_bbox": [
+                107,
+                1558,
+                143,
+                1579
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 2089,
+            "global_group_id": 2089,
+            "block_polygon_points": [
+                [
+                    107.0,
+                    1558.0
+                ],
+                [
+                    142.0,
+                    1558.0
+                ],
+                [
+                    142.0,
+                    1578.0
+                ],
+                [
+                    107.0,
+                    1578.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "191",
+            "block_bbox": [
+                2202,
+                1557,
+                2233,
+                1580
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 2090,
+            "global_group_id": 2090,
+            "block_polygon_points": [
+                [
+                    2202.0,
+                    1557.0
+                ],
+                [
+                    2232.0,
+                    1557.0
+                ],
+                [
+                    2232.0,
+                    1579.0
+                ],
+                [
+                    2202.0,
+                    1579.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.8322170376777649,
+                "coordinate": [
+                    104,
+                    0,
+                    412,
+                    76
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        104.0,
+                        0.0
+                    ],
+                    [
+                        412.0,
+                        0.0
+                    ],
+                    [
+                        412.0,
+                        76.0
+                    ],
+                    [
+                        104.0,
+                        76.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8286449313163757,
+                "coordinate": [
+                    1727,
+                    44,
+                    2051,
+                    78
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1727.0,
+                        44.0
+                    ],
+                    [
+                        2051.0,
+                        44.0
+                    ],
+                    [
+                        2051.0,
+                        78.0
+                    ],
+                    [
+                        1727.0,
+                        78.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.6837427020072937,
+                "coordinate": [
+                    2086,
+                    31,
+                    2232,
+                    85
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        2086.0,
+                        31.0
+                    ],
+                    [
+                        2232.0,
+                        31.0
+                    ],
+                    [
+                        2232.0,
+                        85.0
+                    ],
+                    [
+                        2086.0,
+                        85.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8701850175857544,
+                "coordinate": [
+                    104,
+                    182,
+                    1047,
+                    242
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        104.0,
+                        182.0
+                    ],
+                    [
+                        1047.0,
+                        182.0
+                    ],
+                    [
+                        1047.0,
+                        242.0
+                    ],
+                    [
+                        104.0,
+                        242.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9773387312889099,
+                "coordinate": [
+                    105,
+                    382,
+                    1062,
+                    1428
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        105.0,
+                        382.0
+                    ],
+                    [
+                        1062.0,
+                        382.0
+                    ],
+                    [
+                        1062.0,
+                        1428.0
+                    ],
+                    [
+                        105.0,
+                        1428.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8731781840324402,
+                "coordinate": [
+                    1271,
+                    181,
+                    2036,
+                    240
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        1271.0,
+                        181.0
+                    ],
+                    [
+                        2036.0,
+                        181.0
+                    ],
+                    [
+                        2036.0,
+                        240.0
+                    ],
+                    [
+                        1271.0,
+                        240.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9778653383255005,
+                "coordinate": [
+                    1271,
+                    383,
+                    2232,
+                    1430
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1271.0,
+                        383.0
+                    ],
+                    [
+                        2232.0,
+                        383.0
+                    ],
+                    [
+                        2232.0,
+                        1430.0
+                    ],
+                    [
+                        1271.0,
+                        1430.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5190390944480896,
+                "coordinate": [
+                    1462,
+                    1483,
+                    2045,
+                    1513
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1462.0,
+                        1483.0
+                    ],
+                    [
+                        2045.0,
+                        1483.0
+                    ],
+                    [
+                        2045.0,
+                        1513.0
+                    ],
+                    [
+                        1462.0,
+                        1513.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7419097423553467,
+                "coordinate": [
+                    107,
+                    1558,
+                    143,
+                    1579
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        107.0,
+                        1558.0
+                    ],
+                    [
+                        142.0,
+                        1558.0
+                    ],
+                    [
+                        142.0,
+                        1578.0
+                    ],
+                    [
+                        107.0,
+                        1578.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6740480661392212,
+                "coordinate": [
+                    2202,
+                    1557,
+                    2233,
+                    1580
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        2202.0,
+                        1557.0
+                    ],
+                    [
+                        2232.0,
+                        1557.0
+                    ],
+                    [
+                        2232.0,
+                        1579.0
+                    ],
+                    [
+                        2202.0,
+                        1579.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

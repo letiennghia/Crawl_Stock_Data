@@ -1,0 +1,14 @@
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Giấy chứng nhậnđăng ký Kinh doanh số</td><td style='text-align: center; word-wrap: break-word;'>5203000050</td><td style='text-align: center; word-wrap: break-word;'>ngày 2 tháng 10 năm 2006và điều chỉnh ngày 5 tháng 10 năm 2006và ngày 1 tháng 8 năm 2007, và ngày 30 tháng 06 năm 2008</td></tr></table>
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan="6">Hội đồng Quản trị</td><td style='text-align: center; word-wrap: break-word;'>Ông Doãn Tối</td><td style='text-align: center; word-wrap: break-word;'>Chủ tịch</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Ông Nguyễn Duy Nhứt</td><td style='text-align: center; word-wrap: break-word;'>Phó chủ tịch</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Ông Doãn Chí Thanh</td><td style='text-align: center; word-wrap: break-word;'>Thành viên</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Ông Đỗ Lập Nghiệp</td><td style='text-align: center; word-wrap: break-word;'>Thành viên</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Ông Nguyễn Thừa Bửu</td><td style='text-align: center; word-wrap: break-word;'>Thành viên</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Ông Doãn Quốc Xã</td><td style='text-align: center; word-wrap: break-word;'>Thành viên</td></tr></table>
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan="4">Ban Tổng Giám đốc</td><td style='text-align: center; word-wrap: break-word;'>Ông Doãn Tới</td><td style='text-align: center; word-wrap: break-word;'>Tổng Giám đốc</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Bà Dương Thị Kim Hương</td><td style='text-align: center; word-wrap: break-word;'>Phó Tổng Giám đốc</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Ông Nguyễn Duy Nhứt</td><td style='text-align: center; word-wrap: break-word;'>Phó Tổng Giám đốc và Giám đốc Tài chính</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Ông Doãn Văn Nho</td><td style='text-align: center; word-wrap: break-word;'>Kế toán trưởng</td></tr></table>
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Trụ sở đăng ký</td><td style='text-align: center; word-wrap: break-word;'>19D Trần Hưng Đạo Phường Mỹ Quý Tỉnh An Giang Việt Nam</td></tr></table>
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Công ty kiểm toán Việt Nam</td><td style='text-align: center; word-wrap: break-word;'>Công ty TNHH KPMG</td></tr></table>

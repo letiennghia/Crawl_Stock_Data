@@ -1,0 +1,97 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 3386,
+    "height": 2441,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "🌈",
+            "block_bbox": [
+                2191,
+                912,
+                2864,
+                1507
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 1,
+            "global_group_id": 1,
+            "block_polygon_points": [
+                [
+                    2191.0,
+                    912.0
+                ],
+                [
+                    2864.0,
+                    912.0
+                ],
+                [
+                    2864.0,
+                    1507.0
+                ],
+                [
+                    2191.0,
+                    1507.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.422868013381958,
+                "coordinate": [
+                    2191,
+                    912,
+                    2864,
+                    1507
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        2191.0,
+                        912.0
+                    ],
+                    [
+                        2864.0,
+                        912.0
+                    ],
+                    [
+                        2864.0,
+                        1507.0
+                    ],
+                    [
+                        2191.0,
+                        1507.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

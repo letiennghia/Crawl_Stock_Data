@@ -1,0 +1,18 @@
+
+
+
+Mệnh giá cổ phiếu đang lưu hành : 10.000 VNĐ/Cổ phiếu
+
+Không có thay đổi về vốn cổ đông
+
+○ Có cấu cổ đông đến ngày 10/03/2010
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Cơ cấu cổ đông</td><td style='text-align: center; word-wrap: break-word;'>Tỷ lệ %</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1. Nước ngoài</td><td style='text-align: center; word-wrap: break-word;'>7,09%</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cổ đông là tổ chức</td><td style='text-align: center; word-wrap: break-word;'>6,79%</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cổ đông là cá nhân</td><td style='text-align: center; word-wrap: break-word;'>0,30 %</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2. Trong nước</td><td style='text-align: center; word-wrap: break-word;'>92,91 %</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cổ đông là tổ chức</td><td style='text-align: center; word-wrap: break-word;'>2,22%</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cổ đông là cá nhân</td><td style='text-align: center; word-wrap: break-word;'>90,69%</td></tr></table>
+
+Tính đến thời điểm 10/03/2010 tỷ lệ sở hữu của cổ động nước ngoài nắm giữ cổ phiếu là 4.679.007 cp chiếm 7,09 % vốn điều lệ.
+
+Những biến động lớn so với kế hoạch
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan="2">Chỉ tiêu</td><td colspan="2">Năm 2009</td><td rowspan="2">% thực hiện so với kế hoạch</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Thực hiện (Tỷ đồng)</td><td style='text-align: center; word-wrap: break-word;'>Kế hoạch (Tỷ đồng)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Vốn đầu tư chủ sở hữu</td><td style='text-align: center; word-wrap: break-word;'>660</td><td style='text-align: center; word-wrap: break-word;'>660</td><td style='text-align: center; word-wrap: break-word;'>-</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Doanh thu thuần</td><td style='text-align: center; word-wrap: break-word;'>1.859</td><td style='text-align: center; word-wrap: break-word;'>3.020</td><td style='text-align: center; word-wrap: break-word;'>61,56%</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Lợi nhuận trước thuế</td><td style='text-align: center; word-wrap: break-word;'>-176</td><td style='text-align: center; word-wrap: break-word;'>91</td><td style='text-align: center; word-wrap: break-word;'>-</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Lợi nhuận sau thuế</td><td style='text-align: center; word-wrap: break-word;'>-128</td><td style='text-align: center; word-wrap: break-word;'>82</td><td style='text-align: center; word-wrap: break-word;'>-</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>LN sau thuế/Doanh thu thuần</td><td style='text-align: center; word-wrap: break-word;'>-6,87%</td><td style='text-align: center; word-wrap: break-word;'>2,72%</td><td style='text-align: center; word-wrap: break-word;'>-</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>LNST/Nguồn vốn chủ sở hữu</td><td style='text-align: center; word-wrap: break-word;'>-8,69%</td><td style='text-align: center; word-wrap: break-word;'>5,12%</td><td style='text-align: center; word-wrap: break-word;'>-</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cổ tức tính trên mệnh giá (%)</td><td style='text-align: center; word-wrap: break-word;'>5%</td><td style='text-align: center; word-wrap: break-word;'>5%</td><td style='text-align: center; word-wrap: break-word;'>100%</td></tr></table>

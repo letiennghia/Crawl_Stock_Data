@@ -1,0 +1,1102 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 3386,
+    "height": 2441,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "THÔNG TIN CHUNG",
+            "block_bbox": [
+                195,
+                127,
+                505,
+                171
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 159,
+            "global_group_id": 159,
+            "block_polygon_points": [
+                [
+                    195.0,
+                    127.0
+                ],
+                [
+                    505.0,
+                    127.0
+                ],
+                [
+                    505.0,
+                    171.0
+                ],
+                [
+                    195.0,
+                    171.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "BẢO CẢO THƯỜNG NIỆN 2020",
+            "block_bbox": [
+                2867,
+                164,
+                3175,
+                200
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 160,
+            "global_group_id": 160,
+            "block_polygon_points": [
+                [
+                    2867.0,
+                    164.0
+                ],
+                [
+                    3175.0,
+                    164.0
+                ],
+                [
+                    3175.0,
+                    200.0
+                ],
+                [
+                    2867.0,
+                    200.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "☐ ☐ ☐ 14",
+            "block_bbox": [
+                189,
+                189,
+                338,
+                227
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 161,
+            "global_group_id": 161,
+            "block_polygon_points": [
+                [
+                    189.0,
+                    189.0
+                ],
+                [
+                    338.0,
+                    189.0
+                ],
+                [
+                    338.0,
+                    227.0
+                ],
+                [
+                    189.0,
+                    227.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Tổng quan tinh hình kinh doanh trong 5 năm (2016 - 2020)",
+            "block_bbox": [
+                159,
+                276,
+                1007,
+                322
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "global_block_id": 162,
+            "global_group_id": 162,
+            "block_polygon_points": [
+                [
+                    159.0,
+                    276.0
+                ],
+                [
+                    1007.0,
+                    276.0
+                ],
+                [
+                    1007.0,
+                    322.0
+                ],
+                [
+                    159.0,
+                    322.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>2016</td><td>2017</td><td>2018</td><td>2019</td><td>2020</td></tr><tr><td colspan=\"6\">Quy mô (tỷ đồng)</td></tr><tr><td>Tổng tài sản</td><td>233.681</td><td>284.316</td><td>329.333</td><td>383.514</td><td>444.530</td></tr><tr><td>Tiến, vàng gửi và cho các TCTD khác vay</td><td>8.324</td><td>9.095</td><td>18.910</td><td>30.442</td><td>31.671</td></tr><tr><td>Cho vay khách hàng</td><td>163.401</td><td>198.513</td><td>230.527</td><td>268.701</td><td>311.479</td></tr><tr><td>Dấu tư tài chính</td><td>47.199</td><td>54.595</td><td>55.337</td><td>59.672</td><td>70.229</td></tr><tr><td>Tiến gửi của khách hàng</td><td>207.051</td><td>241.393</td><td>269.999</td><td>308.129</td><td>353.196</td></tr><tr><td>Tiến gửi và vay TCTD khác</td><td>2.235</td><td>15.454</td><td>20.718</td><td>19.249</td><td>23.875</td></tr><tr><td>VCSH</td><td>14.063</td><td>16.031</td><td>21.018</td><td>27.765</td><td>35.448</td></tr><tr><td>Vốn điều lệ</td><td>9.377</td><td>10.273</td><td>12.886</td><td>16.627</td><td>21.616</td></tr><tr><td>Kết quả kinh doanh (tỷ đồng)</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td><td>2020</td></tr><tr><td>Thu nhập lãi thuần</td><td>6.892</td><td>8.458</td><td>10.363</td><td>12.112</td><td>14.582</td></tr><tr><td>Thu nhập ngoài lãi</td><td>1.772</td><td>3.013</td><td>3.670</td><td>3.985</td><td>3.579</td></tr><tr><td>Chi phi hoạt động</td><td>4.678</td><td>6.217</td><td>6.712</td><td>8.308</td><td>7.624</td></tr><tr><td>Chi phi dự phòng</td><td>2.319</td><td>2.597</td><td>932</td><td>274</td><td>941</td></tr><tr><td>Lợi nhuận trước thuế</td><td>1.667</td><td>2.656</td><td>6.389</td><td>7.516</td><td>9.596</td></tr><tr><td>Lợi nhuận sau thuế</td><td>1.325</td><td>2.118</td><td>5.137</td><td>6.010</td><td>7.683</td></tr><tr><td></td><td>2016</td><td>2017(*)</td><td>2018</td><td>2019</td><td>2020</td></tr><tr><td colspan=\"6\">Hệ số an toàn vốn</td></tr><tr><td>CAR (%)</td><td>13.19</td><td>8.04</td><td>10.05</td><td>10.91</td><td>11.06</td></tr><tr><td>CAR Tier 1 (%)</td><td>8.26</td><td>6.71</td><td>8.59</td><td>9.66</td><td>10.37</td></tr><tr><td>Vốn chủ sở hữu/Tổng tài sản (%)</td><td>6.02</td><td>5.64</td><td>6.38</td><td>7.24</td><td>7.97</td></tr><tr><td>Vốn chủ sở hữu/Tổng cho vay khách hàng (%)</td><td>8.61</td><td>8.08</td><td>9.12</td><td>10.33</td><td>11.38</td></tr><tr><td></td><td>2016</td><td>2017</td><td>2018</td><td>2019</td><td>2020</td></tr><tr><td colspan=\"6\">Khả năng thanh khoản</td></tr><tr><td>Dự ngạo cho vay/TTS (%)</td><td>69.9</td><td>69.8</td><td>70.0</td><td>70.1</td><td>70.1</td></tr><tr><td>Tổng dư nọ cho vay/Tổng tiến gửi khách hàng (%)</td><td>75.5</td><td>75.8</td><td>77.5</td><td>77.6</td><td>79.3</td></tr><tr><td colspan=\"6\">Chất lượng tài sản</td></tr><tr><td>Nợ xấu (tỷ đồng)</td><td>1.421</td><td>1.390</td><td>1.675</td><td>1.449</td><td>1.840</td></tr><tr><td>Nợ quả hạn (tỷ đồng)</td><td>3.444</td><td>1.839</td><td>2.058</td><td>2.080</td><td>2.416</td></tr><tr><td>Tỷ lệ nợ xấu (%)</td><td>0.9</td><td>0.7</td><td>0.7</td><td>0.5</td><td>0.6</td></tr><tr><td>Nhóm 5/ Tổng nợ xấu (%)</td><td>73.7</td><td>56.7</td><td>69.5</td><td>62.3</td><td>66.1</td></tr></table>",
+            "block_bbox": [
+                148,
+                338,
+                1508,
+                2160
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 163,
+            "global_group_id": 163,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    338.0
+                ],
+                [
+                    1508.0,
+                    338.0
+                ],
+                [
+                    1508.0,
+                    2160.0
+                ],
+                [
+                    148.0,
+                    2160.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                0,
+                2183,
+                321,
+                2441
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 164,
+            "global_group_id": 164,
+            "block_polygon_points": [
+                [
+                    0.0,
+                    2183.0
+                ],
+                [
+                    321.0,
+                    2183.0
+                ],
+                [
+                    321.0,
+                    2441.0
+                ],
+                [
+                    0.0,
+                    2441.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Tỷ lệ nơ quả han (%)</td><td>2.1</td><td>0.9</td><td>0.9</td><td>0.8</td><td>0.8</td></tr><tr><td>Quỹ dự phòng rủi ro/Tổng nợ xấu (%)</td><td>126.5</td><td>132.7</td><td>151.9</td><td>175.0</td><td>160.3</td></tr><tr><td>(VCSH + Dự phòng)/Tổng nợ xấu (số lấn)</td><td>11</td><td>13</td><td>13</td><td>19</td><td>19</td></tr><tr><td>CASA (%)</td><td>16.3</td><td>16.7</td><td>17.5</td><td>19.1</td><td>21.6</td></tr><tr><td>Khả năng sinh lời</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>ROE (%)</td><td>9.9</td><td>14.1</td><td>27.7</td><td>24.6</td><td>24.3</td></tr><tr><td>ROA (%)</td><td>0.6</td><td>0.8</td><td>1.7</td><td>1.7</td><td>1.9</td></tr><tr><td>NIM (%)</td><td>3.2</td><td>3.3</td><td>3.4</td><td>3.4</td><td>3.5</td></tr><tr><td>Thu nhập ngoài lãi/Tổng thu nhập (%)</td><td>20.5</td><td>26.1</td><td>26.2</td><td>24.8</td><td>19.7</td></tr><tr><td>Chỉ phi hoạt động/Tổng thu nhập (%)</td><td>54.0</td><td>54.4</td><td>47.8</td><td>51.6</td><td>42.0</td></tr><tr><td>Chỉ phi dự phòng/LN trước dự phòng (%)</td><td>58.2</td><td>49.1</td><td>12.7</td><td>3.5</td><td>8.9</td></tr></table>",
+            "block_bbox": [
+                1887,
+                316,
+                3228,
+                884
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 165,
+            "global_group_id": 165,
+            "block_polygon_points": [
+                [
+                    1887.0,
+                    316.0
+                ],
+                [
+                    3228.0,
+                    316.0
+                ],
+                [
+                    3228.0,
+                    884.0
+                ],
+                [
+                    1887.0,
+                    884.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "(*) Tỷ lệ an toàn vốn từ năm 2017 về sau trong Báo cáo này được tính theo Basel II",
+            "block_bbox": [
+                1878,
+                905,
+                2767,
+                945
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 166,
+            "global_group_id": 166,
+            "block_polygon_points": [
+                [
+                    1878.0,
+                    905.0
+                ],
+                [
+                    2767.0,
+                    905.0
+                ],
+                [
+                    2767.0,
+                    945.0
+                ],
+                [
+                    1878.0,
+                    945.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "1.2 Ngành nghề và địa bàn kinh doanh",
+            "block_bbox": [
+                1878,
+                1011,
+                2672,
+                1070
+            ],
+            "block_id": 8,
+            "block_order": 2,
+            "group_id": 8,
+            "global_block_id": 167,
+            "global_group_id": 167,
+            "block_polygon_points": [
+                [
+                    1878.0,
+                    1011.0
+                ],
+                [
+                    2672.0,
+                    1011.0
+                ],
+                [
+                    2672.0,
+                    1070.0
+                ],
+                [
+                    1878.0,
+                    1070.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "1.2.1 Ngành nghề kinh doanh",
+            "block_bbox": [
+                1890,
+                1140,
+                2331,
+                1195
+            ],
+            "block_id": 9,
+            "block_order": 3,
+            "group_id": 9,
+            "global_block_id": 168,
+            "global_group_id": 168,
+            "block_polygon_points": [
+                [
+                    1890.0,
+                    1140.0
+                ],
+                [
+                    2331.0,
+                    1140.0
+                ],
+                [
+                    2331.0,
+                    1195.0
+                ],
+                [
+                    1890.0,
+                    1195.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Xin xem Báo cáo tài chính hợp nhất năm 2020, phần 1. (a) Thành lập và hoạt động.",
+            "block_bbox": [
+                1877,
+                1216,
+                2820,
+                1260
+            ],
+            "block_id": 10,
+            "block_order": 4,
+            "group_id": 10,
+            "global_block_id": 169,
+            "global_group_id": 169,
+            "block_polygon_points": [
+                [
+                    1877.0,
+                    1216.0
+                ],
+                [
+                    2820.0,
+                    1216.0
+                ],
+                [
+                    2820.0,
+                    1260.0
+                ],
+                [
+                    1877.0,
+                    1260.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                1885,
+                1279,
+                1983,
+                1319
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 170,
+            "global_group_id": 170,
+            "block_polygon_points": [
+                [
+                    1885.0,
+                    1279.0
+                ],
+                [
+                    1983.0,
+                    1279.0
+                ],
+                [
+                    1983.0,
+                    1319.0
+                ],
+                [
+                    1885.0,
+                    1319.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "1.2.2 Địa bàn kinh doanh",
+            "block_bbox": [
+                1891,
+                1318,
+                2255,
+                1362
+            ],
+            "block_id": 12,
+            "block_order": 5,
+            "group_id": 12,
+            "global_block_id": 171,
+            "global_group_id": 171,
+            "block_polygon_points": [
+                [
+                    1891,
+                    1318
+                ],
+                [
+                    1891,
+                    1361
+                ],
+                [
+                    2254,
+                    1361
+                ],
+                [
+                    2254,
+                    1318
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Trong năm 2020, ACB đã tiếp tục mở rộng mạng lưới, nâng tổng số chi nhánh và phòng giao dịch lên 371 đơn vị, hoạt động tại 48 tỉnh thành trong cả nước.",
+            "block_bbox": [
+                1876,
+                1413,
+                3231,
+                1499
+            ],
+            "block_id": 13,
+            "block_order": 6,
+            "group_id": 13,
+            "global_block_id": 172,
+            "global_group_id": 172,
+            "block_polygon_points": [
+                [
+                    1876.0,
+                    1413.0
+                ],
+                [
+                    3231.0,
+                    1413.0
+                ],
+                [
+                    3231.0,
+                    1499.0
+                ],
+                [
+                    1876.0,
+                    1499.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Khu vực TP. Hồ Chí Minh, Đông Nam Bộ, Đông Bắc Bộ và vùng Đồng bằng Sông Cửu Long là các thị trường trọng yếu của ACB. Thị phần tín dụng của ACB trên cả nước tăng 11 điểm so với 2019, ước đạt trên 3,4%. Thị phần huy động tăng 5 điểm so với năm 2019, ước đạt ở mức 3,5%.",
+            "block_bbox": [
+                1876,
+                1513,
+                3234,
+                1644
+            ],
+            "block_id": 14,
+            "block_order": 7,
+            "group_id": 14,
+            "global_block_id": 173,
+            "global_group_id": 173,
+            "block_polygon_points": [
+                [
+                    1876.0,
+                    1513.0
+                ],
+                [
+                    3234.0,
+                    1513.0
+                ],
+                [
+                    3234.0,
+                    1644.0
+                ],
+                [
+                    1876.0,
+                    1644.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- 137 chi nhánh và phòng giao dịch tại TP. Hồ Chí Minh có đóng góp lớn cho thị phần của ACB, chiếm 64% tổng huy động, 46% tổng dư nợ cho vay và mang lại 53% doanh thu.",
+            "block_bbox": [
+                1875,
+                1657,
+                3233,
+                1745
+            ],
+            "block_id": 15,
+            "block_order": 8,
+            "group_id": 15,
+            "global_block_id": 174,
+            "global_group_id": 174,
+            "block_polygon_points": [
+                [
+                    1875.0,
+                    1657.0
+                ],
+                [
+                    3233.0,
+                    1657.0
+                ],
+                [
+                    3233.0,
+                    1745.0
+                ],
+                [
+                    1875.0,
+                    1745.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7129813432693481,
+                "coordinate": [
+                    195,
+                    127,
+                    505,
+                    171
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        195.0,
+                        127.0
+                    ],
+                    [
+                        505.0,
+                        127.0
+                    ],
+                    [
+                        505.0,
+                        171.0
+                    ],
+                    [
+                        195.0,
+                        171.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7571976184844971,
+                "coordinate": [
+                    2867,
+                    164,
+                    3175,
+                    200
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        2867.0,
+                        164.0
+                    ],
+                    [
+                        3175.0,
+                        164.0
+                    ],
+                    [
+                        3175.0,
+                        200.0
+                    ],
+                    [
+                        2867.0,
+                        200.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.44521328806877136,
+                "coordinate": [
+                    189,
+                    189,
+                    338,
+                    227
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        189.0,
+                        189.0
+                    ],
+                    [
+                        338.0,
+                        189.0
+                    ],
+                    [
+                        338.0,
+                        227.0
+                    ],
+                    [
+                        189.0,
+                        227.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.698519229888916,
+                "coordinate": [
+                    159,
+                    276,
+                    1007,
+                    322
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        159.0,
+                        276.0
+                    ],
+                    [
+                        1007.0,
+                        276.0
+                    ],
+                    [
+                        1007.0,
+                        322.0
+                    ],
+                    [
+                        159.0,
+                        322.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9295051097869873,
+                "coordinate": [
+                    148,
+                    338,
+                    1508,
+                    2160
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        148.0,
+                        338.0
+                    ],
+                    [
+                        1508.0,
+                        338.0
+                    ],
+                    [
+                        1508.0,
+                        2160.0
+                    ],
+                    [
+                        148.0,
+                        2160.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.343603253364563,
+                "coordinate": [
+                    0,
+                    2183,
+                    321,
+                    2441
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        0.0,
+                        2183.0
+                    ],
+                    [
+                        321.0,
+                        2183.0
+                    ],
+                    [
+                        321.0,
+                        2441.0
+                    ],
+                    [
+                        0.0,
+                        2441.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.6269881725311279,
+                "coordinate": [
+                    1887,
+                    316,
+                    3228,
+                    884
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1887.0,
+                        316.0
+                    ],
+                    [
+                        3228.0,
+                        316.0
+                    ],
+                    [
+                        3228.0,
+                        884.0
+                    ],
+                    [
+                        1887.0,
+                        884.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.378108412027359,
+                "coordinate": [
+                    1888,
+                    324,
+                    3225,
+                    508
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1888,
+                        324
+                    ],
+                    [
+                        1888,
+                        507
+                    ],
+                    [
+                        3224,
+                        507
+                    ],
+                    [
+                        3224,
+                        324
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.41897574067115784,
+                "coordinate": [
+                    1885,
+                    590,
+                    3224,
+                    880
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1885.0,
+                        590.0
+                    ],
+                    [
+                        3224.0,
+                        590.0
+                    ],
+                    [
+                        3224.0,
+                        880.0
+                    ],
+                    [
+                        1885.0,
+                        880.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7922400832176208,
+                "coordinate": [
+                    1878,
+                    905,
+                    2767,
+                    945
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1878.0,
+                        905.0
+                    ],
+                    [
+                        2767.0,
+                        905.0
+                    ],
+                    [
+                        2767.0,
+                        945.0
+                    ],
+                    [
+                        1878.0,
+                        945.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7960975170135498,
+                "coordinate": [
+                    1878,
+                    1011,
+                    2672,
+                    1070
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        1878.0,
+                        1011.0
+                    ],
+                    [
+                        2672.0,
+                        1011.0
+                    ],
+                    [
+                        2672.0,
+                        1070.0
+                    ],
+                    [
+                        1878.0,
+                        1070.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.632631242275238,
+                "coordinate": [
+                    1890,
+                    1140,
+                    2331,
+                    1195
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        1890.0,
+                        1140.0
+                    ],
+                    [
+                        2331.0,
+                        1140.0
+                    ],
+                    [
+                        2331.0,
+                        1195.0
+                    ],
+                    [
+                        1890.0,
+                        1195.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7945891618728638,
+                "coordinate": [
+                    1877,
+                    1216,
+                    2820,
+                    1260
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        1877.0,
+                        1216.0
+                    ],
+                    [
+                        2820.0,
+                        1216.0
+                    ],
+                    [
+                        2820.0,
+                        1260.0
+                    ],
+                    [
+                        1877.0,
+                        1260.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.41029974818229675,
+                "coordinate": [
+                    1885,
+                    1279,
+                    1983,
+                    1319
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1885.0,
+                        1279.0
+                    ],
+                    [
+                        1983.0,
+                        1279.0
+                    ],
+                    [
+                        1983.0,
+                        1319.0
+                    ],
+                    [
+                        1885.0,
+                        1319.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6071559190750122,
+                "coordinate": [
+                    1891,
+                    1318,
+                    2255,
+                    1362
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1891,
+                        1318
+                    ],
+                    [
+                        1891,
+                        1361
+                    ],
+                    [
+                        2254,
+                        1361
+                    ],
+                    [
+                        2254,
+                        1318
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9038705229759216,
+                "coordinate": [
+                    1876,
+                    1413,
+                    3231,
+                    1499
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        1876.0,
+                        1413.0
+                    ],
+                    [
+                        3231.0,
+                        1413.0
+                    ],
+                    [
+                        3231.0,
+                        1499.0
+                    ],
+                    [
+                        1876.0,
+                        1499.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9243966341018677,
+                "coordinate": [
+                    1876,
+                    1513,
+                    3234,
+                    1644
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        1876.0,
+                        1513.0
+                    ],
+                    [
+                        3234.0,
+                        1513.0
+                    ],
+                    [
+                        3234.0,
+                        1644.0
+                    ],
+                    [
+                        1876.0,
+                        1644.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8949140906333923,
+                "coordinate": [
+                    1875,
+                    1657,
+                    3233,
+                    1745
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        1875.0,
+                        1657.0
+                    ],
+                    [
+                        3233.0,
+                        1657.0
+                    ],
+                    [
+                        3233.0,
+                        1745.0
+                    ],
+                    [
+                        1875.0,
+                        1745.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

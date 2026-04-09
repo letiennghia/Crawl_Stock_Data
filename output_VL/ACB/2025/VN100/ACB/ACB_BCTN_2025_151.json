@@ -1,0 +1,286 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2278,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Báo cáo thưởng niên ACB năm 2025",
+            "block_bbox": [
+                1524,
+                1461,
+                1568,
+                1955
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1526,
+            "global_group_id": 1526,
+            "block_polygon_points": [
+                [
+                    1524.0,
+                    1461.0
+                ],
+                [
+                    1568.0,
+                    1461.0
+                ],
+                [
+                    1568.0,
+                    1955.0
+                ],
+                [
+                    1524.0,
+                    1955.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Tiêu chí</td><td>Đánh giá 2025</td><td>Cơ sở cho việc đánh giá 2025</td></tr><tr><td>(P)D.1</td><td>Tuân thù quy định, quy tắc và luật hiện hành về niêm yết</td><td></td><td></td></tr><tr><td>(P)D.1.1</td><td>Có bằng chứng gì là công ty đã không tuân thù quy tắc và quy định nào về niêm yết trong năm qua ngoài các quy định về công bố thông tin?</td><td></td><td>Không phát sinh tại ACB.</td></tr><tr><td>(P)D.1.2</td><td>Có trường hợp nào mà thành viên HDQT không điều hành đã từ nhiệm và nêu ra bất kỳ lo ngại nào liên quan đến quản trị?</td><td></td><td>Không phát sinh tại ACB.</td></tr><tr><td>(P)D.2</td><td>Cấu trúc HDQT</td><td></td><td></td></tr><tr><td>(P)D.2.1</td><td>Công ty có thành viên HDQT độc lập nào đã phục vụ hơn 9 năm hay hai nhiệm kỳ 5 năm (chọn trưởng hợp nào cao hơn) với cùng chức trách?20</td><td></td><td>Không phát sinh tại ACB. Thể hiện tại ACB. Thể hiện tại A</td></tr></table>",
+            "block_bbox": [
+                152,
+                150,
+                1239,
+                1997
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1527,
+            "global_group_id": 1527,
+            "block_polygon_points": [
+                [
+                    152.0,
+                    150.0
+                ],
+                [
+                    1239.0,
+                    150.0
+                ],
+                [
+                    1239.0,
+                    1997.0
+                ],
+                [
+                    152.0,
+                    1997.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "20 (Ghi chú: Nhiệm kỳ 5 năm phải được yêu cầu bội các đạo luật đã có từ trước khi có Thê Diêm Quân trị Công ASEAN vào năm 2011.)",
+            "block_bbox": [
+                1398,
+                456,
+                1444,
+                1954
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1528,
+            "global_group_id": 1528,
+            "block_polygon_points": [
+                [
+                    1398.0,
+                    456.0
+                ],
+                [
+                    1444.0,
+                    456.0
+                ],
+                [
+                    1444.0,
+                    1954.0
+                ],
+                [
+                    1398.0,
+                    1954.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "148 / 179",
+            "block_bbox": [
+                1522,
+                670,
+                1562,
+                805
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 1529,
+            "global_group_id": 1529,
+            "block_polygon_points": [
+                [
+                    1522.0,
+                    670.0
+                ],
+                [
+                    1562.0,
+                    670.0
+                ],
+                [
+                    1562.0,
+                    805.0
+                ],
+                [
+                    1522.0,
+                    805.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.43395766615867615,
+                "coordinate": [
+                    1524,
+                    1461,
+                    1568,
+                    1955
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1524.0,
+                        1461.0
+                    ],
+                    [
+                        1568.0,
+                        1461.0
+                    ],
+                    [
+                        1568.0,
+                        1955.0
+                    ],
+                    [
+                        1524.0,
+                        1955.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9705668091773987,
+                "coordinate": [
+                    152,
+                    150,
+                    1239,
+                    1997
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        152.0,
+                        150.0
+                    ],
+                    [
+                        1239.0,
+                        150.0
+                    ],
+                    [
+                        1239.0,
+                        1997.0
+                    ],
+                    [
+                        152.0,
+                        1997.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5017625093460083,
+                "coordinate": [
+                    1398,
+                    456,
+                    1444,
+                    1954
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1398.0,
+                        456.0
+                    ],
+                    [
+                        1444.0,
+                        456.0
+                    ],
+                    [
+                        1444.0,
+                        1954.0
+                    ],
+                    [
+                        1398.0,
+                        1954.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.3840257525444031,
+                "coordinate": [
+                    1522,
+                    670,
+                    1562,
+                    805
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        1522.0,
+                        670.0
+                    ],
+                    [
+                        1562.0,
+                        670.0
+                    ],
+                    [
+                        1562.0,
+                        805.0
+                    ],
+                    [
+                        1522.0,
+                        805.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

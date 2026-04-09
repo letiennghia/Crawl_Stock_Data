@@ -1,0 +1,160 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "BÁO CÁO TÀI CHÍNH HỢP NHẤT\nNĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2023",
+            "block_bbox": [
+                324,
+                1009,
+                1269,
+                1132
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 396,
+            "global_group_id": 396,
+            "block_polygon_points": [
+                [
+                    324.0,
+                    1009.0
+                ],
+                [
+                    1269.0,
+                    1009.0
+                ],
+                [
+                    1269.0,
+                    1132.0
+                ],
+                [
+                    324.0,
+                    1132.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "CÔNG TY CỔ PHẦN NAM VIỆT",
+            "block_bbox": [
+                336,
+                1178,
+                1251,
+                1262
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 397,
+            "global_group_id": 397,
+            "block_polygon_points": [
+                [
+                    336.0,
+                    1178.0
+                ],
+                [
+                    1251.0,
+                    1178.0
+                ],
+                [
+                    1251.0,
+                    1262.0
+                ],
+                [
+                    336.0,
+                    1262.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8339060544967651,
+                "coordinate": [
+                    324,
+                    1009,
+                    1269,
+                    1132
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        324.0,
+                        1009.0
+                    ],
+                    [
+                        1269.0,
+                        1009.0
+                    ],
+                    [
+                        1269.0,
+                        1132.0
+                    ],
+                    [
+                        324.0,
+                        1132.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7729063630104065,
+                "coordinate": [
+                    336,
+                    1178,
+                    1251,
+                    1262
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        336.0,
+                        1178.0
+                    ],
+                    [
+                        1251.0,
+                        1178.0
+                    ],
+                    [
+                        1251.0,
+                        1262.0
+                    ],
+                    [
+                        336.0,
+                        1262.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

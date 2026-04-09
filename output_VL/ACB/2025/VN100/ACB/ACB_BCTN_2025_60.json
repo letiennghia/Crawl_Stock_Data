@@ -1,0 +1,601 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2299,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "",
+            "block_bbox": [
+                242,
+                409,
+                1421,
+                925
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 742,
+            "global_group_id": 733,
+            "block_polygon_points": [
+                [
+                    242.0,
+                    409.0
+                ],
+                [
+                    1421.0,
+                    409.0
+                ],
+                [
+                    1421.0,
+                    925.0
+                ],
+                [
+                    242.0,
+                    925.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "2.5.4. Giao dịch cổ phiếu quỹ",
+            "block_bbox": [
+                242,
+                928,
+                653,
+                969
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 743,
+            "global_group_id": 743,
+            "block_polygon_points": [
+                [
+                    242.0,
+                    928.0
+                ],
+                [
+                    653.0,
+                    928.0
+                ],
+                [
+                    653.0,
+                    969.0
+                ],
+                [
+                    242.0,
+                    969.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Không phát sinh vì ACB không sở hữu cổ phiếu quỹ từ ngày 01/4/2020.",
+            "block_bbox": [
+                335,
+                983,
+                1288,
+                1027
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 744,
+            "global_group_id": 744,
+            "block_polygon_points": [
+                [
+                    335.0,
+                    983.0
+                ],
+                [
+                    1288.0,
+                    983.0
+                ],
+                [
+                    1288.0,
+                    1027.0
+                ],
+                [
+                    335.0,
+                    1027.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2.5.5. Chứng khoản khác",
+            "block_bbox": [
+                239,
+                1039,
+                597,
+                1079
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "global_block_id": 745,
+            "global_group_id": 745,
+            "block_polygon_points": [
+                [
+                    239.0,
+                    1039.0
+                ],
+                [
+                    597.0,
+                    1039.0
+                ],
+                [
+                    597.0,
+                    1079.0
+                ],
+                [
+                    239.0,
+                    1079.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Không phát sinh vì ACB không phát hành chứng khoản vốn khác trong năm 2025.",
+            "block_bbox": [
+                335,
+                1096,
+                1419,
+                1140
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "global_block_id": 746,
+            "global_group_id": 746,
+            "block_polygon_points": [
+                [
+                    335.0,
+                    1096.0
+                ],
+                [
+                    1419.0,
+                    1096.0
+                ],
+                [
+                    1419.0,
+                    1140.0
+                ],
+                [
+                    335.0,
+                    1140.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "2.6. Các giải thưởng uy tín đã đạt được trong năm 2025",
+            "block_bbox": [
+                138,
+                1205,
+                939,
+                1246
+            ],
+            "block_id": 5,
+            "block_order": 3,
+            "group_id": 5,
+            "global_block_id": 747,
+            "global_group_id": 747,
+            "block_polygon_points": [
+                [
+                    138.0,
+                    1205.0
+                ],
+                [
+                    939.0,
+                    1205.0
+                ],
+                [
+                    939.0,
+                    1246.0
+                ],
+                [
+                    138.0,
+                    1246.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Tên giải_TV</td><td>Đơn vị trao giải</td></tr><tr><td colspan=\"2\">Giải thưởng quốc tế</td><td></td></tr><tr><td>1</td><td>Ngân hàng tốt nhất Việt Nam</td><td>FinanceAsia</td></tr><tr><td>2</td><td>Thực hành xanh</td><td>Asean Fintech Forum</td></tr><tr><td>3</td><td>ACB - Một trong những tổ chức có môi trường làm việc tốt nhất châu Á 2025</td><td>HR Asia</td></tr><tr><td>4</td><td>ACB - Doanh nghiệp xuất sắc Châu Á</td><td>Enterprise Asia</td></tr><tr><td>5</td><td>Ngân hàng quản lý rủi ro tốt nhất Việt Nam 2025</td><td>Global Banking &amp; Finance Review</td></tr><tr><td>6</td><td>ACB có đổi mới xuất sắc - Trải nghiệm khách hàng ứng dụng trí tuệ nhân tạo tại Việt Nam năm 2025</td><td>Global Banking &amp; Finance Review</td></tr><tr><td>7</td><td>Ngân hàng dẫn đầu về Tổng doanh số giao dịch thế 2025</td><td>VISA</td></tr><tr><td>8</td><td>Ngân hàng dẫn đầu về Doanh số giao dịch xuyên biên giới 2025</td><td>VISA</td></tr><tr><td>9</td><td>Ngân hàng dẫn đầu về Doanh số giao dịch trên Thè ghi nợ 2025</td><td>VISA</td></tr><tr><td>10</td><td>Ngân hàng dẫn đầu về Doanh số và Tăng trưởng Thê doanh nghiệp 2025</td><td>VISA</td></tr><tr><td>11</td><td>ACB - Đối tác tiên phong triển khai giải pháp số mới tại Việt Nam trong năm 2025</td><td>VISA</td></tr><tr><td>12</td><td>Giải thưởng Ra mắt thẻ White Label ngành Hàng không đối mới sáng tạo tại Việt Nam 2025</td><td>VISA</td></tr><tr><td>13</td><td>Ngân hàng thưởng mại tốt nhất Việt Nam</td><td>International Finance Magazine</td></tr><tr><td>14</td><td>Ngân hàng có Ứng dụng Ngân hàng số sáng tạo nhất Việt Nam 2025</td><td>International Finance Magazine</td></tr><tr><td colspan=\"2\">Giải thưởng trong nước</td><td></td></tr><tr><td>1</td><td>Tốp 50 doanh nghiệp tiêu biểu có thưởng hiệu và sản phẩm chủ lực của TP. HCM</td><td>Ứy ban Nhân dân TP. Hồ Chí Minh &amp; Sở Công Thương TP. Hồ Chí Minh</td></tr><tr><td>2</td><td>ESG Việt Nam</td><td>Báo Đân trí</td></tr><tr><td>3</td><td>ACB - Tốp 50 Doanh nghiệp phát triển bền vững 2025</td><td>Tạp chí Nhip cầu Đầu tư</td></tr><tr><td>4</td><td>ACB - Tốp 50 Công ty niêm yết tốt nhất Việt Nam năm 2025</td><td>Forbes</td></tr><tr><td>5</td><td>Ngân hàng bán lẻ tiêu biểu</td><td>VOBA/IDG</td></tr><tr><td>6</td><td>Ngân hàng có sản phẩm dịch vụ sáng tạo</td><td>VOBA/IDG</td></tr><tr><td>7</td><td>Ngân hàng có Giải pháp Tín dụng Sáng tạo</td><td>VCCorp</td></tr><tr><td>8</td><td>Thù tướng chính phủ - Nhà dột nát</td><td>Thù tướng</td></tr><tr><td>9</td><td>Ngân hàng có Chiến dịch tác động nhanh</td><td>MMA Smarties Vietnam</td></tr><tr><td>10</td><td>Tốp 50 Công ty kinh doanh hiệu quả nhất Việt Nam 2025</td><td>Tạp chí Nhip cầu Đầu tư</td></tr><tr><td>11</td><td>Tốp 10 Báo cáo thường niên tốt nhất trong nhóm ngành tài chính năm 2025</td><td>Sở GDCK TP. HCM</td></tr></table>",
+            "block_bbox": [
+                216,
+                1255,
+                1417,
+                2041
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 748,
+            "global_group_id": 748,
+            "block_polygon_points": [
+                [
+                    216.0,
+                    1255.0
+                ],
+                [
+                    1417.0,
+                    1255.0
+                ],
+                [
+                    1417.0,
+                    2041.0
+                ],
+                [
+                    216.0,
+                    2041.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Báo cáo thường niên ACB năm 2025",
+            "block_bbox": [
+                142,
+                2181,
+                633,
+                2218
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 749,
+            "global_group_id": 749,
+            "block_polygon_points": [
+                [
+                    142.0,
+                    2181.0
+                ],
+                [
+                    633.0,
+                    2181.0
+                ],
+                [
+                    633.0,
+                    2218.0
+                ],
+                [
+                    142.0,
+                    2218.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "57 / 179",
+            "block_bbox": [
+                1304,
+                2186,
+                1419,
+                2221
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 750,
+            "global_group_id": 750,
+            "block_polygon_points": [
+                [
+                    1304.0,
+                    2186.0
+                ],
+                [
+                    1419.0,
+                    2186.0
+                ],
+                [
+                    1419.0,
+                    2221.0
+                ],
+                [
+                    1304.0,
+                    2221.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9664547443389893,
+                "coordinate": [
+                    242,
+                    409,
+                    1421,
+                    925
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        242.0,
+                        409.0
+                    ],
+                    [
+                        1421.0,
+                        409.0
+                    ],
+                    [
+                        1421.0,
+                        925.0
+                    ],
+                    [
+                        242.0,
+                        925.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7861192226409912,
+                "coordinate": [
+                    242,
+                    928,
+                    653,
+                    969
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        242.0,
+                        928.0
+                    ],
+                    [
+                        653.0,
+                        928.0
+                    ],
+                    [
+                        653.0,
+                        969.0
+                    ],
+                    [
+                        242.0,
+                        969.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7362767457962036,
+                "coordinate": [
+                    335,
+                    983,
+                    1288,
+                    1027
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        335.0,
+                        983.0
+                    ],
+                    [
+                        1288.0,
+                        983.0
+                    ],
+                    [
+                        1288.0,
+                        1027.0
+                    ],
+                    [
+                        335.0,
+                        1027.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3884522020816803,
+                "coordinate": [
+                    239,
+                    1039,
+                    597,
+                    1079
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        239.0,
+                        1039.0
+                    ],
+                    [
+                        597.0,
+                        1039.0
+                    ],
+                    [
+                        597.0,
+                        1079.0
+                    ],
+                    [
+                        239.0,
+                        1079.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5921589732170105,
+                "coordinate": [
+                    335,
+                    1096,
+                    1419,
+                    1140
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        335.0,
+                        1096.0
+                    ],
+                    [
+                        1419.0,
+                        1096.0
+                    ],
+                    [
+                        1419.0,
+                        1140.0
+                    ],
+                    [
+                        335.0,
+                        1140.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5053663849830627,
+                "coordinate": [
+                    138,
+                    1205,
+                    939,
+                    1246
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        138.0,
+                        1205.0
+                    ],
+                    [
+                        939.0,
+                        1205.0
+                    ],
+                    [
+                        939.0,
+                        1246.0
+                    ],
+                    [
+                        138.0,
+                        1246.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9791350960731506,
+                "coordinate": [
+                    216,
+                    1255,
+                    1417,
+                    2041
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        216.0,
+                        1255.0
+                    ],
+                    [
+                        1417.0,
+                        1255.0
+                    ],
+                    [
+                        1417.0,
+                        2041.0
+                    ],
+                    [
+                        216.0,
+                        2041.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8500685095787048,
+                "coordinate": [
+                    142,
+                    2181,
+                    633,
+                    2218
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        142.0,
+                        2181.0
+                    ],
+                    [
+                        633.0,
+                        2181.0
+                    ],
+                    [
+                        633.0,
+                        2218.0
+                    ],
+                    [
+                        142.0,
+                        2218.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8268858194351196,
+                "coordinate": [
+                    1304,
+                    2186,
+                    1419,
+                    2221
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        1304.0,
+                        2186.0
+                    ],
+                    [
+                        1419.0,
+                        2186.0
+                    ],
+                    [
+                        1419.0,
+                        2221.0
+                    ],
+                    [
+                        1304.0,
+                        2221.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

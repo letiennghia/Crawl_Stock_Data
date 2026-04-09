@@ -1,0 +1,160 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "",
+            "block_bbox": [
+                219,
+                92,
+                1472,
+                2134
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 24,
+            "global_group_id": 21,
+            "block_polygon_points": [
+                [
+                    219.0,
+                    92.0
+                ],
+                [
+                    1472.0,
+                    92.0
+                ],
+                [
+                    1472.0,
+                    2134.0
+                ],
+                [
+                    219.0,
+                    2134.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "2",
+            "block_bbox": [
+                837,
+                2174,
+                854,
+                2201
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 25,
+            "global_group_id": 25,
+            "block_polygon_points": [
+                [
+                    837.0,
+                    2174.0
+                ],
+                [
+                    853.0,
+                    2174.0
+                ],
+                [
+                    853.0,
+                    2200.0
+                ],
+                [
+                    837.0,
+                    2200.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9793316125869751,
+                "coordinate": [
+                    219,
+                    92,
+                    1472,
+                    2134
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        219.0,
+                        92.0
+                    ],
+                    [
+                        1472.0,
+                        92.0
+                    ],
+                    [
+                        1472.0,
+                        2134.0
+                    ],
+                    [
+                        219.0,
+                        2134.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.5029615163803101,
+                "coordinate": [
+                    837,
+                    2174,
+                    854,
+                    2201
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        837.0,
+                        2174.0
+                    ],
+                    [
+                        853.0,
+                        2174.0
+                    ],
+                    [
+                        853.0,
+                        2200.0
+                    ],
+                    [
+                        837.0,
+                        2200.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

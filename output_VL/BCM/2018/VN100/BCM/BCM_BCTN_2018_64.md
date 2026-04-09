@@ -1,0 +1,17 @@
+(vii) Trong năm, Công ty Cổ phần Dược Becamex phát hành thêm 1.960.000 cổ phiếu riêng lẻ để tăng vốn điều lệ. Tại ngày kết thúc năm tài chính, Tổng Công ty năm giữ 2.060.400 cổ phiếu, tương đương 34,34% vốn điều lệ. Khoản đầu tư này đã được đánh giá lại theo Quyết định phê duyệt giá trị doanh nghiệp để cổ phần hóa Tổng Công ty là 25.173.365.273 VND.
+
+(vii) Theo Giấy chứng nhận đầu tư số 46121000047 thay đổi lần thứ 01 ngày 13 tháng 9 năm 2010 do Ủy ban nhân dân tinh Bình Dương cấp, Tổng Công ty đầu tư vào Trường Đại học Quốc tế Miền Đông 30.600.000.000 VND, tương đương 51% vốn điều lệ. Khoản đầu tư này đã được đánh giá lại theo Quyết định phê duyệt giá trị doanh nghiệp để cổ phần hóa Tổng Công ty là 30.416.501.773 VND.
+
+(ix) Theo Giấy chứng nhận đăng ký doanh nghiệp số 3700248731 thay đổi lần thứ 04 ngày 28 tháng 3 năm 2016 do Sở Kế hoạch và Đầu tư tinh Bình Dương cấp, Tổng Công ty đầu tư vào Công ty Cổ phần Cao su Bình Dương 84.500.000.000 VND, tương đương 72,22% vốn điều lệ.
+
+(x) Theo Giấy chứng nhận đăng ký doanh nghiệp số 463023000267 thay đổi lần thứ 08 ngày 22 tháng 7 năm 2008 do Ban Quản lý Khu Công nghiệp Việt Nam – Singapore cấp, Tổng Công ty đầu tư vào Công ty Liên doanh TNHH Khu Công nghiệp Việt Nam – Singapore 461.013.591.047 VND, tương đương 49% vốn điều lệ. Khoản đầu tư này đã được đánh giá lại theo Quyết định phê duyệt giá trị doanh nghiệp để cổ phần hóa Tổng Công ty là 1.295.442.007.510 VND.
+
+(xi) Theo Giấy chứng nhận đầu tư số 461032000230 thay đổi lần thứ 04 ngày 05 tháng 01 năm 2012 do Ủy ban nhân dân tinh Bình Dương cấp, Tổng Cộng ty đầu tư vào Công ty Cổ phần Setia – Becamex 264.000.000.000 VND, tương đương 40% vốn điều lệ. Khoản đầu tư này đã được đánh giá lại theo Quyết định phê duyệt giá trị doanh nghiệp để cổ phần hóa Tổng Cộng ty là 178.151.496.663 VND.
+
+(xii) Theo Giấy phép điều chỉnh số 50GP/KDBH thay đổi lần thứ 05 ngày 25 tháng 7 năm 2012 do Bộ Tài chính cấp, Tổng Công ty đầu tư vào Công ty Cổ phần Bảo hiểm Hùng Vương 60.000.000.000 VND, tương đương 20% vốn điều lệ. Khoản đầu tư này đã được đánh giá lại theo Quyết định phê duyệt giá trị doanh nghiệp để cổ phần hóa Tổng Công ty là 61.204.008.789 VND.
+
+(xii) Theo Giấy chứng nhận đăng ký doanh nghiệp số 0303923529 thay đổi lần thứ 09 ngày 20 tháng 11 năm 2013 do Sở Kế hoạch và Đầu tư TP. Hồ Chí Minh cấp, Tổng Công ty đầu tư vào Công ty Cổ phần Dược phẩm Savi 5.629.900 cổ phiếu, tương đương 35,19% vốn điều lệ. Khoản đầu tư này đã được đánh giá lại theo Quyết định phê duyệt giá trị doanh nghiệp để cổ phần hóa Tổng Công ty là 55.873.557.078 VND.
+
+(xiv) Theo Giấy chứng nhận đăng ký doanh nghiệp số 3700861497 thay đổi lần thứ 04 ngày 15 tháng 4 năm 2016 do Sở Kế hoạch và Đầu tư tinh Bình Dương cấp, Tổng Công ty đầu tư vào Công ty Cổ phần Công nghệ & Truyền thông Việt Nam 117.116.380.000 VND, tương đương 48,59% vốn điều lệ. Khoản đầu tư này đã được đánh giá lại theo Quyết định phê duyệt giá trị doanh nghiệp để cổ phần hóa Tổng Công ty là 88.558.227.697 VND.
+
+(xv) Theo Giấy chứng nhận đầu tư số 461022000756 thay đổi lần thứ 04 ngày 04 tháng 02 năm 2016 do Ủy ban nhân dân tinh Bình Dương cấp, Tổng Công ty đầu tư vào Công ty TNHH Becamex Tokyu 3.010.000.000.000 VND, tương đương 35% vốn điều lệ. Khoản đầu tư này đã được đánh giá lại theo Quyết định phê duyệt giá trị doanh nghiệp để cổ phần hóa Tổng Công ty là 2.932.020.037.837 VND.

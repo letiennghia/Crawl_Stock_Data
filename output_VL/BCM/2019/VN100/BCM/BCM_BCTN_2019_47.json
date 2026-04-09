@@ -1,0 +1,223 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1654,
+    "height": 2339,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "BÁO CÁO TÀI CHÍNH HỢP NHẤT\nNĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2019",
+            "block_bbox": [
+                338,
+                1004,
+                1185,
+                1115
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 540,
+            "global_group_id": 540,
+            "block_polygon_points": [
+                [
+                    338.0,
+                    1004.0
+                ],
+                [
+                    1185.0,
+                    1004.0
+                ],
+                [
+                    1185.0,
+                    1115.0
+                ],
+                [
+                    338.0,
+                    1115.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "TỔNG CÔNG TY ĐẦU TỰ VÀ PHÁT TRIỂN CÔNG NGHIỆP – CTCP",
+            "block_bbox": [
+                342,
+                1153,
+                1179,
+                1399
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 541,
+            "global_group_id": 541,
+            "block_polygon_points": [
+                [
+                    342.0,
+                    1153.0
+                ],
+                [
+                    1179.0,
+                    1153.0
+                ],
+                [
+                    1179.0,
+                    1399.0
+                ],
+                [
+                    342.0,
+                    1399.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer_image",
+            "block_content": "",
+            "block_bbox": [
+                1419,
+                2142,
+                1517,
+                2262
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 542,
+            "global_group_id": 542,
+            "block_polygon_points": [
+                [
+                    1419.0,
+                    2142.0
+                ],
+                [
+                    1517.0,
+                    2142.0
+                ],
+                [
+                    1517.0,
+                    2262.0
+                ],
+                [
+                    1419.0,
+                    2262.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8649899959564209,
+                "coordinate": [
+                    338,
+                    1004,
+                    1185,
+                    1115
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        338.0,
+                        1004.0
+                    ],
+                    [
+                        1185.0,
+                        1004.0
+                    ],
+                    [
+                        1185.0,
+                        1115.0
+                    ],
+                    [
+                        338.0,
+                        1115.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7888755202293396,
+                "coordinate": [
+                    342,
+                    1153,
+                    1179,
+                    1399
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        342.0,
+                        1153.0
+                    ],
+                    [
+                        1179.0,
+                        1153.0
+                    ],
+                    [
+                        1179.0,
+                        1399.0
+                    ],
+                    [
+                        342.0,
+                        1399.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 9,
+                "label": "footer_image",
+                "score": 0.8513997197151184,
+                "coordinate": [
+                    1419,
+                    2142,
+                    1517,
+                    2262
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1419.0,
+                        2142.0
+                    ],
+                    [
+                        1517.0,
+                        2142.0
+                    ],
+                    [
+                        1517.0,
+                        2262.0
+                    ],
+                    [
+                        1419.0,
+                        2262.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

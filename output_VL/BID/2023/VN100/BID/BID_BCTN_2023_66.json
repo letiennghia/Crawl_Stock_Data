@@ -1,0 +1,913 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2340,
+    "height": 1654,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                105,
+                0,
+                412,
+                77
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1637,
+            "global_group_id": 1637,
+            "block_polygon_points": [
+                [
+                    105.0,
+                    0.0
+                ],
+                [
+                    412.0,
+                    0.0
+                ],
+                [
+                    412.0,
+                    77.0
+                ],
+                [
+                    105.0,
+                    77.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "HOẠT ĐỘNG QUẢN TRỊ CỒNG TY",
+            "block_bbox": [
+                1774,
+                47,
+                2052,
+                77
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1638,
+            "global_group_id": 1638,
+            "block_polygon_points": [
+                [
+                    1774.0,
+                    47.0
+                ],
+                [
+                    2052.0,
+                    47.0
+                ],
+                [
+                    2052.0,
+                    77.0
+                ],
+                [
+                    1774.0,
+                    77.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                2087,
+                31,
+                2230,
+                84
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1639,
+            "global_group_id": 1639,
+            "block_polygon_points": [
+                [
+                    2087.0,
+                    31.0
+                ],
+                [
+                    2230.0,
+                    31.0
+                ],
+                [
+                    2230.0,
+                    84.0
+                ],
+                [
+                    2087.0,
+                    84.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "HOẠT ĐỘNG QUẢN TRỊ CÔNG TY",
+            "block_bbox": [
+                104,
+                181,
+                751,
+                242
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "global_block_id": 1640,
+            "global_group_id": 1640,
+            "block_polygon_points": [
+                [
+                    104.0,
+                    181.0
+                ],
+                [
+                    751.0,
+                    181.0
+                ],
+                [
+                    751.0,
+                    242.0
+                ],
+                [
+                    104.0,
+                    242.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Chính sách về giao dịch với bên liên quan</td><td>Năm 2023, BIDV đã ban hành chính sách giao dịch với người có liên quan, theo đó giao dịch với người có liên quan được đảm bảo nguyên tắc hợp lý, theo cơ chế thị trường và ngăn ngứa xung đột lợi lịch theo quy định của pháp luật.</td></tr><tr><td rowspan=\"2\">Lương, thường, thù lao, các khoản lợi ích của HDQT, BKS, BDH</td><td>Hội đồng quản trị, Ban điều hành, Ban kiếm soát được hướng tiến lương, thù lao và các quyền lợi khác theo quy định hiện hành của BIDV. Trong đó, thù lao, tiến lương của các thành viên Hội đồng quản trị, Ban điều hành, Ban kiếm soát năm trong quỹ tiến lương của người quản lý theo phế duyệt của NHHN và năm trong phạm vi ngăn sách thù lao của HDQT, BKS được Đại hồi đồng cổ đồng phế duyệt và được trả theo vị trí, chức danh công việc gần với mức độ hoàn thành nhiệm vụ.</td></tr><tr><td>Thù lao của từng thành viên của Hội đồng quản trị, tiến lương của Tổng Giám đốc và người</td></tr></table>",
+            "block_bbox": [
+                105,
+                385,
+                1064,
+                734
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 1641,
+            "global_group_id": 1641,
+            "block_polygon_points": [
+                [
+                    105.0,
+                    385.0
+                ],
+                [
+                    1064.0,
+                    385.0
+                ],
+                [
+                    1064.0,
+                    734.0
+                ],
+                [
+                    105.0,
+                    734.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Thủ lao của tùng thành viên của Hội đồng quản trị, tiên lương của Tổng Giám đốc và người quản lý khác phát sinh và được chi trả tử quỹ lương trong năm như sau:",
+            "block_bbox": [
+                428,
+                711,
+                1062,
+                765
+            ],
+            "block_id": 5,
+            "block_order": 2,
+            "group_id": 5,
+            "global_block_id": 1642,
+            "global_group_id": 1642,
+            "block_polygon_points": [
+                [
+                    428.0,
+                    711.0
+                ],
+                [
+                    1062.0,
+                    711.0
+                ],
+                [
+                    1062.0,
+                    765.0
+                ],
+                [
+                    428.0,
+                    765.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Họ và tên</td><td>Chức vụ</td><td>Năm 2023</td><td>Năm 2022</td><td>Ghi chú</td></tr><tr><td>I</td><td>THÀNH VIỆN HDQT</td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>Phan Đức Tú</td><td>Chủ tịch HDQT</td><td>2.481</td><td>2.331</td><td></td></tr><tr><td>2</td><td>Lê Ngọc Lăm</td><td>UV HDQT, Tổng Giám độc</td><td>2.153</td><td>1.944</td><td></td></tr><tr><td>3</td><td>Phan Thị Chinh</td><td>UV HDQT</td><td>2.205</td><td>1.972</td><td></td></tr><tr><td>4</td><td>Ngô Văn Đồng</td><td>UV HDQT</td><td>1.903</td><td>1.709</td><td></td></tr><tr><td>5</td><td>Yoo Je Bong</td><td>UV HDQT</td><td>3.927</td><td>3.904</td><td></td></tr><tr><td>6</td><td>Phạm Quang Tùng</td><td>UV HDQT</td><td>1.969</td><td>1.788</td><td></td></tr><tr><td>7</td><td>Nguyễn Thị Thu Hương</td><td>UV HDQT</td><td>-</td><td>1.355</td><td>Nghi hữu theo chế độ tử ngày 01/11/2022</td></tr><tr><td>8</td><td>Trần Xuân Hoàng</td><td>UV HDQT</td><td>2.264</td><td>2.053</td><td></td></tr><tr><td>9</td><td>Lê Kim Hoà</td><td>UV HDQT</td><td>1.999</td><td>1.861</td><td></td></tr><tr><td>10</td><td>Quách Hùng Hiệp</td><td>UV HDQT</td><td>2.099</td><td>1.878</td><td>Miễn nhiệm Phó Tổng Giám độc ngày 30/1/2024; bầu Ủy viên HDQT ngày 30/1/2024</td></tr><tr><td>11</td><td>Đăng Văn Tuyên</td><td>UV HDQT</td><td>1.089</td><td>-</td><td>Bầu Ủy viên HDQT tử ngày 28/04/2023</td></tr><tr><td>II</td><td>THÀNH VIỆN BAN ĐIỂU HÀNH</td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>Trần Phương</td><td>Phó Tổng Giám độc</td><td>1.903</td><td>1.788</td><td></td></tr><tr><td>2</td><td>Lê Trung Thành</td><td>Phó Tổng Giám độc</td><td>1.903</td><td>1.702</td><td></td></tr><tr><td>3</td><td>Nguyễn Thiên Hoàng</td><td>Phó Tổng Giám độc</td><td>1.811</td><td>1.667</td><td></td></tr><tr><td>4</td><td>Trần Long</td><td>Phó Tổng Giám độc</td><td>1.641</td><td>1.526</td><td></td></tr></table>",
+            "block_bbox": [
+                107,
+                772,
+                1062,
+                1537
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 1643,
+            "global_group_id": 1643,
+            "block_polygon_points": [
+                [
+                    107.0,
+                    772.0
+                ],
+                [
+                    1062.0,
+                    772.0
+                ],
+                [
+                    1062.0,
+                    1537.0
+                ],
+                [
+                    107.0,
+                    1537.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Họ và tên</td><td>Chức vụ</td><td>Năm 2023</td><td>Năm 2022</td><td>Ghi chú</td></tr><tr><td>5</td><td>Nguyễn Thi Quỳnh Giao</td><td>Phó Tổng Giám đốc</td><td>1.641</td><td>1.526</td><td></td></tr><tr><td>6</td><td>Phan Thanh Hải</td><td>Phó Tổng Giám đốc</td><td>1.625</td><td>1.467</td><td></td></tr><tr><td>7</td><td>Hoàng Việt Hùng</td><td>Phó Tổng Giám đốc</td><td>1.641</td><td>1.526</td><td></td></tr><tr><td>III</td><td colspan=\"5\">THÀNH VIỆN BAN KIỂM SOẠT</td></tr><tr><td>1</td><td>Võ Bích Hà</td><td>Trường Ban Kiểm soát</td><td>-</td><td>1.487</td><td>Nghi huu theo chế độ từ ngày 01/12/2022</td></tr><tr><td>2</td><td>Tạ Thị Hạnh</td><td>Trường Ban Kiểm soát</td><td>1.818</td><td>1.625</td><td>Miễn nhiệm Kế toàn trường ngày 30/1/2024; bổ nhiệm Trường Ban Kiểm soát ngày 30/1/2024</td></tr><tr><td>3</td><td>Cao Cư Trí</td><td>Thành viên</td><td>1.487</td><td>1.095</td><td></td></tr><tr><td>4</td><td>Nguyễn Thị Thu Hà</td><td>Thành viên</td><td>974</td><td>898</td><td></td></tr></table>",
+            "block_bbox": [
+                1277,
+                191,
+                2228,
+                593
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 1644,
+            "global_group_id": 1644,
+            "block_polygon_points": [
+                [
+                    1277.0,
+                    191.0
+                ],
+                [
+                    2228.0,
+                    191.0
+                ],
+                [
+                    2228.0,
+                    593.0
+                ],
+                [
+                    1277.0,
+                    593.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Giao dịch cổ phiếu của cổ\nTrong năm 2023 không phát sinh giao dịch cổ phiếu của cổ đồng nội bộ tại BIDV.\nđộng nội bộ",
+            "block_bbox": [
+                1274,
+                685,
+                2161,
+                759
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 1645,
+            "global_group_id": 1645,
+            "block_polygon_points": [
+                [
+                    1274.0,
+                    685.0
+                ],
+                [
+                    2161.0,
+                    685.0
+                ],
+                [
+                    2161.0,
+                    759.0
+                ],
+                [
+                    1274.0,
+                    759.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "HỘP ĐỒNG HOẶC GIAO DỊCH VỚI CÁC BÊN LIỆN QUAN",
+            "block_bbox": [
+                1274,
+                818,
+                2045,
+                866
+            ],
+            "block_id": 9,
+            "block_order": 3,
+            "group_id": 9,
+            "global_block_id": 1646,
+            "global_group_id": 1646,
+            "block_polygon_points": [
+                [
+                    1274.0,
+                    818.0
+                ],
+                [
+                    2045.0,
+                    818.0
+                ],
+                [
+                    2045.0,
+                    866.0
+                ],
+                [
+                    1274.0,
+                    866.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Tên tố chức/cả nhân</td><td>Mỗi quan hệ liên quan với công ty</td><td>Nội dung, số lượng, tổng giá trị giao dịch</td></tr><tr><td>1</td><td>Công ty CIP chúng khoản BIDV (BSC)</td><td>Công ty con</td><td>Thắng qua nội dung Phu luc sửa đổi, bổ sung nội dung Hợp đồng Hợp tác phát triển khách hàng giữa BIDV và BSC</td></tr><tr><td>2</td><td>Công ty Liên doanh Tháp BIDV (&quot;BIDV Tower&quot;)</td><td>Các công ty liên doanh</td><td>Phê duyệt chủ trương, phương án và hợp đồng thuê điện tích vận phòng tại tầng 11 và 12, Tháp BIDV, số 194 Trân Quang Khải, Quận Hoàn Kiểm, TP Hà Nội (là giao dịch với bên có liên quan - Công ty liên doanh Tháp BIDV)</td></tr><tr><td>3</td><td>Hana Bank - Chi nhánh Hà Nội, chi nhánh TP Hồ Chí Minh</td><td>Nhà đầu tư chiến lược</td><td>Phê duyệt Hợp đồng/Thỏa thuận hạn mức cam kết kỳ giữa BIDV và Chi nhánh Hana Bank Hà Nội và Hồ Chí Minh</td></tr><tr><td>4</td><td>Tổng Công ty bảo hiểm BIDV (BIC)</td><td>Công ty con</td><td>Thống qua Hợp đồng bảo hiểm tiễn tại cơ sở kinh doanh và Hợp đồng bảo hiểm tiễn trên đường vận chuyển của chi nhánh BIDV với BIC</td></tr><tr><td>5</td><td>Tổng Công ty bảo hiểm BIDV (BIC) - BIC Miền Đông</td><td>Công ty con</td><td>Phê duyệt phương án, thông qua hợp đồng cho BIC Miền Đông thuê một phần PGD Đồng Khải, chi nhánh Đồng Nai.</td></tr><tr><td>6</td><td>Hana Bank China</td><td>Nhà đầu tư chiến lược</td><td>Thống qua giao dịch và dự thảo Thư tin dung dự phòng (SBLC) do Hana Bank China phát hành để đảm bảo cho nghĩa vụ trả nợ của Công ty TNHH Sailun Việt Nam, đơn vị thụ hưởng là BIDV.</td></tr><tr><td>7</td><td>Ngân hàng Hana - Chi nhánh Hà Nội</td><td>Nhà đầu tư chiến lược</td><td>Thống qua giao dịch và dự thảo Thư bảo lãnh đế bảo lãnh vay vốn cho Công ty CP Chúng khoản Ngân hàng Công Thương Việt Nam, đơn vị thụ hưởng là Ngân hàng Hana - Chi nhánh Hà Nội.</td></tr><tr><td>8</td><td>Công ty Cổ phần cho thuê máy bay Việt Nam (VALC)</td><td>Công ty liên kết</td><td>Phê duyệt điều chính giao dịch IRS với VALC phù hợp với thông lệ chuyển đổi LIBOR.</td></tr></table>",
+            "block_bbox": [
+                1275,
+                887,
+                2227,
+                1512
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "global_block_id": 1647,
+            "global_group_id": 1647,
+            "block_polygon_points": [
+                [
+                    1275.0,
+                    887.0
+                ],
+                [
+                    2227.0,
+                    887.0
+                ],
+                [
+                    2227.0,
+                    1512.0
+                ],
+                [
+                    1275.0,
+                    1512.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "128",
+            "block_bbox": [
+                108,
+                1557,
+                142,
+                1580
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 1648,
+            "global_group_id": 1648,
+            "block_polygon_points": [
+                [
+                    108.0,
+                    1557.0
+                ],
+                [
+                    141.0,
+                    1557.0
+                ],
+                [
+                    141.0,
+                    1579.0
+                ],
+                [
+                    108.0,
+                    1579.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "129",
+            "block_bbox": [
+                2197,
+                1556,
+                2233,
+                1580
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "global_block_id": 1649,
+            "global_group_id": 1649,
+            "block_polygon_points": [
+                [
+                    2197.0,
+                    1556.0
+                ],
+                [
+                    2232.0,
+                    1556.0
+                ],
+                [
+                    2232.0,
+                    1579.0
+                ],
+                [
+                    2197.0,
+                    1579.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.8186643719673157,
+                "coordinate": [
+                    105,
+                    0,
+                    412,
+                    77
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        105.0,
+                        0.0
+                    ],
+                    [
+                        412.0,
+                        0.0
+                    ],
+                    [
+                        412.0,
+                        77.0
+                    ],
+                    [
+                        105.0,
+                        77.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.827272355556488,
+                "coordinate": [
+                    1774,
+                    47,
+                    2052,
+                    77
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1774.0,
+                        47.0
+                    ],
+                    [
+                        2052.0,
+                        47.0
+                    ],
+                    [
+                        2052.0,
+                        77.0
+                    ],
+                    [
+                        1774.0,
+                        77.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.7253209948539734,
+                "coordinate": [
+                    2087,
+                    31,
+                    2230,
+                    84
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        2087.0,
+                        31.0
+                    ],
+                    [
+                        2230.0,
+                        31.0
+                    ],
+                    [
+                        2230.0,
+                        84.0
+                    ],
+                    [
+                        2087.0,
+                        84.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8597393035888672,
+                "coordinate": [
+                    104,
+                    181,
+                    751,
+                    242
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        104.0,
+                        181.0
+                    ],
+                    [
+                        751.0,
+                        181.0
+                    ],
+                    [
+                        751.0,
+                        242.0
+                    ],
+                    [
+                        104.0,
+                        242.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.5012983083724976,
+                "coordinate": [
+                    105,
+                    385,
+                    1064,
+                    734
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        105.0,
+                        385.0
+                    ],
+                    [
+                        1064.0,
+                        385.0
+                    ],
+                    [
+                        1064.0,
+                        734.0
+                    ],
+                    [
+                        105.0,
+                        734.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.552508533000946,
+                "coordinate": [
+                    104,
+                    545,
+                    400,
+                    653
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        104,
+                        545
+                    ],
+                    [
+                        104,
+                        652
+                    ],
+                    [
+                        399,
+                        652
+                    ],
+                    [
+                        399,
+                        545
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5513695478439331,
+                "coordinate": [
+                    420,
+                    546,
+                    1063,
+                    700
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        420.0,
+                        546.0
+                    ],
+                    [
+                        1063.0,
+                        546.0
+                    ],
+                    [
+                        1063.0,
+                        700.0
+                    ],
+                    [
+                        420.0,
+                        700.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6955614686012268,
+                "coordinate": [
+                    428,
+                    711,
+                    1062,
+                    765
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        428.0,
+                        711.0
+                    ],
+                    [
+                        1062.0,
+                        711.0
+                    ],
+                    [
+                        1062.0,
+                        765.0
+                    ],
+                    [
+                        428.0,
+                        765.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9670946598052979,
+                "coordinate": [
+                    107,
+                    772,
+                    1062,
+                    1537
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        107.0,
+                        772.0
+                    ],
+                    [
+                        1062.0,
+                        772.0
+                    ],
+                    [
+                        1062.0,
+                        1537.0
+                    ],
+                    [
+                        107.0,
+                        1537.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9492985010147095,
+                "coordinate": [
+                    1277,
+                    191,
+                    2228,
+                    593
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1277.0,
+                        191.0
+                    ],
+                    [
+                        2228.0,
+                        191.0
+                    ],
+                    [
+                        2228.0,
+                        593.0
+                    ],
+                    [
+                        1277.0,
+                        593.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.5023068189620972,
+                "coordinate": [
+                    1274,
+                    685,
+                    2161,
+                    759
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1274.0,
+                        685.0
+                    ],
+                    [
+                        2161.0,
+                        685.0
+                    ],
+                    [
+                        2161.0,
+                        759.0
+                    ],
+                    [
+                        1274.0,
+                        759.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4903466999530792,
+                "coordinate": [
+                    1274,
+                    818,
+                    2045,
+                    866
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1274.0,
+                        818.0
+                    ],
+                    [
+                        2045.0,
+                        818.0
+                    ],
+                    [
+                        2045.0,
+                        866.0
+                    ],
+                    [
+                        1274.0,
+                        866.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9712731242179871,
+                "coordinate": [
+                    1275,
+                    887,
+                    2227,
+                    1512
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1275.0,
+                        887.0
+                    ],
+                    [
+                        2227.0,
+                        887.0
+                    ],
+                    [
+                        2227.0,
+                        1512.0
+                    ],
+                    [
+                        1275.0,
+                        1512.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7300763726234436,
+                "coordinate": [
+                    108,
+                    1557,
+                    142,
+                    1580
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        108.0,
+                        1557.0
+                    ],
+                    [
+                        141.0,
+                        1557.0
+                    ],
+                    [
+                        141.0,
+                        1579.0
+                    ],
+                    [
+                        108.0,
+                        1579.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6772229671478271,
+                "coordinate": [
+                    2197,
+                    1556,
+                    2233,
+                    1580
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        2197.0,
+                        1556.0
+                    ],
+                    [
+                        2232.0,
+                        1556.0
+                    ],
+                    [
+                        2232.0,
+                        1579.0
+                    ],
+                    [
+                        2197.0,
+                        1579.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

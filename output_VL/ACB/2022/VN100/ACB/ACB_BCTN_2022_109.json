@@ -1,0 +1,223 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1652,
+    "height": 2312,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "BCTN ACB 2022",
+            "block_bbox": [
+                163,
+                428,
+                206,
+                652
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1428,
+            "global_group_id": 1428,
+            "block_polygon_points": [
+                [
+                    163.0,
+                    428.0
+                ],
+                [
+                    206.0,
+                    428.0
+                ],
+                [
+                    206.0,
+                    652.0
+                ],
+                [
+                    163.0,
+                    652.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 109 of 113",
+            "block_bbox": [
+                157,
+                1297,
+                206,
+                1512
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1429,
+            "global_group_id": 1429,
+            "block_polygon_points": [
+                [
+                    157.0,
+                    1297.0
+                ],
+                [
+                    206.0,
+                    1297.0
+                ],
+                [
+                    206.0,
+                    1512.0
+                ],
+                [
+                    157.0,
+                    1512.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>Cổ đông &amp; Nhà dầu tư</td><td>Khách hàng</td><td>Nhân viên</td><td>Cơ quan quản lý Nhà nước</td><td>Đối tác cung cấp dịch vụ</td><td>Cộng đồng địa phương</td></tr><tr><td>Trách nhiệm</td><td>Đảm bảo thông tin minh bạch. Huống tới nền tảng tài chính khỏe mạnh và bền vững.</td><td>Nâng cao chất lượng trải nghiệm khách hàng. Tiếp nhận và xử lý khiêu nại của khách hàng. Bảo mặt thông tin dữ liệu khách hàng Đảm bảo sự minh bạch trong quy trình thầu và trong quá trình hợp tác.</td><td>Đảm bảo chính sách thu hút nhân tài, môi trường việc làm, chương trình đào tạo và phát triển, cơ chế lương thưởng hợp lý. Trong khảo sát đánh giá mức độ hải lòng của nhân viên hàng năm, các chi số đánh giá bao gồm học tập và phát triển, các sáng kiến bền vững, văn hóa và thương hiệu.</td><td>Tuân thù quy định của pháp luật. Thực hiện đầy đủ nghĩa vụ thuế. Cung cấp thông tin, phối hợp làm việc cùng cơ quan quản lý Nhà nước khi có yêu cầu.</td><td>Đảm bảo chất lượng dịch vụ và nguồn gốc hàng hóa. Thanh toán đầy đủ và đúng thời gian.</td><td>Đồng hành vi sự phát triển của cộng đồng địa phương. Đồng góp cho cộng đồng địa phương.</td></tr></table>",
+            "block_bbox": [
+                459,
+                338,
+                1384,
+                2073
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1430,
+            "global_group_id": 1430,
+            "block_polygon_points": [
+                [
+                    459.0,
+                    338.0
+                ],
+                [
+                    1384.0,
+                    338.0
+                ],
+                [
+                    1384.0,
+                    2073.0
+                ],
+                [
+                    459.0,
+                    2073.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.48647135496139526,
+                "coordinate": [
+                    163,
+                    428,
+                    206,
+                    652
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        163.0,
+                        428.0
+                    ],
+                    [
+                        206.0,
+                        428.0
+                    ],
+                    [
+                        206.0,
+                        652.0
+                    ],
+                    [
+                        163.0,
+                        652.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.526624858379364,
+                "coordinate": [
+                    157,
+                    1297,
+                    206,
+                    1512
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        157.0,
+                        1297.0
+                    ],
+                    [
+                        206.0,
+                        1297.0
+                    ],
+                    [
+                        206.0,
+                        1512.0
+                    ],
+                    [
+                        157.0,
+                        1512.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.966245174407959,
+                "coordinate": [
+                    459,
+                    338,
+                    1384,
+                    2073
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        459.0,
+                        338.0
+                    ],
+                    [
+                        1384.0,
+                        338.0
+                    ],
+                    [
+                        1384.0,
+                        2073.0
+                    ],
+                    [
+                        459.0,
+                        2073.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

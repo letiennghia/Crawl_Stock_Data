@@ -1,0 +1,664 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1700,
+    "height": 2200,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "aside_text",
+            "block_content": "NAM VIET CORPORATION",
+            "block_bbox": [
+                165,
+                1452,
+                210,
+                1929
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 159,
+            "global_group_id": 159,
+            "block_polygon_points": [
+                [
+                    165.0,
+                    1452.0
+                ],
+                [
+                    210.0,
+                    1452.0
+                ],
+                [
+                    210.0,
+                    1929.0
+                ],
+                [
+                    165.0,
+                    1929.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                995,
+                142,
+                1108,
+                270
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 160,
+            "global_group_id": 160,
+            "block_polygon_points": [
+                [
+                    995.0,
+                    142.0
+                ],
+                [
+                    1108.0,
+                    142.0
+                ],
+                [
+                    1108.0,
+                    270.0
+                ],
+                [
+                    995.0,
+                    270.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "NAVICO",
+            "block_bbox": [
+                1121,
+                188,
+                1482,
+                266
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 161,
+            "global_group_id": 161,
+            "block_polygon_points": [
+                [
+                    1121.0,
+                    188.0
+                ],
+                [
+                    1482.0,
+                    188.0
+                ],
+                [
+                    1482.0,
+                    266.0
+                ],
+                [
+                    1121.0,
+                    266.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "○ Thực hiện các dự án đầu tư",
+            "block_bbox": [
+                424,
+                382,
+                897,
+                424
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "global_block_id": 162,
+            "global_group_id": 162,
+            "block_polygon_points": [
+                [
+                    424.0,
+                    382.0
+                ],
+                [
+                    897.0,
+                    382.0
+                ],
+                [
+                    897.0,
+                    424.0
+                ],
+                [
+                    424.0,
+                    424.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Để đa dạng hóa ngành nghề, hạn chế rủi ro và nâng cao lợi nhuận, Công ty đã xúc tiến đầu tư vào một số lĩnh vực khác như khai thác mở Cromic và góp vốn vào nhà máy sản xuất phân bón DAP.",
+            "block_bbox": [
+                338,
+                454,
+                1522,
+                613
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "global_block_id": 163,
+            "global_group_id": 163,
+            "block_polygon_points": [
+                [
+                    338.0,
+                    454.0
+                ],
+                [
+                    1522.0,
+                    454.0
+                ],
+                [
+                    1522.0,
+                    613.0
+                ],
+                [
+                    338.0,
+                    613.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "-Xây dựng và lắp đặt thiết bị nhà máy chế biến fero chrome đạt 40% tiến độ, Tổng chi phí đã đầu tư vào dự án Crômit là 72 tỷ đồng, dự kiến hoàn thành đưa vào sử dụng quý 4-2010",
+            "block_bbox": [
+                339,
+                626,
+                1521,
+                783
+            ],
+            "block_id": 5,
+            "block_order": 3,
+            "group_id": 5,
+            "global_block_id": 164,
+            "global_group_id": 164,
+            "block_polygon_points": [
+                [
+                    339.0,
+                    626.0
+                ],
+                [
+                    1521.0,
+                    626.0
+                ],
+                [
+                    1521.0,
+                    783.0
+                ],
+                [
+                    339.0,
+                    783.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "-Góp 18 tỷ đồng vào dự án DAP Lào Cai, dự kiến góp vốn trong năm 2010 là 50 tỷ đồng, từ 2011 đến 2013 góp hết phần vốn còn lại theo tiến độ cho đủ 290 tỷ đồng tương ứng với 29% vốn điều lệ của nhà máy DAP.",
+            "block_bbox": [
+                339,
+                796,
+                1522,
+                958
+            ],
+            "block_id": 6,
+            "block_order": 4,
+            "group_id": 6,
+            "global_block_id": 165,
+            "global_group_id": 165,
+            "block_polygon_points": [
+                [
+                    339.0,
+                    796.0
+                ],
+                [
+                    1522.0,
+                    796.0
+                ],
+                [
+                    1522.0,
+                    958.0
+                ],
+                [
+                    339.0,
+                    958.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                281,
+                1008,
+                1579,
+                1917
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 166,
+            "global_group_id": 166,
+            "block_polygon_points": [
+                [
+                    281.0,
+                    1008.0
+                ],
+                [
+                    1579.0,
+                    1008.0
+                ],
+                [
+                    1579.0,
+                    1917.0
+                ],
+                [
+                    281.0,
+                    1917.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "18",
+            "block_bbox": [
+                251,
+                2101,
+                288,
+                2134
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 167,
+            "global_group_id": 167,
+            "block_polygon_points": [
+                [
+                    251.0,
+                    2101.0
+                ],
+                [
+                    287.0,
+                    2101.0
+                ],
+                [
+                    287.0,
+                    2133.0
+                ],
+                [
+                    251.0,
+                    2133.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Báo cáo thường niên 2009",
+            "block_bbox": [
+                344,
+                2103,
+                701,
+                2137
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 168,
+            "global_group_id": 168,
+            "block_polygon_points": [
+                [
+                    344.0,
+                    2103.0
+                ],
+                [
+                    701.0,
+                    2103.0
+                ],
+                [
+                    701.0,
+                    2137.0
+                ],
+                [
+                    344.0,
+                    2137.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8655543327331543,
+                "coordinate": [
+                    165,
+                    1452,
+                    210,
+                    1929
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        165.0,
+                        1452.0
+                    ],
+                    [
+                        210.0,
+                        1452.0
+                    ],
+                    [
+                        210.0,
+                        1929.0
+                    ],
+                    [
+                        165.0,
+                        1929.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.7516315579414368,
+                "coordinate": [
+                    995,
+                    142,
+                    1108,
+                    270
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        995.0,
+                        142.0
+                    ],
+                    [
+                        1108.0,
+                        142.0
+                    ],
+                    [
+                        1108.0,
+                        270.0
+                    ],
+                    [
+                        995.0,
+                        270.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.48224005103111267,
+                "coordinate": [
+                    1121,
+                    188,
+                    1482,
+                    266
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1121.0,
+                        188.0
+                    ],
+                    [
+                        1482.0,
+                        188.0
+                    ],
+                    [
+                        1482.0,
+                        266.0
+                    ],
+                    [
+                        1121.0,
+                        266.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8597854971885681,
+                "coordinate": [
+                    424,
+                    382,
+                    897,
+                    424
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        424.0,
+                        382.0
+                    ],
+                    [
+                        897.0,
+                        382.0
+                    ],
+                    [
+                        897.0,
+                        424.0
+                    ],
+                    [
+                        424.0,
+                        424.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9406579732894897,
+                "coordinate": [
+                    338,
+                    454,
+                    1522,
+                    613
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        338.0,
+                        454.0
+                    ],
+                    [
+                        1522.0,
+                        454.0
+                    ],
+                    [
+                        1522.0,
+                        613.0
+                    ],
+                    [
+                        338.0,
+                        613.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9453821182250977,
+                "coordinate": [
+                    339,
+                    626,
+                    1521,
+                    783
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        339.0,
+                        626.0
+                    ],
+                    [
+                        1521.0,
+                        626.0
+                    ],
+                    [
+                        1521.0,
+                        783.0
+                    ],
+                    [
+                        339.0,
+                        783.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9453925490379333,
+                "coordinate": [
+                    339,
+                    796,
+                    1522,
+                    958
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        339.0,
+                        796.0
+                    ],
+                    [
+                        1522.0,
+                        796.0
+                    ],
+                    [
+                        1522.0,
+                        958.0
+                    ],
+                    [
+                        339.0,
+                        958.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9819532036781311,
+                "coordinate": [
+                    281,
+                    1008,
+                    1579,
+                    1917
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        281.0,
+                        1008.0
+                    ],
+                    [
+                        1579.0,
+                        1008.0
+                    ],
+                    [
+                        1579.0,
+                        1917.0
+                    ],
+                    [
+                        281.0,
+                        1917.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7664976119995117,
+                "coordinate": [
+                    251,
+                    2101,
+                    288,
+                    2134
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        251.0,
+                        2101.0
+                    ],
+                    [
+                        287.0,
+                        2101.0
+                    ],
+                    [
+                        287.0,
+                        2133.0
+                    ],
+                    [
+                        251.0,
+                        2133.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.7962141633033752,
+                "coordinate": [
+                    344,
+                    2103,
+                    701,
+                    2137
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        344.0,
+                        2103.0
+                    ],
+                    [
+                        701.0,
+                        2103.0
+                    ],
+                    [
+                        701.0,
+                        2137.0
+                    ],
+                    [
+                        344.0,
+                        2137.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

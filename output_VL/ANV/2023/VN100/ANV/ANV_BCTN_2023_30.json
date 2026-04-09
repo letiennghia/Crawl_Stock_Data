@@ -1,0 +1,1336 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>23</td><td>159/NQ-HĐQT</td><td>22/11/2023</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty ADDSOLAR về Cty NV</td></tr><tr><td>24</td><td>162/NQ-HĐQT</td><td>22/11/2023</td><td>Nghị quyết HĐQT vv chuyển lợi nhuận từ Cty CBTA về Cty NV</td></tr><tr><td>25</td><td>154/NQ-HĐQT</td><td>21/12/2023</td><td>Nghị quyết HĐQT vv thông qua việc triển khai phát hành cổ phiếu tăng vốn cổ phần từ nguồn vốn chủ sở hữu cho cổ đồng hiện hữu, tỷ lệ thực hiện 1-1</td></tr></table>",
+            "block_bbox": [
+                191,
+                94,
+                1398,
+                429
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 355,
+            "global_group_id": 355,
+            "block_polygon_points": [
+                [
+                    191.0,
+                    94.0
+                ],
+                [
+                    1398.0,
+                    94.0
+                ],
+                [
+                    1398.0,
+                    429.0
+                ],
+                [
+                    191.0,
+                    429.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "d. Hoạt động của thành viên Hội đồng quản trị độc lập:",
+            "block_bbox": [
+                216,
+                433,
+                1094,
+                473
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 356,
+            "global_group_id": 356,
+            "block_polygon_points": [
+                [
+                    216.0,
+                    433.0
+                ],
+                [
+                    1094.0,
+                    433.0
+                ],
+                [
+                    1094.0,
+                    473.0
+                ],
+                [
+                    216.0,
+                    473.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Tham gia dự hợp đầy đủ các phiên hợp của HĐQT, tham gia giám sát việc điều hành các hoạt động sản xuất kinh doanh năm 2023 của Ban Tổng giám đốc",
+            "block_bbox": [
+                186,
+                485,
+                1418,
+                569
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "global_block_id": 357,
+            "global_group_id": 357,
+            "block_polygon_points": [
+                [
+                    186.0,
+                    485.0
+                ],
+                [
+                    1418.0,
+                    485.0
+                ],
+                [
+                    1418.0,
+                    569.0
+                ],
+                [
+                    186.0,
+                    569.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Thường xuyên theo dõi, giám sát việc thực hiện các Nghị quyết của Hội đồng Quản trị và Đại hội đồng cổ đồng đã đề ra",
+            "block_bbox": [
+                186,
+                574,
+                1418,
+                663
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "global_block_id": 358,
+            "global_group_id": 358,
+            "block_polygon_points": [
+                [
+                    186.0,
+                    574.0
+                ],
+                [
+                    1418.0,
+                    574.0
+                ],
+                [
+                    1418.0,
+                    663.0
+                ],
+                [
+                    186.0,
+                    663.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "e. Danh sách các thành viên Hội đồng quản trị có chứng chỉ đào tạo về quản trị công ty. Danh sách các thành viên Hội đồng quản trị tham gia các chương trình về quản trị công ty trong năm: Trong năm không tham gia các chương trình đào tạo về quản trị doanh nghiệp.",
+            "block_bbox": [
+                187,
+                675,
+                1420,
+                845
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "global_block_id": 359,
+            "global_group_id": 359,
+            "block_polygon_points": [
+                [
+                    187.0,
+                    675.0
+                ],
+                [
+                    1420.0,
+                    675.0
+                ],
+                [
+                    1420.0,
+                    845.0
+                ],
+                [
+                    187.0,
+                    845.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "2. Ban kiểm toán nội bộ:",
+            "block_bbox": [
+                185,
+                856,
+                616,
+                902
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "global_block_id": 360,
+            "global_group_id": 360,
+            "block_polygon_points": [
+                [
+                    185.0,
+                    856.0
+                ],
+                [
+                    616.0,
+                    856.0
+                ],
+                [
+                    616.0,
+                    902.0
+                ],
+                [
+                    185.0,
+                    902.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "a. Thành viên và cơ cấu của Ban kiểm toán nội bộ:",
+            "block_bbox": [
+                242,
+                917,
+                1095,
+                964
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "global_block_id": 361,
+            "global_group_id": 361,
+            "block_polygon_points": [
+                [
+                    242.0,
+                    917.0
+                ],
+                [
+                    1095.0,
+                    917.0
+                ],
+                [
+                    1095.0,
+                    964.0
+                ],
+                [
+                    242.0,
+                    964.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Thành viên Ban KTNB</td><td>Chức vụ</td><td>Số buổi hợp tham dự</td><td>Tỷ lệ</td><td>Lý do không tham dự</td></tr><tr><td>1</td><td>Lê Tiến Dũng</td><td>Trưởng Ban</td><td>11</td><td>100%</td><td></td></tr><tr><td>2</td><td>Duōng Minh Phong</td><td>Thành viên</td><td>09</td><td>81,8%</td><td>Đi công tác</td></tr></table>",
+            "block_bbox": [
+                193,
+                994,
+                1475,
+                1298
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 362,
+            "global_group_id": 362,
+            "block_polygon_points": [
+                [
+                    193.0,
+                    994.0
+                ],
+                [
+                    1475.0,
+                    994.0
+                ],
+                [
+                    1475.0,
+                    1298.0
+                ],
+                [
+                    193.0,
+                    1298.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "b. Hoạt động của Ban Kiểm toán nội bộ đối với HĐQT, Ban TGB:",
+            "block_bbox": [
+                187,
+                1345,
+                1296,
+                1392
+            ],
+            "block_id": 8,
+            "block_order": 6,
+            "group_id": 8,
+            "global_block_id": 363,
+            "global_group_id": 363,
+            "block_polygon_points": [
+                [
+                    187.0,
+                    1345.0
+                ],
+                [
+                    1296.0,
+                    1345.0
+                ],
+                [
+                    1296.0,
+                    1392.0
+                ],
+                [
+                    187.0,
+                    1392.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Tham dự các cuộc họp điều hành của Hội đồng Quản trị, Ban Tổng Giám đốc công ty.",
+            "block_bbox": [
+                187,
+                1397,
+                1419,
+                1491
+            ],
+            "block_id": 9,
+            "block_order": 7,
+            "group_id": 9,
+            "global_block_id": 364,
+            "global_group_id": 364,
+            "block_polygon_points": [
+                [
+                    187.0,
+                    1397.0
+                ],
+                [
+                    1419.0,
+                    1397.0
+                ],
+                [
+                    1419.0,
+                    1491.0
+                ],
+                [
+                    187.0,
+                    1491.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Giám sát việc triển khai kế hoạch và thực hiện Nghi quyết ĐHĐCĐ năm 2023.",
+            "block_bbox": [
+                185,
+                1495,
+                1419,
+                1543
+            ],
+            "block_id": 10,
+            "block_order": 8,
+            "group_id": 10,
+            "global_block_id": 365,
+            "global_group_id": 365,
+            "block_polygon_points": [
+                [
+                    185.0,
+                    1495.0
+                ],
+                [
+                    1419.0,
+                    1495.0
+                ],
+                [
+                    1419.0,
+                    1543.0
+                ],
+                [
+                    185.0,
+                    1543.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Kiểm tra, giám sát các hoạt động điều hành, quản lý kinh doanh nhằm đảm bảo công ty hoạt động đúng theo quy định của Luật doanh nghiệp và Điều lệ công ty.",
+            "block_bbox": [
+                187,
+                1534,
+                1418,
+                1684
+            ],
+            "block_id": 11,
+            "block_order": 9,
+            "group_id": 11,
+            "global_block_id": 366,
+            "global_group_id": 366,
+            "block_polygon_points": [
+                [
+                    187,
+                    1534
+                ],
+                [
+                    187,
+                    1683
+                ],
+                [
+                    1417,
+                    1683
+                ],
+                [
+                    1417,
+                    1551
+                ],
+                [
+                    1122,
+                    1534
+                ],
+                [
+                    1010,
+                    1534
+                ],
+                [
+                    970,
+                    1534
+                ],
+                [
+                    954,
+                    1534
+                ],
+                [
+                    835,
+                    1534
+                ],
+                [
+                    826,
+                    1534
+                ],
+                [
+                    810,
+                    1534
+                ],
+                [
+                    779,
+                    1534
+                ],
+                [
+                    754,
+                    1534
+                ],
+                [
+                    723,
+                    1534
+                ],
+                [
+                    674,
+                    1534
+                ],
+                [
+                    642,
+                    1534
+                ],
+                [
+                    626,
+                    1551
+                ],
+                [
+                    602,
+                    1534
+                ],
+                [
+                    522,
+                    1534
+                ],
+                [
+                    474,
+                    1534
+                ],
+                [
+                    427,
+                    1534
+                ],
+                [
+                    315,
+                    1534
+                ],
+                [
+                    298,
+                    1534
+                ],
+                [
+                    243,
+                    1534
+                ],
+                [
+                    218,
+                    1534
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Giám sát trình tự thủ tục ban hành các văn bản pháp lý của HĐQT, Ban TGD và việc công bố thông tin theo quy định của pháp luật.",
+            "block_bbox": [
+                185,
+                1690,
+                1416,
+                1779
+            ],
+            "block_id": 12,
+            "block_order": 10,
+            "group_id": 12,
+            "global_block_id": 367,
+            "global_group_id": 367,
+            "block_polygon_points": [
+                [
+                    185.0,
+                    1690.0
+                ],
+                [
+                    1416.0,
+                    1690.0
+                ],
+                [
+                    1416.0,
+                    1779.0
+                ],
+                [
+                    185.0,
+                    1779.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Kiểm soát các chế độ chính sách liên quan đến việc lập và trình bày báo cáo tài chính của công ty.",
+            "block_bbox": [
+                186,
+                1786,
+                1417,
+                1877
+            ],
+            "block_id": 13,
+            "block_order": 11,
+            "group_id": 13,
+            "global_block_id": 368,
+            "global_group_id": 368,
+            "block_polygon_points": [
+                [
+                    186.0,
+                    1786.0
+                ],
+                [
+                    1417.0,
+                    1786.0
+                ],
+                [
+                    1417.0,
+                    1877.0
+                ],
+                [
+                    186.0,
+                    1877.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Kiểm soát việc thực hiện, chấp hành các quy trình, quy định của các phòng ban.",
+            "block_bbox": [
+                186,
+                1883,
+                1418,
+                1974
+            ],
+            "block_id": 14,
+            "block_order": 12,
+            "group_id": 14,
+            "global_block_id": 369,
+            "global_group_id": 369,
+            "block_polygon_points": [
+                [
+                    186.0,
+                    1883.0
+                ],
+                [
+                    1418.0,
+                    1883.0
+                ],
+                [
+                    1418.0,
+                    1974.0
+                ],
+                [
+                    186.0,
+                    1974.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "c. Sự phối hợp hoạt động giữa Ban Kiểm toán nội bộ đối với hoạt động của HĐQT, Ban Tổng giảm độc và các cán bộ quản lý khác",
+            "block_bbox": [
+                187,
+                1979,
+                1418,
+                2072
+            ],
+            "block_id": 15,
+            "block_order": 13,
+            "group_id": 15,
+            "global_block_id": 370,
+            "global_group_id": 370,
+            "block_polygon_points": [
+                [
+                    187.0,
+                    1979.0
+                ],
+                [
+                    1418.0,
+                    1979.0
+                ],
+                [
+                    1418.0,
+                    2072.0
+                ],
+                [
+                    187.0,
+                    2072.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "30",
+            "block_bbox": [
+                788,
+                2080,
+                818,
+                2106
+            ],
+            "block_id": 16,
+            "block_order": null,
+            "group_id": 16,
+            "global_block_id": 371,
+            "global_group_id": 371,
+            "block_polygon_points": [
+                [
+                    788.0,
+                    2080.0
+                ],
+                [
+                    817.0,
+                    2080.0
+                ],
+                [
+                    817.0,
+                    2105.0
+                ],
+                [
+                    788.0,
+                    2105.0
+                ]
+            ]
+        },
+        {
+            "block_label": "aside_text",
+            "block_content": "-1 -0 -1 -1",
+            "block_bbox": [
+                1570,
+                666,
+                1602,
+                955
+            ],
+            "block_id": 17,
+            "block_order": null,
+            "group_id": 17,
+            "global_block_id": 372,
+            "global_group_id": 372,
+            "block_polygon_points": [
+                [
+                    1570.0,
+                    666.0
+                ],
+                [
+                    1602.0,
+                    666.0
+                ],
+                [
+                    1602.0,
+                    955.0
+                ],
+                [
+                    1570.0,
+                    955.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9510284066200256,
+                "coordinate": [
+                    191,
+                    94,
+                    1398,
+                    429
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        191.0,
+                        94.0
+                    ],
+                    [
+                        1398.0,
+                        94.0
+                    ],
+                    [
+                        1398.0,
+                        429.0
+                    ],
+                    [
+                        191.0,
+                        429.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.41274556517601013,
+                "coordinate": [
+                    216,
+                    433,
+                    1094,
+                    473
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        216.0,
+                        433.0
+                    ],
+                    [
+                        1094.0,
+                        433.0
+                    ],
+                    [
+                        1094.0,
+                        473.0
+                    ],
+                    [
+                        216.0,
+                        473.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.860342264175415,
+                "coordinate": [
+                    186,
+                    485,
+                    1418,
+                    569
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        186.0,
+                        485.0
+                    ],
+                    [
+                        1418.0,
+                        485.0
+                    ],
+                    [
+                        1418.0,
+                        569.0
+                    ],
+                    [
+                        186.0,
+                        569.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.849657416343689,
+                "coordinate": [
+                    186,
+                    574,
+                    1418,
+                    663
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        186.0,
+                        574.0
+                    ],
+                    [
+                        1418.0,
+                        574.0
+                    ],
+                    [
+                        1418.0,
+                        663.0
+                    ],
+                    [
+                        186.0,
+                        663.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9154147505760193,
+                "coordinate": [
+                    187,
+                    675,
+                    1420,
+                    845
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        187.0,
+                        675.0
+                    ],
+                    [
+                        1420.0,
+                        675.0
+                    ],
+                    [
+                        1420.0,
+                        845.0
+                    ],
+                    [
+                        187.0,
+                        845.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6805583834648132,
+                "coordinate": [
+                    185,
+                    856,
+                    616,
+                    902
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        185.0,
+                        856.0
+                    ],
+                    [
+                        616.0,
+                        856.0
+                    ],
+                    [
+                        616.0,
+                        902.0
+                    ],
+                    [
+                        185.0,
+                        902.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5892044305801392,
+                "coordinate": [
+                    242,
+                    917,
+                    1095,
+                    964
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        242.0,
+                        917.0
+                    ],
+                    [
+                        1095.0,
+                        917.0
+                    ],
+                    [
+                        1095.0,
+                        964.0
+                    ],
+                    [
+                        242.0,
+                        964.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.963337242603302,
+                "coordinate": [
+                    193,
+                    994,
+                    1475,
+                    1298
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        193.0,
+                        994.0
+                    ],
+                    [
+                        1475.0,
+                        994.0
+                    ],
+                    [
+                        1475.0,
+                        1298.0
+                    ],
+                    [
+                        193.0,
+                        1298.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6321746110916138,
+                "coordinate": [
+                    187,
+                    1345,
+                    1296,
+                    1392
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        187.0,
+                        1345.0
+                    ],
+                    [
+                        1296.0,
+                        1345.0
+                    ],
+                    [
+                        1296.0,
+                        1392.0
+                    ],
+                    [
+                        187.0,
+                        1392.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8499549031257629,
+                "coordinate": [
+                    187,
+                    1397,
+                    1419,
+                    1491
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        187.0,
+                        1397.0
+                    ],
+                    [
+                        1419.0,
+                        1397.0
+                    ],
+                    [
+                        1419.0,
+                        1491.0
+                    ],
+                    [
+                        187.0,
+                        1491.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.465444415807724,
+                "coordinate": [
+                    185,
+                    1495,
+                    1419,
+                    1543
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        185.0,
+                        1495.0
+                    ],
+                    [
+                        1419.0,
+                        1495.0
+                    ],
+                    [
+                        1419.0,
+                        1543.0
+                    ],
+                    [
+                        185.0,
+                        1543.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6974614858627319,
+                "coordinate": [
+                    187,
+                    1534,
+                    1418,
+                    1684
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        187,
+                        1534
+                    ],
+                    [
+                        187,
+                        1683
+                    ],
+                    [
+                        1417,
+                        1683
+                    ],
+                    [
+                        1417,
+                        1551
+                    ],
+                    [
+                        1122,
+                        1534
+                    ],
+                    [
+                        1010,
+                        1534
+                    ],
+                    [
+                        970,
+                        1534
+                    ],
+                    [
+                        954,
+                        1534
+                    ],
+                    [
+                        835,
+                        1534
+                    ],
+                    [
+                        826,
+                        1534
+                    ],
+                    [
+                        810,
+                        1534
+                    ],
+                    [
+                        779,
+                        1534
+                    ],
+                    [
+                        754,
+                        1534
+                    ],
+                    [
+                        723,
+                        1534
+                    ],
+                    [
+                        674,
+                        1534
+                    ],
+                    [
+                        642,
+                        1534
+                    ],
+                    [
+                        626,
+                        1551
+                    ],
+                    [
+                        602,
+                        1534
+                    ],
+                    [
+                        522,
+                        1534
+                    ],
+                    [
+                        474,
+                        1534
+                    ],
+                    [
+                        427,
+                        1534
+                    ],
+                    [
+                        315,
+                        1534
+                    ],
+                    [
+                        298,
+                        1534
+                    ],
+                    [
+                        243,
+                        1534
+                    ],
+                    [
+                        218,
+                        1534
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8933737277984619,
+                "coordinate": [
+                    185,
+                    1690,
+                    1416,
+                    1779
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        185.0,
+                        1690.0
+                    ],
+                    [
+                        1416.0,
+                        1690.0
+                    ],
+                    [
+                        1416.0,
+                        1779.0
+                    ],
+                    [
+                        185.0,
+                        1779.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9078571200370789,
+                "coordinate": [
+                    186,
+                    1786,
+                    1417,
+                    1877
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        186.0,
+                        1786.0
+                    ],
+                    [
+                        1417.0,
+                        1786.0
+                    ],
+                    [
+                        1417.0,
+                        1877.0
+                    ],
+                    [
+                        186.0,
+                        1877.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.908511757850647,
+                "coordinate": [
+                    186,
+                    1883,
+                    1418,
+                    1974
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        186.0,
+                        1883.0
+                    ],
+                    [
+                        1418.0,
+                        1883.0
+                    ],
+                    [
+                        1418.0,
+                        1974.0
+                    ],
+                    [
+                        186.0,
+                        1974.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8961244225502014,
+                "coordinate": [
+                    187,
+                    1979,
+                    1418,
+                    2072
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        187.0,
+                        1979.0
+                    ],
+                    [
+                        1418.0,
+                        1979.0
+                    ],
+                    [
+                        1418.0,
+                        2072.0
+                    ],
+                    [
+                        187.0,
+                        2072.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6833760738372803,
+                "coordinate": [
+                    788,
+                    2080,
+                    818,
+                    2106
+                ],
+                "order": 14,
+                "polygon_points": [
+                    [
+                        788.0,
+                        2080.0
+                    ],
+                    [
+                        817.0,
+                        2080.0
+                    ],
+                    [
+                        817.0,
+                        2105.0
+                    ],
+                    [
+                        788.0,
+                        2105.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.40460988879203796,
+                "coordinate": [
+                    1570,
+                    666,
+                    1602,
+                    955
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1570.0,
+                        666.0
+                    ],
+                    [
+                        1602.0,
+                        666.0
+                    ],
+                    [
+                        1602.0,
+                        955.0
+                    ],
+                    [
+                        1570.0,
+                        955.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

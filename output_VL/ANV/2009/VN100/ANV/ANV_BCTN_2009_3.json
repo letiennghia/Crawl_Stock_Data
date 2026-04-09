@@ -1,0 +1,223 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1700,
+    "height": 2200,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "content",
+            "block_content": "BÁO CÁO CỦA HỘI ĐỒNG QUẢN TRỊ.....8\nBÁO CÁO CỦA BAN GIÁM ĐỐC.....13\nI.Báo cáo tinh hình tài chính.....13\nII.Báo cáo kết quả kinh doanh.....15\nTỔ CHỨC NHÂN SỰ.....19\nTHÔNG TIN CỔ ĐÔNG & QUẢN TRỊ CÔNG TY.....22\nI.Thông tin liên quan đến Hội đồng quản trị và Ban kiểm soát.....23\nII.Thông tin về hoạt động của Hội đồng quản trị và Ban kiểm soát.....27\nIII.Các dữ liệu thống kê về cổ đông.....28\nBÁO CÁO TÀI CHÍNH.....30\nI.Báo cáo của kiểm toán viên.....32\nII.Bảng cân đối kế toán.....34\nIII.Báo cáo kết quả kinh doanh.....37\nIV.Báo cáo lưu chuyển tiền tệ.....38\nV.Thuyết minh báo cáo tài chính.....40",
+            "block_bbox": [
+                225,
+                454,
+                1495,
+                1580
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 9,
+            "global_group_id": 9,
+            "block_polygon_points": [
+                [
+                    225.0,
+                    454.0
+                ],
+                [
+                    1495.0,
+                    454.0
+                ],
+                [
+                    1495.0,
+                    1580.0
+                ],
+                [
+                    225.0,
+                    1580.0
+                ]
+            ]
+        },
+        {
+            "block_label": "aside_text",
+            "block_content": "2009 REPORT",
+            "block_bbox": [
+                1464,
+                1707,
+                1569,
+                1886
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 10,
+            "global_group_id": 10,
+            "block_polygon_points": [
+                [
+                    1464.0,
+                    1707.0
+                ],
+                [
+                    1569.0,
+                    1707.0
+                ],
+                [
+                    1569.0,
+                    1886.0
+                ],
+                [
+                    1464.0,
+                    1886.0
+                ]
+            ]
+        },
+        {
+            "block_label": "aside_text",
+            "block_content": "ANNUAL",
+            "block_bbox": [
+                1486,
+                1917,
+                1531,
+                2080
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 11,
+            "global_group_id": 11,
+            "block_polygon_points": [
+                [
+                    1486.0,
+                    1917.0
+                ],
+                [
+                    1531.0,
+                    1917.0
+                ],
+                [
+                    1531.0,
+                    2080.0
+                ],
+                [
+                    1486.0,
+                    2080.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 4,
+                "label": "content",
+                "score": 0.9616937041282654,
+                "coordinate": [
+                    225,
+                    454,
+                    1495,
+                    1580
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        225.0,
+                        454.0
+                    ],
+                    [
+                        1495.0,
+                        454.0
+                    ],
+                    [
+                        1495.0,
+                        1580.0
+                    ],
+                    [
+                        225.0,
+                        1580.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.3945378363132477,
+                "coordinate": [
+                    1464,
+                    1707,
+                    1569,
+                    1886
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1464.0,
+                        1707.0
+                    ],
+                    [
+                        1569.0,
+                        1707.0
+                    ],
+                    [
+                        1569.0,
+                        1886.0
+                    ],
+                    [
+                        1464.0,
+                        1886.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.419047087430954,
+                "coordinate": [
+                    1486,
+                    1917,
+                    1531,
+                    2080
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1486.0,
+                        1917.0
+                    ],
+                    [
+                        1531.0,
+                        1917.0
+                    ],
+                    [
+                        1531.0,
+                        2080.0
+                    ],
+                    [
+                        1486.0,
+                        2080.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

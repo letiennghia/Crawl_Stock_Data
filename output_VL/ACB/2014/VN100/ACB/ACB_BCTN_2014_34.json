@@ -1,0 +1,349 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 992,
+    "height": 1403,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "Tiếp tục kiện toàn mạng lưới chi nhánh và phòng giao dịch và thay đổi nội thất, nhận diện thương hiệu mới và áp dụng quy trình vận hành mới tại chi nhánh và phòng giao dịch nhằm mang lại trải nghiệm mới cho khách hàng.",
+            "block_bbox": [
+                139,
+                190,
+                856,
+                282
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 377,
+            "global_group_id": 377,
+            "block_polygon_points": [
+                [
+                    139.0,
+                    190.0
+                ],
+                [
+                    856.0,
+                    190.0
+                ],
+                [
+                    856.0,
+                    282.0
+                ],
+                [
+                    139.0,
+                    282.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "3.5 Giải trình của Ban Tổng Giám đốc đối với ý kiến kiểm toán",
+            "block_bbox": [
+                139,
+                301,
+                738,
+                331
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 378,
+            "global_group_id": 378,
+            "block_polygon_points": [
+                [
+                    139.0,
+                    301.0
+                ],
+                [
+                    738.0,
+                    301.0
+                ],
+                [
+                    738.0,
+                    331.0
+                ],
+                [
+                    139.0,
+                    331.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Công ty Kiểm toán KPMG không có ý kiến không chấp thuận đối với Báo cáo tài chính ACB.",
+            "block_bbox": [
+                139,
+                349,
+                855,
+                405
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "global_block_id": 379,
+            "global_group_id": 379,
+            "block_polygon_points": [
+                [
+                    139.0,
+                    349.0
+                ],
+                [
+                    855.0,
+                    349.0
+                ],
+                [
+                    855.0,
+                    405.0
+                ],
+                [
+                    139.0,
+                    405.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 34 of 57",
+            "block_bbox": [
+                736,
+                1308,
+                844,
+                1331
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 380,
+            "global_group_id": 380,
+            "block_polygon_points": [
+                [
+                    735.9999389648438,
+                    1307.9998779296875
+                ],
+                [
+                    842.9999389648438,
+                    1307.9998779296875
+                ],
+                [
+                    842.9999389648438,
+                    1329.9998779296875
+                ],
+                [
+                    735.9999389648438,
+                    1329.9998779296875
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2014",
+            "block_bbox": [
+                136,
+                1299,
+                272,
+                1321
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 381,
+            "global_group_id": 381,
+            "block_polygon_points": [
+                [
+                    136.0,
+                    1299.0
+                ],
+                [
+                    271.0,
+                    1299.0
+                ],
+                [
+                    271.0,
+                    1320.0
+                ],
+                [
+                    136.0,
+                    1320.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9206697940826416,
+                "coordinate": [
+                    139,
+                    190,
+                    856,
+                    282
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        139.0,
+                        190.0
+                    ],
+                    [
+                        856.0,
+                        190.0
+                    ],
+                    [
+                        856.0,
+                        282.0
+                    ],
+                    [
+                        139.0,
+                        282.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8451546430587769,
+                "coordinate": [
+                    139,
+                    301,
+                    738,
+                    331
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        139.0,
+                        301.0
+                    ],
+                    [
+                        738.0,
+                        301.0
+                    ],
+                    [
+                        738.0,
+                        331.0
+                    ],
+                    [
+                        139.0,
+                        331.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8789686560630798,
+                "coordinate": [
+                    139,
+                    349,
+                    855,
+                    405
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        139.0,
+                        349.0
+                    ],
+                    [
+                        855.0,
+                        349.0
+                    ],
+                    [
+                        855.0,
+                        405.0
+                    ],
+                    [
+                        139.0,
+                        405.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8317148685455322,
+                "coordinate": [
+                    736,
+                    1308,
+                    844,
+                    1331
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        735.9999389648438,
+                        1307.9998779296875
+                    ],
+                    [
+                        842.9999389648438,
+                        1307.9998779296875
+                    ],
+                    [
+                        842.9999389648438,
+                        1329.9998779296875
+                    ],
+                    [
+                        735.9999389648438,
+                        1329.9998779296875
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8410927057266235,
+                "coordinate": [
+                    136,
+                    1299,
+                    272,
+                    1321
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        136.0,
+                        1299.0
+                    ],
+                    [
+                        271.0,
+                        1299.0
+                    ],
+                    [
+                        271.0,
+                        1320.0
+                    ],
+                    [
+                        136.0,
+                        1320.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+chất lượng và tăng trích lập dự phòng để cùng cố "bộ đệm" an toàn cho các năm tối. Xét riêng lợi nhuận thuần từ hoạt động kinh doanh trước chi phí dự phòng đạt mức 22,9 nghìn tỷ đồng, ghi nhận tăng trưởng so với cùng kỳ.
+
+Tổng thu nhập đạt khoảng 33,8 nghìn tỷ đồng; thu nhập ngoài lãi tăng 20,5% lên gần 07 nghìn tỷ đồng, tăng trưởng mạnh nhờ điều kiện thị trường thuận lợi: thu nhập đầu tư tăng 33,9%, kinh doanh ngoại hối tăng 47,9%, cùng với việc đầy mạnh thu hồi nợ xấu đã xử lý rủi ro giúp thu nhập khác tăng đáng kể. Biên sinh lời duy trì ở mức 3% trong bối cảnh lãi suất cho vay được giữ ở mức thấp để hỗ trợ tăng trưởng theo định hướng chung.
+
+- Chi phí hoạt động được kiểm soát hiệu quả ở mức tương đương năm trước. Tỷ lệ chi phí/thu nhập (CIR < Cost to Income Ratio) duy trì quanh mức 32%, phản ánh nỗ lực nâng cao hiệu suất của toàn hệ thống.
+
+An toàn thanh khoản: ACB điều hành tăng trưởng tín dụng và huy động bám sát diễn biến thị trường, đảm bảo tuân thủ các tỷ lệ an toàn theo quy định của NHNN để đáp ứng nhu cầu của khách hàng và vận hành ổn định trong điều kiện thị trường biến động. Cụ thể, tỷ lệ dư nợ cho vay so với tổng huy động tiền gửi (LDR) tại thời điểm cuối năm đạt 79%, thấp hơn đáng kể so với hạn mức tối đa 85% theo quy định của NHNN. Tỷ lệ nguồn vốn ngắn hạn được sử dụng cho vay trung dài hạn duy trì ở mức 24%, thấp hơn so với ngưởng quy định của NHNN giúp ACB có dư địa đề cải thiện lợi suất khi gia tăng nguồn cho vay trung dài hạn.
+
+Kết quả thực hiện các chỉ tiêu tài chính đã được ĐHĐCD thông qua như sau:
+
+Đơn vị tính: Tỷ đồng
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Chỉ tiêu</td><td style='text-align: center; word-wrap: break-word;'>Kế hoạch năm 2025</td><td style='text-align: center; word-wrap: break-word;'>Thực hiện năm 2025</td><td style='text-align: center; word-wrap: break-word;'>% thực hiện so KH</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1. Tổng tài sản</td><td style='text-align: center; word-wrap: break-word;'>984.967</td><td style='text-align: center; word-wrap: break-word;'>1.025.850</td><td style='text-align: center; word-wrap: break-word;'>104%</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2. Huy động (gồm tiền gửi khách hàng và phát hành giấy tờ có giá)</td><td style='text-align: center; word-wrap: break-word;'>728.409</td><td style='text-align: center; word-wrap: break-word;'>718.475</td><td style='text-align: center; word-wrap: break-word;'>99%</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>3. Cho vay khách hàng</td><td style='text-align: center; word-wrap: break-word;'>673.596</td><td style='text-align: center; word-wrap: break-word;'>686.777</td><td style='text-align: center; word-wrap: break-word;'>102%</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>4. Tỷ lệ nợ xấu nhóm 3 - nhóm 5 (sau CIC)</td><td style='text-align: center; word-wrap: break-word;'>&lt;2%</td><td style='text-align: center; word-wrap: break-word;'>0,97%</td><td style='text-align: center; word-wrap: break-word;'>206%</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>5. Lợi nhuận trước thuế</td><td style='text-align: center; word-wrap: break-word;'>23.000</td><td style='text-align: center; word-wrap: break-word;'>19.539</td><td style='text-align: center; word-wrap: break-word;'>85%</td></tr></table>
+
+Những tiến bộ công ty đã đạt được
+
+Cải thiện đáng kể chất lượng tài sản, đưa tỷ lệ nợ xấu nhóm 3 đến 5 trên dự nợ cho vay khách hàng trở lại dưới 1% sau giai đoạn chịu ảnh hưởng kéo dài từ Covid-19 và biến động vĩ

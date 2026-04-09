@@ -1,0 +1,160 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1700,
+    "height": 2200,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                70,
+                0,
+                1629,
+                867
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 215,
+            "global_group_id": 215,
+            "block_polygon_points": [
+                [
+                    70.0,
+                    -1.0
+                ],
+                [
+                    1629.0,
+                    -1.0
+                ],
+                [
+                    1629.0,
+                    867.0
+                ],
+                [
+                    70.0,
+                    867.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "THÔNG TIN CỔ ĐÔNG VÀ QUẬN TRI CÔNG TY",
+            "block_bbox": [
+                166,
+                907,
+                1554,
+                1319
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 216,
+            "global_group_id": 216,
+            "block_polygon_points": [
+                [
+                    166.0,
+                    918.0
+                ],
+                [
+                    1545.0,
+                    918.0
+                ],
+                [
+                    1545.0,
+                    1308.0
+                ],
+                [
+                    166.0,
+                    1308.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.3015102446079254,
+                "coordinate": [
+                    70,
+                    0,
+                    1629,
+                    867
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        70.0,
+                        -1.0
+                    ],
+                    [
+                        1629.0,
+                        -1.0
+                    ],
+                    [
+                        1629.0,
+                        867.0
+                    ],
+                    [
+                        70.0,
+                        867.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8318285346031189,
+                "coordinate": [
+                    166,
+                    907,
+                    1554,
+                    1319
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        166.0,
+                        918.0
+                    ],
+                    [
+                        1545.0,
+                        918.0
+                    ],
+                    [
+                        1545.0,
+                        1308.0
+                    ],
+                    [
+                        166.0,
+                        1308.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

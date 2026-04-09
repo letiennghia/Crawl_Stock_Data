@@ -1,0 +1,11 @@
+thời điểm cuối năm 2016, ACBS có vốn điều lệ là 1.500 tỷ đồng, vốn chủ sở hữu là 1.815 tỷ đồng và tổng tài sản là 2.461 tỷ đồng, tăng 23% so với năm 2015. Bắt chấp diễn biến khó lường của thị trường chứng khoán, trong suốt thời gian hoạt động, ACBS luôn nằm trong nhóm 10 công ty chứng khoản dẫn đầu về thị phần và luôn có lãi.
+
+Năm 2016 là năm tăng trưởng tốt của thị trường chứng khoản Việt Nam, nhất là thị trường cổ phiếu niệm yết, với mức tăng trưởng mạnh của VN-Index về cả chỉ số và thanh khoản. Quy mô của thị trường chứng khoản đã tăng 30% và đạt 42% GDP vào cuối năm 2016. Tuy nhiên, diễn biến thị trường chứng khoản, đặc biệt là đối với các công ty chứng khoản có nhiều biến động khó lường và đặt ra nhiều thách thức với công ty chứng khoản về khả năng quản trị rủi ro, quản lý thanh khoản, mở rộng hoạt động và phát triển sản phẩm.
+
+Trong bối cảnh đó, ACBS đã đạt 141 tỷ đồng lợi nhuận trước thuế, đạt 71% kế hoạch được ngân hàng mẹ giao phó, đóng góp 8,5% lợi nhuận toàn tập đoàn. Trong năm, hoạt động đầu tư và hoạt động tư vấn tài chính doanh nghiệp đã có những tầng trường vượt bậc. Ngoài ra, trong năm, ACBS cũng đã nâng cấp hệ thống công nghệ thông tin để cung cấp thêm tiền ích cho khách hàng, tăng cường quản trị rủi ro và quản lý thanh khoản.
+
+Năm 2017, thị trường chứng khoán dự kiến sẽ tiếp tục biến động mạnh với việc thoái vốn tại hàng loạt doanh nghiệp nhà nước lớn, quy mô và thanh khoản thị trường tiếp tục tăng mạnh. Do vậy, ACBS đặt trong tâm giành lại thị phần môi giới, đặc biệt là môi giới khách hàng cá nhân, tăng cường quản trị rủi ro và đảm bảo an toàn vận hành. Với quyết tâm mở rộng thị phần và tăng cường kiểm soát chi phí, ACBS sẽ nỗ lực hết sức hoàn thành kế hoạch lợi nhuận trước thuế 220 tỷ đồng do ngân hàng mẹ giao trong năm 2017 và đóng góp vào thành công chung của tập đoàn.
+
+#### 4.3.2.2 Tóm tắt về hoạt động và tình hình tài chính của Công ty Quản lý nợ và khai thác tài sản ACB (ACBA)
+
+ACBA có nhiệm vụ chính là xử lý các khoản nợ xấu, nợ quá hạn nhận chuyển giao từ ACB và kinh doanh bất động sản từ xử lý nợ. Tinh hình thị trường năm 2016 cho thấy nợ xấu các tổ chức tín dụng có xu hướng giảm trong khi thị trường bất động sản có xu

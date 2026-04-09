@@ -1,0 +1,799 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1654,
+    "height": 2340,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "aside_text",
+            "block_content": "0",
+            "block_bbox": [
+                11,
+                16,
+                64,
+                2320
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1336,
+            "global_group_id": 1336,
+            "block_polygon_points": [
+                [
+                    18.229267120361328,
+                    15.868896484375
+                ],
+                [
+                    55.99997329711914,
+                    15.999755859375
+                ],
+                [
+                    47.9997673034668,
+                    2319.07275390625
+                ],
+                [
+                    10.229061126708984,
+                    2318.94189453125
+                ]
+            ]
+        },
+        {
+            "block_label": "doc_title",
+            "block_content": "TỔNG CÔNG TY ĐẦU TỬ VÀ PHÁT TRIỂN CÔNG NGHIỆP – CTCP",
+            "block_bbox": [
+                154,
+                55,
+                1137,
+                100
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 1337,
+            "global_group_id": 1337,
+            "block_polygon_points": [
+                [
+                    154.0,
+                    55.0
+                ],
+                [
+                    1137.0,
+                    55.0
+                ],
+                [
+                    1137.0,
+                    100.0
+                ],
+                [
+                    154.0,
+                    100.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Cho năm tài chính kết thúc ngày 31 tháng 12 năm 2018",
+            "block_bbox": [
+                155,
+                170,
+                789,
+                205
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 1338,
+            "global_group_id": 1338,
+            "block_polygon_points": [
+                [
+                    155.0,
+                    170.0
+                ],
+                [
+                    789.0,
+                    170.0
+                ],
+                [
+                    789.0,
+                    205.0
+                ],
+                [
+                    155.0,
+                    205.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Bản thuyết minh Báo cáo tài chính tổng hợp (tiếp theo)",
+            "block_bbox": [
+                155,
+                204,
+                817,
+                242
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "global_block_id": 1339,
+            "global_group_id": 1339,
+            "block_polygon_points": [
+                [
+                    155.0,
+                    214.0
+                ],
+                [
+                    155.0,
+                    241.0
+                ],
+                [
+                    816.0,
+                    241.0
+                ],
+                [
+                    816.0,
+                    204.0
+                ],
+                [
+                    669.0,
+                    204.0
+                ],
+                [
+                    659.0,
+                    204.0
+                ],
+                [
+                    635.0,
+                    204.0
+                ],
+                [
+                    610.0,
+                    204.0
+                ],
+                [
+                    561.0,
+                    204.0
+                ],
+                [
+                    531.7591114788211,
+                    214.95888880161104
+                ],
+                [
+                    527.0,
+                    214.0
+                ],
+                [
+                    295.0,
+                    204.0
+                ],
+                [
+                    255.0,
+                    204.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Bên liên quan khác</td><td>Mối quan hệ</td></tr><tr><td>Công ty Cổ phần Setia – Becamex</td><td>Công ty liên kết</td></tr><tr><td>Công ty Cổ phần Chứng khoán Đệ Nhất</td><td>Công ty liên kết</td></tr><tr><td>Công ty Cổ phần Bảo hiểm Hùng Vương</td><td>Công ty liên kết</td></tr><tr><td>Công ty Cổ phần Dược phẩm Savi</td><td>Công ty liên kết</td></tr><tr><td>Công ty Cổ phần Công nghệ &amp; Truyền thông Việt Nam</td><td>Công ty liên kết</td></tr><tr><td>Công ty TNHH Becamex Tokyo</td><td>Công ty liên kết</td></tr><tr><td>Công ty Cổ phần Phát triển Giáo dục Miền Đông</td><td>Công ty liên kết</td></tr><tr><td>Công ty TNHH MTV Thương mại Becamex</td><td>Công ty con của Công ty Cổ phần Phát triển Hà tầng Kỹ thuật</td></tr><tr><td>Công ty TNHH MTV Khách sạn Becamex</td><td>Công ty con của Công ty Cổ phần Phát triển Hà tầng Kỹ thuật</td></tr><tr><td>Công ty TNHH MTV Tư vấn Đầu tư Xây dựng Việt</td><td>Công ty con của Công ty Cổ phần Kinh doanh và Phát triển Bình Dương</td></tr><tr><td>Công ty Cổ phần Xi măng Hà Tiên Kiên Giang – Becamex</td><td>Công ty con của Công ty Cổ phần Kinh doanh và Phát triển Bình Dương</td></tr><tr><td>Công ty Cổ phần Vật liệu Xây dựng Becamex</td><td>Công ty con của Công ty Cổ phần Kinh doanh và Phát triển Bình Dương</td></tr><tr><td>Công ty Cổ phần Khoáng sản Becamex</td><td>Công ty con của Công ty Cổ phần Bê tông Becamex</td></tr><tr><td>Công ty Cổ phần Đá ố lát An Bình</td><td>Công ty con của Công ty Cổ phần Bê tông Becamex</td></tr><tr><td>Công ty Liên doanh TNHH SinViet</td><td>Công ty liên kết của Công ty Cổ phần Kinh doanh và Phát triển Bình Dương</td></tr><tr><td>Công ty Cổ phần Đầu tư Xây dựng Chánh Phú Hòa</td><td>Công ty liên kết của Công ty Cổ phần Nước – Môi trường Bình Dương</td></tr></table>",
+            "block_bbox": [
+                224,
+                292,
+                1485,
+                1212
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 1340,
+            "global_group_id": 1340,
+            "block_polygon_points": [
+                [
+                    224.0,
+                    292.0
+                ],
+                [
+                    1485.0,
+                    292.0
+                ],
+                [
+                    1485.0,
+                    1212.0
+                ],
+                [
+                    224.0,
+                    1212.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Giao dịch với các bên liên quan khác",
+            "block_bbox": [
+                235,
+                1254,
+                709,
+                1291
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 1341,
+            "global_group_id": 1341,
+            "block_polygon_points": [
+                [
+                    235.0,
+                    1254.0
+                ],
+                [
+                    709.0,
+                    1254.0
+                ],
+                [
+                    709.0,
+                    1291.0
+                ],
+                [
+                    235.0,
+                    1291.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Ngoài các giao dịch phát sinh với các công ty con và công ty liên doanh, liên kết đã được trình bày ở thuyết minh số V.2b cũng như các giao dịch về bán hàng và cung cấp dịch vụ cho các bên liên quan khác không phải là công ty con và công ty liên doanh, liên kết đã được trình bày ở thuyết minh số VI.1b, Tổng Cộng ty còn phát sinh các giao dịch khác với các bên liên quan khác như sau:",
+            "block_bbox": [
+                233,
+                1284,
+                1522,
+                1435
+            ],
+            "block_id": 6,
+            "block_order": 4,
+            "group_id": 6,
+            "global_block_id": 1342,
+            "global_group_id": 1342,
+            "block_polygon_points": [
+                [
+                    233,
+                    1284
+                ],
+                [
+                    233,
+                    1434
+                ],
+                [
+                    1513,
+                    1423
+                ],
+                [
+                    1521,
+                    1284
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>Nam nay</td><td>Nam trước</td></tr><tr><td>Công ty TNHH MTV Khách sản Becamex</td><td>7.745.713.412</td><td>797.166.639</td></tr><tr><td>Nhận cung cấp dịch vụ</td><td>575.675.635</td><td>54.026.182</td></tr><tr><td>Công ty TNHH MTV Thương mại Becamex</td><td>12.873.772.600</td><td>7.194.546</td></tr><tr><td>Mua về máy bay</td><td>4.076.716.657</td><td>-</td></tr><tr><td>Nhận cung cấp dịch vụ quản lý</td><td>21.199.200</td><td>19.272.000</td></tr><tr><td>Công ty Cổ phần Vật liệu Xây dựng Becamex</td><td>19.643.235.186</td><td>2.929.780.830</td></tr><tr><td>Mua đá</td><td>497.830.000</td><td>-</td></tr></table>",
+            "block_bbox": [
+                240,
+                1440,
+                1500,
+                2043
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 1343,
+            "global_group_id": 1343,
+            "block_polygon_points": [
+                [
+                    240.0,
+                    1440.0
+                ],
+                [
+                    1500.0,
+                    1440.0
+                ],
+                [
+                    1500.0,
+                    2043.0
+                ],
+                [
+                    240.0,
+                    2043.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Giá hàng hóa, dịch vụ cung cấp cho các bên liên quan khác là giá thỏa thuận. Việc mua hàng hóa, dịch vụ từ các bên liên quan khác được thực hiện theo giá thỏa thuận.",
+            "block_bbox": [
+                240,
+                2071,
+                1528,
+                2153
+            ],
+            "block_id": 8,
+            "block_order": 5,
+            "group_id": 8,
+            "global_block_id": 1344,
+            "global_group_id": 1344,
+            "block_polygon_points": [
+                [
+                    240.0,
+                    2071.0
+                ],
+                [
+                    1528.0,
+                    2071.0
+                ],
+                [
+                    1528.0,
+                    2153.0
+                ],
+                [
+                    240.0,
+                    2153.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Bản thuyết mình này là một bộ phận hợp thành và phải được cứng với Báo cáo tài chính tổng hợp",
+            "block_bbox": [
+                168,
+                2207,
+                1208,
+                2243
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 1345,
+            "global_group_id": 1345,
+            "block_polygon_points": [
+                [
+                    168.0,
+                    2207.0
+                ],
+                [
+                    1208.0,
+                    2207.0
+                ],
+                [
+                    1208.0,
+                    2243.0
+                ],
+                [
+                    168.0,
+                    2243.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "60",
+            "block_bbox": [
+                1485,
+                2202,
+                1525,
+                2236
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "global_block_id": 1346,
+            "global_group_id": 1346,
+            "block_polygon_points": [
+                [
+                    1485.0,
+                    2202.0
+                ],
+                [
+                    1524.0,
+                    2202.0
+                ],
+                [
+                    1524.0,
+                    2235.0
+                ],
+                [
+                    1485.0,
+                    2235.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.5457977056503296,
+                "coordinate": [
+                    11,
+                    16,
+                    64,
+                    2320
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        18.229267120361328,
+                        15.868896484375
+                    ],
+                    [
+                        55.99997329711914,
+                        15.999755859375
+                    ],
+                    [
+                        47.9997673034668,
+                        2319.07275390625
+                    ],
+                    [
+                        10.229061126708984,
+                        2318.94189453125
+                    ]
+                ]
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.43294504284858704,
+                "coordinate": [
+                    154,
+                    55,
+                    1137,
+                    100
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        154.0,
+                        55.0
+                    ],
+                    [
+                        1137.0,
+                        55.0
+                    ],
+                    [
+                        1137.0,
+                        100.0
+                    ],
+                    [
+                        154.0,
+                        100.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3725660741329193,
+                "coordinate": [
+                    155,
+                    170,
+                    789,
+                    205
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        155.0,
+                        170.0
+                    ],
+                    [
+                        789.0,
+                        170.0
+                    ],
+                    [
+                        789.0,
+                        205.0
+                    ],
+                    [
+                        155.0,
+                        205.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4177890717983246,
+                "coordinate": [
+                    155,
+                    204,
+                    817,
+                    242
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        155.0,
+                        214.0
+                    ],
+                    [
+                        155.0,
+                        241.0
+                    ],
+                    [
+                        816.0,
+                        241.0
+                    ],
+                    [
+                        816.0,
+                        204.0
+                    ],
+                    [
+                        669.0,
+                        204.0
+                    ],
+                    [
+                        659.0,
+                        204.0
+                    ],
+                    [
+                        635.0,
+                        204.0
+                    ],
+                    [
+                        610.0,
+                        204.0
+                    ],
+                    [
+                        561.0,
+                        204.0
+                    ],
+                    [
+                        531.7591114788211,
+                        214.95888880161104
+                    ],
+                    [
+                        527.0,
+                        214.0
+                    ],
+                    [
+                        295.0,
+                        204.0
+                    ],
+                    [
+                        255.0,
+                        204.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.920499861240387,
+                "coordinate": [
+                    224,
+                    292,
+                    1485,
+                    1212
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        224.0,
+                        292.0
+                    ],
+                    [
+                        1485.0,
+                        292.0
+                    ],
+                    [
+                        1485.0,
+                        1212.0
+                    ],
+                    [
+                        224.0,
+                        1212.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.4074828326702118,
+                "coordinate": [
+                    235,
+                    1254,
+                    709,
+                    1291
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        235.0,
+                        1254.0
+                    ],
+                    [
+                        709.0,
+                        1254.0
+                    ],
+                    [
+                        709.0,
+                        1291.0
+                    ],
+                    [
+                        235.0,
+                        1291.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6195419430732727,
+                "coordinate": [
+                    233,
+                    1284,
+                    1522,
+                    1435
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        233,
+                        1284
+                    ],
+                    [
+                        233,
+                        1434
+                    ],
+                    [
+                        1513,
+                        1423
+                    ],
+                    [
+                        1521,
+                        1284
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.8840821385383606,
+                "coordinate": [
+                    240,
+                    1440,
+                    1500,
+                    2043
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        240.0,
+                        1440.0
+                    ],
+                    [
+                        1500.0,
+                        1440.0
+                    ],
+                    [
+                        1500.0,
+                        2043.0
+                    ],
+                    [
+                        240.0,
+                        2043.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5657562613487244,
+                "coordinate": [
+                    240,
+                    2071,
+                    1528,
+                    2153
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        240.0,
+                        2071.0
+                    ],
+                    [
+                        1528.0,
+                        2071.0
+                    ],
+                    [
+                        1528.0,
+                        2153.0
+                    ],
+                    [
+                        240.0,
+                        2153.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.7844387888908386,
+                "coordinate": [
+                    168,
+                    2207,
+                    1208,
+                    2243
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        168.0,
+                        2207.0
+                    ],
+                    [
+                        1208.0,
+                        2207.0
+                    ],
+                    [
+                        1208.0,
+                        2243.0
+                    ],
+                    [
+                        168.0,
+                        2243.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7236577272415161,
+                "coordinate": [
+                    1485,
+                    2202,
+                    1525,
+                    2236
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        1485.0,
+                        2202.0
+                    ],
+                    [
+                        1524.0,
+                        2202.0
+                    ],
+                    [
+                        1524.0,
+                        2235.0
+                    ],
+                    [
+                        1485.0,
+                        2235.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

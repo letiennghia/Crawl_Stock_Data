@@ -1,0 +1,16 @@
+Năm 2023, ACB đầy mạnh thực hiện các hoạt động về môi trường, đặc biệt là về giám rác thải nhựa với chuỗi hoạt động dọn rác làm sạch môi trường sống, phân loại rác thải nhựa, nâng cao nhận thức về môi trường cho cộng đồng, v.v. được tổ chức cho khách hàng, người dân tại các địa phương có sự hiện diện của ACB.
+
+##### Kết quả đạt được:
+
+Tinh thần bảo vệ môi trường đã trở thành một nét văn hóa của ACB và dẫn lan tòa đến khách hàng, đối tác và công đồng địa phương.
+
+Nhiều đơn vị đã có sáng kiến báo về môi trường, thực hiện các chương trình chuyển đổi số (Green Transactions, Go Paperless Credit, Số hóa lưu trữ chứng từ thanh toán quốc tế, chữ ký số trong quy trình tin dụng e-Signature, D-sign, chữ ký số trong quan hệ lao động, v.v.) và triển khai chiến dịch tất mày tính sau giờ làm việc nhằm tiết kiệm năng lượng điện, tiết kiệm vật liệu sử dụng, đặc biệt là giấy và mục in.
+
+- Sự kiện tương tác ESG[Net Zero được tổ chức cho lãnh đạo cấp trung tại Hội nghị triển khai kinh doanh và Cấp nhất kinh doanh.
+
+Đối với khách hàng, đối tác, và công đồng địa phương, ACB góp phần năng cao nhận thức về bảo vệ môi trường thông qua các ấn phẩm, sản phẩm thường mọi như lịch năm có lồng ghép nội dung bảo vệ môi trường, các hình thức truyền thông và sự kiện nâng cao nhận thức về môi trường như: website, mạng xã hội dành cho công đồng yêu môi trường, chuỗi podcast, game tương tác Gần lại O, v.v.
+
+Vài số liệu về kết quả liên quan đến nhân viên và mục tiêu lợi tỏa
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>93%</td><td style='text-align: center; word-wrap: break-word;'>Là tỷ lệ nhân viên sẵn sàng cam kết thực hiện ESG cùng ACB (theo kết quả khảo sát nội bộ năm 2022.) Mức độ cam kết là chỉ số tự nguyện được ghi nhận từ hoạt động khảo sát qua email với tất cả nhân viên của Tập đoàn. Kết quả đạt được có đến 99% nhân viên cam kết tự nguyện được ACB đánh giá ở mức Rất tốt.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>10%</td><td style='text-align: center; word-wrap: break-word;'>Là tỷ lệ mục tiêu trong tổng số hơn 10 triệu khách hàng mà ACB mong muốn tác động, lan tòa tinh thần ESG của ACB trong vòng năm năm tới.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>359</td><td style='text-align: center; word-wrap: break-word;'>Đơn vị cam kết hoàn thành mục tiêu dọn 45 tấn rác nhựa làm sạch môi trường trong năm 2023.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>85</td><td style='text-align: center; word-wrap: break-word;'>Tấn rác đã được nhân viên ACB và cộng đồng địa phương hợp tác dọn sạch và chuyển về cơ sở xử lý theo quy định. Trong đó, có hơn 68 tấn rác nhựa đã được phân loại, xử lý góp phần giảm tinh trạng ô nhiễm nhựa, vì nhựa khói môi trường sống và giảm phát thải  $ CO_{2} $ khi không được xử lý đúng cách.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>159</td><td style='text-align: center; word-wrap: break-word;'>Thùng rác phân loại đã được trang bị tại các trụ sở ACB trên toàn quốc. Kết hợp với PLASTIC People để phân loại và xử lý rác thải nhựa tại nguồn theo tinh thần của Luật bảo vệ môi trường.</td></tr></table>

@@ -1,0 +1,223 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2280,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Tiêu chí</td><td>Đánh giá 2025</td><td>Cơ sở cho việc đánh giá 2025</td></tr><tr><td>C.3</td><td colspan=\"3\">Thù lao của thành viên HDQT và Ban điều hành</td></tr><tr><td>C.3.1</td><td>Cơ cấu thù lao cho thành viên HDQT không điều hành có được công bố công khai?</td><td>●</td><td>ACB đang nghiên cứu triển khai.</td></tr><tr><td>C.3.2</td><td>Công ty có công bố công khai (trong báo cáo thường niên hoặc các tài liệu công bố công khai khác) chỉ tiết thù lao của từng thành viên HDQT không điều hành?</td><td>●</td><td>Thể hiện tại Báo cáo thường niên ACB.</td></tr><tr><td>C.3.3</td><td>Công ty có công bố chính sách/thực hành về thù lao (phí, thù lao, các hình thức quyền lợi hiện vật hoặc bổng lộc khác) (nghĩa là việc sử dụng các chính sách khích lệ và các chi tiêu hiệu quả ngắn và dài hạn) đối với thành viên HDQT điều hành và TGD?</td><td>●</td><td>ACB đang nghiên cứu triển khai.</td></tr><tr><td>C.3.4</td><td>Công ty có công bố công khai (trong báo cáo thường niên hoặc các tài liệu công bố công khai khác) chỉ tiết thù lao của từng thành viên HDQT điều hành và TGD (nếu TGD không phải là thành viên HDQT)?</td><td>●</td><td>Thể hiện tại Báo cáo thường niên ACB.</td></tr><tr><td>C.4</td><td colspan=\"3\">Công bố Giao dịch bên liên quan (GDBLQ)</td></tr><tr><td>C.4.1</td><td>Công ty có công bố chính sách về rà soát và phê duyệt GDBLQ trọng yếu?</td><td>●</td><td>ACB đang nghiên cứu triển khai.</td></tr><tr><td>C.4.2</td><td>Công ty có công bố tên của các bên liên quan, mối quan hệ, bản chất và giá trị của mỗi GDBLQ trong yếu?</td><td>●</td><td>Thể hiện tại các văn bản công bố thông tin giao dịch bên liên quan trên website ACB và tại các báo cáo tính hình QTCT định kỳ 6 tháng và năm.</td></tr></table>",
+            "block_bbox": [
+                144,
+                280,
+                1428,
+                2127
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1463,
+            "global_group_id": 1463,
+            "block_polygon_points": [
+                [
+                    144.0,
+                    280.0
+                ],
+                [
+                    1428.0,
+                    280.0
+                ],
+                [
+                    1428.0,
+                    2127.0
+                ],
+                [
+                    144.0,
+                    2127.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Báo cáo thưởng niên ACB năm 2025",
+            "block_bbox": [
+                1507,
+                1604,
+                1554,
+                2094
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1464,
+            "global_group_id": 1464,
+            "block_polygon_points": [
+                [
+                    1507.0,
+                    1604.0
+                ],
+                [
+                    1554.0,
+                    1604.0
+                ],
+                [
+                    1554.0,
+                    2094.0
+                ],
+                [
+                    1507.0,
+                    2094.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "127 / 179",
+            "block_bbox": [
+                1519,
+                814,
+                1561,
+                950
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1465,
+            "global_group_id": 1465,
+            "block_polygon_points": [
+                [
+                    1519.0,
+                    814.0
+                ],
+                [
+                    1561.0,
+                    814.0
+                ],
+                [
+                    1561.0,
+                    950.0
+                ],
+                [
+                    1519.0,
+                    950.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.967703104019165,
+                "coordinate": [
+                    144,
+                    280,
+                    1428,
+                    2127
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        144.0,
+                        280.0
+                    ],
+                    [
+                        1428.0,
+                        280.0
+                    ],
+                    [
+                        1428.0,
+                        2127.0
+                    ],
+                    [
+                        144.0,
+                        2127.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.3418009877204895,
+                "coordinate": [
+                    1507,
+                    1604,
+                    1554,
+                    2094
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1507.0,
+                        1604.0
+                    ],
+                    [
+                        1554.0,
+                        1604.0
+                    ],
+                    [
+                        1554.0,
+                        2094.0
+                    ],
+                    [
+                        1507.0,
+                        2094.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.3470571041107178,
+                "coordinate": [
+                    1519,
+                    814,
+                    1561,
+                    950
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        1519.0,
+                        814.0
+                    ],
+                    [
+                        1561.0,
+                        814.0
+                    ],
+                    [
+                        1561.0,
+                        950.0
+                    ],
+                    [
+                        1519.0,
+                        950.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

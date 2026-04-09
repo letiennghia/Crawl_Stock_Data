@@ -1,0 +1,790 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2292,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "Trong năm 2023, thông qua chương trình \"Đối tác sự nghiệp – Chính phục năng lực số\", ACB đã kết nối và tuyển dụng 2.284 nhân tài trong các lĩnh vực kinh doanh, phát triển khách hàng và các nhóm nhân sự thuộc Khối/Phòng ban Hội sở về Ngân hàng số. Công nghệ thông tin, Quản trị rủi ro, v.v.",
+            "block_bbox": [
+                309,
+                370,
+                1374,
+                540
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 1194,
+            "global_group_id": 1194,
+            "block_polygon_points": [
+                [
+                    307.3668212890625,
+                    381.01690673828125
+                ],
+                [
+                    1373.0001220703125,
+                    370.0
+                ],
+                [
+                    1374.6334228515625,
+                    527.9830932617188
+                ],
+                [
+                    309.0001220703125,
+                    539.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Bên cạnh việc triển khai chương trình The Next Banker và ACB Experience thu hút đồng đảo sinh viên từ các trường đại học hàng đầu trên cá nước tham gia trái nghiệm công việc thực tế tại ngân hàng và cơ hội để trở thành nhân viên ngân hàng chính thức. Năm 2023 ACB đầy mạnh tồ chức các chuỗi Workshop tuyến dụng dành cho nhóm nhân sự có kinh nghiệm tại các mảng Công nghệ thông tin, Khách hàng doanh nghiệp, Khách hàng ưu tiên thông qua đó đã tiếp cận được hơn 1.000 nhân sự tham gia tìm hiểu và ứng tuyến.",
+            "block_bbox": [
+                307,
+                541,
+                1378,
+                833
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 1195,
+            "global_group_id": 1195,
+            "block_polygon_points": [
+                [
+                    307.0,
+                    541.0
+                ],
+                [
+                    1378.0,
+                    541.0
+                ],
+                [
+                    1378.0,
+                    833.0
+                ],
+                [
+                    307.0,
+                    833.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- ACB đấu tư nhân sự tại các vị trí phát triển kinh doanh và tại Hội sở. Ngoài các vị trí nghiệp vụ, ACB chủ trọng đầu tư vào các vị trí liên quan đến chuyển đổi, ngân hàng số, công nghệ thông tin và phân tích dữ liệu.",
+            "block_bbox": [
+                311,
+                834,
+                1392,
+                969
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "global_block_id": 1196,
+            "global_group_id": 1196,
+            "block_polygon_points": [
+                [
+                    309.6451416015625,
+                    835.9634399414062
+                ],
+                [
+                    1390.90625,
+                    824.8684692382812
+                ],
+                [
+                    1392.2611083984375,
+                    956.9049682617188
+                ],
+                [
+                    311.0,
+                    967.9999389648438
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Số lượng nhân viên tuyển mới (*)</td><td>2.385</td><td>3.073</td><td>2.284</td></tr></table>",
+            "block_bbox": [
+                314,
+                998,
+                1411,
+                1198
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 1197,
+            "global_group_id": 1197,
+            "block_polygon_points": [
+                [
+                    314.0,
+                    1010.0000610351562
+                ],
+                [
+                    1410.0,
+                    998.0
+                ],
+                [
+                    1412.05810546875,
+                    1185.9775390625
+                ],
+                [
+                    316.05810546875,
+                    1197.9775390625
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Số lượng nhân viên tuyển dụng mới của Ngân hàng ACB, không bao gồm các công ty con.",
+            "block_bbox": [
+                289,
+                1206,
+                1369,
+                1256
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 1198,
+            "global_group_id": 1198,
+            "block_polygon_points": [
+                [
+                    288.73126220703125,
+                    1216.00244140625
+                ],
+                [
+                    1368.0,
+                    1206.0
+                ],
+                [
+                    1368.363037109375,
+                    1245.154296875
+                ],
+                [
+                    289.09417724609375,
+                    1255.15673828125
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Số lượng nhân viên tuyển mới qua các năm",
+            "block_bbox": [
+                493,
+                1274,
+                1093,
+                1322
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 1199,
+            "global_group_id": 1199,
+            "block_polygon_points": [
+                [
+                    493.0,
+                    1274.0
+                ],
+                [
+                    1093.0,
+                    1274.0
+                ],
+                [
+                    1093.0,
+                    1322.0
+                ],
+                [
+                    493.0,
+                    1322.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                294,
+                1317,
+                1298,
+                1696
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 1200,
+            "global_group_id": 1200,
+            "block_polygon_points": [
+                [
+                    303,
+                    1317
+                ],
+                [
+                    294,
+                    1695
+                ],
+                [
+                    1297,
+                    1684
+                ],
+                [
+                    1281,
+                    1329
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Số lượng nhân viên tuyển dụng mới của Ngân hàng ACB, không bao gồm các công ty con.",
+            "block_bbox": [
+                283,
+                1743,
+                1374,
+                1792
+            ],
+            "block_id": 7,
+            "block_order": 4,
+            "group_id": 7,
+            "global_block_id": 1201,
+            "global_group_id": 1201,
+            "block_polygon_points": [
+                [
+                    283.0,
+                    1743.0
+                ],
+                [
+                    1374.0,
+                    1743.0
+                ],
+                [
+                    1374.0,
+                    1792.0
+                ],
+                [
+                    283.0,
+                    1792.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Chất lượng nhân viên:",
+            "block_bbox": [
+                269,
+                1799,
+                589,
+                1842
+            ],
+            "block_id": 8,
+            "block_order": 5,
+            "group_id": 8,
+            "global_block_id": 1202,
+            "global_group_id": 1202,
+            "block_polygon_points": [
+                [
+                    269.0,
+                    1799.0
+                ],
+                [
+                    589.0,
+                    1799.0
+                ],
+                [
+                    589.0,
+                    1842.0
+                ],
+                [
+                    269.0,
+                    1842.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- ACB tổng hòa các chính sách liên quan đến chất lượng đầu vào, đải ngộ, đầu tư cho đảo tạo và sự đồng hành từ các cấp quản lý trong việc hỗ trợ và dẫn đất nhân viên thực hiện tốt nhiệm vụ cũng như chất lượng nhân viên của ACB được duy trì và đảm bảo qua từng năm thế hiện ở tỷ lệ nhân viên đạt kỳ vọng trở lên luôn chiếm đa số ở mức cao.",
+            "block_bbox": [
+                310,
+                1842,
+                1393,
+                2012
+            ],
+            "block_id": 9,
+            "block_order": 6,
+            "group_id": 9,
+            "global_block_id": 1203,
+            "global_group_id": 1203,
+            "block_polygon_points": [
+                [
+                    308.2967529296875,
+                    1843.4508056640625
+                ],
+                [
+                    1391.90283203125,
+                    1832.4344482421875
+                ],
+                [
+                    1393.606201171875,
+                    1999.9837646484375
+                ],
+                [
+                    310.0001220703125,
+                    2011.0001220703125
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2023",
+            "block_bbox": [
+                294,
+                2117,
+                506,
+                2156
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "global_block_id": 1204,
+            "global_group_id": 1204,
+            "block_polygon_points": [
+                [
+                    294.0,
+                    2117.0
+                ],
+                [
+                    506.0,
+                    2117.0
+                ],
+                [
+                    506.0,
+                    2156.0
+                ],
+                [
+                    294.0,
+                    2156.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "90 / 111",
+            "block_bbox": [
+                1272,
+                2106,
+                1376,
+                2140
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 1205,
+            "global_group_id": 1205,
+            "block_polygon_points": [
+                [
+                    1272.0,
+                    2106.0
+                ],
+                [
+                    1376.0,
+                    2106.0
+                ],
+                [
+                    1376.0,
+                    2140.0
+                ],
+                [
+                    1272.0,
+                    2140.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9260160326957703,
+                "coordinate": [
+                    309,
+                    370,
+                    1374,
+                    540
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        307.3668212890625,
+                        381.01690673828125
+                    ],
+                    [
+                        1373.0001220703125,
+                        370.0
+                    ],
+                    [
+                        1374.6334228515625,
+                        527.9830932617188
+                    ],
+                    [
+                        309.0001220703125,
+                        539.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9444616436958313,
+                "coordinate": [
+                    307,
+                    541,
+                    1378,
+                    833
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        307.0,
+                        541.0
+                    ],
+                    [
+                        1378.0,
+                        541.0
+                    ],
+                    [
+                        1378.0,
+                        833.0
+                    ],
+                    [
+                        307.0,
+                        833.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9092832207679749,
+                "coordinate": [
+                    311,
+                    834,
+                    1392,
+                    969
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        309.6451416015625,
+                        835.9634399414062
+                    ],
+                    [
+                        1390.90625,
+                        824.8684692382812
+                    ],
+                    [
+                        1392.2611083984375,
+                        956.9049682617188
+                    ],
+                    [
+                        311.0,
+                        967.9999389648438
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9273641705513,
+                "coordinate": [
+                    314,
+                    998,
+                    1411,
+                    1198
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        314.0,
+                        1010.0000610351562
+                    ],
+                    [
+                        1410.0,
+                        998.0
+                    ],
+                    [
+                        1412.05810546875,
+                        1185.9775390625
+                    ],
+                    [
+                        316.05810546875,
+                        1197.9775390625
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.5585334897041321,
+                "coordinate": [
+                    289,
+                    1206,
+                    1369,
+                    1256
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        288.73126220703125,
+                        1216.00244140625
+                    ],
+                    [
+                        1368.0,
+                        1206.0
+                    ],
+                    [
+                        1368.363037109375,
+                        1245.154296875
+                    ],
+                    [
+                        289.09417724609375,
+                        1255.15673828125
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.7426372170448303,
+                "coordinate": [
+                    493,
+                    1274,
+                    1093,
+                    1322
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        493.0,
+                        1274.0
+                    ],
+                    [
+                        1093.0,
+                        1274.0
+                    ],
+                    [
+                        1093.0,
+                        1322.0
+                    ],
+                    [
+                        493.0,
+                        1322.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.8665585517883301,
+                "coordinate": [
+                    294,
+                    1317,
+                    1298,
+                    1696
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        303,
+                        1317
+                    ],
+                    [
+                        294,
+                        1695
+                    ],
+                    [
+                        1297,
+                        1684
+                    ],
+                    [
+                        1281,
+                        1329
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.48016563057899475,
+                "coordinate": [
+                    283,
+                    1743,
+                    1374,
+                    1792
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        283.0,
+                        1743.0
+                    ],
+                    [
+                        1374.0,
+                        1743.0
+                    ],
+                    [
+                        1374.0,
+                        1792.0
+                    ],
+                    [
+                        283.0,
+                        1792.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.651601254940033,
+                "coordinate": [
+                    269,
+                    1799,
+                    589,
+                    1842
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        269.0,
+                        1799.0
+                    ],
+                    [
+                        589.0,
+                        1799.0
+                    ],
+                    [
+                        589.0,
+                        1842.0
+                    ],
+                    [
+                        269.0,
+                        1842.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9126014709472656,
+                "coordinate": [
+                    310,
+                    1842,
+                    1393,
+                    2012
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        308.2967529296875,
+                        1843.4508056640625
+                    ],
+                    [
+                        1391.90283203125,
+                        1832.4344482421875
+                    ],
+                    [
+                        1393.606201171875,
+                        1999.9837646484375
+                    ],
+                    [
+                        310.0001220703125,
+                        2011.0001220703125
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8094348311424255,
+                "coordinate": [
+                    294,
+                    2117,
+                    506,
+                    2156
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        294.0,
+                        2117.0
+                    ],
+                    [
+                        506.0,
+                        2117.0
+                    ],
+                    [
+                        506.0,
+                        2156.0
+                    ],
+                    [
+                        294.0,
+                        2156.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7489977478981018,
+                "coordinate": [
+                    1272,
+                    2106,
+                    1376,
+                    2140
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        1272.0,
+                        2106.0
+                    ],
+                    [
+                        1376.0,
+                        2106.0
+                    ],
+                    [
+                        1376.0,
+                        2140.0
+                    ],
+                    [
+                        1272.0,
+                        2140.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,247 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "figure_title",
+            "block_content": "4.2. Co cấu bộ máy quản lý",
+            "block_bbox": [
+                203,
+                1558,
+                256,
+                2020
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 71,
+            "global_group_id": 71,
+            "block_polygon_points": [
+                [
+                    203.0,
+                    1558.0
+                ],
+                [
+                    256.0,
+                    1558.0
+                ],
+                [
+                    256.0,
+                    2020.0
+                ],
+                [
+                    203.0,
+                    2020.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                254,
+                163,
+                1455,
+                2020
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 72,
+            "global_group_id": 72,
+            "block_polygon_points": [
+                [
+                    319,
+                    181
+                ],
+                [
+                    303,
+                    1134
+                ],
+                [
+                    254,
+                    1271
+                ],
+                [
+                    254,
+                    2019
+                ],
+                [
+                    1414,
+                    2019
+                ],
+                [
+                    1446,
+                    198
+                ],
+                [
+                    1076,
+                    163
+                ]
+            ]
+        },
+        {
+            "block_label": "aside_text",
+            "block_content": "TY\nÊT",
+            "block_bbox": [
+                1565,
+                894,
+                1606,
+                1188
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 73,
+            "global_group_id": 73,
+            "block_polygon_points": [
+                [
+                    1565.0,
+                    894.0
+                ],
+                [
+                    1606.0,
+                    894.0
+                ],
+                [
+                    1606.0,
+                    1188.0
+                ],
+                [
+                    1565.0,
+                    1188.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.3878209590911865,
+                "coordinate": [
+                    203,
+                    1558,
+                    256,
+                    2020
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        203.0,
+                        1558.0
+                    ],
+                    [
+                        256.0,
+                        1558.0
+                    ],
+                    [
+                        256.0,
+                        2020.0
+                    ],
+                    [
+                        203.0,
+                        2020.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.8774946331977844,
+                "coordinate": [
+                    254,
+                    163,
+                    1455,
+                    2020
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        319,
+                        181
+                    ],
+                    [
+                        303,
+                        1134
+                    ],
+                    [
+                        254,
+                        1271
+                    ],
+                    [
+                        254,
+                        2019
+                    ],
+                    [
+                        1414,
+                        2019
+                    ],
+                    [
+                        1446,
+                        198
+                    ],
+                    [
+                        1076,
+                        163
+                    ]
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.30577439069747925,
+                "coordinate": [
+                    1565,
+                    894,
+                    1606,
+                    1188
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1565.0,
+                        894.0
+                    ],
+                    [
+                        1606.0,
+                        894.0
+                    ],
+                    [
+                        1606.0,
+                        1188.0
+                    ],
+                    [
+                        1565.0,
+                        1188.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1500 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1654,
+    "height": 2339,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "TỔNG CÔNG TY ĐẦU TỬ VÀ PHÁT TRIỂN CÔNG NGHIỆP – CTCP\nĐịa chỉ: Số 8 Hùng Vương, Phường Hòa Phú, TP. Thủ Dầu Một, Tinh Bình Dương\nBÁO CÁO TÀI CHÍNH HỌP NHÁT\nCho năm tài chính kết thúc ngày 31 tháng 12 năm 2019\nBản thuyết minh Báo cáo tài chính hợp nhất (tiếp theo)",
+            "block_bbox": [
+                116,
+                158,
+                1051,
+                349
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1037,
+            "global_group_id": 1037,
+            "block_polygon_points": [
+                [
+                    116.0,
+                    158.0
+                ],
+                [
+                    1051.0,
+                    158.0
+                ],
+                [
+                    1051.0,
+                    349.0
+                ],
+                [
+                    116.0,
+                    349.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Các khoản giảm trừ doanh thu bao gồm chiết khấu thương mại, giảm giá hàng bán, hàng bán bị trả lại phát sinh cùng năm tiêu thụ sản phẩm, hàng hóa, dịch vụ được điều chỉnh giảm doanh thu của năm phát sinh.",
+            "block_bbox": [
+                130,
+                417,
+                1396,
+                540
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 1038,
+            "global_group_id": 1038,
+            "block_polygon_points": [
+                [
+                    128.885986328125,
+                    421.56396484375
+                ],
+                [
+                    1394.9293212890625,
+                    409.5540771484375
+                ],
+                [
+                    1396.0433349609375,
+                    526.9901123046875
+                ],
+                [
+                    130.0,
+                    539.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "23. Các khoản giảm trừ doanh thu",
+            "block_bbox": [
+                118,
+                398,
+                591,
+                435
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 1039,
+            "global_group_id": 1039,
+            "block_polygon_points": [
+                [
+                    118,
+                    398
+                ],
+                [
+                    118,
+                    434
+                ],
+                [
+                    590,
+                    434
+                ],
+                [
+                    590,
+                    398
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Trường hợp sản phẩm, hàng hoá, dịch vụ đã tiêu thụ từ các năm trước, đến năm nay mới phát sinh chiết khấu thương mại, giảm giá hàng bán, trả lại thì được ghi giảm doanh thu theo nguyên tắc:",
+            "block_bbox": [
+                195,
+                542,
+                1394,
+                628
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "global_block_id": 1040,
+            "global_group_id": 1040,
+            "block_polygon_points": [
+                [
+                    193.705810546875,
+                    553.1804809570312
+                ],
+                [
+                    1392.827392578125,
+                    532.1608276367188
+                ],
+                [
+                    1394.121337890625,
+                    605.9804077148438
+                ],
+                [
+                    194.999755859375,
+                    627.0000610351562
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Nêu khoản giả giá, chiết khâu thương mại, trả lại phát sinh trước thời điểm phát hành Báo cáo tài chính hợp nhất: ghi giảm doanh thu trên Báo cáo tài chính hợp nhất của năm nay.",
+            "block_bbox": [
+                197,
+                613,
+                1396,
+                696
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "global_block_id": 1041,
+            "global_group_id": 1041,
+            "block_polygon_points": [
+                [
+                    1395,
+                    613
+                ],
+                [
+                    197,
+                    634
+                ],
+                [
+                    197,
+                    695
+                ],
+                [
+                    1395,
+                    675
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Nếu khoản giảm giá, chiết khấu thương mại, trả lại phát sinh sau thời điểm phát hành Báo cáo tài chính hợp nhất: ghi giảm doanh thu trên Báo cáo tài chính hợp nhất của năm sau.",
+            "block_bbox": [
+                196,
+                682,
+                1397,
+                769
+            ],
+            "block_id": 5,
+            "block_order": 5,
+            "group_id": 5,
+            "global_block_id": 1042,
+            "global_group_id": 1042,
+            "block_polygon_points": [
+                [
+                    1396,
+                    682
+                ],
+                [
+                    404,
+                    693
+                ],
+                [
+                    279,
+                    693
+                ],
+                [
+                    196,
+                    704
+                ],
+                [
+                    196,
+                    768
+                ],
+                [
+                    1396,
+                    758
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "24. Chi phí đi vay",
+            "block_bbox": [
+                126,
+                788,
+                387,
+                825
+            ],
+            "block_id": 6,
+            "block_order": 6,
+            "group_id": 6,
+            "global_block_id": 1043,
+            "global_group_id": 1043,
+            "block_polygon_points": [
+                [
+                    126.0,
+                    788.0
+                ],
+                [
+                    387.0,
+                    788.0
+                ],
+                [
+                    387.0,
+                    825.0
+                ],
+                [
+                    126.0,
+                    825.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Chỉ phí đi vay bảo gồm lãi tiền vay và các chi phí khác phát sinh liên quan trực tiếp đến các khoản vay.",
+            "block_bbox": [
+                199,
+                803,
+                1391,
+                893
+            ],
+            "block_id": 7,
+            "block_order": 7,
+            "group_id": 7,
+            "global_block_id": 1044,
+            "global_group_id": 1044,
+            "block_polygon_points": [
+                [
+                    199,
+                    816
+                ],
+                [
+                    199,
+                    892
+                ],
+                [
+                    1390,
+                    880
+                ],
+                [
+                    1390,
+                    803
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Chỉ phí đi vay được ghi nhận vào chi phí khi phát sinh. Trường hợp chỉ phí đi vay liên quan trực tiếp đến việc đầu tư xây dựng hoặc sản xuất tài sản dở dang cần có một thời gian đủ dài (trên 12 tháng) để có thể đưa vào sử dụng theo mục đích định trước hoặc bán thì chỉ phí đi vay này được tính vào giá trị của tài sản đó. Đối với khoản vay riêng phục vụ việc xây dựng tài sản cố định, bất động sản đầu tư, lãi vay được vốn hóa kẻ cả khi thời gian xây dựng dưới 12 tháng. Các khoản thu nhập phát sinh từ việc đầu tư tạm thời các khoản vay được ghi giảm nguyên giá tài sản có liên quan.",
+            "block_bbox": [
+                198,
+                905,
+                1407,
+                1130
+            ],
+            "block_id": 8,
+            "block_order": 8,
+            "group_id": 8,
+            "global_block_id": 1045,
+            "global_group_id": 1045,
+            "block_polygon_points": [
+                [
+                    194.3226318359375,
+                    927.0670166015625
+                ],
+                [
+                    1406.0001220703125,
+                    905.0
+                ],
+                [
+                    1409.677734375,
+                    1106.9329833984375
+                ],
+                [
+                    198.000244140625,
+                    1129.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Đối với các khoản vốn vay chung trong đó có sử dụng cho mục đích đầu tư xây dựng hoặc sản xuất tài sản dở dang thì chỉ phí đi vay vốn hóa được xác định theo tỷ lệ vốn hóa đối với chi phí lũy kế bình quân gia quyền phát sinh cho việc đầu tư xây dựng cơ bản hoặc sản xuất tài sản đó. Tỷ lệ vốn hóa được tính theo tỷ lệ lãi suất bình quân gia quyền của các khoản vay chưa trả trong kỳ, ngoại trừ các khoản vay riêng biệt phục vụ cho mục đích hình thành một tài sản cụ thể.",
+            "block_bbox": [
+                201,
+                1138,
+                1412,
+                1332
+            ],
+            "block_id": 9,
+            "block_order": 9,
+            "group_id": 9,
+            "global_block_id": 1046,
+            "global_group_id": 1046,
+            "block_polygon_points": [
+                [
+                    208.191650390625,
+                    1150.01806640625
+                ],
+                [
+                    1411.0,
+                    1138.0
+                ],
+                [
+                    1412.808349609375,
+                    1318.98193359375
+                ],
+                [
+                    210.0,
+                    1331.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "25. Các khoản chi phí",
+            "block_bbox": [
+                136,
+                1356,
+                450,
+                1395
+            ],
+            "block_id": 10,
+            "block_order": 10,
+            "group_id": 10,
+            "global_block_id": 1047,
+            "global_group_id": 1047,
+            "block_polygon_points": [
+                [
+                    136.0,
+                    1356.0
+                ],
+                [
+                    450.0,
+                    1356.0
+                ],
+                [
+                    450.0,
+                    1395.0
+                ],
+                [
+                    136.0,
+                    1395.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Chi phí là những khoản làm giảm lợi ích kinh tế được ghi nhận tại thời điểm giao dịch phát sinh hoặc khi có khả năng tương đối chắc chắn sẽ phát sinh trong tương lai không phân biệt đã chi tiền hay chua.",
+            "block_bbox": [
+                143,
+                1371,
+                1413,
+                1499
+            ],
+            "block_id": 11,
+            "block_order": 11,
+            "group_id": 11,
+            "global_block_id": 1048,
+            "global_group_id": 1048,
+            "block_polygon_points": [
+                [
+                    1412,
+                    1371
+                ],
+                [
+                    143,
+                    1395
+                ],
+                [
+                    143,
+                    1498
+                ],
+                [
+                    1412,
+                    1487
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Các khoản chỉ phí và khoản doanh thu do nó tạo ra phải được ghi nhận đồng thời theo nguyên tắc phù hợp. Trong trường hợp nguyên tắc phù hợp xung đột với nguyên tắc thận trọng, chi phí được ghi nhận căn cứ vào bản chất và quy định của các chuẩn mực kế toán để đảm bảo phản ánh giao dịch một cách trung thực, hợp lý.",
+            "block_bbox": [
+                212,
+                1506,
+                1418,
+                1667
+            ],
+            "block_id": 12,
+            "block_order": 12,
+            "group_id": 12,
+            "global_block_id": 1049,
+            "global_group_id": 1049,
+            "block_polygon_points": [
+                [
+                    210.526123046875,
+                    1518.0145263671875
+                ],
+                [
+                    1416.999755859375,
+                    1505.9998779296875
+                ],
+                [
+                    1418.4735107421875,
+                    1653.9852294921875
+                ],
+                [
+                    211.9998779296875,
+                    1665.9998779296875
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "26. Thuế thu nhập doanh nghiệp",
+            "block_bbox": [
+                144,
+                1689,
+                590,
+                1731
+            ],
+            "block_id": 13,
+            "block_order": 13,
+            "group_id": 13,
+            "global_block_id": 1050,
+            "global_group_id": 1050,
+            "block_polygon_points": [
+                [
+                    144.0,
+                    1689.0
+                ],
+                [
+                    590.0,
+                    1689.0
+                ],
+                [
+                    590.0,
+                    1731.0
+                ],
+                [
+                    144.0,
+                    1731.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Chỉ phí thuế thu nhập doanh nghiệp bao gồm thuế thu nhập hiện hành và thuế thu nhập hoãn lại.",
+            "block_bbox": [
+                162,
+                1707,
+                1354,
+                1764
+            ],
+            "block_id": 14,
+            "block_order": 14,
+            "group_id": 14,
+            "global_block_id": 1051,
+            "global_group_id": 1051,
+            "block_polygon_points": [
+                [
+                    1353,
+                    1707
+                ],
+                [
+                    229,
+                    1719
+                ],
+                [
+                    187,
+                    1719
+                ],
+                [
+                    162,
+                    1730
+                ],
+                [
+                    162,
+                    1763
+                ],
+                [
+                    1353,
+                    1752
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Thuế thu nhập hiện hành",
+            "block_bbox": [
+                219,
+                1790,
+                543,
+                1828
+            ],
+            "block_id": 15,
+            "block_order": 15,
+            "group_id": 15,
+            "global_block_id": 1052,
+            "global_group_id": 1052,
+            "block_polygon_points": [
+                [
+                    219.0,
+                    1790.0
+                ],
+                [
+                    543.0,
+                    1790.0
+                ],
+                [
+                    543.0,
+                    1828.0
+                ],
+                [
+                    219.0,
+                    1828.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Thuế thu nhập hiện hành là khoản thuế được tính dựa trên thu nhập tính thuế. Thu nhập tính thuế chênh lệch so với lợi nhuận kế toán là do điều chỉnh các khoản chênh lệch tạm thời giữa thuế và kế toán, các chi phí không được trừ cũng như điều chỉnh các khoản thu nhập không phải chịu thuế và các khoản lỗ được chuyển.",
+            "block_bbox": [
+                216,
+                1805,
+                1422,
+                1967
+            ],
+            "block_id": 16,
+            "block_order": 16,
+            "group_id": 16,
+            "global_block_id": 1053,
+            "global_group_id": 1053,
+            "block_polygon_points": [
+                [
+                    1421,
+                    1805
+                ],
+                [
+                    216,
+                    1829
+                ],
+                [
+                    216,
+                    1966
+                ],
+                [
+                    1421,
+                    1955
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Thuế thu nhập hoãn lại",
+            "block_bbox": [
+                224,
+                1992,
+                524,
+                2030
+            ],
+            "block_id": 17,
+            "block_order": 17,
+            "group_id": 17,
+            "global_block_id": 1054,
+            "global_group_id": 1054,
+            "block_polygon_points": [
+                [
+                    224.0,
+                    1992.0
+                ],
+                [
+                    524.0,
+                    1992.0
+                ],
+                [
+                    524.0,
+                    2030.0
+                ],
+                [
+                    224.0,
+                    2030.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Thuế thu nhập hoãn lại là khoản thuế thu nhập doanh nghiệp sẽ phải nộp hoặc sẽ được hoàn lại do chênh lệch tạm thời giữa giá trị ghi sở của tài sản và nợ phải trả cho mục đích lập Báo cáo tài chính và cơ sở tính thuế thu nhập. Thuế thu nhập hoãn lại phải trả được ghi nhận cho tất cả các khoản chênh lệch tạm thời chịu thuế. Tài sản thuế thu nhập hoãn lại chỉ được ghi nhận khi chắc chắn trong tương lai sẽ có lợi nhuận tính thuế để sử dụng những chênh lệch tạm thời được khẩu trừ này.",
+            "block_bbox": [
+                221,
+                2007,
+                1429,
+                2203
+            ],
+            "block_id": 18,
+            "block_order": 18,
+            "group_id": 18,
+            "global_block_id": 1055,
+            "global_group_id": 1055,
+            "block_polygon_points": [
+                [
+                    221,
+                    2020
+                ],
+                [
+                    221,
+                    2202
+                ],
+                [
+                    1404,
+                    2190
+                ],
+                [
+                    1428,
+                    2154
+                ],
+                [
+                    1428,
+                    2007
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "n",
+            "block_bbox": [
+                156,
+                2242,
+                1148,
+                2281
+            ],
+            "block_id": 19,
+            "block_order": null,
+            "group_id": 19,
+            "global_block_id": 1056,
+            "global_group_id": 1056,
+            "block_polygon_points": [
+                [
+                    156.0,
+                    2242.0
+                ],
+                [
+                    1148.0,
+                    2242.0
+                ],
+                [
+                    1148.0,
+                    2281.0
+                ],
+                [
+                    156.0,
+                    2281.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer_image",
+            "block_content": "",
+            "block_bbox": [
+                1419,
+                2142,
+                1517,
+                2259
+            ],
+            "block_id": 20,
+            "block_order": null,
+            "group_id": 20,
+            "global_block_id": 1057,
+            "global_group_id": 1057,
+            "block_polygon_points": [
+                [
+                    1419.0,
+                    2142.0
+                ],
+                [
+                    1517.0,
+                    2142.0
+                ],
+                [
+                    1517.0,
+                    2259.0
+                ],
+                [
+                    1419.0,
+                    2259.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "300040232",
+            "block_bbox": [
+                1390,
+                2236,
+                1516,
+                2264
+            ],
+            "block_id": 21,
+            "block_order": null,
+            "group_id": 21,
+            "global_block_id": 1058,
+            "global_group_id": 1058,
+            "block_polygon_points": [
+                [
+                    1390,
+                    2236
+                ],
+                [
+                    1390,
+                    2263
+                ],
+                [
+                    1507,
+                    2263
+                ],
+                [
+                    1515,
+                    2254
+                ],
+                [
+                    1515,
+                    2236
+                ],
+                [
+                    1508,
+                    2236
+                ],
+                [
+                    1490,
+                    2236
+                ],
+                [
+                    1474,
+                    2236
+                ],
+                [
+                    1465,
+                    2236
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9124715924263,
+                "coordinate": [
+                    116,
+                    158,
+                    1051,
+                    349
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        116.0,
+                        158.0
+                    ],
+                    [
+                        1051.0,
+                        158.0
+                    ],
+                    [
+                        1051.0,
+                        349.0
+                    ],
+                    [
+                        116.0,
+                        349.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9084904193878174,
+                "coordinate": [
+                    130,
+                    417,
+                    1396,
+                    540
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        128.885986328125,
+                        421.56396484375
+                    ],
+                    [
+                        1394.9293212890625,
+                        409.5540771484375
+                    ],
+                    [
+                        1396.0433349609375,
+                        526.9901123046875
+                    ],
+                    [
+                        130.0,
+                        539.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8558529615402222,
+                "coordinate": [
+                    118,
+                    398,
+                    591,
+                    435
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        118,
+                        398
+                    ],
+                    [
+                        118,
+                        434
+                    ],
+                    [
+                        590,
+                        434
+                    ],
+                    [
+                        590,
+                        398
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8953422904014587,
+                "coordinate": [
+                    195,
+                    542,
+                    1394,
+                    628
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        193.705810546875,
+                        553.1804809570312
+                    ],
+                    [
+                        1392.827392578125,
+                        532.1608276367188
+                    ],
+                    [
+                        1394.121337890625,
+                        605.9804077148438
+                    ],
+                    [
+                        194.999755859375,
+                        627.0000610351562
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9009148478507996,
+                "coordinate": [
+                    197,
+                    613,
+                    1396,
+                    696
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        1395,
+                        613
+                    ],
+                    [
+                        197,
+                        634
+                    ],
+                    [
+                        197,
+                        695
+                    ],
+                    [
+                        1395,
+                        675
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8959986567497253,
+                "coordinate": [
+                    196,
+                    682,
+                    1397,
+                    769
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1396,
+                        682
+                    ],
+                    [
+                        404,
+                        693
+                    ],
+                    [
+                        279,
+                        693
+                    ],
+                    [
+                        196,
+                        704
+                    ],
+                    [
+                        196,
+                        768
+                    ],
+                    [
+                        1396,
+                        758
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8031231760978699,
+                "coordinate": [
+                    126,
+                    788,
+                    387,
+                    825
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        126.0,
+                        788.0
+                    ],
+                    [
+                        387.0,
+                        788.0
+                    ],
+                    [
+                        387.0,
+                        825.0
+                    ],
+                    [
+                        126.0,
+                        825.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7837450504302979,
+                "coordinate": [
+                    199,
+                    803,
+                    1391,
+                    893
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        199,
+                        816
+                    ],
+                    [
+                        199,
+                        892
+                    ],
+                    [
+                        1390,
+                        880
+                    ],
+                    [
+                        1390,
+                        803
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9413591623306274,
+                "coordinate": [
+                    198,
+                    905,
+                    1407,
+                    1130
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        194.3226318359375,
+                        927.0670166015625
+                    ],
+                    [
+                        1406.0001220703125,
+                        905.0
+                    ],
+                    [
+                        1409.677734375,
+                        1106.9329833984375
+                    ],
+                    [
+                        198.000244140625,
+                        1129.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9347200989723206,
+                "coordinate": [
+                    201,
+                    1138,
+                    1412,
+                    1332
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        208.191650390625,
+                        1150.01806640625
+                    ],
+                    [
+                        1411.0,
+                        1138.0
+                    ],
+                    [
+                        1412.808349609375,
+                        1318.98193359375
+                    ],
+                    [
+                        210.0,
+                        1331.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8301931023597717,
+                "coordinate": [
+                    136,
+                    1356,
+                    450,
+                    1395
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        136.0,
+                        1356.0
+                    ],
+                    [
+                        450.0,
+                        1356.0
+                    ],
+                    [
+                        450.0,
+                        1395.0
+                    ],
+                    [
+                        136.0,
+                        1395.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9078800082206726,
+                "coordinate": [
+                    143,
+                    1371,
+                    1413,
+                    1499
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        1412,
+                        1371
+                    ],
+                    [
+                        143,
+                        1395
+                    ],
+                    [
+                        143,
+                        1498
+                    ],
+                    [
+                        1412,
+                        1487
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9342997074127197,
+                "coordinate": [
+                    212,
+                    1506,
+                    1418,
+                    1667
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        210.526123046875,
+                        1518.0145263671875
+                    ],
+                    [
+                        1416.999755859375,
+                        1505.9998779296875
+                    ],
+                    [
+                        1418.4735107421875,
+                        1653.9852294921875
+                    ],
+                    [
+                        211.9998779296875,
+                        1665.9998779296875
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8156718015670776,
+                "coordinate": [
+                    144,
+                    1689,
+                    590,
+                    1731
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        144.0,
+                        1689.0
+                    ],
+                    [
+                        590.0,
+                        1689.0
+                    ],
+                    [
+                        590.0,
+                        1731.0
+                    ],
+                    [
+                        144.0,
+                        1731.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8044113516807556,
+                "coordinate": [
+                    162,
+                    1707,
+                    1354,
+                    1764
+                ],
+                "order": 14,
+                "polygon_points": [
+                    [
+                        1353,
+                        1707
+                    ],
+                    [
+                        229,
+                        1719
+                    ],
+                    [
+                        187,
+                        1719
+                    ],
+                    [
+                        162,
+                        1730
+                    ],
+                    [
+                        162,
+                        1763
+                    ],
+                    [
+                        1353,
+                        1752
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.834079384803772,
+                "coordinate": [
+                    219,
+                    1790,
+                    543,
+                    1828
+                ],
+                "order": 15,
+                "polygon_points": [
+                    [
+                        219.0,
+                        1790.0
+                    ],
+                    [
+                        543.0,
+                        1790.0
+                    ],
+                    [
+                        543.0,
+                        1828.0
+                    ],
+                    [
+                        219.0,
+                        1828.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.936097264289856,
+                "coordinate": [
+                    216,
+                    1805,
+                    1422,
+                    1967
+                ],
+                "order": 16,
+                "polygon_points": [
+                    [
+                        1421,
+                        1805
+                    ],
+                    [
+                        216,
+                        1829
+                    ],
+                    [
+                        216,
+                        1966
+                    ],
+                    [
+                        1421,
+                        1955
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8325267434120178,
+                "coordinate": [
+                    224,
+                    1992,
+                    524,
+                    2030
+                ],
+                "order": 17,
+                "polygon_points": [
+                    [
+                        224.0,
+                        1992.0
+                    ],
+                    [
+                        524.0,
+                        1992.0
+                    ],
+                    [
+                        524.0,
+                        2030.0
+                    ],
+                    [
+                        224.0,
+                        2030.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.934826135635376,
+                "coordinate": [
+                    221,
+                    2007,
+                    1429,
+                    2203
+                ],
+                "order": 18,
+                "polygon_points": [
+                    [
+                        221,
+                        2020
+                    ],
+                    [
+                        221,
+                        2202
+                    ],
+                    [
+                        1404,
+                        2190
+                    ],
+                    [
+                        1428,
+                        2154
+                    ],
+                    [
+                        1428,
+                        2007
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.7978857755661011,
+                "coordinate": [
+                    156,
+                    2242,
+                    1148,
+                    2281
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        156.0,
+                        2242.0
+                    ],
+                    [
+                        1148.0,
+                        2242.0
+                    ],
+                    [
+                        1148.0,
+                        2281.0
+                    ],
+                    [
+                        156.0,
+                        2281.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 9,
+                "label": "footer_image",
+                "score": 0.81084805727005,
+                "coordinate": [
+                    1419,
+                    2142,
+                    1517,
+                    2259
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1419.0,
+                        2142.0
+                    ],
+                    [
+                        1517.0,
+                        2142.0
+                    ],
+                    [
+                        1517.0,
+                        2259.0
+                    ],
+                    [
+                        1419.0,
+                        2259.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.34853869676589966,
+                "coordinate": [
+                    1390,
+                    2236,
+                    1516,
+                    2264
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1390,
+                        2236
+                    ],
+                    [
+                        1390,
+                        2263
+                    ],
+                    [
+                        1507,
+                        2263
+                    ],
+                    [
+                        1515,
+                        2254
+                    ],
+                    [
+                        1515,
+                        2236
+                    ],
+                    [
+                        1508,
+                        2236
+                    ],
+                    [
+                        1490,
+                        2236
+                    ],
+                    [
+                        1474,
+                        2236
+                    ],
+                    [
+                        1465,
+                        2236
+                    ]
+                ]
+            }
+        ]
+    }
+}

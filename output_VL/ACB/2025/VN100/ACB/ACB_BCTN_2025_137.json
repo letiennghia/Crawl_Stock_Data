@@ -1,0 +1,160 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2294,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "",
+            "block_bbox": [
+                152,
+                144,
+                1400,
+                1996
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1484,
+            "global_group_id": 1481,
+            "block_polygon_points": [
+                [
+                    152.0,
+                    144.0
+                ],
+                [
+                    1400.0,
+                    144.0
+                ],
+                [
+                    1400.0,
+                    1996.0
+                ],
+                [
+                    152.0,
+                    1996.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Báo cáo thưởng niên ACB năm 2025",
+            "block_bbox": [
+                1525,
+                1463,
+                1569,
+                1957
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1485,
+            "global_group_id": 1485,
+            "block_polygon_points": [
+                [
+                    1525.0,
+                    1463.0
+                ],
+                [
+                    1569.0,
+                    1463.0
+                ],
+                [
+                    1569.0,
+                    1957.0
+                ],
+                [
+                    1525.0,
+                    1957.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9761318564414978,
+                "coordinate": [
+                    152,
+                    144,
+                    1400,
+                    1996
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        152.0,
+                        144.0
+                    ],
+                    [
+                        1400.0,
+                        144.0
+                    ],
+                    [
+                        1400.0,
+                        1996.0
+                    ],
+                    [
+                        152.0,
+                        1996.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.40466997027397156,
+                "coordinate": [
+                    1525,
+                    1463,
+                    1569,
+                    1957
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1525.0,
+                        1463.0
+                    ],
+                    [
+                        1569.0,
+                        1463.0
+                    ],
+                    [
+                        1569.0,
+                        1957.0
+                    ],
+                    [
+                        1525.0,
+                        1957.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

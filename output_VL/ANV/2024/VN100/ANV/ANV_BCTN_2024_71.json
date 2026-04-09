@@ -1,0 +1,979 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "CÔNG TY CỔ PHẦN NAM VIỆT\nĐịa chỉ: 19D Trần Hưng Đạo, Phường Mỹ Quý, TP. Long Xuyên, Tinh An Giang\nBẢO CÁO TÀI CHÍNH HỌP NHẬT\nCho năm tài chính kết thúc ngày 31 tháng 12 năm 2024\nBản thuyết minh Báo cáo tài chính hợp nhất (tiếp theo)",
+            "block_bbox": [
+                149,
+                53,
+                1071,
+                236
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 961,
+            "global_group_id": 961,
+            "block_polygon_points": [
+                [
+                    149.0,
+                    53.0
+                ],
+                [
+                    1071.0,
+                    53.0
+                ],
+                [
+                    1071.0,
+                    236.0
+                ],
+                [
+                    149.0,
+                    236.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "",
+            "block_bbox": [
+                226,
+                286,
+                1514,
+                674
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 962,
+            "global_group_id": 958,
+            "block_polygon_points": [
+                [
+                    226.0,
+                    286.0
+                ],
+                [
+                    1514.0,
+                    286.0
+                ],
+                [
+                    1514.0,
+                    674.0
+                ],
+                [
+                    226.0,
+                    674.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(a) Khoản vay Ngân hàng TMCP Đầu tư và Phát triển Việt Nam để bổ sung vốn lưu động với lãi suất theo từng giấy nhận nợ, thời hạn vay 06 tháng. Khoản vay này được đảm bảo bằng việc thế chấp hàng tồn kho (xem thuyết minh số V.8) và quyền sử dụng đất (xem thuyết minh số V.12).",
+            "block_bbox": [
+                176,
+                706,
+                1498,
+                820
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "global_block_id": 963,
+            "global_group_id": 963,
+            "block_polygon_points": [
+                [
+                    176.0,
+                    706.0
+                ],
+                [
+                    1498.0,
+                    706.0
+                ],
+                [
+                    1498.0,
+                    820.0
+                ],
+                [
+                    176.0,
+                    820.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Khoản vay Ngân hàng TMCP Ngoại thương Việt Nam đề bổ sung vốn lưu động với lãi suất theo từng giấy nhận nợ, thời hạn vay 05 tháng. Khoản vay này được đảm bảo bằng việc thế chấp hàng tồn kho (xem thuyết minh số V.8) và quyền sử dụng đất (xem thuyết minh số V.12).",
+            "block_bbox": [
+                179,
+                838,
+                1499,
+                952
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "global_block_id": 964,
+            "global_group_id": 964,
+            "block_polygon_points": [
+                [
+                    179.0,
+                    838.0
+                ],
+                [
+                    1499.0,
+                    838.0
+                ],
+                [
+                    1499.0,
+                    952.0
+                ],
+                [
+                    179.0,
+                    952.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(c) Khoản vay Ngân hàng United Overseas Bank để bổ sung vốn lưu động với lãi suất theo từng lần nhận nợ. Khoản vay này được Ông Doãn Tới - Phó Chủ tịch Hội đồng quản trị Công ty mẹ bảo lãnh (xem thuyết minh số VIII.1a).",
+            "block_bbox": [
+                176,
+                968,
+                1498,
+                1082
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "global_block_id": 965,
+            "global_group_id": 965,
+            "block_polygon_points": [
+                [
+                    176.0,
+                    968.0
+                ],
+                [
+                    1498.0,
+                    968.0
+                ],
+                [
+                    1498.0,
+                    1082.0
+                ],
+                [
+                    176.0,
+                    1082.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(d) Khoản vay Ngân hàng TNHH The Siam Commercial Bank Public Company Limited để bổ sung vốn lưu động với lãi suất theo từng lần nhận nợ, thời hạn vay 05 tháng. Khoản vay này được đảm bảo bằng việc thế chấp tiền gửi có kỳ hạn (xem thuyết minh số V.2a).",
+            "block_bbox": [
+                180,
+                1100,
+                1498,
+                1213
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "global_block_id": 966,
+            "global_group_id": 966,
+            "block_polygon_points": [
+                [
+                    180.0,
+                    1100.0
+                ],
+                [
+                    1498.0,
+                    1100.0
+                ],
+                [
+                    1498.0,
+                    1213.0
+                ],
+                [
+                    180.0,
+                    1213.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(e) Khoản vay Ngân hàng BPCE IOM Việt Nam để bổ sung vốn lưu động với lãi suất theo từng lần nhận nợ. thời hạn vay 01 tháng. Khoản vay này được đảm bảo bằng việc thế chấp tiền gửi có kỳ hạn (xem thuyết minh số V.1).",
+            "block_bbox": [
+                179,
+                1224,
+                1499,
+                1337
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "global_block_id": 967,
+            "global_group_id": 967,
+            "block_polygon_points": [
+                [
+                    179.0,
+                    1224.0
+                ],
+                [
+                    1499.0,
+                    1224.0
+                ],
+                [
+                    1499.0,
+                    1337.0
+                ],
+                [
+                    179.0,
+                    1337.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(1) Khoản vay Ngân hàng TMCP Quân đội để bổ sung vốn lưu động với lãi suất theo từng giấy nhận nợ, thời hạn vay 06 tháng. Khoản vay này được đảm bảo bằng việc thế chấp quyền sử dụng đất (xem thuyết minh số V.12), hàng tồn kho (xem thuyết minh số V.8) và quyền đòi nợ hình thành từ vốn vay của Tập đoàn.",
+            "block_bbox": [
+                177,
+                1352,
+                1499,
+                1500
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7,
+            "global_block_id": 968,
+            "global_group_id": 968,
+            "block_polygon_points": [
+                [
+                    177.0,
+                    1352.0
+                ],
+                [
+                    1499.0,
+                    1352.0
+                ],
+                [
+                    1499.0,
+                    1500.0
+                ],
+                [
+                    177.0,
+                    1500.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(g) Khoản vay Ngân hàng TNHH MTV Hong Leong Việt Nam đề bổ sung vốn lưu động với lãi suất theo từng giấy nhận nợ, thời hạn vay 06 tháng. Khoản vay này được đảm bảo bằng việc thế chấp tiền gửi có kỳ hạn (xem thuyết minh số V.2a) và bảo lãnh cá nhân của Ông Doãn Tới - Phó Chủ tịch Hội đồng quản trị Công ty mẹ (xem thuyết minh số VIII.1a).",
+            "block_bbox": [
+                176,
+                1528,
+                1499,
+                1678
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8,
+            "global_block_id": 969,
+            "global_group_id": 969,
+            "block_polygon_points": [
+                [
+                    176.0,
+                    1528.0
+                ],
+                [
+                    1499.0,
+                    1528.0
+                ],
+                [
+                    1499.0,
+                    1678.0
+                ],
+                [
+                    176.0,
+                    1678.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(h) Khoản vay Ngân hàng TNHH MTV HSBC (Việt Nam) để bỏ sung vốn lưu động với lãi suất theo từng giấy nhận nợ, thời hạn vay 04 tháng. Khoản vay này được đảm bảo bằng việc thế chấp tiền gửi có kỳ hạn (xem thuyết minh số V.2a) và quyền sử dụng đất (xem thuyết minh số V.12), khoản phải thu khách hàng (xem thuyết minh số V.3) của Tập đoàn.",
+            "block_bbox": [
+                175,
+                1704,
+                1497,
+                1855
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9,
+            "global_block_id": 970,
+            "global_group_id": 970,
+            "block_polygon_points": [
+                [
+                    175.0,
+                    1704.0
+                ],
+                [
+                    1497.0,
+                    1704.0
+                ],
+                [
+                    1497.0,
+                    1855.0
+                ],
+                [
+                    175.0,
+                    1855.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(i) Khoản vay Ngân hàng Malayan Banking Berhad để bổ sung vốn lưu động với lãi suất theo từng giấy nhận nợ, thời hạn vay 05 tháng. Khoản vay này được đảm bảo bằng việc thế chấp tiền gửi có kỳ hạn của Tập đoàn (xem thuyết minh số V.2a).",
+            "block_bbox": [
+                175,
+                1879,
+                1498,
+                1997
+            ],
+            "block_id": 10,
+            "block_order": 9,
+            "group_id": 10,
+            "global_block_id": 971,
+            "global_group_id": 971,
+            "block_polygon_points": [
+                [
+                    175.0,
+                    1879.0
+                ],
+                [
+                    1498.0,
+                    1879.0
+                ],
+                [
+                    1498.0,
+                    1997.0
+                ],
+                [
+                    175.0,
+                    1997.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Khoản vay Ngân hàng Đại chúng TNHH KasikornBank đề bổ sung vốn lưu động với lãi suất theo từng lần nhận nợ. Khoản vay này được thể chấp bằng hợp đồng tiền gửi (xem thuyết minh số V.2a) và được Ông Doãn Tới – Phó Chủ tịch Hội đồng quản trị bảo lãnh (xem thuyết minh số VIII.1a).",
+            "block_bbox": [
+                176,
+                2019,
+                1499,
+                2135
+            ],
+            "block_id": 11,
+            "block_order": 10,
+            "group_id": 11,
+            "global_block_id": 972,
+            "global_group_id": 972,
+            "block_polygon_points": [
+                [
+                    176.0,
+                    2019.0
+                ],
+                [
+                    1499.0,
+                    2019.0
+                ],
+                [
+                    1499.0,
+                    2135.0
+                ],
+                [
+                    176.0,
+                    2135.0
+                ]
+            ]
+        },
+        {
+            "block_label": "seal",
+            "block_content": "",
+            "block_bbox": [
+                1519,
+                1086,
+                1605,
+                1349
+            ],
+            "block_id": 12,
+            "block_order": 11,
+            "group_id": 12,
+            "global_block_id": 973,
+            "global_group_id": 973,
+            "block_polygon_points": [
+                [
+                    1519.0,
+                    1086.0
+                ],
+                [
+                    1605.0,
+                    1086.0
+                ],
+                [
+                    1605.0,
+                    1349.0
+                ],
+                [
+                    1519.0,
+                    1349.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Bản thuyết minh này là một bộ phận hợp thành và phải được cung với Báo cáo tài chính hợp nhất",
+            "block_bbox": [
+                152,
+                2237,
+                1185,
+                2274
+            ],
+            "block_id": 13,
+            "block_order": null,
+            "group_id": 13,
+            "global_block_id": 974,
+            "global_group_id": 974,
+            "block_polygon_points": [
+                [
+                    152.0,
+                    2237.0
+                ],
+                [
+                    1185.0,
+                    2237.0
+                ],
+                [
+                    1185.0,
+                    2274.0
+                ],
+                [
+                    152.0,
+                    2274.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "34",
+            "block_bbox": [
+                1457,
+                2233,
+                1496,
+                2267
+            ],
+            "block_id": 14,
+            "block_order": null,
+            "group_id": 14,
+            "global_block_id": 975,
+            "global_group_id": 975,
+            "block_polygon_points": [
+                [
+                    1457.0,
+                    2233.0
+                ],
+                [
+                    1495.0,
+                    2233.0
+                ],
+                [
+                    1495.0,
+                    2266.0
+                ],
+                [
+                    1457.0,
+                    2266.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8531830310821533,
+                "coordinate": [
+                    149,
+                    53,
+                    1071,
+                    236
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        149.0,
+                        53.0
+                    ],
+                    [
+                        1071.0,
+                        53.0
+                    ],
+                    [
+                        1071.0,
+                        236.0
+                    ],
+                    [
+                        149.0,
+                        236.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.935766339302063,
+                "coordinate": [
+                    226,
+                    286,
+                    1514,
+                    674
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        226.0,
+                        286.0
+                    ],
+                    [
+                        1514.0,
+                        286.0
+                    ],
+                    [
+                        1514.0,
+                        674.0
+                    ],
+                    [
+                        226.0,
+                        674.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.876253068447113,
+                "coordinate": [
+                    176,
+                    706,
+                    1498,
+                    820
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        176.0,
+                        706.0
+                    ],
+                    [
+                        1498.0,
+                        706.0
+                    ],
+                    [
+                        1498.0,
+                        820.0
+                    ],
+                    [
+                        176.0,
+                        820.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9041833281517029,
+                "coordinate": [
+                    179,
+                    838,
+                    1499,
+                    952
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        179.0,
+                        838.0
+                    ],
+                    [
+                        1499.0,
+                        838.0
+                    ],
+                    [
+                        1499.0,
+                        952.0
+                    ],
+                    [
+                        179.0,
+                        952.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9091936349868774,
+                "coordinate": [
+                    176,
+                    968,
+                    1498,
+                    1082
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        176.0,
+                        968.0
+                    ],
+                    [
+                        1498.0,
+                        968.0
+                    ],
+                    [
+                        1498.0,
+                        1082.0
+                    ],
+                    [
+                        176.0,
+                        1082.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9093805551528931,
+                "coordinate": [
+                    180,
+                    1100,
+                    1498,
+                    1213
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        180.0,
+                        1100.0
+                    ],
+                    [
+                        1498.0,
+                        1100.0
+                    ],
+                    [
+                        1498.0,
+                        1213.0
+                    ],
+                    [
+                        180.0,
+                        1213.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9084282517433167,
+                "coordinate": [
+                    179,
+                    1224,
+                    1499,
+                    1337
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        179.0,
+                        1224.0
+                    ],
+                    [
+                        1499.0,
+                        1224.0
+                    ],
+                    [
+                        1499.0,
+                        1337.0
+                    ],
+                    [
+                        179.0,
+                        1337.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.923376739025116,
+                "coordinate": [
+                    177,
+                    1352,
+                    1499,
+                    1500
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        177.0,
+                        1352.0
+                    ],
+                    [
+                        1499.0,
+                        1352.0
+                    ],
+                    [
+                        1499.0,
+                        1500.0
+                    ],
+                    [
+                        177.0,
+                        1500.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9218508005142212,
+                "coordinate": [
+                    176,
+                    1528,
+                    1499,
+                    1678
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        176.0,
+                        1528.0
+                    ],
+                    [
+                        1499.0,
+                        1528.0
+                    ],
+                    [
+                        1499.0,
+                        1678.0
+                    ],
+                    [
+                        176.0,
+                        1678.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9244263768196106,
+                "coordinate": [
+                    175,
+                    1704,
+                    1497,
+                    1855
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        175.0,
+                        1704.0
+                    ],
+                    [
+                        1497.0,
+                        1704.0
+                    ],
+                    [
+                        1497.0,
+                        1855.0
+                    ],
+                    [
+                        175.0,
+                        1855.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9082167744636536,
+                "coordinate": [
+                    175,
+                    1879,
+                    1498,
+                    1997
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        175.0,
+                        1879.0
+                    ],
+                    [
+                        1498.0,
+                        1879.0
+                    ],
+                    [
+                        1498.0,
+                        1997.0
+                    ],
+                    [
+                        175.0,
+                        1997.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9153642654418945,
+                "coordinate": [
+                    176,
+                    2019,
+                    1499,
+                    2135
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        176.0,
+                        2019.0
+                    ],
+                    [
+                        1499.0,
+                        2019.0
+                    ],
+                    [
+                        1499.0,
+                        2135.0
+                    ],
+                    [
+                        176.0,
+                        2135.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 20,
+                "label": "seal",
+                "score": 0.8996028900146484,
+                "coordinate": [
+                    1519,
+                    1086,
+                    1605,
+                    1349
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        1519.0,
+                        1086.0
+                    ],
+                    [
+                        1605.0,
+                        1086.0
+                    ],
+                    [
+                        1605.0,
+                        1349.0
+                    ],
+                    [
+                        1519.0,
+                        1349.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8239380717277527,
+                "coordinate": [
+                    152,
+                    2237,
+                    1185,
+                    2274
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        152.0,
+                        2237.0
+                    ],
+                    [
+                        1185.0,
+                        2237.0
+                    ],
+                    [
+                        1185.0,
+                        2274.0
+                    ],
+                    [
+                        152.0,
+                        2274.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6750611066818237,
+                "coordinate": [
+                    1457,
+                    2233,
+                    1496,
+                    2267
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        1457.0,
+                        2233.0
+                    ],
+                    [
+                        1495.0,
+                        2233.0
+                    ],
+                    [
+                        1495.0,
+                        2266.0
+                    ],
+                    [
+                        1457.0,
+                        2266.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

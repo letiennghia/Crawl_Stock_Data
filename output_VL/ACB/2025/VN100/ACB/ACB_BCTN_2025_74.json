@@ -1,0 +1,664 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2272,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Stt</td><td>Chỉ tiêu hợp nhất</td><td>Tăng trưởng so với năm 2025</td></tr><tr><td>1</td><td>Tổng tài sản</td><td>16%</td></tr><tr><td>2</td><td>Dự nợ tín dụng</td><td>16% (Không vượt quá hạn mức tăng trưởng tín dụng do Ngân hàng Nhà mước phê duyệt.)</td></tr><tr><td>3</td><td>Huy động (bao gồm giấy tờ có giá)</td><td>16%</td></tr><tr><td>4</td><td>Lợi nhuận trước thuế</td><td>14%</td></tr><tr><td>5</td><td>Tỷ lệ nợ xấu (nhóm 3 - nhóm 5)</td><td>&lt; 2%</td></tr></table>",
+            "block_bbox": [
+                225,
+                409,
+                1439,
+                896
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 889,
+            "global_group_id": 889,
+            "block_polygon_points": [
+                [
+                    225.0,
+                    409.0
+                ],
+                [
+                    1439.0,
+                    409.0
+                ],
+                [
+                    1439.0,
+                    896.0
+                ],
+                [
+                    225.0,
+                    896.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Để đạt mục tiêu năm 2026 nêu trên, Ban điều hành tập trung triển khai các nhóm giải pháp sau:",
+            "block_bbox": [
+                224,
+                911,
+                1430,
+                1001
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 890,
+            "global_group_id": 890,
+            "block_polygon_points": [
+                [
+                    224.0,
+                    911.0
+                ],
+                [
+                    1430.0,
+                    911.0
+                ],
+                [
+                    1430.0,
+                    1001.0
+                ],
+                [
+                    224.0,
+                    1001.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(1) Thúc đẩy tăng trưởng doanh thu lỗi bằng cách cá nhân hóa hành trình khách hàng và số hóa từ khâu đầu đến khâu cuối (end-to-end) các hành trình sản phẩm (tín dụng và phi tín dụng) để mở rộng quy mô và tăng năng suất.",
+            "block_bbox": [
+                222,
+                1023,
+                1431,
+                1161
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "global_block_id": 891,
+            "global_group_id": 891,
+            "block_polygon_points": [
+                [
+                    222.0,
+                    1023.0
+                ],
+                [
+                    1431.0,
+                    1023.0
+                ],
+                [
+                    1431.0,
+                    1161.0
+                ],
+                [
+                    222.0,
+                    1161.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(2) Mở rộng hệ sinh thái sản phẩm tài chính (bảo hiểm/đầu tư và dịch vụ gia tăng) theo hướng mình bạch, phù hợp nhu cầu từng phần khúc, nhằm nâng trải nghiệm và gia tăng doanh thu dịch vụ bền vững.",
+            "block_bbox": [
+                222,
+                1181,
+                1430,
+                1320
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "global_block_id": 892,
+            "global_group_id": 892,
+            "block_polygon_points": [
+                [
+                    222.0,
+                    1181.0
+                ],
+                [
+                    1430.0,
+                    1181.0
+                ],
+                [
+                    1430.0,
+                    1320.0
+                ],
+                [
+                    222.0,
+                    1320.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(3) Tăng tốc chuyển đổi số toàn diện: đấu tư công nghệ, dữ liệu và AI để tự động hóa vận hành, nâng hiệu quả quản trị, kiểm soát rùi ro và nâng trải nghiệm khách hàng. Đồng thời, nâng cấp hạ tầng và năng lực công nghệ phục vụ chuyển đổi số, tăng độ ổn định, an toàn và tích hợp.",
+            "block_bbox": [
+                221,
+                1337,
+                1430,
+                1525
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "global_block_id": 893,
+            "global_group_id": 893,
+            "block_polygon_points": [
+                [
+                    221.0,
+                    1337.0
+                ],
+                [
+                    1430.0,
+                    1337.0
+                ],
+                [
+                    1430.0,
+                    1525.0
+                ],
+                [
+                    221.0,
+                    1525.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(4) Tuân thủ và quản trị rủi ro theo chuẩn mực cao: giữ vững uy tín và sự tin nhiệm thông qua tuân thủ nghiêm ngặt quy định của pháp luật, chuẩn mực quản trị doanh nghiệp và thông lệ quản lý rủi ro tiên tiến.",
+            "block_bbox": [
+                221,
+                1545,
+                1430,
+                1682
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "global_block_id": 894,
+            "global_group_id": 894,
+            "block_polygon_points": [
+                [
+                    221.0,
+                    1545.0
+                ],
+                [
+                    1430.0,
+                    1545.0
+                ],
+                [
+                    1430.0,
+                    1682.0
+                ],
+                [
+                    221.0,
+                    1682.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(5) Phát triển bền vững gắn trách nhiệm xã hội (ESG): lồng ghép trách nhiệm xã hội vào chiến lược 2025–2030 với các trụ cột ưu tiên Sức khỏe, Giáo dục và Môi trường, triển khai xuyên suốt từ cấp tín dụng, phát triển sản phẩm đến quản trị rủi ro và hợp tác với khách hàng/đối tác.",
+            "block_bbox": [
+                221,
+                1699,
+                1430,
+                1884
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "global_block_id": 895,
+            "global_group_id": 895,
+            "block_polygon_points": [
+                [
+                    221.0,
+                    1699.0
+                ],
+                [
+                    1430.0,
+                    1699.0
+                ],
+                [
+                    1430.0,
+                    1884.0
+                ],
+                [
+                    221.0,
+                    1884.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(6) Phát triển và phát huy vai trò các công ty con hướng tới Tập đoàn tài chính hiệu quả: tăng cường liên kết bán chéo trong toàn hệ sinh thái, chuẩn hóa quản trị/hiệu suất, mở rộng năng lực sản phẩm, kênh phân phối của các đơn vị thành viên, qua đó gia tăng đóng góp lợi nhuận hợp nhất và hoàn thiện hệ sinh thái tài chính của ACB.",
+            "block_bbox": [
+                221,
+                1904,
+                1429,
+                2091
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7,
+            "global_block_id": 896,
+            "global_group_id": 896,
+            "block_polygon_points": [
+                [
+                    221.0,
+                    1904.0
+                ],
+                [
+                    1429.0,
+                    1904.0
+                ],
+                [
+                    1429.0,
+                    2091.0
+                ],
+                [
+                    221.0,
+                    2091.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Báo cáo thường niên ACB năm 2025",
+            "block_bbox": [
+                150,
+                2178,
+                640,
+                2216
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 897,
+            "global_group_id": 897,
+            "block_polygon_points": [
+                [
+                    150.0,
+                    2178.0
+                ],
+                [
+                    640.0,
+                    2178.0
+                ],
+                [
+                    640.0,
+                    2216.0
+                ],
+                [
+                    150.0,
+                    2216.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "71 / 179",
+            "block_bbox": [
+                1310,
+                2180,
+                1426,
+                2216
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 898,
+            "global_group_id": 898,
+            "block_polygon_points": [
+                [
+                    1310.0,
+                    2180.0
+                ],
+                [
+                    1426.0,
+                    2180.0
+                ],
+                [
+                    1426.0,
+                    2216.0
+                ],
+                [
+                    1310.0,
+                    2216.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9675323367118835,
+                "coordinate": [
+                    225,
+                    409,
+                    1439,
+                    896
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        225.0,
+                        409.0
+                    ],
+                    [
+                        1439.0,
+                        409.0
+                    ],
+                    [
+                        1439.0,
+                        896.0
+                    ],
+                    [
+                        225.0,
+                        896.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.6445189118385315,
+                "coordinate": [
+                    224,
+                    911,
+                    1430,
+                    1001
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        224.0,
+                        911.0
+                    ],
+                    [
+                        1430.0,
+                        911.0
+                    ],
+                    [
+                        1430.0,
+                        1001.0
+                    ],
+                    [
+                        224.0,
+                        1001.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.936394214630127,
+                "coordinate": [
+                    222,
+                    1023,
+                    1431,
+                    1161
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        222.0,
+                        1023.0
+                    ],
+                    [
+                        1431.0,
+                        1023.0
+                    ],
+                    [
+                        1431.0,
+                        1161.0
+                    ],
+                    [
+                        222.0,
+                        1161.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9327391386032104,
+                "coordinate": [
+                    222,
+                    1181,
+                    1430,
+                    1320
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        222.0,
+                        1181.0
+                    ],
+                    [
+                        1430.0,
+                        1181.0
+                    ],
+                    [
+                        1430.0,
+                        1320.0
+                    ],
+                    [
+                        222.0,
+                        1320.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9478644728660583,
+                "coordinate": [
+                    221,
+                    1337,
+                    1430,
+                    1525
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        221.0,
+                        1337.0
+                    ],
+                    [
+                        1430.0,
+                        1337.0
+                    ],
+                    [
+                        1430.0,
+                        1525.0
+                    ],
+                    [
+                        221.0,
+                        1525.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.940321683883667,
+                "coordinate": [
+                    221,
+                    1545,
+                    1430,
+                    1682
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        221.0,
+                        1545.0
+                    ],
+                    [
+                        1430.0,
+                        1545.0
+                    ],
+                    [
+                        1430.0,
+                        1682.0
+                    ],
+                    [
+                        221.0,
+                        1682.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9527003169059753,
+                "coordinate": [
+                    221,
+                    1699,
+                    1430,
+                    1884
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        221.0,
+                        1699.0
+                    ],
+                    [
+                        1430.0,
+                        1699.0
+                    ],
+                    [
+                        1430.0,
+                        1884.0
+                    ],
+                    [
+                        221.0,
+                        1884.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9471217393875122,
+                "coordinate": [
+                    221,
+                    1904,
+                    1429,
+                    2091
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        221.0,
+                        1904.0
+                    ],
+                    [
+                        1429.0,
+                        1904.0
+                    ],
+                    [
+                        1429.0,
+                        2091.0
+                    ],
+                    [
+                        221.0,
+                        2091.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8593307733535767,
+                "coordinate": [
+                    150,
+                    2178,
+                    640,
+                    2216
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        150.0,
+                        2178.0
+                    ],
+                    [
+                        640.0,
+                        2178.0
+                    ],
+                    [
+                        640.0,
+                        2216.0
+                    ],
+                    [
+                        150.0,
+                        2216.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8251925706863403,
+                "coordinate": [
+                    1310,
+                    2180,
+                    1426,
+                    2216
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        1310.0,
+                        2180.0
+                    ],
+                    [
+                        1426.0,
+                        2180.0
+                    ],
+                    [
+                        1426.0,
+                        2216.0
+                    ],
+                    [
+                        1310.0,
+                        2216.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

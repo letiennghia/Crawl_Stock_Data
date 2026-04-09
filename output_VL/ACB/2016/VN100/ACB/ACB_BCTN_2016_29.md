@@ -1,0 +1,3 @@
+nội bộ hệ thống và sự tranh chấp nguồn huy động với các kênh huy động và đầu tư khác. Lợi nhuận ngân hàng văn ở mức thấp do phải trích lập dự phòng rủi rọ lớn vì nợ xấu cao chưa có hướng xử lý.
+
+Sẽ có một số ngân hàng yếu kém phải rời khói cuộc chơi bằng cách này hay cách khác. Sẽ còn cần dành nhiều công sức của từng tổ chức tín dụng và của các cơ quan chức năng để tiếp tục khác phục các hậu quả vấn đang tổn động và thực đầy quá trình tái cơ cấu hệ thống ngân hàng Việt Nam sao cho có những bước tiến thực chất hơn, hoạt động lành mạnh, hiệu quả và an toàn hơn để đáp ứng yêu cầu tăng trưởng nhanh và bền vững của nền kinh tế trong giai đoạn mới.

@@ -1,0 +1,790 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2280,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td rowspan=\"3\">STT</td><td rowspan=\"3\">Chi tiết</td><td colspan=\"6\">2024</td></tr><tr><td colspan=\"3\">Giới tính</td><td colspan=\"3\">Phân loại nhân viên</td></tr><tr><td>Nam</td><td>Nữ</td><td>Tổng</td><td>Nhân viên</td><td>Quản lý</td><td>Tổng</td></tr><tr><td>1</td><td>Tổng số giờ đào tạo</td><td>242.821</td><td>591.749</td><td>834.570</td><td>725.821</td><td>108.749</td><td>834.570</td></tr><tr><td>2</td><td>Số giờ đào tạo trung bình mỗi nhân viên</td><td>55</td><td>69</td><td>64</td><td>66</td><td>54</td><td>64</td></tr></table>",
+            "block_bbox": [
+                201,
+                195,
+                1450,
+                645
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1156,
+            "global_group_id": 1156,
+            "block_polygon_points": [
+                [
+                    201.0,
+                    195.0
+                ],
+                [
+                    1450.0,
+                    195.0
+                ],
+                [
+                    1450.0,
+                    645.0
+                ],
+                [
+                    201.0,
+                    645.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "b. Các chương trình phát triển kỹ năng và học tập liên tục để hỗ trợ người lao động đảm bảo có việc làm và phát triển sự nghiệp",
+            "block_bbox": [
+                198,
+                654,
+                1457,
+                749
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 1157,
+            "global_group_id": 1157,
+            "block_polygon_points": [
+                [
+                    197.3323974609375,
+                    664.0053100585938
+                ],
+                [
+                    1456.0,
+                    654.0000610351562
+                ],
+                [
+                    1456.667724609375,
+                    737.9948120117188
+                ],
+                [
+                    198.0001220703125,
+                    748.0000610351562
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Trong năm 2024, ACB triển khai hơn 4.500 khóa đào tạo, bao gồm các chương trình thường niên theo quy định của NHNN và yêu cầu chung của ngân hàng. Ngoài ra, 245 khóa học mới cũng được thiết kế nhằm đáp ứng nhu cầu phát triển chuyên môn của từng nhân sự. Hệ thống đào tạo bao quát từ các khóa chuyên sâu về nghiệp vụ, kỹ năng thiết yếu, các vấn đề liên quan đến phát triển bền vững, đến các phương pháp đầy mạnh hiệu suất công việc và nâng cao sức khỏe tinh thần thông qua chương trình \"Chăm sóc sức khỏe tinh thần người ACB\".",
+            "block_bbox": [
+                196,
+                760,
+                1460,
+                1039
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 1158,
+            "global_group_id": 1158,
+            "block_polygon_points": [
+                [
+                    196.0,
+                    760.0
+                ],
+                [
+                    1460.0,
+                    760.0
+                ],
+                [
+                    1460.0,
+                    1039.0
+                ],
+                [
+                    196.0,
+                    1039.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Bên cạnh đó, ACB xác định việc quy hoạch xây dựng và phát triển đội ngũ cán bộ tiềm năng là trọng tâm của Quản trị nguồn nhân lực, là yếu tố kiên quyết tác động đến chiến lược phát triển bền vững của Ngân hàng trong dài hạn. Chương trình ACB The Next Leader được triển khai hàng năm từ năm 2021 hướng đến việc tìm kiếm và bồi dưỡng đội ngũ nhân sự tiềm năng, và sẵn sàng kế thừa những vị trí chủ chốt trong tương lai. Chương trình giúp cho các thành viên được lựa chọn trau dồi kiến thức chuyên môn, nâng cao kỹ năng quản lý, rèn luyện bản lĩnh và khả năng lãnh đạo phù hợp với mô hình làm việc Work:Live:Learn; thúc đẩy hiệu quả công việc vượt trội và năng lực lãnh đạo của đội ngũ với phương pháp Learn:Do:Share hướng đến việc nuôi dưỡng tinh thần học tập và lan tỏa kinh nghiệm.",
+            "block_bbox": [
+                194,
+                1046,
+                1461,
+                1462
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "global_block_id": 1159,
+            "global_group_id": 1159,
+            "block_polygon_points": [
+                [
+                    194.0,
+                    1046.0
+                ],
+                [
+                    1461.0,
+                    1046.0
+                ],
+                [
+                    1461.0,
+                    1462.0
+                ],
+                [
+                    194.0,
+                    1462.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "9.8 Báo cáo liên quan đến trách nhiệm đối với công động địa phương",
+            "block_bbox": [
+                197,
+                1471,
+                1186,
+                1520
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "global_block_id": 1160,
+            "global_group_id": 1160,
+            "block_polygon_points": [
+                [
+                    197.0,
+                    1471.0
+                ],
+                [
+                    1186.0,
+                    1471.0
+                ],
+                [
+                    1186.0,
+                    1520.0
+                ],
+                [
+                    197.0,
+                    1520.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Trong năm 2024, ACB tiếp tục thực hiện cam kết của mình thông qua việc tài trợ cho nhiều sáng kiến và dự án phát triển công đồng với tổng ngân sách khoảng 107 tỷ đồng tập trung vào một số sáng kiến và hoạt động sau:",
+            "block_bbox": [
+                196,
+                1528,
+                1459,
+                1673
+            ],
+            "block_id": 5,
+            "block_order": 5,
+            "group_id": 5,
+            "global_block_id": 1161,
+            "global_group_id": 1161,
+            "block_polygon_points": [
+                [
+                    194.7451171875,
+                    1540.011962890625
+                ],
+                [
+                    1458.0,
+                    1528.0
+                ],
+                [
+                    1459.2550048828125,
+                    1659.988037109375
+                ],
+                [
+                    196.0001220703125,
+                    1672.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Hỗ trợ xây dựng cơ sở hạ tầng",
+            "block_bbox": [
+                198,
+                1688,
+                668,
+                1734
+            ],
+            "block_id": 6,
+            "block_order": 6,
+            "group_id": 6,
+            "global_block_id": 1162,
+            "global_group_id": 1162,
+            "block_polygon_points": [
+                [
+                    198.0,
+                    1688.0
+                ],
+                [
+                    668.0,
+                    1688.0
+                ],
+                [
+                    668.0,
+                    1734.0
+                ],
+                [
+                    198.0,
+                    1734.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Ngân hàng đã hỗ trợ trao tặng 80 tỷ đồng cho Chương trình phát động hỗ trợ xóa nhà tạm, nhà đột nát trên phạm vi cả nước với chủ đề \"Mái ấm cho đồng bào tôi\" do Chính phủ phát động.",
+            "block_bbox": [
+                196,
+                1743,
+                1459,
+                1841
+            ],
+            "block_id": 7,
+            "block_order": 7,
+            "group_id": 7,
+            "global_block_id": 1163,
+            "global_group_id": 1163,
+            "block_polygon_points": [
+                [
+                    196.0,
+                    1743.0
+                ],
+                [
+                    1459.0,
+                    1743.0
+                ],
+                [
+                    1459.0,
+                    1841.0
+                ],
+                [
+                    196.0,
+                    1841.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Ngân hàng cũng thực hiện nhiều hoạt động ý nghĩa khác để hỗ trợ xây dựng cơ sở hạ tầng như đóng góp kinh phí hỗ trợ sửa chữa nhà cho hộ gia đình khó khăn tinh Bình Định, hỗ trợ huyện Hòa Vang xây dựng chương trình Nông thôn mới 2023-2025 và nhiều hoạt động khác.",
+            "block_bbox": [
+                197,
+                1846,
+                1461,
+                1992
+            ],
+            "block_id": 8,
+            "block_order": 8,
+            "group_id": 8,
+            "global_block_id": 1164,
+            "global_group_id": 1164,
+            "block_polygon_points": [
+                [
+                    195.8331298828125,
+                    1857.0103759765625
+                ],
+                [
+                    1460.0,
+                    1846.0001220703125
+                ],
+                [
+                    1461.1669921875,
+                    1979.9898681640625
+                ],
+                [
+                    197.0001220703125,
+                    1991.0001220703125
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Hỗ trợ các hoạt động giáo dục đào tạo:",
+            "block_bbox": [
+                198,
+                2006,
+                779,
+                2053
+            ],
+            "block_id": 9,
+            "block_order": 9,
+            "group_id": 9,
+            "global_block_id": 1165,
+            "global_group_id": 1165,
+            "block_polygon_points": [
+                [
+                    198.0,
+                    2006.0
+                ],
+                [
+                    779.0,
+                    2006.0
+                ],
+                [
+                    779.0,
+                    2053.0
+                ],
+                [
+                    198.0,
+                    2053.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2024",
+            "block_bbox": [
+                226,
+                2175,
+                465,
+                2215
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "global_block_id": 1166,
+            "global_group_id": 1166,
+            "block_polygon_points": [
+                [
+                    226.0,
+                    2175.0
+                ],
+                [
+                    465.0,
+                    2175.0
+                ],
+                [
+                    465.0,
+                    2215.0
+                ],
+                [
+                    226.0,
+                    2215.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "84 / 86",
+            "block_bbox": [
+                1359,
+                2163,
+                1460,
+                2200
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 1167,
+            "global_group_id": 1167,
+            "block_polygon_points": [
+                [
+                    1359.0,
+                    2163.0
+                ],
+                [
+                    1460.0,
+                    2163.0
+                ],
+                [
+                    1460.0,
+                    2200.0
+                ],
+                [
+                    1359.0,
+                    2200.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9631330966949463,
+                "coordinate": [
+                    201,
+                    195,
+                    1450,
+                    645
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        201.0,
+                        195.0
+                    ],
+                    [
+                        1450.0,
+                        195.0
+                    ],
+                    [
+                        1450.0,
+                        645.0
+                    ],
+                    [
+                        201.0,
+                        645.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5690749883651733,
+                "coordinate": [
+                    198,
+                    654,
+                    1457,
+                    749
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        197.3323974609375,
+                        664.0053100585938
+                    ],
+                    [
+                        1456.0,
+                        654.0000610351562
+                    ],
+                    [
+                        1456.667724609375,
+                        737.9948120117188
+                    ],
+                    [
+                        198.0001220703125,
+                        748.0000610351562
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9571304321289062,
+                "coordinate": [
+                    196,
+                    760,
+                    1460,
+                    1039
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        196.0,
+                        760.0
+                    ],
+                    [
+                        1460.0,
+                        760.0
+                    ],
+                    [
+                        1460.0,
+                        1039.0
+                    ],
+                    [
+                        196.0,
+                        1039.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9587531685829163,
+                "coordinate": [
+                    194,
+                    1046,
+                    1461,
+                    1462
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        194.0,
+                        1046.0
+                    ],
+                    [
+                        1461.0,
+                        1046.0
+                    ],
+                    [
+                        1461.0,
+                        1462.0
+                    ],
+                    [
+                        194.0,
+                        1462.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8437497615814209,
+                "coordinate": [
+                    197,
+                    1471,
+                    1186,
+                    1520
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        197.0,
+                        1471.0
+                    ],
+                    [
+                        1186.0,
+                        1471.0
+                    ],
+                    [
+                        1186.0,
+                        1520.0
+                    ],
+                    [
+                        197.0,
+                        1520.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9324071407318115,
+                "coordinate": [
+                    196,
+                    1528,
+                    1459,
+                    1673
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        194.7451171875,
+                        1540.011962890625
+                    ],
+                    [
+                        1458.0,
+                        1528.0
+                    ],
+                    [
+                        1459.2550048828125,
+                        1659.988037109375
+                    ],
+                    [
+                        196.0001220703125,
+                        1672.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8267219662666321,
+                "coordinate": [
+                    198,
+                    1688,
+                    668,
+                    1734
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        198.0,
+                        1688.0
+                    ],
+                    [
+                        668.0,
+                        1688.0
+                    ],
+                    [
+                        668.0,
+                        1734.0
+                    ],
+                    [
+                        198.0,
+                        1734.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9244754314422607,
+                "coordinate": [
+                    196,
+                    1743,
+                    1459,
+                    1841
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        196.0,
+                        1743.0
+                    ],
+                    [
+                        1459.0,
+                        1743.0
+                    ],
+                    [
+                        1459.0,
+                        1841.0
+                    ],
+                    [
+                        196.0,
+                        1841.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.937868595123291,
+                "coordinate": [
+                    197,
+                    1846,
+                    1461,
+                    1992
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        195.8331298828125,
+                        1857.0103759765625
+                    ],
+                    [
+                        1460.0,
+                        1846.0001220703125
+                    ],
+                    [
+                        1461.1669921875,
+                        1979.9898681640625
+                    ],
+                    [
+                        197.0001220703125,
+                        1991.0001220703125
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8282026648521423,
+                "coordinate": [
+                    198,
+                    2006,
+                    779,
+                    2053
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        198.0,
+                        2006.0
+                    ],
+                    [
+                        779.0,
+                        2006.0
+                    ],
+                    [
+                        779.0,
+                        2053.0
+                    ],
+                    [
+                        198.0,
+                        2053.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8391536474227905,
+                "coordinate": [
+                    226,
+                    2175,
+                    465,
+                    2215
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        226.0,
+                        2175.0
+                    ],
+                    [
+                        465.0,
+                        2175.0
+                    ],
+                    [
+                        465.0,
+                        2215.0
+                    ],
+                    [
+                        226.0,
+                        2215.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8240681290626526,
+                "coordinate": [
+                    1359,
+                    2163,
+                    1460,
+                    2200
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        1359.0,
+                        2163.0
+                    ],
+                    [
+                        1460.0,
+                        2163.0
+                    ],
+                    [
+                        1460.0,
+                        2200.0
+                    ],
+                    [
+                        1359.0,
+                        2200.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

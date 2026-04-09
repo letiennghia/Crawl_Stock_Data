@@ -1,0 +1,847 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2340,
+    "height": 1654,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                103,
+                0,
+                412,
+                76
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1681,
+            "global_group_id": 1681,
+            "block_polygon_points": [
+                [
+                    103.0,
+                    0.0
+                ],
+                [
+                    412.0,
+                    0.0
+                ],
+                [
+                    412.0,
+                    76.0
+                ],
+                [
+                    103.0,
+                    76.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "HOẠT ĐỘNG QUẢN TRỊ CỒNG TY",
+            "block_bbox": [
+                1773,
+                46,
+                2053,
+                77
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1682,
+            "global_group_id": 1682,
+            "block_polygon_points": [
+                [
+                    1773.0,
+                    46.0
+                ],
+                [
+                    2053.0,
+                    46.0
+                ],
+                [
+                    2053.0,
+                    77.0
+                ],
+                [
+                    1773.0,
+                    77.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                2086,
+                31,
+                2231,
+                84
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1683,
+            "global_group_id": 1683,
+            "block_polygon_points": [
+                [
+                    2086.0,
+                    31.0
+                ],
+                [
+                    2231.0,
+                    31.0
+                ],
+                [
+                    2231.0,
+                    84.0
+                ],
+                [
+                    2086.0,
+                    84.0
+                ]
+            ]
+        },
+        {
+            "block_label": "doc_title",
+            "block_content": "HOẠT ĐỘNG QUẢN TRỊ CÔNG TY (tiếp theo)",
+            "block_bbox": [
+                104,
+                183,
+                865,
+                241
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "global_block_id": 1684,
+            "global_group_id": 1684,
+            "block_polygon_points": [
+                [
+                    104.0,
+                    183.0
+                ],
+                [
+                    865.0,
+                    183.0
+                ],
+                [
+                    865.0,
+                    241.0
+                ],
+                [
+                    104.0,
+                    241.0
+                ]
+            ]
+        },
+        {
+            "block_label": "doc_title",
+            "block_content": "ĐÁNH GIÁ CÔNG TÁC QUẢN TRỊ CÔNG TY THEO THỂ ĐIỂM\nQUẢN TRỊ CÔNG TY ASEAN",
+            "block_bbox": [
+                105,
+                253,
+                936,
+                343
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "global_block_id": 1685,
+            "global_group_id": 1685,
+            "block_polygon_points": [
+                [
+                    105.0,
+                    253.0
+                ],
+                [
+                    936.0,
+                    253.0
+                ],
+                [
+                    936.0,
+                    343.0
+                ],
+                [
+                    105.0,
+                    343.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Tiêu chí</td><td>Kết quả danh giá</td><td>Cơ sở/Lý do danh giá</td></tr><tr><td>A1</td><td>Quyền cơ bản của cổ đông</td><td></td><td></td></tr><tr><td>A.1.1</td><td>Công ty có trả cổ tục (kỳ giữa và kỳ cuối hàng năm) một cách bình đẳng và kịp thời, nghĩa là, tất cả cổ đông được đối xử bình đẳng và được trả trong vòng 30 ngày sau khi được (i) công bố đối với cổ tục giữa kỳ và (ii) được cổ đông thông qua tai các đại hồi cổ đông đối với cổ tục cuối năm? Trong trưởng hợp công ty công bố phương án chọn lưa chỉ trả cổ tục cổ phiếu (script dividend), công ty có trả cổ tục trong vòng 60 ngày kế từ ngày công bố hay không?</td><td>x</td><td>BIDV chưa thể thực hiện chi trả đảm bảo thời han do việc chi trả phu thuộc vào y kiến phê duyệt của cơ quan đã diễn chủ sở hữu. BIDV đã bảo cáo DHDCĐ, Lý ban chúng khoản, Số Giao dịch chung khoản về đặc thù này.</td></tr><tr><td>A2</td><td>Quyền tham gia một cách hiệu quả và biểu quyết tại DHDCĐ, và phải được thông tin về quy định hợp DHDCĐ, bao gồm cả thú tục biểu quyết.</td><td></td><td></td></tr><tr><td>A.2.1</td><td>Cổ đông có cơ hội, thể hiện bởi nội dung trên chương trình nghị sự thông qua thú lao (phi, thù lao, các hình thức quyền lợi hiện vật hoặc các bổng lộc khác) hoặc mọi khoản tăng thù lao cho thành viễn/uy viên HDQT không điều hành?</td><td>✪</td><td>Quy định tại Điều lệ</td></tr><tr><td>A.2.2</td><td>Công ty có cho phép cổ đông không có quyền kiểm soát quyền để cử thành viễn/uy viên DHQT?</td><td>[f6]</td><td>Quy định tại Điều lệ</td></tr><tr><td>A.2.3</td><td>Công ty có cho phép cổ đông bầu chọn túng thành viên/uy viên HDQT?</td><td>[f4]</td><td>Quy định tại Điều lệ</td></tr><tr><td>A.2.4</td><td>Công ty có công bố thú tục biểu quyền được sử dụng trước khi đại hồi tiến hành?</td><td>[f3]</td><td>Thể hiện tại tài liệu hợp Đại hồi đồng Cổ đồng thường niên được công bố trên Website Ngân hàng và công bố trước khi Đại hội được tiến hành</td></tr><tr><td>A.2.5</td><td>Biên bản hợp DHDCĐ mới nhất có ghi nhận răng cổ đông có cơ hội đặt cầu hồi và câu hối cùng câu trả lời có được ghi nhận?</td><td>✪</td><td>Thể hiện tại Biên bản hợp DHDCĐ</td></tr><tr><td>A.2.6</td><td>Công ty có công bố kết quả bầu chọn bao gồm số phiếu thông qua, phân đối, và phiếu trống cho mỗi nội dung dự thảo lấy ý kiến của DHDCĐ gần nhất?</td><td>✪</td><td>Thể hiện tại Biên bản hợp DHDCĐ</td></tr><tr><td>A.2.7</td><td>Công ty có công bố danh sách thành viên HDQT tham dự DHDCĐ gần nhất?</td><td>✪</td><td>Thể hiện tại Biên bản hợp DHDCĐ</td></tr><tr><td>A.2.8</td><td>Công ty có công bố răng tất cả thành viên HDQT và TGB/Giám đốc Điều hành (nếu TGB/Giám đốc Điều hành không phải là thành viên HDQT) có thêm dự DHDCĐ gần nhất?</td><td>✪</td><td>Thể hiện tại Biên bản hợp DHDCĐ</td></tr><tr><td>A.2.9</td><td>Công ty có cho phép biểu quyết văng mất?</td><td>✪</td><td>BIDV cho phép uy quyền biểu quyết (vàng mất) và bất đầu áp dụng hình thức bố phiếu diễn tử tử kỳ DHDCĐ thuồng niên 2024</td></tr><tr><td>A.2.10</td><td>Công ty sử dụng hình thức biểu quyết cần cứ theo số phiếu biểu quyết của cổ đông (không phải bằng cách giữ tay) đối với mọi nghị quyết tại DHDCĐ mới nhất?</td><td>✪</td><td>Thể hiện tại Biên bản hợp DHDCĐ</td></tr><tr><td>A.2.11</td><td>Công ty có công bố việc đã bổ nhiệm một bên độc lập (kiểm tra, giảm sát viên) thảm gia ban kiểm phiếu để đếm và/hoặc thẩm định phiếu bầu tai DHDCĐ?</td><td>✪</td><td>Thể hiện tại Biên bản hợp DHDCĐ</td></tr><tr><td>A.2.12</td><td>Công ty có công bố công khai vào ngày làm việc tiếp theo kết quả biểu quyết đối với tất cả nghị quyết trong DHDCĐ gần nhất?</td><td>✪</td><td>Thực hiện công bố thông tin trong vòng 24H sau khi ban hành BB, NQ DHDCĐ</td></tr></table>",
+            "block_bbox": [
+                108,
+                387,
+                1070,
+                1509
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 1686,
+            "global_group_id": 1686,
+            "block_polygon_points": [
+                [
+                    108.0,
+                    387.0
+                ],
+                [
+                    1070.0,
+                    387.0
+                ],
+                [
+                    1070.0,
+                    1509.0
+                ],
+                [
+                    108.0,
+                    1509.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                1679,
+                339,
+                1707,
+                368
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 1687,
+            "global_group_id": 1687,
+            "block_polygon_points": [
+                [
+                    1679.0,
+                    339.0
+                ],
+                [
+                    1706.0,
+                    339.0
+                ],
+                [
+                    1706.0,
+                    367.0
+                ],
+                [
+                    1679.0,
+                    367.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Tuần thù đày đủ x. Tuần thù một phần/Các lĩnh vực cần cải thiên",
+            "block_bbox": [
+                1706,
+                341,
+                2231,
+                366
+            ],
+            "block_id": 7,
+            "block_order": 3,
+            "group_id": 10,
+            "global_block_id": 1688,
+            "global_group_id": 1688,
+            "block_polygon_points": [
+                [
+                    1718.0,
+                    341.0
+                ],
+                [
+                    2230.0,
+                    341.0
+                ],
+                [
+                    2230.0,
+                    365.0
+                ],
+                [
+                    1718.0,
+                    365.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Tiêu chí</td><td>Kết quả danh giá</td><td>Cơ sở/Lý do danh giá</td></tr><tr><td>A.2.13</td><td>Công ty có thống báo ĐHĐCD và ĐHĐCB bất thường tối thiếu 21 ngày trước ngày tố chức Đại hội?</td><td>✦</td><td>ĐHĐCD bất thường năm 2024: Thống báo mỗi hợp và Tài liệu hợp được công bố trên website BIDV ngày 09/01/2024; ĐHĐCD thuống niên năm 2024: Thống báo mỗi hợp và Tài liệu hợp được công bố trên website BIDV ngày 05/04/2024.</td></tr><tr><td>A.2.14</td><td>Công ty có cung cấp cơ sở, thông tin và giải trình cho mỗi mục trong dự thảo nghị quyết căn được cố đồng thông qua trong thông báo về ĐHĐCD/ tài liệu ĐHĐCD/ Dự thảo và/hoặc các báo cáo định kèm?</td><td><img src=\"imgs/img_in_image_box_1870_596_1900_627.jpg\" alt=\"Image\"\" /></td><td>Thế hiện tại tài liệu hợp ĐHĐCD bất thuống năm 2024 và ĐHĐCD thuống niên năm 2024 được công bố trên website BIDV và gửi cho mỗi cố đồng đến thăm dự cuộc họp</td></tr><tr><td>A.2.15</td><td>Công ty có tạo cơ hội cho các cố đồng để xuất/kiến nghị về nội dung chuộng trình hợp ĐHĐCD và/hoặc yêu cầu triệu tập đại hội theo một tỷ lệ nhất định không?</td><td>✦</td><td>Thế hiện tại Biên bản hợp ĐHĐCD</td></tr><tr><td>A3</td><td colspan=\"3\">Thị trưởng giao dịch thầu tóm công ty phải được phép hoạt động một cách hiệu quả và minh bạch.</td></tr><tr><td>A.3.1</td><td>Trong các trưởng hợp sáp nhập, mua lại và/hoặc thầu tóm cần được cố đồng thông qua, thành viên/ủy viên HĐQT của công ty được để nghị có bố nhiệm một bên độc lập đánh giá sự hợp lý của giá giao dịch sáp nhập, mua lại?</td><td>N/A</td><td>Năm 2023, tại BIDV không phát sinh giao dịch sáp nhập, mua lại. BIDV sẽ thực hiện vào giao dịch gần nhất (nếu có).</td></tr><tr><td>A.4</td><td colspan=\"3\">Căn tạo điều kiện thực hiện quyền sở hữu cho mọi cố đồng, bao gồm cả các nhà đầu tư tố chức.</td></tr><tr><td>A.4.1</td><td>Công ty có công bố công khai chính sách/thực hành nhằm khuyến khích thăm gia của cố đồng bền ngoài khuẩn khổ ĐHĐCD?</td><td>✦</td><td>Thế hiện tại Bảo cáo thuống niên BIDV</td></tr><tr><td>A.5</td><td colspan=\"3\">Cố phiếu và quyền biểu quyết</td></tr><tr><td>A.5.1</td><td>Trong trường hợp công ty có nhiều hơn một loại cố phiếu, công ty có công bố số phiếu biểu quyết gần với mỗi loại cố phiếu (vđ: thông qua trang thông tin điện tử/báo cáo/số giao dịch chứng khoản/trang thông tin điện tử của cơ quan quản lý)?</td><td>N/A</td><td>Tại BIDV chỉ có cố phiếu phổ thông.</td></tr><tr><td>A.6</td><td colspan=\"3\">Thông báo ĐHĐCD</td></tr><tr><td>A.6.1</td><td>Mỗi nghị quyết trong ĐHĐCD gần nhất chỉ liên quan đến một nội dung của dư thảo nghị quyết, nghĩa là không gộp nhiều nội dung vào trong cùng một nghị quyết?</td><td>✗</td><td>BIDV đang nghiên cứu thực hiện</td></tr><tr><td>A.6.2</td><td>Thông báo và tài liệu ĐHĐCD gần nhất có được dịch đầy đủ sang tiếng Anh và công bố vào cùng ngày với tài liệu theo ngôn ngữ địa phương?</td><td>✦</td><td>Thế hiện tại tài liệu hợp ĐHĐCD bất thuống năm 2024 và ĐHĐCD thuống niên năm 2024 được công bố trên website BIDV</td></tr><tr><td colspan=\"4\">Thông báo về ĐHĐCD có những chi tiết sau không?</td></tr><tr><td>A.6.3</td><td>Có cung cấp tiểu sử của thành viên/ủy viên HĐQT sẽ được bầu chơn/bầu chơn lai (tối thiếu là tuổi, trình độ đào tạo, chuyên môn, ngày bổ nhiệm đâu tiến, kinh nghiêm, và vị trí thành viên HĐQT đang tai vi trong các công ty niệm yet khác)?</td><td>✦</td><td>Thế hiện tại tài liệu hợp ĐHĐCD bất thuống năm 2024 được công bố trên website BIDV</td></tr><tr><td>A.6.4</td><td>Kiểm toàn viên/công ty kiểm toàn chuẩn bị được bầu chọn/bầu chọn lại có được xác định rõ ràng?</td><td>✗</td><td>ĐHĐCD thông qua danh sách công ty kiểm toàn độc lập và ủy quyền cho HĐQT quyết định lựa chọn đơn vị kiểm toàn</td></tr></table>",
+            "block_bbox": [
+                1275,
+                386,
+                2228,
+                1533
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 1689,
+            "global_group_id": 1689,
+            "block_polygon_points": [
+                [
+                    1275.0,
+                    386.0
+                ],
+                [
+                    2228.0,
+                    386.0
+                ],
+                [
+                    2228.0,
+                    1533.0
+                ],
+                [
+                    1275.0,
+                    1533.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "134",
+            "block_bbox": [
+                107,
+                1558,
+                142,
+                1578
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 13,
+            "global_block_id": 1690,
+            "global_group_id": 1690,
+            "block_polygon_points": [
+                [
+                    107.0,
+                    1558.0
+                ],
+                [
+                    141.0,
+                    1558.0
+                ],
+                [
+                    141.0,
+                    1577.0
+                ],
+                [
+                    107.0,
+                    1577.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "135",
+            "block_bbox": [
+                2197,
+                1557,
+                2233,
+                1579
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 14,
+            "global_block_id": 1691,
+            "global_group_id": 1691,
+            "block_polygon_points": [
+                [
+                    2197.0,
+                    1557.0
+                ],
+                [
+                    2232.0,
+                    1557.0
+                ],
+                [
+                    2232.0,
+                    1578.0
+                ],
+                [
+                    2197.0,
+                    1578.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.8105219006538391,
+                "coordinate": [
+                    103,
+                    0,
+                    412,
+                    76
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        103.0,
+                        0.0
+                    ],
+                    [
+                        412.0,
+                        0.0
+                    ],
+                    [
+                        412.0,
+                        76.0
+                    ],
+                    [
+                        103.0,
+                        76.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8246372938156128,
+                "coordinate": [
+                    1773,
+                    46,
+                    2053,
+                    77
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1773.0,
+                        46.0
+                    ],
+                    [
+                        2053.0,
+                        46.0
+                    ],
+                    [
+                        2053.0,
+                        77.0
+                    ],
+                    [
+                        1773.0,
+                        77.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.70140540599823,
+                "coordinate": [
+                    2086,
+                    31,
+                    2231,
+                    84
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        2086.0,
+                        31.0
+                    ],
+                    [
+                        2231.0,
+                        31.0
+                    ],
+                    [
+                        2231.0,
+                        84.0
+                    ],
+                    [
+                        2086.0,
+                        84.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.8159087896347046,
+                "coordinate": [
+                    104,
+                    183,
+                    865,
+                    241
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        104.0,
+                        183.0
+                    ],
+                    [
+                        865.0,
+                        183.0
+                    ],
+                    [
+                        865.0,
+                        241.0
+                    ],
+                    [
+                        104.0,
+                        241.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.5296792984008789,
+                "coordinate": [
+                    105,
+                    253,
+                    936,
+                    343
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        105.0,
+                        253.0
+                    ],
+                    [
+                        936.0,
+                        253.0
+                    ],
+                    [
+                        936.0,
+                        343.0
+                    ],
+                    [
+                        105.0,
+                        343.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9582462906837463,
+                "coordinate": [
+                    108,
+                    387,
+                    1070,
+                    1509
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        108.0,
+                        387.0
+                    ],
+                    [
+                        1070.0,
+                        387.0
+                    ],
+                    [
+                        1070.0,
+                        1509.0
+                    ],
+                    [
+                        108.0,
+                        1509.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.3031793236732483,
+                "coordinate": [
+                    702,
+                    790,
+                    728,
+                    820
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        702,
+                        790
+                    ],
+                    [
+                        702,
+                        819
+                    ],
+                    [
+                        727,
+                        819
+                    ],
+                    [
+                        727,
+                        790
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.33794835209846497,
+                "coordinate": [
+                    699,
+                    846,
+                    730,
+                    876
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        699.0,
+                        846.0
+                    ],
+                    [
+                        729.0,
+                        846.0
+                    ],
+                    [
+                        729.0,
+                        875.0
+                    ],
+                    [
+                        699.0,
+                        875.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.35076358914375305,
+                "coordinate": [
+                    699,
+                    911,
+                    730,
+                    941
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        699.0,
+                        911.0
+                    ],
+                    [
+                        729.0,
+                        911.0
+                    ],
+                    [
+                        729.0,
+                        940.0
+                    ],
+                    [
+                        699.0,
+                        940.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.3438214063644409,
+                "coordinate": [
+                    1679,
+                    339,
+                    1707,
+                    368
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1679.0,
+                        339.0
+                    ],
+                    [
+                        1706.0,
+                        339.0
+                    ],
+                    [
+                        1706.0,
+                        367.0
+                    ],
+                    [
+                        1679.0,
+                        367.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3103080987930298,
+                "coordinate": [
+                    1706,
+                    341,
+                    2231,
+                    366
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        1718.0,
+                        341.0
+                    ],
+                    [
+                        2230.0,
+                        341.0
+                    ],
+                    [
+                        2230.0,
+                        365.0
+                    ],
+                    [
+                        1718.0,
+                        365.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9661858081817627,
+                "coordinate": [
+                    1275,
+                    386,
+                    2228,
+                    1533
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1275.0,
+                        386.0
+                    ],
+                    [
+                        2228.0,
+                        386.0
+                    ],
+                    [
+                        2228.0,
+                        1533.0
+                    ],
+                    [
+                        1275.0,
+                        1533.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.311454176902771,
+                "coordinate": [
+                    1870,
+                    596,
+                    1900,
+                    627
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1870,
+                        596
+                    ],
+                    [
+                        1870,
+                        626
+                    ],
+                    [
+                        1899,
+                        626
+                    ],
+                    [
+                        1899,
+                        596
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7160362601280212,
+                "coordinate": [
+                    107,
+                    1558,
+                    142,
+                    1578
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        107.0,
+                        1558.0
+                    ],
+                    [
+                        141.0,
+                        1558.0
+                    ],
+                    [
+                        141.0,
+                        1577.0
+                    ],
+                    [
+                        107.0,
+                        1577.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.4905241131782532,
+                "coordinate": [
+                    2197,
+                    1557,
+                    2233,
+                    1579
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        2197.0,
+                        1557.0
+                    ],
+                    [
+                        2232.0,
+                        1557.0
+                    ],
+                    [
+                        2232.0,
+                        1578.0
+                    ],
+                    [
+                        2197.0,
+                        1578.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

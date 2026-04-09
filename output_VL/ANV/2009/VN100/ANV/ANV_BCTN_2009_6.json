@@ -1,0 +1,176 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1700,
+    "height": 2200,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                69,
+                0,
+                1627,
+                2193
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 31,
+            "global_group_id": 31,
+            "block_polygon_points": [
+                [
+                    69.0,
+                    -7.0
+                ],
+                [
+                    1627.0,
+                    -7.0
+                ],
+                [
+                    1627.0,
+                    2193.0
+                ],
+                [
+                    69.0,
+                    2193.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "LICH SỬ\nHOẠT ĐỒNG",
+            "block_bbox": [
+                365,
+                517,
+                1355,
+                775
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 32,
+            "global_group_id": 32,
+            "block_polygon_points": [
+                [
+                    383,
+                    551
+                ],
+                [
+                    365,
+                    752
+                ],
+                [
+                    391,
+                    774
+                ],
+                [
+                    1354,
+                    763
+                ],
+                [
+                    1354,
+                    517
+                ],
+                [
+                    417,
+                    517
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.6113203167915344,
+                "coordinate": [
+                    69,
+                    0,
+                    1627,
+                    2193
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        69.0,
+                        -7.0
+                    ],
+                    [
+                        1627.0,
+                        -7.0
+                    ],
+                    [
+                        1627.0,
+                        2193.0
+                    ],
+                    [
+                        69.0,
+                        2193.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5859819054603577,
+                "coordinate": [
+                    365,
+                    517,
+                    1355,
+                    775
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        383,
+                        551
+                    ],
+                    [
+                        365,
+                        752
+                    ],
+                    [
+                        391,
+                        774
+                    ],
+                    [
+                        1354,
+                        763
+                    ],
+                    [
+                        1354,
+                        517
+                    ],
+                    [
+                        417,
+                        517
+                    ]
+                ]
+            }
+        ]
+    }
+}

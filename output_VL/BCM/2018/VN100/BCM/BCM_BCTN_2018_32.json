@@ -1,0 +1,160 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1654,
+    "height": 2340,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "BÁO CÁO TÀI CHÍNH TỔNG HỢP\nNĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2018",
+            "block_bbox": [
+                344,
+                996,
+                1288,
+                1120
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 445,
+            "global_group_id": 445,
+            "block_polygon_points": [
+                [
+                    344.0,
+                    996.0
+                ],
+                [
+                    1288.0,
+                    996.0
+                ],
+                [
+                    1288.0,
+                    1120.0
+                ],
+                [
+                    344.0,
+                    1120.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "TỔNG CÔNG TY ĐẦU TỰ VÀ\nPHÁT TRIỂN CÔNG NGHIỆP – CTCP",
+            "block_bbox": [
+                306,
+                1158,
+                1324,
+                1306
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 446,
+            "global_group_id": 446,
+            "block_polygon_points": [
+                [
+                    306.0,
+                    1158.0
+                ],
+                [
+                    1324.0,
+                    1158.0
+                ],
+                [
+                    1324.0,
+                    1306.0
+                ],
+                [
+                    306.0,
+                    1306.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.877753734588623,
+                "coordinate": [
+                    344,
+                    996,
+                    1288,
+                    1120
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        344.0,
+                        996.0
+                    ],
+                    [
+                        1288.0,
+                        996.0
+                    ],
+                    [
+                        1288.0,
+                        1120.0
+                    ],
+                    [
+                        344.0,
+                        1120.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8918187022209167,
+                "coordinate": [
+                    306,
+                    1158,
+                    1324,
+                    1306
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        306.0,
+                        1158.0
+                    ],
+                    [
+                        1324.0,
+                        1158.0
+                    ],
+                    [
+                        1324.0,
+                        1306.0
+                    ],
+                    [
+                        306.0,
+                        1306.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

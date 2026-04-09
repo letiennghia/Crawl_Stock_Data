@@ -1,0 +1,160 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2282,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "",
+            "block_bbox": [
+                153,
+                145,
+                1391,
+                1995
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1496,
+            "global_group_id": 1493,
+            "block_polygon_points": [
+                [
+                    153.0,
+                    145.0
+                ],
+                [
+                    1391.0,
+                    145.0
+                ],
+                [
+                    1391.0,
+                    1995.0
+                ],
+                [
+                    153.0,
+                    1995.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "138 / 179",
+            "block_bbox": [
+                1524,
+                669,
+                1565,
+                803
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1497,
+            "global_group_id": 1497,
+            "block_polygon_points": [
+                [
+                    1524.0,
+                    669.0
+                ],
+                [
+                    1565.0,
+                    669.0
+                ],
+                [
+                    1565.0,
+                    803.0
+                ],
+                [
+                    1524.0,
+                    803.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.975376307964325,
+                "coordinate": [
+                    153,
+                    145,
+                    1391,
+                    1995
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        153.0,
+                        145.0
+                    ],
+                    [
+                        1391.0,
+                        145.0
+                    ],
+                    [
+                        1391.0,
+                        1995.0
+                    ],
+                    [
+                        153.0,
+                        1995.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.3402804732322693,
+                "coordinate": [
+                    1524,
+                    669,
+                    1565,
+                    803
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        1524.0,
+                        669.0
+                    ],
+                    [
+                        1565.0,
+                        669.0
+                    ],
+                    [
+                        1565.0,
+                        803.0
+                    ],
+                    [
+                        1524.0,
+                        803.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

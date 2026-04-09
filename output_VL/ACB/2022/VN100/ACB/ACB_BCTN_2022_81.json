@@ -1,0 +1,798 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1652,
+    "height": 2312,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                636,
+                0,
+                999,
+                64
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1059,
+            "global_group_id": 1059,
+            "block_polygon_points": [
+                [
+                    636.0,
+                    0.0
+                ],
+                [
+                    999.0,
+                    0.0
+                ],
+                [
+                    999.0,
+                    64.0
+                ],
+                [
+                    636.0,
+                    64.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Tổng lượng giấy đã sử dụng theo năm",
+            "block_bbox": [
+                430,
+                335,
+                1075,
+                390
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1060,
+            "global_group_id": 1060,
+            "block_polygon_points": [
+                [
+                    430.0,
+                    335.0
+                ],
+                [
+                    1075.0,
+                    335.0
+                ],
+                [
+                    1075.0,
+                    390.0
+                ],
+                [
+                    430.0,
+                    390.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                422,
+                402,
+                1221,
+                959
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1061,
+            "global_group_id": 1061,
+            "block_polygon_points": [
+                [
+                    422.0,
+                    402.0
+                ],
+                [
+                    1221.0,
+                    402.0
+                ],
+                [
+                    1221.0,
+                    959.0
+                ],
+                [
+                    422.0,
+                    959.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Lượng giấy sử dụng tăng tù 1.379 tấn vào năm 2020 lên lần lượt là 1.410 tấn và 1.455 tấn trong năm 2021 và 2022, tương ứng với tỷ lệ tăng tùng năm là 2.20% và 3%.",
+            "block_bbox": [
+                280,
+                1021,
+                1408,
+                1098
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "global_block_id": 1062,
+            "global_group_id": 1062,
+            "block_polygon_points": [
+                [
+                    280.0,
+                    1021.0
+                ],
+                [
+                    1408.0,
+                    1021.0
+                ],
+                [
+                    1408.0,
+                    1098.0
+                ],
+                [
+                    280.0,
+                    1098.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Giấy sử dụng tại ACB được mua từ nhà cung cấp bên ngoài bao gồm các loại giấy in cho hợp đồng, văn bản; giấy có logo ACB để sử dụng giao dịch như biên lai thu tiền, ủy nhiệm chi và các ấn phẩm như lịch và sở tay.",
+            "block_bbox": [
+                279,
+                1112,
+                1409,
+                1224
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "global_block_id": 1063,
+            "global_group_id": 1063,
+            "block_polygon_points": [
+                [
+                    279.0,
+                    1112.0
+                ],
+                [
+                    1409.0,
+                    1112.0
+                ],
+                [
+                    1409.0,
+                    1224.0
+                ],
+                [
+                    279.0,
+                    1224.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "+ Tuy lượng giấy sử dụng tại ACB có tăng nhẹ trong năm 2022 do hoạt động kinh doanh của ACB đã phục hồi và phát triển trong năm 2022 sau thời gian bị ảnh hưởng bởi dịch Covid-19, nhưng mục tiêu sử dụng tiết kiệm sử dụng giấy luôn được ACB đầy mạnh thực hiện trong năm 2022.",
+            "block_bbox": [
+                273,
+                1238,
+                1411,
+                1380
+            ],
+            "block_id": 5,
+            "block_order": 3,
+            "group_id": 5,
+            "global_block_id": 1064,
+            "global_group_id": 1064,
+            "block_polygon_points": [
+                [
+                    273.0,
+                    1238.0
+                ],
+                [
+                    1411.0,
+                    1238.0
+                ],
+                [
+                    1411.0,
+                    1380.0
+                ],
+                [
+                    273.0,
+                    1380.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Giấy tiết kiệm",
+            "block_bbox": [
+                211,
+                1397,
+                453,
+                1441
+            ],
+            "block_id": 6,
+            "block_order": 4,
+            "group_id": 6,
+            "global_block_id": 1065,
+            "global_group_id": 1065,
+            "block_polygon_points": [
+                [
+                    211.0,
+                    1397.0
+                ],
+                [
+                    453.0,
+                    1397.0
+                ],
+                [
+                    453.0,
+                    1441.0
+                ],
+                [
+                    211.0,
+                    1441.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Hàng tấn giấy được ACB tiết kiệm trong năm 2022 do liên tục thực hiện số hóa quy trình theo các chương trình Gần Lại O, như Green Transactions, Go Paperless Credit, v.v., cụ thể là ACB đã tiết kiệm khoảng 204 tấn giấy, tăng 53% so với 133 tấn giấy của năm 2021.",
+            "block_bbox": [
+                271,
+                1453,
+                1410,
+                1597
+            ],
+            "block_id": 7,
+            "block_order": 5,
+            "group_id": 7,
+            "global_block_id": 1066,
+            "global_group_id": 1066,
+            "block_polygon_points": [
+                [
+                    271.0,
+                    1453.0
+                ],
+                [
+                    1410.0,
+                    1453.0
+                ],
+                [
+                    1410.0,
+                    1597.0
+                ],
+                [
+                    271.0,
+                    1597.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "(ĐVT: tần)",
+            "block_bbox": [
+                1256,
+                1610,
+                1397,
+                1646
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 1067,
+            "global_group_id": 1067,
+            "block_polygon_points": [
+                [
+                    1256.0,
+                    1610.0
+                ],
+                [
+                    1397.0,
+                    1610.0
+                ],
+                [
+                    1397.0,
+                    1646.0
+                ],
+                [
+                    1256.0,
+                    1646.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Số lượng</td><td>2021</td><td>2022</td></tr><tr><td>Giấy tiết kiệm</td><td>133</td><td>204</td></tr></table>",
+            "block_bbox": [
+                225,
+                1639,
+                1404,
+                1824
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 1068,
+            "global_group_id": 1068,
+            "block_polygon_points": [
+                [
+                    225,
+                    1651
+                ],
+                [
+                    225,
+                    1823
+                ],
+                [
+                    1403,
+                    1812
+                ],
+                [
+                    1403,
+                    1639
+                ],
+                [
+                    234,
+                    1639
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2022",
+            "block_bbox": [
+                235,
+                1997,
+                454,
+                2036
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "global_block_id": 1069,
+            "global_group_id": 1069,
+            "block_polygon_points": [
+                [
+                    235.0,
+                    1997.0
+                ],
+                [
+                    454.0,
+                    1997.0
+                ],
+                [
+                    454.0,
+                    2036.0
+                ],
+                [
+                    235.0,
+                    2036.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 81 of 113",
+            "block_bbox": [
+                1122,
+                1992,
+                1318,
+                2032
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 1070,
+            "global_group_id": 1070,
+            "block_polygon_points": [
+                [
+                    1122.0,
+                    1992.0
+                ],
+                [
+                    1318.0,
+                    1992.0
+                ],
+                [
+                    1318.0,
+                    2032.0
+                ],
+                [
+                    1122.0,
+                    2032.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.3366665244102478,
+                "coordinate": [
+                    636,
+                    0,
+                    999,
+                    64
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        636.0,
+                        0.0
+                    ],
+                    [
+                        999.0,
+                        0.0
+                    ],
+                    [
+                        999.0,
+                        64.0
+                    ],
+                    [
+                        636.0,
+                        64.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.5803502202033997,
+                "coordinate": [
+                    430,
+                    335,
+                    1075,
+                    390
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        430.0,
+                        335.0
+                    ],
+                    [
+                        1075.0,
+                        335.0
+                    ],
+                    [
+                        1075.0,
+                        390.0
+                    ],
+                    [
+                        430.0,
+                        390.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.9482315182685852,
+                "coordinate": [
+                    422,
+                    402,
+                    1221,
+                    959
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        422.0,
+                        402.0
+                    ],
+                    [
+                        1221.0,
+                        402.0
+                    ],
+                    [
+                        1221.0,
+                        959.0
+                    ],
+                    [
+                        422.0,
+                        959.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8920990228652954,
+                "coordinate": [
+                    280,
+                    1021,
+                    1408,
+                    1098
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        280.0,
+                        1021.0
+                    ],
+                    [
+                        1408.0,
+                        1021.0
+                    ],
+                    [
+                        1408.0,
+                        1098.0
+                    ],
+                    [
+                        280.0,
+                        1098.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9099690318107605,
+                "coordinate": [
+                    279,
+                    1112,
+                    1409,
+                    1224
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        279.0,
+                        1112.0
+                    ],
+                    [
+                        1409.0,
+                        1112.0
+                    ],
+                    [
+                        1409.0,
+                        1224.0
+                    ],
+                    [
+                        279.0,
+                        1224.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9259216785430908,
+                "coordinate": [
+                    273,
+                    1238,
+                    1411,
+                    1380
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        273.0,
+                        1238.0
+                    ],
+                    [
+                        1411.0,
+                        1238.0
+                    ],
+                    [
+                        1411.0,
+                        1380.0
+                    ],
+                    [
+                        273.0,
+                        1380.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5291076302528381,
+                "coordinate": [
+                    211,
+                    1397,
+                    453,
+                    1441
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        211.0,
+                        1397.0
+                    ],
+                    [
+                        453.0,
+                        1397.0
+                    ],
+                    [
+                        453.0,
+                        1441.0
+                    ],
+                    [
+                        211.0,
+                        1441.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9265692830085754,
+                "coordinate": [
+                    271,
+                    1453,
+                    1410,
+                    1597
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        271.0,
+                        1453.0
+                    ],
+                    [
+                        1410.0,
+                        1453.0
+                    ],
+                    [
+                        1410.0,
+                        1597.0
+                    ],
+                    [
+                        271.0,
+                        1597.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.38044318556785583,
+                "coordinate": [
+                    1256,
+                    1610,
+                    1397,
+                    1646
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1256.0,
+                        1610.0
+                    ],
+                    [
+                        1397.0,
+                        1610.0
+                    ],
+                    [
+                        1397.0,
+                        1646.0
+                    ],
+                    [
+                        1256.0,
+                        1646.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.927833616733551,
+                "coordinate": [
+                    225,
+                    1639,
+                    1404,
+                    1824
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        225,
+                        1651
+                    ],
+                    [
+                        225,
+                        1823
+                    ],
+                    [
+                        1403,
+                        1812
+                    ],
+                    [
+                        1403,
+                        1639
+                    ],
+                    [
+                        234,
+                        1639
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8305125832557678,
+                "coordinate": [
+                    235,
+                    1997,
+                    454,
+                    2036
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        235.0,
+                        1997.0
+                    ],
+                    [
+                        454.0,
+                        1997.0
+                    ],
+                    [
+                        454.0,
+                        2036.0
+                    ],
+                    [
+                        235.0,
+                        2036.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8427093625068665,
+                "coordinate": [
+                    1122,
+                    1992,
+                    1318,
+                    2032
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        1122.0,
+                        1992.0
+                    ],
+                    [
+                        1318.0,
+                        1992.0
+                    ],
+                    [
+                        1318.0,
+                        2032.0
+                    ],
+                    [
+                        1122.0,
+                        2032.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

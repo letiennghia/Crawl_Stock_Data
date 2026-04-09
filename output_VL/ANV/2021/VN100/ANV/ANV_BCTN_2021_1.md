@@ -1,0 +1,35 @@
+# BÁO CÁO Thường niên năm 2021
+
+# Kính gửi: ỦY BAN CHỨNG KHOÁN NHÀ NƯỚC
+
+## A. THÔNG TIN CHUNG VỀ NAVICO
+
+### 1. Thông tin khái quát:
+
+- Tên giao dịch: Công ty Cổ phần Nam Việt.
+
+- Giấy chứng nhận đăng ký doanh nghiệp số 1600168736 do Sở Kế Hoạch và Đầu Tư Tĩnh An Giang cấp ngày 02/10/2006, thay đổi lần thứ 13 ngày 10 tháng 07 năm 2020.
+
+- Vốn điều lệ: 1.275.396.250.000 đồng.
+
+Vốn đầu tư của chủ sở hữu: 1.275.396.250.000 đồng.
+
+Địa chỉ: 19D Trần Hưng Đạo, Phường Mỹ Quý, Thành phố Long Xuyên, An Giang.
+
+- Số điện thoại: (0296) 3834 065 - (0296) 3834 060.
+
+- Số fax: (0296) 3834 054 - (0296) 3932 486.
+
+Website: www.navicorp.com.vn
+
+- Mã cổ phiếu: ANV
+
+### 2. Quá trình hình thành và phát triển
+
+Từ những ngày đầu thành lập, Navico đã không ngừng đầu tư vào chuỗi giá trị khép kín để có được thành quả như ngày hôm nay với hệ thống từ ươm giống, sản xuất thức ăn, vùng nuôi cá tra thành phẩm, nhà máy chế biến động lạnh, nhà máy bao bì, nhà máy phụ phẩm dầu cá, bột cá. Đầu tư góp vốn thành lập nhà máy sản xuất collagen và gelatin, đầu tư thành lập nhà máy sản xuất phần bón hữu cơ, đầu tư sản xuất điện năng lượng mặt trời.
+
+<div style="text-align: center;">Những sự kiện quan trọng:</div>
+
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Năm 1993</td><td style='text-align: center; word-wrap: break-word;'>Công ty Cổ phần Nam Việt có tiền thân là Công ty TNHH Nam Việt được thành lập vào năm 1993 hoạt động trong lĩnh vực xây dựng dân dụng và công nghiệp.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Năm 2000</td><td style='text-align: center; word-wrap: break-word;'>Công ty có bước chuyển biến quan trọng đầu tư sang lĩnh vực chế biến thủy sản.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Năm 2006</td><td style='text-align: center; word-wrap: break-word;'>Chuyển hình thức sang Công ty Cổ phần với số vốn điều lệ là 660 tỷ đồng.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Tháng 12 năm 2007</td><td style='text-align: center; word-wrap: break-word;'>Cổ phiếu Nam Việt chính thức được niêm yết tại sản giao dịch chứng khoán Thành phố Hồ Chí Minh với mã cổ phiếu là ANV</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Năm 2011</td><td style='text-align: center; word-wrap: break-word;'>Công ty bắt đầu xây dựng vùng nuôi cá nguyên liệu.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Năm 2012</td><td style='text-align: center; word-wrap: break-word;'>Công ty xây dựng nhà máy chế biến thức ăn thủy sản và đi vào hoạt động với 4 đây chuyền sản xuất, tổng công suất 400 tấn/ngày.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Năm 2016</td><td style='text-align: center; word-wrap: break-word;'>Công ty đã có 8 đây chuyền sản xuất thức ăn với tổng công suất lên đến 800 tấn/ngày đáp ứng 100% nhu cầu thức ăn cho 250 ha vùng nuôi cá nguyên liệu của công ty, phần còn lại bán ra thị trường.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Năm 2017</td><td style='text-align: center; word-wrap: break-word;'>Công ty tăng vốn điều lệ từ 660.000.000.000 đồng lên 1.250.446.250.000 đồng.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Năm 2018</td><td style='text-align: center; word-wrap: break-word;'>Đầu tư Khu nông nghiệp ứng dụng công nghệ cao nuôi trồng thủy sản Nam Việt Bình Phú diện tích 600ha</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Năm 2019</td><td style='text-align: center; word-wrap: break-word;'>Công ty tăng vốn điều lệ từ 1.250.446.250.000 đồng lên 1.275.396.250.000 đồng.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Tháng 03 năm 2020</td><td style='text-align: center; word-wrap: break-word;'>Góp vốn thành lập Công ty TNHH Amicogen Nam Việt, Vốn điều lệ 46 tỷ 480 triệu đồng; % góp vốn là 50%; Ngành nghề: sản xuất collagen và gelatin. Công suất 780 tấn / năm.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Tháng 05 năm 2020</td><td style='text-align: center; word-wrap: break-word;'>Thành lập Công ty TNHH MTV Nam Việt Solar, Công ty TNHH MTV Đại Tây Dương Solar, Công ty TNHH MTV Án Độ Dương Solar; Tổng vốn điều lệ 64 tỷ đồng; % góp vốn là 100%; Ngành nghề: sản xuất điện năng lượng mặt trời. Thi công và bán điện trong năm 2020 là 46 cụm năng lượng mặt trời áp mái với công suất 53 MW.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Tháng 07 năm 2020</td><td style='text-align: center; word-wrap: break-word;'>Thành lập công ty TNHH MTV Phân bón hữu cơ Nam Việt, Vốn điều lệ 5 tỷ đồng; % góp vốn là 100%; Ngành nghề: sản xuất phân bón hữu cơ, Công suất 70.000 tấn / năm.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Tháng 12 năm 2021</td><td style='text-align: center; word-wrap: break-word;'>Khởi công nhà máy Amicogen, tổng mức đầu tư 46 tỷ 480 triệu đồng, sản xuất collagen và gelatin với công suất 780 tấn/năm, dự kiến tháng 07/2022 hoàn thành đưa vào hoạt động</td></tr></table>

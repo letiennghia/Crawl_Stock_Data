@@ -1,0 +1,349 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 992,
+    "height": 1403,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Tên công ty</td><td>Địa chỉ</td><td>Giấy phép hoạt động/Lĩnh vực kinh doanh chính</td><td>Vốn điều lệ thực góp (tỷ đồng)</td><td>% đầu trư trực tiếp bởi ACB</td><td>% đầu trư gián tiếp bởi công ty con</td><td>Tổng % đầu tư</td></tr><tr><td>Công ty Chứng khoán ACB (ACBS)</td><td>41 Mạc Định Chi, Phường Đa Kao, Quận 1, Tp. Hồ Chí Minh.</td><td>06/GPHDKD Chứng khoán</td><td>1.500</td><td>100</td><td>-</td><td>100</td></tr><tr><td>Công ty Quản lý ngụ và khai thác tài sản ACB (ACBA)</td><td>Lầu 8 Tòa nhà ACB, 444A - 446 Cách Mạng Tháng Tám, Quận 3, Tp. Hồ Chí Minh.</td><td>4104000099 Quản lý nợ và khai thác tài sản</td><td>340</td><td>100</td><td>-</td><td>100</td></tr><tr><td>Công ty Cho thuê tài chính ACB (ACBL)</td><td>131 Châu Văn Liêm, Phường 14, Quận 5, Tp. Hồ Chí Minh.</td><td>4104001359 Cho thuê tài chính</td><td>300</td><td>100</td><td>-</td><td>100</td></tr><tr><td>Công ty Quản lý quỹ ACB (ACBC)</td><td>Lầu 12 Tòa nhà ACB, Nguyễn Thị Minh Khai, Phường 2, Quận 3, Tp. Hồ Chí Minh.</td><td>41/UBCK-GP Quản lý quỹ</td><td>50</td><td>-</td><td>100</td><td>100</td></tr></table>",
+            "block_bbox": [
+                112,
+                78,
+                914,
+                996
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 415,
+            "global_group_id": 415,
+            "block_polygon_points": [
+                [
+                    112.0,
+                    78.0
+                ],
+                [
+                    914.0,
+                    78.0
+                ],
+                [
+                    914.0,
+                    996.0
+                ],
+                [
+                    112.0,
+                    996.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "4.3.2.1 Tóm tắt về hoạt động và tình hình tài chính của Công ty Chứng khoán ACB (ACBS)",
+            "block_bbox": [
+                136,
+                1056,
+                859,
+                1118
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 416,
+            "global_group_id": 416,
+            "block_polygon_points": [
+                [
+                    136.0,
+                    1056.0
+                ],
+                [
+                    859.0,
+                    1056.0
+                ],
+                [
+                    859.0,
+                    1118.0
+                ],
+                [
+                    136.0,
+                    1118.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Là công ty con 100% của ACB, kế từ khi thành lập, ACBS luôn nằm trong nhóm các công ty chúng khoán hàng đầu trên thị trường. Sau hơn 16 năm thành lập, vào",
+            "block_bbox": [
+                147,
+                1135,
+                862,
+                1199
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 417,
+            "global_group_id": 417,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    1135.0
+                ],
+                [
+                    862.0,
+                    1135.0
+                ],
+                [
+                    862.0,
+                    1199.0
+                ],
+                [
+                    147.0,
+                    1199.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2016",
+            "block_bbox": [
+                139,
+                1230,
+                278,
+                1254
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 418,
+            "global_group_id": 418,
+            "block_polygon_points": [
+                [
+                    139.0,
+                    1230.0
+                ],
+                [
+                    278.0,
+                    1230.0
+                ],
+                [
+                    278.0,
+                    1254.0
+                ],
+                [
+                    139.0,
+                    1254.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 39 of 78",
+            "block_bbox": [
+                744,
+                1232,
+                855,
+                1256
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 419,
+            "global_group_id": 419,
+            "block_polygon_points": [
+                [
+                    743.9999389648438,
+                    1231.9998779296875
+                ],
+                [
+                    853.9999389648438,
+                    1231.9998779296875
+                ],
+                [
+                    853.9999389648438,
+                    1254.9998779296875
+                ],
+                [
+                    743.9999389648438,
+                    1254.9998779296875
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9826081991195679,
+                "coordinate": [
+                    112,
+                    78,
+                    914,
+                    996
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        112.0,
+                        78.0
+                    ],
+                    [
+                        914.0,
+                        78.0
+                    ],
+                    [
+                        914.0,
+                        996.0
+                    ],
+                    [
+                        112.0,
+                        996.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9043980240821838,
+                "coordinate": [
+                    136,
+                    1056,
+                    859,
+                    1118
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        136.0,
+                        1056.0
+                    ],
+                    [
+                        859.0,
+                        1056.0
+                    ],
+                    [
+                        859.0,
+                        1118.0
+                    ],
+                    [
+                        136.0,
+                        1118.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9282050728797913,
+                "coordinate": [
+                    147,
+                    1135,
+                    862,
+                    1199
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        147.0,
+                        1135.0
+                    ],
+                    [
+                        862.0,
+                        1135.0
+                    ],
+                    [
+                        862.0,
+                        1199.0
+                    ],
+                    [
+                        147.0,
+                        1199.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8544279932975769,
+                "coordinate": [
+                    139,
+                    1230,
+                    278,
+                    1254
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        139.0,
+                        1230.0
+                    ],
+                    [
+                        278.0,
+                        1230.0
+                    ],
+                    [
+                        278.0,
+                        1254.0
+                    ],
+                    [
+                        139.0,
+                        1254.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8524982929229736,
+                "coordinate": [
+                    744,
+                    1232,
+                    855,
+                    1256
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        743.9999389648438,
+                        1231.9998779296875
+                    ],
+                    [
+                        853.9999389648438,
+                        1231.9998779296875
+                    ],
+                    [
+                        853.9999389648438,
+                        1254.9998779296875
+                    ],
+                    [
+                        743.9999389648438,
+                        1254.9998779296875
+                    ]
+                ]
+            }
+        ]
+    }
+}

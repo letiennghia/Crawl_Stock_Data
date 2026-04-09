@@ -1,0 +1,286 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2280,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "lý các datamart với khối lượng dữ liệu lớn. ACB cũng đã xây dựng đầy đủ các mô hình, có tính ứng dụng cao vào hoạt động kinh doanh và quản lý rủi ro.",
+            "block_bbox": [
+                206,
+                181,
+                1394,
+                280
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 351,
+            "global_group_id": 351,
+            "block_polygon_points": [
+                [
+                    205.19384765625,
+                    192.00747680664062
+                ],
+                [
+                    1393.0,
+                    181.00003051757812
+                ],
+                [
+                    1393.80615234375,
+                    267.9925537109375
+                ],
+                [
+                    206.0,
+                    279.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Việc hoàn thành IRB không chỉ giúp tối ưu hóa công tác tính vốn mà còn giúp ACB nâng cao năng lực quản trị rủi ro, giúp tăng cường mức độ chính xác và phù hợp của các công cụ ước lượng rủi ro với đặc thù rủi ro của chính mình. Việc triển khai thành công IRB là một đóng góp quan trọng trong việc hoàn thành các chuẩn mực Basel theo lộ trình của NHNN, cũng như một là bước tiến quan trọng việc cải tiến và nâng cao tiêu chuẩn quản lý rủi ro của ACB.",
+            "block_bbox": [
+                206,
+                282,
+                1399,
+                508
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 352,
+            "global_group_id": 352,
+            "block_polygon_points": [
+                [
+                    203.8560791015625,
+                    294.0216064453125
+                ],
+                [
+                    1398.0001220703125,
+                    282.0
+                ],
+                [
+                    1400.1441650390625,
+                    494.9783935546875
+                ],
+                [
+                    206.0001220703125,
+                    507.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2024 3/24/2025 11:30 AM",
+            "block_bbox": [
+                239,
+                2040,
+                793,
+                2083
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 353,
+            "global_group_id": 353,
+            "block_polygon_points": [
+                [
+                    239.0,
+                    2040.0
+                ],
+                [
+                    793.0,
+                    2040.0
+                ],
+                [
+                    793.0,
+                    2083.0
+                ],
+                [
+                    239.0,
+                    2083.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "20/86",
+            "block_bbox": [
+                1304,
+                2031,
+                1402,
+                2067
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 354,
+            "global_group_id": 354,
+            "block_polygon_points": [
+                [
+                    1304.0,
+                    2031.0
+                ],
+                [
+                    1402.0,
+                    2031.0
+                ],
+                [
+                    1402.0,
+                    2067.0
+                ],
+                [
+                    1304.0,
+                    2067.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.904747486114502,
+                "coordinate": [
+                    206,
+                    181,
+                    1394,
+                    280
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        205.19384765625,
+                        192.00747680664062
+                    ],
+                    [
+                        1393.0,
+                        181.00003051757812
+                    ],
+                    [
+                        1393.80615234375,
+                        267.9925537109375
+                    ],
+                    [
+                        206.0,
+                        279.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.935060977935791,
+                "coordinate": [
+                    206,
+                    282,
+                    1399,
+                    508
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        203.8560791015625,
+                        294.0216064453125
+                    ],
+                    [
+                        1398.0001220703125,
+                        282.0
+                    ],
+                    [
+                        1400.1441650390625,
+                        494.9783935546875
+                    ],
+                    [
+                        206.0001220703125,
+                        507.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8017013669013977,
+                "coordinate": [
+                    239,
+                    2040,
+                    793,
+                    2083
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        239.0,
+                        2040.0
+                    ],
+                    [
+                        793.0,
+                        2040.0
+                    ],
+                    [
+                        793.0,
+                        2083.0
+                    ],
+                    [
+                        239.0,
+                        2083.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7827589511871338,
+                "coordinate": [
+                    1304,
+                    2031,
+                    1402,
+                    2067
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        1304.0,
+                        2031.0
+                    ],
+                    [
+                        1402.0,
+                        2031.0
+                    ],
+                    [
+                        1402.0,
+                        2067.0
+                    ],
+                    [
+                        1304.0,
+                        2067.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,609 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2292,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                452,
+                379,
+                1264,
+                789
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 600,
+            "global_group_id": 600,
+            "block_polygon_points": [
+                [
+                    452.0,
+                    379.0
+                ],
+                [
+                    1264.0,
+                    379.0
+                ],
+                [
+                    1264.0,
+                    789.0
+                ],
+                [
+                    452.0,
+                    789.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "2.1.5. Chất lượng tín dụng",
+            "block_bbox": [
+                271,
+                814,
+                629,
+                854
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 601,
+            "global_group_id": 601,
+            "block_polygon_points": [
+                [
+                    271.0,
+                    814.0
+                ],
+                [
+                    629.0,
+                    814.0
+                ],
+                [
+                    629.0,
+                    854.0
+                ],
+                [
+                    271.0,
+                    854.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- ACB chủ động và nghiêm túc trong việc kiểm soát và xử lý nợ xấu. Trong bối cảnh tỷ lệ nợ xấu toàn ngành nói chung và tại ACB nói riêng có xu hướng tăng trên 1%, ở mức 1,2%, ACB vẫn có tỷ lệ nợ xấu ở mức thấp hàng đầu thị trường.",
+            "block_bbox": [
+                273,
+                860,
+                1378,
+                989
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 602,
+            "global_group_id": 602,
+            "block_polygon_points": [
+                [
+                    271.7391357421875,
+                    872.0137329101562
+                ],
+                [
+                    1377.0,
+                    860.0000610351562
+                ],
+                [
+                    1378.3804931640625,
+                    987.0067749023438
+                ],
+                [
+                    273.11962890625,
+                    999.0204467773438
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Nợ nhóm 3-5 (tỷ đồng)</td><td>1.449</td><td>1.840</td><td>2.799</td><td>3.045</td><td>5.887</td></tr><tr><td>Tỷ lệ nợ nhóm 3-5/Tổng dư nợ cho vay (%)</td><td>0,54</td><td>0,59</td><td>0,77</td><td>0,74</td><td>1,21</td></tr><tr><td>Dự phòng/Tổng nợ xấu (%)</td><td>175</td><td>160</td><td>209</td><td>159</td><td>91</td></tr></table>",
+            "block_bbox": [
+                275,
+                992,
+                1350,
+                1325
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 603,
+            "global_group_id": 603,
+            "block_polygon_points": [
+                [
+                    275,
+                    1004
+                ],
+                [
+                    284,
+                    1324
+                ],
+                [
+                    1349,
+                    1313
+                ],
+                [
+                    1349,
+                    992
+                ],
+                [
+                    284,
+                    992
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                303,
+                1348,
+                1341,
+                1715
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 604,
+            "global_group_id": 604,
+            "block_polygon_points": [
+                [
+                    303.0,
+                    1348.0
+                ],
+                [
+                    1341.0,
+                    1348.0
+                ],
+                [
+                    1341.0,
+                    1715.0
+                ],
+                [
+                    303.0,
+                    1715.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "2.1.6. Hoạt động huy động vốn",
+            "block_bbox": [
+                271,
+                1745,
+                678,
+                1791
+            ],
+            "block_id": 5,
+            "block_order": 3,
+            "group_id": 5,
+            "global_block_id": 605,
+            "global_group_id": 605,
+            "block_polygon_points": [
+                [
+                    271.0,
+                    1745.0
+                ],
+                [
+                    678.0,
+                    1745.0
+                ],
+                [
+                    678.0,
+                    1791.0
+                ],
+                [
+                    271.0,
+                    1791.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Hoạt động nhận tiền gửi cũng ghi nhận mức tăng trưởng cao nhất trong vòng 5 năm trở lại đây, ở mức 17%, đạt 483 nghìn tỷ đồng, góp phần cải thiện thị phần tiền gửi khách hàng.",
+            "block_bbox": [
+                272,
+                1791,
+                1376,
+                1886
+            ],
+            "block_id": 6,
+            "block_order": 4,
+            "group_id": 6,
+            "global_block_id": 606,
+            "global_group_id": 606,
+            "block_polygon_points": [
+                [
+                    271.23846435546875,
+                    1801.0068359375
+                ],
+                [
+                    1375.000244140625,
+                    1791.0
+                ],
+                [
+                    1375.76171875,
+                    1874.9931640625
+                ],
+                [
+                    271.99993896484375,
+                    1885.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2023",
+            "block_bbox": [
+                296,
+                2115,
+                509,
+                2151
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 607,
+            "global_group_id": 607,
+            "block_polygon_points": [
+                [
+                    296.0,
+                    2115.0
+                ],
+                [
+                    509.0,
+                    2115.0
+                ],
+                [
+                    509.0,
+                    2151.0
+                ],
+                [
+                    296.0,
+                    2151.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "40 / 111",
+            "block_bbox": [
+                1272,
+                2104,
+                1376,
+                2138
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 608,
+            "global_group_id": 608,
+            "block_polygon_points": [
+                [
+                    1272.0,
+                    2104.0
+                ],
+                [
+                    1376.0,
+                    2104.0
+                ],
+                [
+                    1376.0,
+                    2138.0
+                ],
+                [
+                    1272.0,
+                    2138.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.9508997797966003,
+                "coordinate": [
+                    452,
+                    379,
+                    1264,
+                    789
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        452.0,
+                        379.0
+                    ],
+                    [
+                        1264.0,
+                        379.0
+                    ],
+                    [
+                        1264.0,
+                        789.0
+                    ],
+                    [
+                        452.0,
+                        789.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8497655987739563,
+                "coordinate": [
+                    271,
+                    814,
+                    629,
+                    854
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        271.0,
+                        814.0
+                    ],
+                    [
+                        629.0,
+                        814.0
+                    ],
+                    [
+                        629.0,
+                        854.0
+                    ],
+                    [
+                        271.0,
+                        854.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9284985065460205,
+                "coordinate": [
+                    273,
+                    860,
+                    1378,
+                    989
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        271.7391357421875,
+                        872.0137329101562
+                    ],
+                    [
+                        1377.0,
+                        860.0000610351562
+                    ],
+                    [
+                        1378.3804931640625,
+                        987.0067749023438
+                    ],
+                    [
+                        273.11962890625,
+                        999.0204467773438
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9590725898742676,
+                "coordinate": [
+                    275,
+                    992,
+                    1350,
+                    1325
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        275,
+                        1004
+                    ],
+                    [
+                        284,
+                        1324
+                    ],
+                    [
+                        1349,
+                        1313
+                    ],
+                    [
+                        1349,
+                        992
+                    ],
+                    [
+                        284,
+                        992
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.9036240577697754,
+                "coordinate": [
+                    303,
+                    1348,
+                    1341,
+                    1715
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        303.0,
+                        1348.0
+                    ],
+                    [
+                        1341.0,
+                        1348.0
+                    ],
+                    [
+                        1341.0,
+                        1715.0
+                    ],
+                    [
+                        303.0,
+                        1715.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8474368453025818,
+                "coordinate": [
+                    271,
+                    1745,
+                    678,
+                    1791
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        271.0,
+                        1745.0
+                    ],
+                    [
+                        678.0,
+                        1745.0
+                    ],
+                    [
+                        678.0,
+                        1791.0
+                    ],
+                    [
+                        271.0,
+                        1791.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.900343656539917,
+                "coordinate": [
+                    272,
+                    1791,
+                    1376,
+                    1886
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        271.23846435546875,
+                        1801.0068359375
+                    ],
+                    [
+                        1375.000244140625,
+                        1791.0
+                    ],
+                    [
+                        1375.76171875,
+                        1874.9931640625
+                    ],
+                    [
+                        271.99993896484375,
+                        1885.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8380810618400574,
+                "coordinate": [
+                    296,
+                    2115,
+                    509,
+                    2151
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        296.0,
+                        2115.0
+                    ],
+                    [
+                        509.0,
+                        2115.0
+                    ],
+                    [
+                        509.0,
+                        2151.0
+                    ],
+                    [
+                        296.0,
+                        2151.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8111720681190491,
+                "coordinate": [
+                    1272,
+                    2104,
+                    1376,
+                    2138
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1272.0,
+                        2104.0
+                    ],
+                    [
+                        1376.0,
+                        2104.0
+                    ],
+                    [
+                        1376.0,
+                        2138.0
+                    ],
+                    [
+                        1272.0,
+                        2138.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

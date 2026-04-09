@@ -1,0 +1,412 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2284,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "Ông Đỗ Minh Toàn tham dự Chương trình chúng nhận thành viên HĐQT của Viện Thành viên HĐQT Việt Nam (VIOD) năm 2023.",
+            "block_bbox": [
+                196,
+                197,
+                1457,
+                291
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 831,
+            "global_group_id": 831,
+            "block_polygon_points": [
+                [
+                    196.0,
+                    197.0
+                ],
+                [
+                    1457.0,
+                    197.0
+                ],
+                [
+                    1457.0,
+                    291.0
+                ],
+                [
+                    196.0,
+                    291.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Ông Nguyễn Văn Hòa tham dự Chương trình chúng nhận thành viên HĐQT của Viện Thành viên HĐQT Việt Nam (VIOD) năm 2023.",
+            "block_bbox": [
+                196,
+                301,
+                1457,
+                397
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 832,
+            "global_group_id": 832,
+            "block_polygon_points": [
+                [
+                    195.32568359375,
+                    311.0054016113281
+                ],
+                [
+                    1456.0001220703125,
+                    301.0000305175781
+                ],
+                [
+                    1456.6746826171875,
+                    385.9946594238281
+                ],
+                [
+                    196.000244140625,
+                    396.0000305175781
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "5.1.6 Số lượng chức danh thành viên HĐQT do từng thành viên HĐQT của ACB nắm giữ tại các công ty khác (đến ngày 31 tháng 12 năm 2024)",
+            "block_bbox": [
+                196,
+                405,
+                1453,
+                507
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 833,
+            "global_group_id": 833,
+            "block_polygon_points": [
+                [
+                    195.203125,
+                    415.0086364746094
+                ],
+                [
+                    1451.9912109375,
+                    404.0017395019531
+                ],
+                [
+                    1452.7880859375,
+                    494.9931945800781
+                ],
+                [
+                    196.0,
+                    506.0000915527344
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Thành viên</td><td>Chức danh tại ACB</td><td>Chức danh tại công ty khác</td></tr><tr><td>1</td><td>Trần Hùng Huy</td><td>Chủ tịch</td><td>Không có</td></tr><tr><td>2</td><td>Nguyễn Thành Long</td><td>Phó Chủ tịch</td><td></td></tr><tr><td></td><td>- Tổng Công ty cổ phần Bảo hiểm Bảo Long</td><td></td><td>Chủ tịch HĐQT</td></tr><tr><td>3</td><td>Hiep Van Vo</td><td>Thành viên</td><td>Không có</td></tr><tr><td>4</td><td>Đinh Thị Hoa</td><td>Thành viên</td><td></td></tr><tr><td></td><td>- Công ty cổ phần Giải trí và Giáo dục Galaxy</td><td></td><td>Thành viên HĐQT</td></tr><tr><td></td><td>- Công ty cổ phần Galaxy Play</td><td></td><td>Thành viên HĐQT</td></tr><tr><td>5</td><td>Đặng Thu Thủy</td><td>Thành viên</td><td>Không có</td></tr><tr><td>6</td><td>Đàm Văn Tuấn</td><td>Thành viên</td><td>Không có</td></tr><tr><td>7</td><td>Đỗ Minh Toàn</td><td>Thành viên</td><td></td></tr><tr><td></td><td>- Công ty TNHH Chứng khoán ACB (ACBS)</td><td></td><td>Chủ tịch HĐTV</td></tr><tr><td></td><td>- Công ty TNHH MTV Quản lý Quỹ ACB (ACBC)</td><td></td><td>Chủ tịch HĐTV</td></tr><tr><td></td><td>- Công ty cổ phần Vi Ngày Mai Cho Em</td><td></td><td>Thành viên HĐQT</td></tr><tr><td>8</td><td>Nguyễn Văn Hòa</td><td>Thành viên</td><td></td></tr><tr><td></td><td>- Công ty TNHH MTV Quản lý Quỹ ACB (ACBC)</td><td></td><td>Thành viên HĐTV</td></tr><tr><td></td><td>- Công ty Cổ phần Sài Gòn Phú Quốc</td><td></td><td>Thành viên HĐQT</td></tr><tr><td></td><td>- Công ty TNHH Khách sạn Du lịch Saigon Star</td><td></td><td>Thành viên HĐTV</td></tr><tr><td>9</td><td>Trịnh Bảo Quốc</td><td>Thành viên độc lập</td><td>Không có</td></tr></table>",
+            "block_bbox": [
+                201,
+                505,
+                1451,
+                2060
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 834,
+            "global_group_id": 834,
+            "block_polygon_points": [
+                [
+                    201.0,
+                    505.0
+                ],
+                [
+                    1451.0,
+                    505.0
+                ],
+                [
+                    1451.0,
+                    2060.0
+                ],
+                [
+                    201.0,
+                    2060.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2024",
+            "block_bbox": [
+                224,
+                2176,
+                464,
+                2215
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 835,
+            "global_group_id": 835,
+            "block_polygon_points": [
+                [
+                    224.0,
+                    2176.0
+                ],
+                [
+                    464.0,
+                    2176.0
+                ],
+                [
+                    464.0,
+                    2215.0
+                ],
+                [
+                    224.0,
+                    2215.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "56/86",
+            "block_bbox": [
+                1357,
+                2165,
+                1459,
+                2201
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 836,
+            "global_group_id": 836,
+            "block_polygon_points": [
+                [
+                    1357.0,
+                    2165.0
+                ],
+                [
+                    1459.0,
+                    2165.0
+                ],
+                [
+                    1459.0,
+                    2201.0
+                ],
+                [
+                    1357.0,
+                    2201.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9047060012817383,
+                "coordinate": [
+                    196,
+                    197,
+                    1457,
+                    291
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        196.0,
+                        197.0
+                    ],
+                    [
+                        1457.0,
+                        197.0
+                    ],
+                    [
+                        1457.0,
+                        291.0
+                    ],
+                    [
+                        196.0,
+                        291.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8981773257255554,
+                "coordinate": [
+                    196,
+                    301,
+                    1457,
+                    397
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        195.32568359375,
+                        311.0054016113281
+                    ],
+                    [
+                        1456.0001220703125,
+                        301.0000305175781
+                    ],
+                    [
+                        1456.6746826171875,
+                        385.9946594238281
+                    ],
+                    [
+                        196.000244140625,
+                        396.0000305175781
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.833482027053833,
+                "coordinate": [
+                    196,
+                    405,
+                    1453,
+                    507
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        195.203125,
+                        415.0086364746094
+                    ],
+                    [
+                        1451.9912109375,
+                        404.0017395019531
+                    ],
+                    [
+                        1452.7880859375,
+                        494.9931945800781
+                    ],
+                    [
+                        196.0,
+                        506.0000915527344
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9814673066139221,
+                "coordinate": [
+                    201,
+                    505,
+                    1451,
+                    2060
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        201.0,
+                        505.0
+                    ],
+                    [
+                        1451.0,
+                        505.0
+                    ],
+                    [
+                        1451.0,
+                        2060.0
+                    ],
+                    [
+                        201.0,
+                        2060.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8572973012924194,
+                "coordinate": [
+                    224,
+                    2176,
+                    464,
+                    2215
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        224.0,
+                        2176.0
+                    ],
+                    [
+                        464.0,
+                        2176.0
+                    ],
+                    [
+                        464.0,
+                        2215.0
+                    ],
+                    [
+                        224.0,
+                        2215.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8189558982849121,
+                "coordinate": [
+                    1357,
+                    2165,
+                    1459,
+                    2201
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        1357.0,
+                        2165.0
+                    ],
+                    [
+                        1459.0,
+                        2165.0
+                    ],
+                    [
+                        1459.0,
+                        2201.0
+                    ],
+                    [
+                        1357.0,
+                        2201.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

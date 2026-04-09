@@ -1,0 +1,160 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "BÁO CÁO TÀI CHÍNH HỢP NHÁT\nNĂM TÀI CHÍNH KẾT THÚC NGÀY 31 THÁNG 12 NĂM 2024",
+            "block_bbox": [
+                358,
+                1023,
+                1307,
+                1139
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 423,
+            "global_group_id": 423,
+            "block_polygon_points": [
+                [
+                    358.0,
+                    1023.0
+                ],
+                [
+                    1307.0,
+                    1023.0
+                ],
+                [
+                    1307.0,
+                    1139.0
+                ],
+                [
+                    358.0,
+                    1139.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "CÔNG TY CỔ PHẦN NAM VIỆT",
+            "block_bbox": [
+                357,
+                1192,
+                1305,
+                1276
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 424,
+            "global_group_id": 424,
+            "block_polygon_points": [
+                [
+                    357.0,
+                    1192.0
+                ],
+                [
+                    1305.0,
+                    1192.0
+                ],
+                [
+                    1305.0,
+                    1276.0
+                ],
+                [
+                    357.0,
+                    1276.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.813105583190918,
+                "coordinate": [
+                    358,
+                    1023,
+                    1307,
+                    1139
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        358.0,
+                        1023.0
+                    ],
+                    [
+                        1307.0,
+                        1023.0
+                    ],
+                    [
+                        1307.0,
+                        1139.0
+                    ],
+                    [
+                        358.0,
+                        1139.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7530955672264099,
+                "coordinate": [
+                    357,
+                    1192,
+                    1305,
+                    1276
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        357.0,
+                        1192.0
+                    ],
+                    [
+                        1305.0,
+                        1192.0
+                    ],
+                    [
+                        1305.0,
+                        1276.0
+                    ],
+                    [
+                        357.0,
+                        1276.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

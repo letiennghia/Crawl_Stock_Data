@@ -1,0 +1,795 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1654,
+    "height": 2316,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "Ông Ngô Tấn Long được bỏ nhiệm Phó Tổng giám đốc ngày 12 tháng 01 năm 2023.",
+            "block_bbox": [
+                252,
+                250,
+                1345,
+                296
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 440,
+            "global_group_id": 440,
+            "block_polygon_points": [
+                [
+                    252.0,
+                    250.0
+                ],
+                [
+                    1345.0,
+                    250.0
+                ],
+                [
+                    1345.0,
+                    296.0
+                ],
+                [
+                    252.0,
+                    296.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2.3. Số lượng cán bộ nhân viên, tóm tắt chính sách và thay đổi trong chính sách đối với người lao động",
+            "block_bbox": [
+                209,
+                309,
+                1410,
+                396
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 441,
+            "global_group_id": 441,
+            "block_polygon_points": [
+                [
+                    209.0,
+                    309.0
+                ],
+                [
+                    1410.0,
+                    309.0
+                ],
+                [
+                    1410.0,
+                    396.0
+                ],
+                [
+                    209.0,
+                    396.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2.3.1. Số lượng cán bộ nhân viên 2018 - 2022 (theo BCTC hợp nhất)\nTính đến ngày 31 tháng 12 năm 2022, ACB có 13.035 nhân viên.",
+            "block_bbox": [
+                208,
+                408,
+                1128,
+                510
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "global_block_id": 442,
+            "global_group_id": 442,
+            "block_polygon_points": [
+                [
+                    208,
+                    408
+                ],
+                [
+                    208,
+                    509
+                ],
+                [
+                    1045,
+                    509
+                ],
+                [
+                    1127,
+                    509
+                ],
+                [
+                    1127,
+                    408
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Số lượng nhân viên qua các năm",
+            "block_bbox": [
+                539,
+                575,
+                1038,
+                624
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 443,
+            "global_group_id": 443,
+            "block_polygon_points": [
+                [
+                    539.0,
+                    575.0
+                ],
+                [
+                    1038.0,
+                    575.0
+                ],
+                [
+                    1038.0,
+                    624.0
+                ],
+                [
+                    539.0,
+                    624.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                236,
+                628,
+                1329,
+                1209
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 444,
+            "global_group_id": 444,
+            "block_polygon_points": [
+                [
+                    236.0,
+                    628.0
+                ],
+                [
+                    1329.0,
+                    628.0
+                ],
+                [
+                    1329.0,
+                    1209.0
+                ],
+                [
+                    236.0,
+                    1209.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Mức thu nhập bình quân của người lao động (2018 - 2022)",
+            "block_bbox": [
+                208,
+                1235,
+                984,
+                1278
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "global_block_id": 445,
+            "global_group_id": 445,
+            "block_polygon_points": [
+                [
+                    208.0,
+                    1235.0
+                ],
+                [
+                    984.0,
+                    1235.0
+                ],
+                [
+                    984.0,
+                    1278.0
+                ],
+                [
+                    208.0,
+                    1278.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Thu nhập bình quân của nhân viên trong năm 2022 là 417 triệu đồng.",
+            "block_bbox": [
+                209,
+                1291,
+                1065,
+                1336
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "global_block_id": 446,
+            "global_group_id": 446,
+            "block_polygon_points": [
+                [
+                    209.0,
+                    1291.0
+                ],
+                [
+                    1065.0,
+                    1291.0
+                ],
+                [
+                    1065.0,
+                    1336.0
+                ],
+                [
+                    209.0,
+                    1336.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Thu nhập bình quân của nhân viên qua các năm",
+            "block_bbox": [
+                414,
+                1370,
+                1111,
+                1413
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 447,
+            "global_group_id": 447,
+            "block_polygon_points": [
+                [
+                    414.0,
+                    1370.0
+                ],
+                [
+                    1111.0,
+                    1370.0
+                ],
+                [
+                    1111.0,
+                    1413.0
+                ],
+                [
+                    414.0,
+                    1413.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                310,
+                1424,
+                1229,
+                1869
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 448,
+            "global_group_id": 448,
+            "block_polygon_points": [
+                [
+                    310.0,
+                    1424.0
+                ],
+                [
+                    1229.0,
+                    1424.0
+                ],
+                [
+                    1229.0,
+                    1869.0
+                ],
+                [
+                    310.0,
+                    1869.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTNACB 2022",
+            "block_bbox": [
+                233,
+                2001,
+                454,
+                2037
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 449,
+            "global_group_id": 449,
+            "block_polygon_points": [
+                [
+                    233.0,
+                    2001.0
+                ],
+                [
+                    454.0,
+                    2001.0
+                ],
+                [
+                    454.0,
+                    2037.0
+                ],
+                [
+                    233.0,
+                    2037.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 29 of 113",
+            "block_bbox": [
+                1120,
+                1995,
+                1316,
+                2033
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "global_block_id": 450,
+            "global_group_id": 450,
+            "block_polygon_points": [
+                [
+                    1120.0,
+                    1995.0
+                ],
+                [
+                    1316.0,
+                    1995.0
+                ],
+                [
+                    1316.0,
+                    2033.0
+                ],
+                [
+                    1120.0,
+                    2033.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8109502196311951,
+                "coordinate": [
+                    252,
+                    250,
+                    1345,
+                    296
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        252.0,
+                        250.0
+                    ],
+                    [
+                        1345.0,
+                        250.0
+                    ],
+                    [
+                        1345.0,
+                        296.0
+                    ],
+                    [
+                        252.0,
+                        296.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8719810843467712,
+                "coordinate": [
+                    209,
+                    309,
+                    1410,
+                    396
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        209.0,
+                        309.0
+                    ],
+                    [
+                        1410.0,
+                        309.0
+                    ],
+                    [
+                        1410.0,
+                        396.0
+                    ],
+                    [
+                        209.0,
+                        396.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.43667808175086975,
+                "coordinate": [
+                    209,
+                    407,
+                    1131,
+                    451
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        209.0,
+                        407.0
+                    ],
+                    [
+                        1131.0,
+                        407.0
+                    ],
+                    [
+                        1131.0,
+                        451.0
+                    ],
+                    [
+                        209.0,
+                        451.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4651044011116028,
+                "coordinate": [
+                    208,
+                    408,
+                    1128,
+                    510
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        208,
+                        408
+                    ],
+                    [
+                        208,
+                        509
+                    ],
+                    [
+                        1045,
+                        509
+                    ],
+                    [
+                        1127,
+                        509
+                    ],
+                    [
+                        1127,
+                        408
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3837910294532776,
+                "coordinate": [
+                    210,
+                    464,
+                    1021,
+                    509
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        210,
+                        464
+                    ],
+                    [
+                        210,
+                        508
+                    ],
+                    [
+                        1020,
+                        508
+                    ],
+                    [
+                        1020,
+                        464
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.46139785647392273,
+                "coordinate": [
+                    539,
+                    575,
+                    1038,
+                    624
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        539.0,
+                        575.0
+                    ],
+                    [
+                        1038.0,
+                        575.0
+                    ],
+                    [
+                        1038.0,
+                        624.0
+                    ],
+                    [
+                        539.0,
+                        624.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.8927781581878662,
+                "coordinate": [
+                    236,
+                    628,
+                    1329,
+                    1209
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        236.0,
+                        628.0
+                    ],
+                    [
+                        1329.0,
+                        628.0
+                    ],
+                    [
+                        1329.0,
+                        1209.0
+                    ],
+                    [
+                        236.0,
+                        1209.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3456439673900604,
+                "coordinate": [
+                    208,
+                    1235,
+                    984,
+                    1278
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        208.0,
+                        1235.0
+                    ],
+                    [
+                        984.0,
+                        1235.0
+                    ],
+                    [
+                        984.0,
+                        1278.0
+                    ],
+                    [
+                        208.0,
+                        1278.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6609419584274292,
+                "coordinate": [
+                    209,
+                    1291,
+                    1065,
+                    1336
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        209.0,
+                        1291.0
+                    ],
+                    [
+                        1065.0,
+                        1291.0
+                    ],
+                    [
+                        1065.0,
+                        1336.0
+                    ],
+                    [
+                        209.0,
+                        1336.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.7715722322463989,
+                "coordinate": [
+                    414,
+                    1370,
+                    1111,
+                    1413
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        414.0,
+                        1370.0
+                    ],
+                    [
+                        1111.0,
+                        1370.0
+                    ],
+                    [
+                        1111.0,
+                        1413.0
+                    ],
+                    [
+                        414.0,
+                        1413.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.9266831278800964,
+                "coordinate": [
+                    310,
+                    1424,
+                    1229,
+                    1869
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        310.0,
+                        1424.0
+                    ],
+                    [
+                        1229.0,
+                        1424.0
+                    ],
+                    [
+                        1229.0,
+                        1869.0
+                    ],
+                    [
+                        310.0,
+                        1869.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8178160786628723,
+                "coordinate": [
+                    233,
+                    2001,
+                    454,
+                    2037
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        233.0,
+                        2001.0
+                    ],
+                    [
+                        454.0,
+                        2001.0
+                    ],
+                    [
+                        454.0,
+                        2037.0
+                    ],
+                    [
+                        233.0,
+                        2037.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.835151195526123,
+                "coordinate": [
+                    1120,
+                    1995,
+                    1316,
+                    2033
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        1120.0,
+                        1995.0
+                    ],
+                    [
+                        1316.0,
+                        1995.0
+                    ],
+                    [
+                        1316.0,
+                        2033.0
+                    ],
+                    [
+                        1120.0,
+                        2033.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

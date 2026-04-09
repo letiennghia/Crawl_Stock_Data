@@ -1,0 +1,916 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1658,
+    "height": 2314,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "Kinh tế, chính trị thế giới năm 2022 trải qua nhiều khó khăn, bất ổn. Kinh tế Việt Nam cũng đối mặt nhiều thách thức, lãi suất gia tăng, lực cầu sụt giảm, doanh thu và lợi nhuận các doanh nghiệp suy yếu. Với tình hình nhiều biến động, thị trường chứng khoản đã không tránh khỏi các ảnh hưởng tiêu cực, dẫn tới việc hầu hết các công ty chứng khoản không thể hoàn thành kế hoạch kinh doanh năm 2022.",
+            "block_bbox": [
+                214,
+                251,
+                1416,
+                462
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 462,
+            "global_group_id": 462,
+            "block_polygon_points": [
+                [
+                    214.0,
+                    251.0
+                ],
+                [
+                    1416.0,
+                    251.0
+                ],
+                [
+                    1416.0,
+                    462.0
+                ],
+                [
+                    214.0,
+                    462.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Kết quả hoạt động kinh doanh",
+            "block_bbox": [
+                215,
+                477,
+                627,
+                520
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 463,
+            "global_group_id": 463,
+            "block_polygon_points": [
+                [
+                    215.0,
+                    477.0
+                ],
+                [
+                    627.0,
+                    477.0
+                ],
+                [
+                    627.0,
+                    520.0
+                ],
+                [
+                    215.0,
+                    520.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Năm 2022, ACBS đạt lợi nhuận hoạt động là 214,8 tỷ đồng, trong đó lợi nhuận trước thuế là 97,8 tỷ đồng, tương ứng với 24% kế hoạch, chi tiết như sau:",
+            "block_bbox": [
+                213,
+                532,
+                1413,
+                619
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "global_block_id": 464,
+            "global_group_id": 464,
+            "block_polygon_points": [
+                [
+                    213.0,
+                    532.0
+                ],
+                [
+                    1413.0,
+                    532.0
+                ],
+                [
+                    1413.0,
+                    619.0
+                ],
+                [
+                    213.0,
+                    619.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "ĐVT: Tỷ đồng",
+            "block_bbox": [
+                1226,
+                631,
+                1411,
+                674
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 465,
+            "global_group_id": 465,
+            "block_polygon_points": [
+                [
+                    1226.0,
+                    631.0
+                ],
+                [
+                    1411.0,
+                    631.0
+                ],
+                [
+                    1411.0,
+                    674.0
+                ],
+                [
+                    1226.0,
+                    674.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Lợi nhuận hoạt động ACBS năm 2022",
+            "block_bbox": [
+                513,
+                706,
+                1069,
+                748
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 466,
+            "global_group_id": 466,
+            "block_polygon_points": [
+                [
+                    513.0,
+                    706.0
+                ],
+                [
+                    1069.0,
+                    706.0
+                ],
+                [
+                    1069.0,
+                    748.0
+                ],
+                [
+                    513.0,
+                    748.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                562,
+                756,
+                1346,
+                1177
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 467,
+            "global_group_id": 467,
+            "block_polygon_points": [
+                [
+                    562.0,
+                    756.0
+                ],
+                [
+                    1346.0,
+                    756.0
+                ],
+                [
+                    1346.0,
+                    1177.0
+                ],
+                [
+                    562.0,
+                    1177.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Lợi nhuận từ cho vay ký quỹ (margin) đạt 174 tỷ đồng, tăng nhẹ 12% so với năm 2021 (155 tỷ đồng). Tuy thị trường bất lợi nhưng lãi cho vay ký quỹ thuần vẫn tăng nhẹ 12% so với năm 2021 và không phát sinh nợ xấu.",
+            "block_bbox": [
+                209,
+                1209,
+                1387,
+                1337
+            ],
+            "block_id": 6,
+            "block_order": 4,
+            "group_id": 6,
+            "global_block_id": 468,
+            "global_group_id": 468,
+            "block_polygon_points": [
+                [
+                    208.07891845703125,
+                    1219.1546630859375
+                ],
+                [
+                    1386.000244140625,
+                    1209.0001220703125
+                ],
+                [
+                    1387.0087890625,
+                    1325.9913330078125
+                ],
+                [
+                    209.08746337890625,
+                    1336.1458740234375
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Lợi nhuận từ phí môi giới đạt 245 tỷ đồng, tăng nhẹ 11% so với năm 2021 (220 tỷ đồng), tuy thị trường chứng khoán Việt Nam giảm 32,80% và kết thúc năm với chỉ số VN-Index đạt 1.007,1 điểm. Thanh khoản trên thị trường chứng khoản cũng giảm mạnh từ mức bình quân 24.203,6 tỷ đồng/phiên trong quý 1/2022, thanh khoản giảm 57,20% và chỉ đạt bình quân 10.351,4 tỷ đồng/phiên trong quý 4/2022, nhưng phí môi giới thuần vẫn tăng.",
+            "block_bbox": [
+                207,
+                1348,
+                1398,
+                1560
+            ],
+            "block_id": 7,
+            "block_order": 5,
+            "group_id": 7,
+            "global_block_id": 469,
+            "global_group_id": 469,
+            "block_polygon_points": [
+                [
+                    207.0,
+                    1348.0
+                ],
+                [
+                    1398.0,
+                    1348.0
+                ],
+                [
+                    1398.0,
+                    1560.0
+                ],
+                [
+                    207.0,
+                    1560.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Lợi nhuận từ hoạt động kinh doanh vốn đạt 86 tỷ đồng, tăng 41% so với cùng kỳ, trong khi năm 2021 đạt 61 tỷ đồng.",
+            "block_bbox": [
+                209,
+                1573,
+                1379,
+                1658
+            ],
+            "block_id": 8,
+            "block_order": 6,
+            "group_id": 8,
+            "global_block_id": 470,
+            "global_group_id": 470,
+            "block_polygon_points": [
+                [
+                    209.0,
+                    1573.0
+                ],
+                [
+                    1379.0,
+                    1573.0
+                ],
+                [
+                    1379.0,
+                    1658.0
+                ],
+                [
+                    209.0,
+                    1658.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Hoạt động đầu tư lỗ 290 tỷ đồng, chủ yếu giảm về bán và đánh giá lại cổ phiếu giảm giá so với năm 2021.",
+            "block_bbox": [
+                208,
+                1668,
+                1376,
+                1754
+            ],
+            "block_id": 9,
+            "block_order": 7,
+            "group_id": 9,
+            "global_block_id": 471,
+            "global_group_id": 471,
+            "block_polygon_points": [
+                [
+                    208.0,
+                    1668.0
+                ],
+                [
+                    1376.0,
+                    1668.0
+                ],
+                [
+                    1376.0,
+                    1754.0
+                ],
+                [
+                    208.0,
+                    1754.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Tình hình đấu tư",
+            "block_bbox": [
+                210,
+                1770,
+                449,
+                1811
+            ],
+            "block_id": 10,
+            "block_order": 8,
+            "group_id": 10,
+            "global_block_id": 472,
+            "global_group_id": 472,
+            "block_polygon_points": [
+                [
+                    210.0,
+                    1770.0
+                ],
+                [
+                    449.0,
+                    1770.0
+                ],
+                [
+                    449.0,
+                    1811.0
+                ],
+                [
+                    210.0,
+                    1811.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Năm 2022 nền kinh tế Việt Nam suy giảm kèm theo những sự kiện ảnh hưởng đến động vốn. Cũng chính vì xu thế đó mà quy mô đầu tư của ACBS đã phải liên tục thu hẹp để giảm thiếu",
+            "block_bbox": [
+                209,
+                1822,
+                1408,
+                1912
+            ],
+            "block_id": 11,
+            "block_order": 9,
+            "group_id": 11,
+            "global_block_id": 473,
+            "global_group_id": 473,
+            "block_polygon_points": [
+                [
+                    209.0,
+                    1822.0
+                ],
+                [
+                    1408.0,
+                    1822.0
+                ],
+                [
+                    1408.0,
+                    1912.0
+                ],
+                [
+                    209.0,
+                    1912.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2022",
+            "block_bbox": [
+                231,
+                1996,
+                454,
+                2035
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "global_block_id": 474,
+            "global_group_id": 474,
+            "block_polygon_points": [
+                [
+                    231.0,
+                    1996.0
+                ],
+                [
+                    454.0,
+                    1996.0
+                ],
+                [
+                    454.0,
+                    2035.0
+                ],
+                [
+                    231.0,
+                    2035.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 31 of 113",
+            "block_bbox": [
+                1120,
+                1993,
+                1316,
+                2032
+            ],
+            "block_id": 13,
+            "block_order": null,
+            "group_id": 13,
+            "global_block_id": 475,
+            "global_group_id": 475,
+            "block_polygon_points": [
+                [
+                    1120.0,
+                    1993.0
+                ],
+                [
+                    1316.0,
+                    1993.0
+                ],
+                [
+                    1316.0,
+                    2032.0
+                ],
+                [
+                    1120.0,
+                    2032.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9482176899909973,
+                "coordinate": [
+                    214,
+                    251,
+                    1416,
+                    462
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        214.0,
+                        251.0
+                    ],
+                    [
+                        1416.0,
+                        251.0
+                    ],
+                    [
+                        1416.0,
+                        462.0
+                    ],
+                    [
+                        214.0,
+                        462.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8347036242485046,
+                "coordinate": [
+                    215,
+                    477,
+                    627,
+                    520
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        215.0,
+                        477.0
+                    ],
+                    [
+                        627.0,
+                        477.0
+                    ],
+                    [
+                        627.0,
+                        520.0
+                    ],
+                    [
+                        215.0,
+                        520.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9059134125709534,
+                "coordinate": [
+                    213,
+                    532,
+                    1413,
+                    619
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        213.0,
+                        532.0
+                    ],
+                    [
+                        1413.0,
+                        532.0
+                    ],
+                    [
+                        1413.0,
+                        619.0
+                    ],
+                    [
+                        213.0,
+                        619.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.6353179812431335,
+                "coordinate": [
+                    1226,
+                    631,
+                    1411,
+                    674
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1226.0,
+                        631.0
+                    ],
+                    [
+                        1411.0,
+                        631.0
+                    ],
+                    [
+                        1411.0,
+                        674.0
+                    ],
+                    [
+                        1226.0,
+                        674.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.7421057820320129,
+                "coordinate": [
+                    513,
+                    706,
+                    1069,
+                    748
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        513.0,
+                        706.0
+                    ],
+                    [
+                        1069.0,
+                        706.0
+                    ],
+                    [
+                        1069.0,
+                        748.0
+                    ],
+                    [
+                        513.0,
+                        748.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.8892464637756348,
+                "coordinate": [
+                    562,
+                    756,
+                    1346,
+                    1177
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        562.0,
+                        756.0
+                    ],
+                    [
+                        1346.0,
+                        756.0
+                    ],
+                    [
+                        1346.0,
+                        1177.0
+                    ],
+                    [
+                        562.0,
+                        1177.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9193291068077087,
+                "coordinate": [
+                    209,
+                    1209,
+                    1387,
+                    1337
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        208.07891845703125,
+                        1219.1546630859375
+                    ],
+                    [
+                        1386.000244140625,
+                        1209.0001220703125
+                    ],
+                    [
+                        1387.0087890625,
+                        1325.9913330078125
+                    ],
+                    [
+                        209.08746337890625,
+                        1336.1458740234375
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9479908347129822,
+                "coordinate": [
+                    207,
+                    1348,
+                    1398,
+                    1560
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        207.0,
+                        1348.0
+                    ],
+                    [
+                        1398.0,
+                        1348.0
+                    ],
+                    [
+                        1398.0,
+                        1560.0
+                    ],
+                    [
+                        207.0,
+                        1560.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9164924621582031,
+                "coordinate": [
+                    209,
+                    1573,
+                    1379,
+                    1658
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        209.0,
+                        1573.0
+                    ],
+                    [
+                        1379.0,
+                        1573.0
+                    ],
+                    [
+                        1379.0,
+                        1658.0
+                    ],
+                    [
+                        209.0,
+                        1658.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9049892425537109,
+                "coordinate": [
+                    208,
+                    1668,
+                    1376,
+                    1754
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        208.0,
+                        1668.0
+                    ],
+                    [
+                        1376.0,
+                        1668.0
+                    ],
+                    [
+                        1376.0,
+                        1754.0
+                    ],
+                    [
+                        208.0,
+                        1754.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8185290098190308,
+                "coordinate": [
+                    210,
+                    1770,
+                    449,
+                    1811
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        210.0,
+                        1770.0
+                    ],
+                    [
+                        449.0,
+                        1770.0
+                    ],
+                    [
+                        449.0,
+                        1811.0
+                    ],
+                    [
+                        210.0,
+                        1811.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9195951819419861,
+                "coordinate": [
+                    209,
+                    1822,
+                    1408,
+                    1912
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        209.0,
+                        1822.0
+                    ],
+                    [
+                        1408.0,
+                        1822.0
+                    ],
+                    [
+                        1408.0,
+                        1912.0
+                    ],
+                    [
+                        209.0,
+                        1912.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.829046368598938,
+                "coordinate": [
+                    231,
+                    1996,
+                    454,
+                    2035
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        231.0,
+                        1996.0
+                    ],
+                    [
+                        454.0,
+                        1996.0
+                    ],
+                    [
+                        454.0,
+                        2035.0
+                    ],
+                    [
+                        231.0,
+                        2035.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8447344303131104,
+                "coordinate": [
+                    1120,
+                    1993,
+                    1316,
+                    2032
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        1120.0,
+                        1993.0
+                    ],
+                    [
+                        1316.0,
+                        1993.0
+                    ],
+                    [
+                        1316.0,
+                        2032.0
+                    ],
+                    [
+                        1120.0,
+                        2032.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

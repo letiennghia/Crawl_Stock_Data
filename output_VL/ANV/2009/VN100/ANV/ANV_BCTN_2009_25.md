@@ -1,0 +1,12 @@
+
+
+
+### 2. Ông Nguyễn Duy Nhút
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Họ và tên</td><td style='text-align: center; word-wrap: break-word;'>Nguyễn Duy Nhất</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Chức vụ</td><td style='text-align: center; word-wrap: break-word;'>Phó chủ tịch</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Giới tính</td><td style='text-align: center; word-wrap: break-word;'>Nam</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Ngày tháng năm sinh</td><td style='text-align: center; word-wrap: break-word;'>24/05/1960</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Trình độ chuyên môn</td><td style='text-align: center; word-wrap: break-word;'>Thạc sự kinh tế</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Số cổ phiếu nắm giữ</td><td style='text-align: center; word-wrap: break-word;'>10.000</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Người có liên quan nắm giữ cổ phiếu</td><td style='text-align: center; word-wrap: break-word;'>Không có</td></tr></table>
+
+### 3.Ông Doãn Chí Thanh
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Họ và tên</td><td style='text-align: center; word-wrap: break-word;'>Doãn Chí Thanh</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Chức vụ</td><td style='text-align: center; word-wrap: break-word;'>Thành viên</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Giới tính</td><td style='text-align: center; word-wrap: break-word;'>Nam</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Ngày tháng năm sinh</td><td style='text-align: center; word-wrap: break-word;'>01/01/1983</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Trình độ chuyên môn</td><td style='text-align: center; word-wrap: break-word;'>Cử nhân Công nghệ thông tin</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Số cổ phiếu nắm giữ</td><td style='text-align: center; word-wrap: break-word;'>9.000.000</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Người có liên quan nắm giữ cổ phiếu</td><td style='text-align: center; word-wrap: break-word;'></td></tr></table>

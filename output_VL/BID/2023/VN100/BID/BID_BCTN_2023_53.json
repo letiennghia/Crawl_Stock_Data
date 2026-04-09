@@ -1,0 +1,475 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2340,
+    "height": 1654,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "BIDV",
+            "block_bbox": [
+                102,
+                85,
+                344,
+                174
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1374,
+            "global_group_id": 1374,
+            "block_polygon_points": [
+                [
+                    102.0,
+                    85.0
+                ],
+                [
+                    344.0,
+                    85.0
+                ],
+                [
+                    344.0,
+                    174.0
+                ],
+                [
+                    102.0,
+                    174.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                109,
+                352,
+                395,
+                500
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1375,
+            "global_group_id": 1375,
+            "block_polygon_points": [
+                [
+                    109.0,
+                    352.0
+                ],
+                [
+                    395.0,
+                    352.0
+                ],
+                [
+                    395.0,
+                    500.0
+                ],
+                [
+                    109.0,
+                    500.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "ĐÁNH GIÁ CỦA\nHỘI ĐỒNG QUẢN TRỊ",
+            "block_bbox": [
+                104,
+                516,
+                577,
+                644
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "global_block_id": 1376,
+            "global_group_id": 1376,
+            "block_polygon_points": [
+                [
+                    104.0,
+                    516.0
+                ],
+                [
+                    577.0,
+                    516.0
+                ],
+                [
+                    577.0,
+                    644.0
+                ],
+                [
+                    104.0,
+                    644.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Đánh giá của HDQT về các mặt hoạt động năm 2023",
+            "block_bbox": [
+                104,
+                694,
+                686,
+                729
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "global_block_id": 1377,
+            "global_group_id": 1377,
+            "block_polygon_points": [
+                [
+                    104.0,
+                    694.0
+                ],
+                [
+                    686.0,
+                    694.0
+                ],
+                [
+                    686.0,
+                    729.0
+                ],
+                [
+                    104.0,
+                    729.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Đánh giá hoạt động của Ban Điều hành",
+            "block_bbox": [
+                103,
+                741,
+                684,
+                776
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "global_block_id": 1378,
+            "global_group_id": 1378,
+            "block_polygon_points": [
+                [
+                    103.0,
+                    741.0
+                ],
+                [
+                    684.0,
+                    741.0
+                ],
+                [
+                    684.0,
+                    776.0
+                ],
+                [
+                    103.0,
+                    776.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Định hướng hoạt động của HDQT năm 2024",
+            "block_bbox": [
+                103,
+                789,
+                685,
+                822
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "global_block_id": 1379,
+            "global_group_id": 1379,
+            "block_polygon_points": [
+                [
+                    103.0,
+                    789.0
+                ],
+                [
+                    685.0,
+                    789.0
+                ],
+                [
+                    685.0,
+                    822.0
+                ],
+                [
+                    103.0,
+                    822.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                729,
+                2,
+                2340,
+                1654
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 1380,
+            "global_group_id": 1380,
+            "block_polygon_points": [
+                [
+                    729.0,
+                    2.0
+                ],
+                [
+                    2344.0,
+                    2.0
+                ],
+                [
+                    2344.0,
+                    1656.0
+                ],
+                [
+                    729.0,
+                    1656.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6492062211036682,
+                "coordinate": [
+                    102,
+                    85,
+                    344,
+                    174
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        102.0,
+                        85.0
+                    ],
+                    [
+                        344.0,
+                        85.0
+                    ],
+                    [
+                        344.0,
+                        174.0
+                    ],
+                    [
+                        102.0,
+                        174.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.5006101131439209,
+                "coordinate": [
+                    109,
+                    352,
+                    395,
+                    500
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        109.0,
+                        352.0
+                    ],
+                    [
+                        395.0,
+                        352.0
+                    ],
+                    [
+                        395.0,
+                        500.0
+                    ],
+                    [
+                        109.0,
+                        500.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6643862724304199,
+                "coordinate": [
+                    104,
+                    516,
+                    577,
+                    644
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        104.0,
+                        516.0
+                    ],
+                    [
+                        577.0,
+                        516.0
+                    ],
+                    [
+                        577.0,
+                        644.0
+                    ],
+                    [
+                        104.0,
+                        644.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7204161882400513,
+                "coordinate": [
+                    104,
+                    694,
+                    686,
+                    729
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        104.0,
+                        694.0
+                    ],
+                    [
+                        686.0,
+                        694.0
+                    ],
+                    [
+                        686.0,
+                        729.0
+                    ],
+                    [
+                        104.0,
+                        729.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7553108334541321,
+                "coordinate": [
+                    103,
+                    741,
+                    684,
+                    776
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        103.0,
+                        741.0
+                    ],
+                    [
+                        684.0,
+                        741.0
+                    ],
+                    [
+                        684.0,
+                        776.0
+                    ],
+                    [
+                        103.0,
+                        776.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7304537296295166,
+                "coordinate": [
+                    103,
+                    789,
+                    685,
+                    822
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        103.0,
+                        789.0
+                    ],
+                    [
+                        685.0,
+                        789.0
+                    ],
+                    [
+                        685.0,
+                        822.0
+                    ],
+                    [
+                        103.0,
+                        822.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.7788286209106445,
+                "coordinate": [
+                    729,
+                    2,
+                    2340,
+                    1654
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        729.0,
+                        2.0
+                    ],
+                    [
+                        2344.0,
+                        2.0
+                    ],
+                    [
+                        2344.0,
+                        1656.0
+                    ],
+                    [
+                        729.0,
+                        1656.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

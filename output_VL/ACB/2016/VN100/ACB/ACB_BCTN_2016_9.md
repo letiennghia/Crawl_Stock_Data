@@ -1,0 +1,15 @@
+- Định hướng Chiến lược phát triển của ACB giai đoạn 2011-2015 và tầm nhìn 2020 được ban hành; trong đó nhân mạnh đến việc chuyển đổi hệ thống quản trị điều hành phù hợp với các quy định pháp luật Việt Nam và hướng đến áp dụng các thông lệ quốc tế tốt nhất.
+
+- Đưa vào hoạt động Trung tâm Dữ liệu đang mô-đun (enterprise module data center), xây dựng theo tiêu chuẩn quốc tế đầu tiên tại Việt Nam.
+
+- Trung tâm Vàng ACB là đơn vị đầu tiên trong ngành cùng một lúc được Tổ chức QMS Australia chứng nhận hệ thống quản lý chất lượng đáp ứng yêu cầu tiêu chuẩn ISO 9001:2008 và Tổ chức Công nhận Việt Nam (Accreditation of Vietnam) công nhận năng lực thử nghiệm và hiệu chuẩn (xác định hàm lượng vàng) đáp ứng yêu cầu tiêu chuẩn ISO/IEC 17025:2005.
+
+- Sự cố tháng 8/2012 đã tác động đáng kể đến hoạt động của ACB, đặc biệt là huy động và kinh doanh vàng. ACB đã ứng phó tốt sự cố rút tiền xảy ra trong tuần cuối tháng 8, nhanh chóng khôi phục toàn bộ số dư huy động tiết kiệm VND chỉ trong thời gian ngắn sau đó, và thực thi quyết liệt việc cắt giảm chi phí trong 6 tháng cuối năm.
+
+- Năm 2013, hiệu quả hoạt động không như kỳ vọng nhưng ACB vẫn có mức độ tăng trưởng khả quan về huy động và cho vay, lần lượt là 10,3% và 4,3%. Nợ xấu của ACB được kiểm soát dưới mức 3%. Quy mô nhân sự cũng được tinh giản. ACB thực hiện lộ trình tái cơ cấu 2013 - 2015 theo quy định của Ngân hàng Nhà nước.
+
+Năm 2014, ACB nâng cấp hệ nghiệp vụ ngân hàng lối (core banking) từ TCBS lên DNA, thay thế hệ cũ đã sử dụng 14 năm, hoàn tất việc thay đổi logo, bảng hiệu mặt tiền trụ sở cho toàn bộ các chi nhánh và phòng giao dịch và ATM theo nhận diện thương hiệu mới (công bố ngày 05/01/2015), hoàn tất việc xây dựng khung quản lý rủi rọ nhằm đáp ứng đầy đủ các quy định mới về tỷ lệ đảm bảo an toàn, quy mô và hiệu quả hoạt động kinh doanh của kênh phân phối được nâng cao.
+
+- Năm 2015, ACB hoàn thành các dự án chiến lược như (i) tái cấu trúc kênh phân phối, (ii) hình thành trung tâm thanh toán nội địa (giai đoạn 1), (iii) hoàn thiện phương thức đánh giá hiệu quả hoạt động đơn vị và nhân viên Hội sở, đồng thời cho khởi tạo và triển khai các dự án ngân hàng giao dịch (transaction banking), ngân hàng ưu tiên (privilege banking), quản lý bán hàng (customer management system), v.v. nhằm nâng cao năng lực cạnh tranh.
+
+- Trong năm 2016, ACB đã hoàn thành theo tiến độ nhiều hạng mục của các dự án công nghệ để hỗ trợ hoạt động kinh doanh, vận hành và quản lý hệ thống, tiêu biểu như chuyển đổi hệ thống core chứng khoán ACBS; cải tiến các chương trình CLMS, CRM, ACMS, ELM, PASS để hỗ trợ việc tính gọn quy trình nghiệp vụ; nâng cấp hệ thống các máy ATM, website ACB, gia tăng tiến ích, dịch vụ thanh toán cho khách hàng, v.v. Ngoài ra, ACB tiếp tục hoàn thành các dự án chiến lược như (i) ngân hàng giao dịch, (ii) ngân hàng ưu tiên, (iii) xây dựng quy trình kinh doanh – ACMS (giai đoạn 1), v.v. nhằm nâng cao năng lực cạnh tranh. Và đặc biệt, trong năm ACB tái cấu trúc thành công tổ chức và mô hình hoạt động, hiệu quả hoạt động của kênh phân phối tăng, tổ chức tại Hội sở được tính gọn hơn.

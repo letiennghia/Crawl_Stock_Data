@@ -1,0 +1,21 @@
+Tài sản đảm bảo: Giấy chứng nhận quyền sử dụng đất số AN721516, AN721517 với tổng diện tích 128.339,6 m² tại xã Phú Chánh, huyện Tân Uyên, tỉnh Bình Dương; Giấy chứng nhận quyền sử dụng đất số AN721610 với điện tích 102.773,9 m² tại phường Định Hòa, thị xã Thủ Dầu Một, tỉnh Bình Dương; Giấy chứng nhận quyền sử dụng đất số BI645776, BI645777 với tổng diện tích 32.619,4 m² tại phường Hòa Phú, thị xã Thủ Dầu Một, tỉnh Bình Dương.
+
+(x) Trái phiếu phát hành cho Ngân hàng TMCP Xăng dầu Petrolimex, Công ty TNHH Bảo hiểm nhân thọ ALA Việt Nam, Ngân hàng TMCP Bản Việt, Công ty TNHH MTV Quản lý quỹ Ngân hàng TMCP Công thương Việt Nam, Vietnam Debt Fund SPC, Công ty TNHH Bảo hiểm Nhân thọ Sun Life Việt Nam và Ngân hàng TMCP Quân đội - Chi nhánh Bình Dương.
+
+Trái phiếu phát hành là trái phiếu có bảo đảm với các điều khoản và điều kiện: Tổng mệnh giá phát hành 1.000 tỷ VND, khối lượng phát hành thành công là 920 tỷ VND. Trái phiếu được phát hành dưới hình thức ghi sở có mệnh giá 1 tỷ VND/trái phiếu, giá phát hành bằng 100% mệnh giá, đáo hạn vào ngày 12 tháng 5 năm 2022, thanh toán gốc định kỳ 12 tháng kể từ ngày 12 tháng 5 năm 2018. Trái phiếu có lãi suất cố định kỳ tính lãi đầu tiên là 10,5%/năm, các năm sau lãi suất được tính bằng trung bình cộng lãi suất tiết kiệm cá nhân kỳ hạn 12 tháng trả lãi sau của Ngân hàng TMCP Đầu tư và Phát triển Việt Nam - Chi nhánh Bình Dương, Ngân hàng TMCP Công thương Việt Nam - Chi nhánh Bình Dương, Ngân hàng TMCP Ngoại thương Việt Nam - Chi nhánh Bình Dương và Ngân hàng Nông nghiệp và Phát triển Nông thông Việt Nam - Chi nhánh Bình Dương công biên độ tùy theo loại trái phiếu:
+
+- Trái phiếu 1 có tổng mệnh giá phát hành 500 tỷ VND, khối lượng phát hành thành công là 420 tỷ VND nhằm bổ sung vốn đầu tư dự án Khu công nghiệp Bàu Bàng, lãi suất được tính bằng trung bình công lãi suất công biên độ 3,5%/năm
+
+- Trái phiêu 2 có tổng mệnh giá phát hành 500 tỷ VND, khối lượng phát hành thành công là 500 tỷ VND nhằm tái cơ cấu các khoản nợ của Tổng Công ty, lãi suất được tính bằng trung bình cộng lãi suất cộng biên độ 3,8%/năm.
+
+Tài sản đảm bảo:
+
+Quyền sử dụng đất số AN721598, AN721512 có tổng diện tích 129.398,90 m² tại xã Phú Chánh, huyện Tân Uyên và xã Phú Mỹ, thành phố Thủ Dầu Một, tinh Bình Dương theo Hợp đồng thế chấp số 03/2017/83576/HDBĐ ngày 10 tháng 05 năm 2017 và các phụ lục hợp đồng, giá trị tài sản thế chấp là 1.045.559 triệu VND;
+
+Quyền sử dụng đất số AN721588 có diện tích 105.240,00 m² tại xã Phú Chánh, huyện Tân Uyên và xã Phú Mỹ, thành phố Thủ Dầu Một, tỉnh Bình Dương theo Hợp đồng thế chấp số 04/2017/83576/HDBĐ ngày 31 tháng 10 năm 2017 và các phụ lục hợp đồng, giá trị tài sản thế chấp là 583.917 triệu VND.
+
+(xi) Trái phiếu phát hành cho Ngân hàng TMCP Tiên Phong và Ngân hàng TMCP Quốc tế - Chi nhánh thành phố Hồ Chí Minh.
+
+Trái phiếu phát hành là trái phiếu có bảo đảm với các điều khoản và điều kiện: Tổng mệnh giá phát hành 800 tỷ VND dùng để tái cơ cấu các khoản nợ của Tổng Công ty. Trái phiếu được phát hành dưới hình thức ghi sổ có mệnh giá 1 tỷ VND/trái phiếu, giá phát hành bằng 100% mệnh giá, đáo hạn vào ngày 15 tháng 5 năm 2022, thanh toán gốc định kỳ 12 tháng kẻ từ ngày 15 tháng 5 năm 2018. Trái phiếu có kỳ tính lãi định kỳ 03 tháng 1 lần kẻ từ ngày phát hành, lãi suất cổ định cho 02 kỳ tính lãi đầu tiên là 10,5%/năm, các năm sau lãi suất được tính bằng trung bình cộng lãi suất tiết kiệm cá nhân kỳ hạn 12 tháng trả lãi sau của Ngân hàng TMCP Đầu tư và Phát triển Việt Nam – Sở giao dịch, Ngân hàng TMCP Công thương Việt Nam – Sở giao dịch, Ngân hàng TMCP Quốc tế - Chi nhánh thành phố Hồ Chí Minh và Ngân hàng TMCP Tiên Phong – Hội sở chính cộng biên độ 4%/năm.
+
+Tài sản đảm bảo: Quyền sử dụng đất số AN721576 và AN721580 có tổng diện tích 143.995,00 m² tại phường Hòa Phú, thành phố Thủ Dầu Một, tinh Bình Dương; Quyền sử dụng đất số AN721580 có diện tích 30.342,00 m² tại phường Phú Mỹ, thành phố Thủ Dầu Một, tinh Bình Dương và các tài sản gắn liền với đất và toàn bộ các quyền và lợi ích gắn liền với hoặc phát sinh liên quan đến tài sản gắn liền với đất được thể chấp nêu trên. Tài sản đảm bảo được định giá 1.150,778 triệu VND.

@@ -1,0 +1,223 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 992,
+    "height": 1403,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "Chênh lệch bình quân giữa lãi suất cho vay và chi phí vốn (NIM) là 2,84% (2013: 2,92%); ROE đạt 7,79% (2013: 7,59%); ROA đạt 0,65% (2013: 0,67%).",
+            "block_bbox": [
+                139,
+                110,
+                856,
+                168
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 577,
+            "global_group_id": 577,
+            "block_polygon_points": [
+                [
+                    139.0,
+                    110.0
+                ],
+                [
+                    856.0,
+                    110.0
+                ],
+                [
+                    856.0,
+                    168.0
+                ],
+                [
+                    139.0,
+                    168.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2014",
+            "block_bbox": [
+                149,
+                1224,
+                286,
+                1247
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 578,
+            "global_group_id": 578,
+            "block_polygon_points": [
+                [
+                    149.0,
+                    1224.0
+                ],
+                [
+                    285.0,
+                    1224.0
+                ],
+                [
+                    285.0,
+                    1246.0
+                ],
+                [
+                    149.0,
+                    1246.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 49 of 57",
+            "block_bbox": [
+                751,
+                1219,
+                860,
+                1243
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 579,
+            "global_group_id": 579,
+            "block_polygon_points": [
+                [
+                    751.0,
+                    1219.0
+                ],
+                [
+                    859.0,
+                    1219.0
+                ],
+                [
+                    859.0,
+                    1242.0
+                ],
+                [
+                    751.0,
+                    1242.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8134781122207642,
+                "coordinate": [
+                    139,
+                    110,
+                    856,
+                    168
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        139.0,
+                        110.0
+                    ],
+                    [
+                        856.0,
+                        110.0
+                    ],
+                    [
+                        856.0,
+                        168.0
+                    ],
+                    [
+                        139.0,
+                        168.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8171920776367188,
+                "coordinate": [
+                    149,
+                    1224,
+                    286,
+                    1247
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        149.0,
+                        1224.0
+                    ],
+                    [
+                        285.0,
+                        1224.0
+                    ],
+                    [
+                        285.0,
+                        1246.0
+                    ],
+                    [
+                        149.0,
+                        1246.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8054423332214355,
+                "coordinate": [
+                    751,
+                    1219,
+                    860,
+                    1243
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        751.0,
+                        1219.0
+                    ],
+                    [
+                        859.0,
+                        1219.0
+                    ],
+                    [
+                        859.0,
+                        1242.0
+                    ],
+                    [
+                        751.0,
+                        1242.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

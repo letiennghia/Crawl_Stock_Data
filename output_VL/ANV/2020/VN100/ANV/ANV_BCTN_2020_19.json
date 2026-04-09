@@ -1,0 +1,1357 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "Tình hình thay đổi vốn đầu tư của chủ sở hữu trong năm 2020, Công ty không phát hành thêm cổ phiếu.",
+            "block_bbox": [
+                218,
+                143,
+                1449,
+                229
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 183,
+            "global_group_id": 183,
+            "block_polygon_points": [
+                [
+                    218.0,
+                    143.0
+                ],
+                [
+                    1449.0,
+                    143.0
+                ],
+                [
+                    1449.0,
+                    229.0
+                ],
+                [
+                    218.0,
+                    229.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Giao dịch cổ phiếu quỹ: Tính đến 31/12/2020, số lượng cổ phiếu quỹ của Công ty là 411.750 cổ phiếu (tương đương 10,252 tỷ đồng). Trong năm 2020, Công ty không mua cổ phiếu quỹ.",
+            "block_bbox": [
+                218,
+                237,
+                1451,
+                367
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 184,
+            "global_group_id": 184,
+            "block_polygon_points": [
+                [
+                    218.0,
+                    237.0
+                ],
+                [
+                    1451.0,
+                    237.0
+                ],
+                [
+                    1451.0,
+                    367.0
+                ],
+                [
+                    218.0,
+                    367.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Các chứng khoản khác: Không có.",
+            "block_bbox": [
+                221,
+                372,
+                770,
+                415
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "global_block_id": 185,
+            "global_group_id": 185,
+            "block_polygon_points": [
+                [
+                    221.0,
+                    372.0
+                ],
+                [
+                    770.0,
+                    372.0
+                ],
+                [
+                    770.0,
+                    415.0
+                ],
+                [
+                    221.0,
+                    415.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "6. Báo cáo tác động liên quan đến môi trường và xã hội của công ty:",
+            "block_bbox": [
+                199,
+                425,
+                1266,
+                469
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "global_block_id": 186,
+            "global_group_id": 186,
+            "block_polygon_points": [
+                [
+                    199.0,
+                    425.0
+                ],
+                [
+                    1266.0,
+                    425.0
+                ],
+                [
+                    1266.0,
+                    469.0
+                ],
+                [
+                    199.0,
+                    469.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Quản lý nguồn nguyên vật liệu",
+            "block_bbox": [
+                222,
+                477,
+                729,
+                520
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 4,
+            "global_block_id": 187,
+            "global_group_id": 187,
+            "block_polygon_points": [
+                [
+                    222.0,
+                    477.0
+                ],
+                [
+                    729.0,
+                    477.0
+                ],
+                [
+                    729.0,
+                    520.0
+                ],
+                [
+                    222.0,
+                    520.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Tổng lượng nguyên vật liệu được sử dụng để sản xuất và đóng gói các sản phẩm và dịch vụ chính của tổ chức trong năm 2020: Giấy đóng thùng 5.745.538 kg và hạt nhựa 680.325 kg.",
+            "block_bbox": [
+                188,
+                527,
+                1450,
+                656
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5,
+            "global_block_id": 188,
+            "global_group_id": 188,
+            "block_polygon_points": [
+                [
+                    188.0,
+                    527.0
+                ],
+                [
+                    1450.0,
+                    527.0
+                ],
+                [
+                    1450.0,
+                    656.0
+                ],
+                [
+                    188.0,
+                    656.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Tỷ lệ % nguyên vật liệu được tái chế được sử dụng để sản xuất và đóng gói các sản phẩm chính của tổ chức trong năm: 3,78% (25.765 kg / 680.325 kg)",
+            "block_bbox": [
+                189,
+                664,
+                1449,
+                751
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6,
+            "global_block_id": 189,
+            "global_group_id": 189,
+            "block_polygon_points": [
+                [
+                    189.0,
+                    664.0
+                ],
+                [
+                    1449.0,
+                    664.0
+                ],
+                [
+                    1449.0,
+                    751.0
+                ],
+                [
+                    189.0,
+                    751.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Báo cáo tiêu thụ năng lượng",
+            "block_bbox": [
+                222,
+                759,
+                690,
+                802
+            ],
+            "block_id": 7,
+            "block_order": 8,
+            "group_id": 7,
+            "global_block_id": 190,
+            "global_group_id": 190,
+            "block_polygon_points": [
+                [
+                    222.0,
+                    759.0
+                ],
+                [
+                    690.0,
+                    759.0
+                ],
+                [
+                    690.0,
+                    802.0
+                ],
+                [
+                    222.0,
+                    802.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Trong năm 2020, Công ty luôn thực hiện các chính sách tiết kiệm nguồn năng lượng như điện, xăng, dầu với mục đích vừa tiết kiệm chỉ phí cho công ty và cả tiết kiệm tài nguyên cho quốc gia, bảo vệ môi trường. Với các sáng kiến tiết kiệm năng lượng của công ty như:",
+            "block_bbox": [
+                188,
+                809,
+                1451,
+                977
+            ],
+            "block_id": 8,
+            "block_order": 9,
+            "group_id": 8,
+            "global_block_id": 191,
+            "global_group_id": 191,
+            "block_polygon_points": [
+                [
+                    188.0,
+                    809.0
+                ],
+                [
+                    1451.0,
+                    809.0
+                ],
+                [
+                    1451.0,
+                    977.0
+                ],
+                [
+                    188.0,
+                    977.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Sử dụng một số thiết bị tiết kiệm năng lượng tại văn phòng, xí nghiệp.",
+            "block_bbox": [
+                235,
+                983,
+                1315,
+                1028
+            ],
+            "block_id": 9,
+            "block_order": 10,
+            "group_id": 9,
+            "global_block_id": 192,
+            "global_group_id": 192,
+            "block_polygon_points": [
+                [
+                    235.0,
+                    983.0
+                ],
+                [
+                    1315.0,
+                    983.0
+                ],
+                [
+                    1315.0,
+                    1028.0
+                ],
+                [
+                    235.0,
+                    1028.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Sử dụng bóng đèn LED",
+            "block_bbox": [
+                236,
+                1035,
+                644,
+                1077
+            ],
+            "block_id": 10,
+            "block_order": 11,
+            "group_id": 10,
+            "global_block_id": 193,
+            "global_group_id": 193,
+            "block_polygon_points": [
+                [
+                    236.0,
+                    1035.0
+                ],
+                [
+                    644.0,
+                    1035.0
+                ],
+                [
+                    644.0,
+                    1077.0
+                ],
+                [
+                    236.0,
+                    1077.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Quán triệt, xây dựng cho nhân viên, cán bộ, người lao động thói quen tiết kiệm điện.",
+            "block_bbox": [
+                188,
+                1087,
+                1448,
+                1173
+            ],
+            "block_id": 11,
+            "block_order": 12,
+            "group_id": 11,
+            "global_block_id": 194,
+            "global_group_id": 194,
+            "block_polygon_points": [
+                [
+                    188.0,
+                    1087.0
+                ],
+                [
+                    1448.0,
+                    1087.0
+                ],
+                [
+                    1448.0,
+                    1173.0
+                ],
+                [
+                    188.0,
+                    1173.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Tổng năng lượng sử dụng phân loại theo từng nguồn</td><td>2020</td></tr><tr><td>1</td><td>Điện (Kwh)</td><td>131,793,394</td></tr><tr><td>2</td><td>Gas (kg)</td><td>28,603</td></tr></table>",
+            "block_bbox": [
+                305,
+                1210,
+                1264,
+                1404
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "global_block_id": 195,
+            "global_group_id": 195,
+            "block_polygon_points": [
+                [
+                    305.0,
+                    1210.0
+                ],
+                [
+                    1264.0,
+                    1210.0
+                ],
+                [
+                    1264.0,
+                    1404.0
+                ],
+                [
+                    305.0,
+                    1404.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Báo cáo tiêu thụ nước",
+            "block_bbox": [
+                221,
+                1452,
+                596,
+                1493
+            ],
+            "block_id": 13,
+            "block_order": 13,
+            "group_id": 13,
+            "global_block_id": 196,
+            "global_group_id": 196,
+            "block_polygon_points": [
+                [
+                    221.0,
+                    1452.0
+                ],
+                [
+                    596.0,
+                    1452.0
+                ],
+                [
+                    596.0,
+                    1493.0
+                ],
+                [
+                    221.0,
+                    1493.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Với đặc thù hoạt động của công ty, lượng nước công ty sử dụng cho các hoạt động như nuôi trồng cá tra, cá rô; sử dụng trong hoạt động chế biến các sản phẩm chính của công ty; sử dụng trong hoạt động chế biến thức ăn cho cá và sử dụng nước cho sinh hoạt.",
+            "block_bbox": [
+                186,
+                1507,
+                1449,
+                1673
+            ],
+            "block_id": 14,
+            "block_order": 14,
+            "group_id": 14,
+            "global_block_id": 197,
+            "global_group_id": 197,
+            "block_polygon_points": [
+                [
+                    186.0,
+                    1507.0
+                ],
+                [
+                    1449.0,
+                    1507.0
+                ],
+                [
+                    1449.0,
+                    1673.0
+                ],
+                [
+                    186.0,
+                    1673.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Song song với chính sách tiết kiệm năng lượng, Công ty cũng có các hoạt động, chính sách tiết kiệm nguồn nước sử dụng. Nguồn cung cấp nước chủ yếu của công ty là từ nguồn nước giếng. Lượng nước sử dụng cho sản xuất và sinh hoạt của Công ty trung bình là 410 m³/ngày.",
+            "block_bbox": [
+                185,
+                1683,
+                1449,
+                1850
+            ],
+            "block_id": 15,
+            "block_order": 15,
+            "group_id": 15,
+            "global_block_id": 198,
+            "global_group_id": 198,
+            "block_polygon_points": [
+                [
+                    185.0,
+                    1683.0
+                ],
+                [
+                    1449.0,
+                    1683.0
+                ],
+                [
+                    1449.0,
+                    1850.0
+                ],
+                [
+                    185.0,
+                    1850.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Tuan thủ pháp luật về bảo vệ môi trường: Trong năm công ty không vi phạm luật và các quy định về môi trường.",
+            "block_bbox": [
+                215,
+                1856,
+                1446,
+                1941
+            ],
+            "block_id": 16,
+            "block_order": 16,
+            "group_id": 16,
+            "global_block_id": 199,
+            "global_group_id": 199,
+            "block_polygon_points": [
+                [
+                    215.0,
+                    1856.0
+                ],
+                [
+                    1446.0,
+                    1856.0
+                ],
+                [
+                    1446.0,
+                    1941.0
+                ],
+                [
+                    215.0,
+                    1941.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Chính sách liên quan đến người lao động:",
+            "block_bbox": [
+                216,
+                1949,
+                880,
+                1993
+            ],
+            "block_id": 17,
+            "block_order": 17,
+            "group_id": 17,
+            "global_block_id": 200,
+            "global_group_id": 200,
+            "block_polygon_points": [
+                [
+                    216.0,
+                    1949.0
+                ],
+                [
+                    880.0,
+                    1949.0
+                ],
+                [
+                    880.0,
+                    1993.0
+                ],
+                [
+                    216.0,
+                    1993.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Hiện nay, Công ty có tổng cộng 5.978 người lao động với thu nhập bình quân đạt 6.099.000 đồng/người/tháng. Cơ cấu nhân sự của Công ty như sau:",
+            "block_bbox": [
+                187,
+                2000,
+                1446,
+                2088
+            ],
+            "block_id": 18,
+            "block_order": 18,
+            "group_id": 18,
+            "global_block_id": 201,
+            "global_group_id": 201,
+            "block_polygon_points": [
+                [
+                    187.0,
+                    2000.0
+                ],
+                [
+                    1446.0,
+                    2000.0
+                ],
+                [
+                    1446.0,
+                    2088.0
+                ],
+                [
+                    187.0,
+                    2088.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "19",
+            "block_bbox": [
+                794,
+                2175,
+                836,
+                2207
+            ],
+            "block_id": 19,
+            "block_order": null,
+            "group_id": 19,
+            "global_block_id": 202,
+            "global_group_id": 202,
+            "block_polygon_points": [
+                [
+                    794.0,
+                    2174.999755859375
+                ],
+                [
+                    835.0,
+                    2174.999755859375
+                ],
+                [
+                    835.0,
+                    2205.999755859375
+                ],
+                [
+                    794.0,
+                    2205.999755859375
+                ]
+            ]
+        },
+        {
+            "block_label": "seal",
+            "block_content": "",
+            "block_bbox": [
+                1532,
+                1029,
+                1593,
+                1247
+            ],
+            "block_id": 20,
+            "block_order": 19,
+            "group_id": 20,
+            "global_block_id": 203,
+            "global_group_id": 203,
+            "block_polygon_points": [
+                [
+                    1532.0,
+                    1029.0
+                ],
+                [
+                    1593.0,
+                    1029.0
+                ],
+                [
+                    1593.0,
+                    1247.0
+                ],
+                [
+                    1532.0,
+                    1247.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9011184573173523,
+                "coordinate": [
+                    218,
+                    143,
+                    1449,
+                    229
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        218.0,
+                        143.0
+                    ],
+                    [
+                        1449.0,
+                        143.0
+                    ],
+                    [
+                        1449.0,
+                        229.0
+                    ],
+                    [
+                        218.0,
+                        229.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.909688413143158,
+                "coordinate": [
+                    218,
+                    237,
+                    1451,
+                    367
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        218.0,
+                        237.0
+                    ],
+                    [
+                        1451.0,
+                        237.0
+                    ],
+                    [
+                        1451.0,
+                        367.0
+                    ],
+                    [
+                        218.0,
+                        367.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7912013530731201,
+                "coordinate": [
+                    221,
+                    372,
+                    770,
+                    415
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        221.0,
+                        372.0
+                    ],
+                    [
+                        770.0,
+                        372.0
+                    ],
+                    [
+                        770.0,
+                        415.0
+                    ],
+                    [
+                        221.0,
+                        415.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7072413563728333,
+                "coordinate": [
+                    199,
+                    425,
+                    1266,
+                    469
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        199.0,
+                        425.0
+                    ],
+                    [
+                        1266.0,
+                        425.0
+                    ],
+                    [
+                        1266.0,
+                        469.0
+                    ],
+                    [
+                        199.0,
+                        469.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6086352467536926,
+                "coordinate": [
+                    222,
+                    477,
+                    729,
+                    520
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        222.0,
+                        477.0
+                    ],
+                    [
+                        729.0,
+                        477.0
+                    ],
+                    [
+                        729.0,
+                        520.0
+                    ],
+                    [
+                        222.0,
+                        520.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9216351509094238,
+                "coordinate": [
+                    188,
+                    527,
+                    1450,
+                    656
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        188.0,
+                        527.0
+                    ],
+                    [
+                        1450.0,
+                        527.0
+                    ],
+                    [
+                        1450.0,
+                        656.0
+                    ],
+                    [
+                        188.0,
+                        656.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8866481184959412,
+                "coordinate": [
+                    189,
+                    664,
+                    1449,
+                    751
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        189.0,
+                        664.0
+                    ],
+                    [
+                        1449.0,
+                        664.0
+                    ],
+                    [
+                        1449.0,
+                        751.0
+                    ],
+                    [
+                        189.0,
+                        751.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6464889645576477,
+                "coordinate": [
+                    222,
+                    759,
+                    690,
+                    802
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        222.0,
+                        759.0
+                    ],
+                    [
+                        690.0,
+                        759.0
+                    ],
+                    [
+                        690.0,
+                        802.0
+                    ],
+                    [
+                        222.0,
+                        802.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9325478076934814,
+                "coordinate": [
+                    188,
+                    809,
+                    1451,
+                    977
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        188.0,
+                        809.0
+                    ],
+                    [
+                        1451.0,
+                        809.0
+                    ],
+                    [
+                        1451.0,
+                        977.0
+                    ],
+                    [
+                        188.0,
+                        977.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8232369422912598,
+                "coordinate": [
+                    235,
+                    983,
+                    1315,
+                    1028
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        235.0,
+                        983.0
+                    ],
+                    [
+                        1315.0,
+                        983.0
+                    ],
+                    [
+                        1315.0,
+                        1028.0
+                    ],
+                    [
+                        235.0,
+                        1028.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8119303584098816,
+                "coordinate": [
+                    236,
+                    1035,
+                    644,
+                    1077
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        236.0,
+                        1035.0
+                    ],
+                    [
+                        644.0,
+                        1035.0
+                    ],
+                    [
+                        644.0,
+                        1077.0
+                    ],
+                    [
+                        236.0,
+                        1077.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8847676515579224,
+                "coordinate": [
+                    188,
+                    1087,
+                    1448,
+                    1173
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        188.0,
+                        1087.0
+                    ],
+                    [
+                        1448.0,
+                        1087.0
+                    ],
+                    [
+                        1448.0,
+                        1173.0
+                    ],
+                    [
+                        188.0,
+                        1173.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9485182166099548,
+                "coordinate": [
+                    305,
+                    1210,
+                    1264,
+                    1404
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        305.0,
+                        1210.0
+                    ],
+                    [
+                        1264.0,
+                        1210.0
+                    ],
+                    [
+                        1264.0,
+                        1404.0
+                    ],
+                    [
+                        305.0,
+                        1404.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4237441122531891,
+                "coordinate": [
+                    221,
+                    1452,
+                    596,
+                    1493
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        221.0,
+                        1452.0
+                    ],
+                    [
+                        596.0,
+                        1452.0
+                    ],
+                    [
+                        596.0,
+                        1493.0
+                    ],
+                    [
+                        221.0,
+                        1493.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9364569187164307,
+                "coordinate": [
+                    186,
+                    1507,
+                    1449,
+                    1673
+                ],
+                "order": 14,
+                "polygon_points": [
+                    [
+                        186.0,
+                        1507.0
+                    ],
+                    [
+                        1449.0,
+                        1507.0
+                    ],
+                    [
+                        1449.0,
+                        1673.0
+                    ],
+                    [
+                        186.0,
+                        1673.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9400678277015686,
+                "coordinate": [
+                    185,
+                    1683,
+                    1449,
+                    1850
+                ],
+                "order": 15,
+                "polygon_points": [
+                    [
+                        185.0,
+                        1683.0
+                    ],
+                    [
+                        1449.0,
+                        1683.0
+                    ],
+                    [
+                        1449.0,
+                        1850.0
+                    ],
+                    [
+                        185.0,
+                        1850.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8941099047660828,
+                "coordinate": [
+                    215,
+                    1856,
+                    1446,
+                    1941
+                ],
+                "order": 16,
+                "polygon_points": [
+                    [
+                        215.0,
+                        1856.0
+                    ],
+                    [
+                        1446.0,
+                        1856.0
+                    ],
+                    [
+                        1446.0,
+                        1941.0
+                    ],
+                    [
+                        215.0,
+                        1941.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8611618876457214,
+                "coordinate": [
+                    216,
+                    1949,
+                    880,
+                    1993
+                ],
+                "order": 17,
+                "polygon_points": [
+                    [
+                        216.0,
+                        1949.0
+                    ],
+                    [
+                        880.0,
+                        1949.0
+                    ],
+                    [
+                        880.0,
+                        1993.0
+                    ],
+                    [
+                        216.0,
+                        1993.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9018181562423706,
+                "coordinate": [
+                    187,
+                    2000,
+                    1446,
+                    2088
+                ],
+                "order": 18,
+                "polygon_points": [
+                    [
+                        187.0,
+                        2000.0
+                    ],
+                    [
+                        1446.0,
+                        2000.0
+                    ],
+                    [
+                        1446.0,
+                        2088.0
+                    ],
+                    [
+                        187.0,
+                        2088.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7338899374008179,
+                "coordinate": [
+                    794,
+                    2175,
+                    836,
+                    2207
+                ],
+                "order": 19,
+                "polygon_points": [
+                    [
+                        794.0,
+                        2174.999755859375
+                    ],
+                    [
+                        835.0,
+                        2174.999755859375
+                    ],
+                    [
+                        835.0,
+                        2205.999755859375
+                    ],
+                    [
+                        794.0,
+                        2205.999755859375
+                    ]
+                ]
+            },
+            {
+                "cls_id": 20,
+                "label": "seal",
+                "score": 0.7733698487281799,
+                "coordinate": [
+                    1532,
+                    1029,
+                    1593,
+                    1247
+                ],
+                "order": 20,
+                "polygon_points": [
+                    [
+                        1532.0,
+                        1029.0
+                    ],
+                    [
+                        1593.0,
+                        1029.0
+                    ],
+                    [
+                        1593.0,
+                        1247.0
+                    ],
+                    [
+                        1532.0,
+                        1247.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

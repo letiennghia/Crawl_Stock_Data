@@ -1,0 +1,349 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1653,
+    "height": 2339,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                0,
+                962,
+                1653,
+                1954
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 2091,
+            "global_group_id": 2091,
+            "block_polygon_points": [
+                [
+                    0.0,
+                    962.0
+                ],
+                [
+                    1653.0,
+                    962.0
+                ],
+                [
+                    1653.0,
+                    1954.0
+                ],
+                [
+                    0.0,
+                    1954.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "NGÂN HÀNG TMCP ĐẦU TỪ VÀ PHÁT TRIỂN VIỆT NAM",
+            "block_bbox": [
+                497,
+                1897,
+                1531,
+                1955
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 2092,
+            "global_group_id": 2092,
+            "block_polygon_points": [
+                [
+                    497,
+                    1897
+                ],
+                [
+                    497,
+                    1954
+                ],
+                [
+                    1530,
+                    1954
+                ],
+                [
+                    1530,
+                    1897
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "TRỤ SỐ CHÍNH: Tháp BIDV, 194 Trần Quang Khải, Hoàn Kiểm, Hà Nội\nDIỆN THOẠI: 024 2220 5544\nHOTLINE: 19009247\nWEBSITE: https://www.bidv.comvn\nFACEBOOK FANPAGE: BIDVBankVietnam",
+            "block_bbox": [
+                497,
+                1967,
+                1383,
+                2136
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 2093,
+            "global_group_id": 2093,
+            "block_polygon_points": [
+                [
+                    497.0,
+                    1967.0
+                ],
+                [
+                    1383.0,
+                    1967.0
+                ],
+                [
+                    1383.0,
+                    2136.0
+                ],
+                [
+                    497.0,
+                    2136.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "BÁO CÁO THƯỜNG NIỆN BIDV 2023 ĐƯỢC ĐẰNG TẠI ĐIỂA CHÍ:\nhttps://www.bidv.com.vn/vn/quanhenhadautu/ hoặc quét mã QR code",
+            "block_bbox": [
+                452,
+                2148,
+                1369,
+                2217
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "global_block_id": 2094,
+            "global_group_id": 2094,
+            "block_polygon_points": [
+                [
+                    486.0,
+                    2148.0
+                ],
+                [
+                    1360.0,
+                    2148.0
+                ],
+                [
+                    1360.0,
+                    2216.0
+                ],
+                [
+                    486.0,
+                    2216.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                1391,
+                2063,
+                1520,
+                2189
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 2095,
+            "global_group_id": 2095,
+            "block_polygon_points": [
+                [
+                    1391.0,
+                    2063.0
+                ],
+                [
+                    1520.0,
+                    2063.0
+                ],
+                [
+                    1520.0,
+                    2189.0
+                ],
+                [
+                    1391.0,
+                    2189.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.3233737349510193,
+                "coordinate": [
+                    0,
+                    962,
+                    1653,
+                    1954
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        0.0,
+                        962.0
+                    ],
+                    [
+                        1653.0,
+                        962.0
+                    ],
+                    [
+                        1653.0,
+                        1954.0
+                    ],
+                    [
+                        0.0,
+                        1954.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4172168970108032,
+                "coordinate": [
+                    497,
+                    1897,
+                    1531,
+                    1955
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        497,
+                        1897
+                    ],
+                    [
+                        497,
+                        1954
+                    ],
+                    [
+                        1530,
+                        1954
+                    ],
+                    [
+                        1530,
+                        1897
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7449839115142822,
+                "coordinate": [
+                    497,
+                    1967,
+                    1383,
+                    2136
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        497.0,
+                        1967.0
+                    ],
+                    [
+                        1383.0,
+                        1967.0
+                    ],
+                    [
+                        1383.0,
+                        2136.0
+                    ],
+                    [
+                        497.0,
+                        2136.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7703357934951782,
+                "coordinate": [
+                    452,
+                    2148,
+                    1369,
+                    2217
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        486.0,
+                        2148.0
+                    ],
+                    [
+                        1360.0,
+                        2148.0
+                    ],
+                    [
+                        1360.0,
+                        2216.0
+                    ],
+                    [
+                        486.0,
+                        2216.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.5881585478782654,
+                "coordinate": [
+                    1391,
+                    2063,
+                    1520,
+                    2189
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1391.0,
+                        2063.0
+                    ],
+                    [
+                        1520.0,
+                        2063.0
+                    ],
+                    [
+                        1520.0,
+                        2189.0
+                    ],
+                    [
+                        1391.0,
+                        2189.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,601 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1700,
+    "height": 2200,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "aside_text",
+            "block_content": "NAM VIET CORPORATION",
+            "block_bbox": [
+                148,
+                1494,
+                195,
+                1975
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 12,
+            "global_group_id": 12,
+            "block_polygon_points": [
+                [
+                    148.0,
+                    1494.0
+                ],
+                [
+                    195.0,
+                    1494.0
+                ],
+                [
+                    195.0,
+                    1975.0
+                ],
+                [
+                    148.0,
+                    1975.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                220,
+                1,
+                837,
+                459
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 13,
+            "global_group_id": 13,
+            "block_polygon_points": [
+                [
+                    220.0,
+                    1.0
+                ],
+                [
+                    837.0,
+                    1.0
+                ],
+                [
+                    837.0,
+                    459.0
+                ],
+                [
+                    220.0,
+                    459.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Kính thừa quý cổ đông!",
+            "block_bbox": [
+                366,
+                503,
+                725,
+                548
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "global_block_id": 14,
+            "global_group_id": 14,
+            "block_polygon_points": [
+                [
+                    366.0,
+                    503.0
+                ],
+                [
+                    725.0,
+                    503.0
+                ],
+                [
+                    725.0,
+                    548.0
+                ],
+                [
+                    366.0,
+                    548.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Tiếp tục đà suy thoái kinh tế từ cuối năm 2008 trên toàn cầu đã ảnh hưởng mạnh đến tình hình xuất khẩu thủy sản Việt Nam nói chung và cá tra cá basa nói riêng. Năm 2009 xuất khẩu thủy sản Việt Nam là 1.216 tấn bằng 98% so năm trước, kim ngạch là 4.251 triệu USD bằng 94% so năm trước. Riêng đối với cá tra, basa sản lượng xuất khẩu đạt 607 nghìn tấn bằng 95% so năm trước, kim ngạch xuất khẩu đạt 1.343 triệu USD bằng 92% năm trước.",
+            "block_bbox": [
+                360,
+                579,
+                1487,
+                901
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "global_block_id": 15,
+            "global_group_id": 15,
+            "block_polygon_points": [
+                [
+                    360.0,
+                    579.0
+                ],
+                [
+                    1487.0,
+                    579.0
+                ],
+                [
+                    1487.0,
+                    901.0
+                ],
+                [
+                    360.0,
+                    901.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Trong cơn bảo suy thoái kinh tế toàn cầu thì Công ty Cổ phần Nam Việt bị ảnh hưởng nghiêm trọng thể hiện ở sự tụt giảm các đơn hàng, sản lượng xuất khẩu là 46 nghìn tấn bằng 49% năm trước, với kim ngạch là 85 triệu USD bằng 45% năm 2008. Riêng về kết quả kinh doanh đã bị lỗ 176 tỷ đồng",
+            "block_bbox": [
+                360,
+                930,
+                1486,
+                1162
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "global_block_id": 16,
+            "global_group_id": 16,
+            "block_polygon_points": [
+                [
+                    360.0,
+                    930.0
+                ],
+                [
+                    1486.0,
+                    930.0
+                ],
+                [
+                    1486.0,
+                    1162.0
+                ],
+                [
+                    360.0,
+                    1162.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Gánh nặng trong năm 2009 xuất phát từ việc mua cá quá lửa theo kêu gọi của Chính Phủ và chính quyền địa phương nhằm cứu người nuôi cá tra, cá basa thoát khỏi cảnh điều đứng do cá đã quá lửa mà không ai mua; tiếp đến là sự mất thị trường Nga từ nửa cuối năm 2008 là thị trường chiếm tỷ trọng lớn nhất trong tổng kim ngạch xuất khẩu của Navico, cộng thêm cuộc khủng hoảng tài chính toàn cầu, làm cho khó khăn càng chồng chất thêm và nhất là sản lượng sản xuất giảm mạnh, từ đó chi phí tăng cao không đủ bù đắp dẫn đến số lổ kéo dài trong suốt cả năm.",
+            "block_bbox": [
+                360,
+                1192,
+                1487,
+                1560
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "global_block_id": 17,
+            "global_group_id": 17,
+            "block_polygon_points": [
+                [
+                    360.0,
+                    1192.0
+                ],
+                [
+                    1487.0,
+                    1192.0
+                ],
+                [
+                    1487.0,
+                    1560.0
+                ],
+                [
+                    360.0,
+                    1560.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Đầu năm 2010 đã xuất hiện một số nhân tố tích cực của thị trường, khó khăn tuy vẫn còn song mức độ có phần giảm nhẹ hơn, thị trường đã có dấu hiệu phục hồi nhưng còn rất yếu ớt, đơn hàng có tăng nhưng chưa nhiều, giá cả hàng xuất tăng không đồng bộ với mức tăng của nguyên liệu đầu vào, những rủi ro trong thanh toán vẫn phải được chủ động ngăn ngừa, đồng nghĩa là phải lựa chọn khách hàng uy tín với phương thức thanh toán tốt nhất để đảm bảo thu được tiền bán hàng.",
+            "block_bbox": [
+                361,
+                1588,
+                1486,
+                1911
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "global_block_id": 18,
+            "global_group_id": 18,
+            "block_polygon_points": [
+                [
+                    361.0,
+                    1588.0
+                ],
+                [
+                    1486.0,
+                    1588.0
+                ],
+                [
+                    1486.0,
+                    1911.0
+                ],
+                [
+                    361.0,
+                    1911.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "4",
+            "block_bbox": [
+                259,
+                2102,
+                283,
+                2132
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 19,
+            "global_group_id": 19,
+            "block_polygon_points": [
+                [
+                    259.0,
+                    2102.0
+                ],
+                [
+                    282.0,
+                    2102.0
+                ],
+                [
+                    282.0,
+                    2131.0
+                ],
+                [
+                    259.0,
+                    2131.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Báo cáo thường niên 2009",
+            "block_bbox": [
+                344,
+                2103,
+                700,
+                2137
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 20,
+            "global_group_id": 20,
+            "block_polygon_points": [
+                [
+                    344.0,
+                    2103.0
+                ],
+                [
+                    700.0,
+                    2103.0
+                ],
+                [
+                    700.0,
+                    2137.0
+                ],
+                [
+                    344.0,
+                    2137.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8675614595413208,
+                "coordinate": [
+                    148,
+                    1494,
+                    195,
+                    1975
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        148.0,
+                        1494.0
+                    ],
+                    [
+                        195.0,
+                        1494.0
+                    ],
+                    [
+                        195.0,
+                        1975.0
+                    ],
+                    [
+                        148.0,
+                        1975.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.968096137046814,
+                "coordinate": [
+                    220,
+                    1,
+                    837,
+                    459
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        220.0,
+                        1.0
+                    ],
+                    [
+                        837.0,
+                        1.0
+                    ],
+                    [
+                        837.0,
+                        459.0
+                    ],
+                    [
+                        220.0,
+                        459.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7966053485870361,
+                "coordinate": [
+                    366,
+                    503,
+                    725,
+                    548
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        366.0,
+                        503.0
+                    ],
+                    [
+                        725.0,
+                        503.0
+                    ],
+                    [
+                        725.0,
+                        548.0
+                    ],
+                    [
+                        366.0,
+                        548.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9548293948173523,
+                "coordinate": [
+                    360,
+                    579,
+                    1487,
+                    901
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        360.0,
+                        579.0
+                    ],
+                    [
+                        1487.0,
+                        579.0
+                    ],
+                    [
+                        1487.0,
+                        901.0
+                    ],
+                    [
+                        360.0,
+                        901.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9480828046798706,
+                "coordinate": [
+                    360,
+                    930,
+                    1486,
+                    1162
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        360.0,
+                        930.0
+                    ],
+                    [
+                        1486.0,
+                        930.0
+                    ],
+                    [
+                        1486.0,
+                        1162.0
+                    ],
+                    [
+                        360.0,
+                        1162.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.958888053894043,
+                "coordinate": [
+                    360,
+                    1192,
+                    1487,
+                    1560
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        360.0,
+                        1192.0
+                    ],
+                    [
+                        1487.0,
+                        1192.0
+                    ],
+                    [
+                        1487.0,
+                        1560.0
+                    ],
+                    [
+                        360.0,
+                        1560.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9588441252708435,
+                "coordinate": [
+                    361,
+                    1588,
+                    1486,
+                    1911
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        361.0,
+                        1588.0
+                    ],
+                    [
+                        1486.0,
+                        1588.0
+                    ],
+                    [
+                        1486.0,
+                        1911.0
+                    ],
+                    [
+                        361.0,
+                        1911.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7246835827827454,
+                "coordinate": [
+                    259,
+                    2102,
+                    283,
+                    2132
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        259.0,
+                        2102.0
+                    ],
+                    [
+                        282.0,
+                        2102.0
+                    ],
+                    [
+                        282.0,
+                        2131.0
+                    ],
+                    [
+                        259.0,
+                        2131.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8370405435562134,
+                "coordinate": [
+                    344,
+                    2103,
+                    700,
+                    2137
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        344.0,
+                        2103.0
+                    ],
+                    [
+                        700.0,
+                        2103.0
+                    ],
+                    [
+                        700.0,
+                        2137.0
+                    ],
+                    [
+                        344.0,
+                        2137.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,2 @@
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td colspan="4">TỔNG CỔNG TY ĐẦU TỬ VÀ PHÁT TRIỂN CÔNG NGHIỆP - CTCPĐịa chỉ: Số 8 Hồng Yuong, Phương Hòa Phú, TP. Thù Dầu Một, Tinh Bình DươngBAO CAO TÁI CHÍNH TỔNG HỌPCho năm tài chính kết thúc ngày 31 tháng 12 năm 2018Phụ hư 03: Chỉ tiết phát sinh về các khoản vay</td></tr></table>

@@ -1,0 +1,853 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2284,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "Các địa bàn (theo địa giới hành chính áp dụng từ 1/7/2025) chiếm trên 10% doanh thu trong 2 năm gần nhất gồm TP. Hồ Chí Minh, Hà Nội và miền Trung - Tây Nguyên. Về mặt tổng thể, cấu trúc địa bàn kinh doanh năm 2025 cho thấy TP. Hồ Chí Minh giữ vai trò động lực tăng trưởng chính, trong khi các vùng vệ tinh và khu vực ngoài trung tâm tiếp tục tạo ra tăng trưởng đồng đều, góp phần cùng có nền tăng mở rộng bền vững của ACB trên toàn quốc.",
+            "block_bbox": [
+                195,
+                411,
+                1428,
+                695
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 197,
+            "global_group_id": 197,
+            "block_polygon_points": [
+                [
+                    195.0,
+                    411.0
+                ],
+                [
+                    1428.0,
+                    411.0
+                ],
+                [
+                    1428.0,
+                    695.0
+                ],
+                [
+                    195.0,
+                    695.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "1 Trụ sở chính",
+            "block_bbox": [
+                240,
+                706,
+                454,
+                746
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 198,
+            "global_group_id": 198,
+            "block_polygon_points": [
+                [
+                    240.0,
+                    706.0
+                ],
+                [
+                    454.0,
+                    706.0
+                ],
+                [
+                    454.0,
+                    746.0
+                ],
+                [
+                    240.0,
+                    746.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "442 Nguyễn Thị Minh Khai, Phường Bàn Cờ, TP. Hồ Chí Minh",
+            "block_bbox": [
+                238,
+                760,
+                1081,
+                804
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "global_block_id": 199,
+            "global_group_id": 199,
+            "block_polygon_points": [
+                [
+                    238.0,
+                    760.0
+                ],
+                [
+                    1081.0,
+                    760.0
+                ],
+                [
+                    1081.0,
+                    804.0
+                ],
+                [
+                    238.0,
+                    804.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "1 Văn phòng đại diện tại Hà Nội",
+            "block_bbox": [
+                239,
+                816,
+                702,
+                859
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "global_block_id": 200,
+            "global_group_id": 200,
+            "block_polygon_points": [
+                [
+                    239.0,
+                    816.0
+                ],
+                [
+                    702.0,
+                    816.0
+                ],
+                [
+                    702.0,
+                    859.0
+                ],
+                [
+                    239.0,
+                    859.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "389 CN & PGD (291 Phòng giao dịch+ 98 Chi nhánh)",
+            "block_bbox": [
+                239,
+                871,
+                991,
+                914
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 201,
+            "global_group_id": 201,
+            "block_polygon_points": [
+                [
+                    239.0,
+                    871.0
+                ],
+                [
+                    991.0,
+                    871.0
+                ],
+                [
+                    991.0,
+                    914.0
+                ],
+                [
+                    239.0,
+                    914.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>TP. Hồ Chí Minh• Số lượng CN+PGD: 157 điểm• chiếm tỷ lệ: 40,36%• số lượng POS: 3,650</td><td>Hà Nội• Số lượng CN+PGD: 55 điểm• chiếm tỷ lệ: 14,14%• số lượng POS: 641</td></tr><tr><td>Miền Bắc (Hiện diện: 7/14 tinh thành)• Số lượng CN+PGD: 41 điểm• chiếm tỷ lệ: 10,54%• số lượng POS: 270• Chưa hiện diện: Tuyên Quang, Cao Bằng, Lai Châu, Điện Biên, Lạng Sơn, Sơn La, Lào Cai.</td><td>Miền Trung và Tây Nguyên (11/11)• Số lượng CN+PGD: 74 điểm• chiếm tỷ lệ: 19,02%• số lượng POS: 983</td></tr><tr><td>Đông Nam Bộ (2/2)• Số lượng CN+PGD: 22 điểm• chiếm tỷ lệ: 5,66%• số lượng POS: 257</td><td>Tây Nam Bộ (5/5)• Số lượng CN+PGD: 40 điểm• chiếm tỷ lệ: 10,28%• số lượng POS: 765</td></tr></table>",
+            "block_bbox": [
+                242,
+                922,
+                1466,
+                1725
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 202,
+            "global_group_id": 202,
+            "block_polygon_points": [
+                [
+                    242.0,
+                    922.0
+                ],
+                [
+                    1466.0,
+                    922.0
+                ],
+                [
+                    1466.0,
+                    1725.0
+                ],
+                [
+                    242.0,
+                    1725.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "1.5. Mô hình quản trị và bộ máy quản lý",
+            "block_bbox": [
+                140,
+                1786,
+                728,
+                1829
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "global_block_id": 203,
+            "global_group_id": 203,
+            "block_polygon_points": [
+                [
+                    140.0,
+                    1786.0
+                ],
+                [
+                    728.0,
+                    1786.0
+                ],
+                [
+                    728.0,
+                    1829.0
+                ],
+                [
+                    140.0,
+                    1829.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "1.5.1. Mô hình quản trị",
+            "block_bbox": [
+                141,
+                1841,
+                470,
+                1882
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7,
+            "global_block_id": 204,
+            "global_group_id": 204,
+            "block_polygon_points": [
+                [
+                    141.0,
+                    1841.0
+                ],
+                [
+                    470.0,
+                    1841.0
+                ],
+                [
+                    470.0,
+                    1882.0
+                ],
+                [
+                    141.0,
+                    1882.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Mô hình quản trị của ACB gồm có: ĐHĐCD, HDQT, BKS, và Tổng giám đốc (theo khoản 1 Điều 29 Điều lệ ACB.)",
+            "block_bbox": [
+                198,
+                1895,
+                1419,
+                1985
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8,
+            "global_block_id": 205,
+            "global_group_id": 205,
+            "block_polygon_points": [
+                [
+                    198.0,
+                    1895.0
+                ],
+                [
+                    1419.0,
+                    1895.0
+                ],
+                [
+                    1419.0,
+                    1985.0
+                ],
+                [
+                    198.0,
+                    1985.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Người đại diện theo pháp luật là Tổng giám đốc (theo khoản 10 Điều 2 Điều lệ ACB).",
+            "block_bbox": [
+                196,
+                1998,
+                1367,
+                2043
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9,
+            "global_block_id": 206,
+            "global_group_id": 206,
+            "block_polygon_points": [
+                [
+                    196.0,
+                    1998.0
+                ],
+                [
+                    1367.0,
+                    1998.0
+                ],
+                [
+                    1367.0,
+                    2043.0
+                ],
+                [
+                    196.0,
+                    2043.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "1.5.2. Cơ cấu bộ máy quản lý",
+            "block_bbox": [
+                142,
+                2052,
+                550,
+                2095
+            ],
+            "block_id": 10,
+            "block_order": 9,
+            "group_id": 10,
+            "global_block_id": 207,
+            "global_group_id": 207,
+            "block_polygon_points": [
+                [
+                    142.0,
+                    2052.0
+                ],
+                [
+                    550.0,
+                    2052.0
+                ],
+                [
+                    550.0,
+                    2095.0
+                ],
+                [
+                    142.0,
+                    2095.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Báo cáo thường niên ACB năm 2025",
+            "block_bbox": [
+                141,
+                2180,
+                632,
+                2218
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 208,
+            "global_group_id": 208,
+            "block_polygon_points": [
+                [
+                    141.0,
+                    2180.0
+                ],
+                [
+                    632.0,
+                    2180.0
+                ],
+                [
+                    632.0,
+                    2218.0
+                ],
+                [
+                    141.0,
+                    2218.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "13 / 179",
+            "block_bbox": [
+                1306,
+                2183,
+                1418,
+                2220
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "global_block_id": 209,
+            "global_group_id": 209,
+            "block_polygon_points": [
+                [
+                    1306.0,
+                    2183.0
+                ],
+                [
+                    1418.0,
+                    2183.0
+                ],
+                [
+                    1418.0,
+                    2220.0
+                ],
+                [
+                    1306.0,
+                    2220.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.941802442073822,
+                "coordinate": [
+                    195,
+                    411,
+                    1428,
+                    695
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        195.0,
+                        411.0
+                    ],
+                    [
+                        1428.0,
+                        411.0
+                    ],
+                    [
+                        1428.0,
+                        695.0
+                    ],
+                    [
+                        195.0,
+                        695.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7667397856712341,
+                "coordinate": [
+                    240,
+                    706,
+                    454,
+                    746
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        240.0,
+                        706.0
+                    ],
+                    [
+                        454.0,
+                        706.0
+                    ],
+                    [
+                        454.0,
+                        746.0
+                    ],
+                    [
+                        240.0,
+                        746.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8067596554756165,
+                "coordinate": [
+                    238,
+                    760,
+                    1081,
+                    804
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        238.0,
+                        760.0
+                    ],
+                    [
+                        1081.0,
+                        760.0
+                    ],
+                    [
+                        1081.0,
+                        804.0
+                    ],
+                    [
+                        238.0,
+                        804.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5158166289329529,
+                "coordinate": [
+                    239,
+                    816,
+                    702,
+                    859
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        239.0,
+                        816.0
+                    ],
+                    [
+                        702.0,
+                        816.0
+                    ],
+                    [
+                        702.0,
+                        859.0
+                    ],
+                    [
+                        239.0,
+                        859.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.38046878576278687,
+                "coordinate": [
+                    239,
+                    871,
+                    991,
+                    914
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        239.0,
+                        871.0
+                    ],
+                    [
+                        991.0,
+                        871.0
+                    ],
+                    [
+                        991.0,
+                        914.0
+                    ],
+                    [
+                        239.0,
+                        914.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9591540694236755,
+                "coordinate": [
+                    242,
+                    922,
+                    1466,
+                    1725
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        242.0,
+                        922.0
+                    ],
+                    [
+                        1466.0,
+                        922.0
+                    ],
+                    [
+                        1466.0,
+                        1725.0
+                    ],
+                    [
+                        242.0,
+                        1725.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8479341864585876,
+                "coordinate": [
+                    140,
+                    1786,
+                    728,
+                    1829
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        140.0,
+                        1786.0
+                    ],
+                    [
+                        728.0,
+                        1786.0
+                    ],
+                    [
+                        728.0,
+                        1829.0
+                    ],
+                    [
+                        140.0,
+                        1829.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7914009690284729,
+                "coordinate": [
+                    141,
+                    1841,
+                    470,
+                    1882
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        141.0,
+                        1841.0
+                    ],
+                    [
+                        470.0,
+                        1841.0
+                    ],
+                    [
+                        470.0,
+                        1882.0
+                    ],
+                    [
+                        141.0,
+                        1882.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9212498068809509,
+                "coordinate": [
+                    198,
+                    1895,
+                    1419,
+                    1985
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        198.0,
+                        1895.0
+                    ],
+                    [
+                        1419.0,
+                        1895.0
+                    ],
+                    [
+                        1419.0,
+                        1985.0
+                    ],
+                    [
+                        198.0,
+                        1985.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8514145612716675,
+                "coordinate": [
+                    196,
+                    1998,
+                    1367,
+                    2043
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        196.0,
+                        1998.0
+                    ],
+                    [
+                        1367.0,
+                        1998.0
+                    ],
+                    [
+                        1367.0,
+                        2043.0
+                    ],
+                    [
+                        196.0,
+                        2043.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5981727242469788,
+                "coordinate": [
+                    142,
+                    2052,
+                    550,
+                    2095
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        142.0,
+                        2052.0
+                    ],
+                    [
+                        550.0,
+                        2052.0
+                    ],
+                    [
+                        550.0,
+                        2095.0
+                    ],
+                    [
+                        142.0,
+                        2095.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8520798087120056,
+                "coordinate": [
+                    141,
+                    2180,
+                    632,
+                    2218
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        141.0,
+                        2180.0
+                    ],
+                    [
+                        632.0,
+                        2180.0
+                    ],
+                    [
+                        632.0,
+                        2218.0
+                    ],
+                    [
+                        141.0,
+                        2218.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8336185216903687,
+                "coordinate": [
+                    1306,
+                    2183,
+                    1418,
+                    2220
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        1306.0,
+                        2183.0
+                    ],
+                    [
+                        1418.0,
+                        2183.0
+                    ],
+                    [
+                        1418.0,
+                        2220.0
+                    ],
+                    [
+                        1306.0,
+                        2220.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

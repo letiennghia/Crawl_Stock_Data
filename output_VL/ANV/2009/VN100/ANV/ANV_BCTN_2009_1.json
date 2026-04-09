@@ -1,0 +1,346 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1700,
+    "height": 2200,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                255,
+                126,
+                393,
+                285
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 0,
+            "global_group_id": 0,
+            "block_polygon_points": [
+                [
+                    255.0,
+                    126.0
+                ],
+                [
+                    393.0,
+                    126.0
+                ],
+                [
+                    393.0,
+                    285.0
+                ],
+                [
+                    255.0,
+                    285.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "CÔNG TY CỔ PHẦN NAM VIỆT\nNAM VIET CORPORATION",
+            "block_bbox": [
+                424,
+                142,
+                1461,
+                286
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 1,
+            "global_group_id": 1,
+            "block_polygon_points": [
+                [
+                    424,
+                    142
+                ],
+                [
+                    433,
+                    285
+                ],
+                [
+                    1460,
+                    285
+                ],
+                [
+                    1460,
+                    142
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "BÁO CÁO\nTHƯỜNG\nNIÊN\nANNUAL\nREPORT2009",
+            "block_bbox": [
+                530,
+                762,
+                1160,
+                1342
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 2,
+            "global_group_id": 2,
+            "block_polygon_points": [
+                [
+                    530.0,
+                    762.0
+                ],
+                [
+                    1160.0,
+                    762.0
+                ],
+                [
+                    1160.0,
+                    1342.0
+                ],
+                [
+                    530.0,
+                    1342.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Địa chỉ: 19D Trần Hưng Đạo - Phường Mỹ Quý, Tp. Long Xuyên, An Giang Tel : (84.076). 3834 060 - 3834 065 Fax: (84.076).3834 054 - 3834 779 Email: namvietagg@hcm.vnn.vn http://.navicorp.com.vn",
+            "block_bbox": [
+                380,
+                1981,
+                1359,
+                2096
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 3,
+            "global_group_id": 3,
+            "block_polygon_points": [
+                [
+                    380.0,
+                    1981.0
+                ],
+                [
+                    1359.0,
+                    1981.0
+                ],
+                [
+                    1359.0,
+                    2096.0
+                ],
+                [
+                    380.0,
+                    2096.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.7445698380470276,
+                "coordinate": [
+                    255,
+                    126,
+                    393,
+                    285
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        255.0,
+                        126.0
+                    ],
+                    [
+                        393.0,
+                        126.0
+                    ],
+                    [
+                        393.0,
+                        285.0
+                    ],
+                    [
+                        255.0,
+                        285.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3471655547618866,
+                "coordinate": [
+                    426,
+                    144,
+                    1460,
+                    229
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        426.0,
+                        144.0
+                    ],
+                    [
+                        1460.0,
+                        144.0
+                    ],
+                    [
+                        1460.0,
+                        229.0
+                    ],
+                    [
+                        426.0,
+                        229.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3027123510837555,
+                "coordinate": [
+                    424,
+                    142,
+                    1461,
+                    286
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        424,
+                        142
+                    ],
+                    [
+                        433,
+                        285
+                    ],
+                    [
+                        1460,
+                        285
+                    ],
+                    [
+                        1460,
+                        142
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5111021399497986,
+                "coordinate": [
+                    604,
+                    233,
+                    1217,
+                    282
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        604,
+                        233
+                    ],
+                    [
+                        604,
+                        281
+                    ],
+                    [
+                        1216,
+                        281
+                    ],
+                    [
+                        1216,
+                        233
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5274533033370972,
+                "coordinate": [
+                    530,
+                    762,
+                    1160,
+                    1342
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        530.0,
+                        762.0
+                    ],
+                    [
+                        1160.0,
+                        762.0
+                    ],
+                    [
+                        1160.0,
+                        1342.0
+                    ],
+                    [
+                        530.0,
+                        1342.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.6290795803070068,
+                "coordinate": [
+                    380,
+                    1981,
+                    1359,
+                    2096
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        380.0,
+                        1981.0
+                    ],
+                    [
+                        1359.0,
+                        1981.0
+                    ],
+                    [
+                        1359.0,
+                        2096.0
+                    ],
+                    [
+                        380.0,
+                        2096.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

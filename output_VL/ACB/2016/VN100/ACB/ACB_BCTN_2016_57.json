@@ -1,0 +1,412 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 992,
+    "height": 1403,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                159,
+                80,
+                872,
+                458
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 565,
+            "global_group_id": 565,
+            "block_polygon_points": [
+                [
+                    159.0,
+                    80.0
+                ],
+                [
+                    872.0,
+                    80.0
+                ],
+                [
+                    872.0,
+                    458.0
+                ],
+                [
+                    159.0,
+                    458.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Chi phí dự phòng rủi ro tín dụng tăng 23% so với năm 2015 lên tới 2.319 tỷ đồng, bám sát theo kế hoạch đã đề ra, phù hợp với chính sách quân lý rủi ro đang liên tục được đấy mạnh và quyết liệt xử lý các vấn đề tồn động của Ngân hàng. Cụ thể ACB đã trích lập đầy đủ đối với Nhóm 6 công ty theo lộ trình xử lý các tài sản tồn động đã được NHNN phê duyệt, đồng thời tuân thù Thông tư 02/2013/TT-NHNN.",
+            "block_bbox": [
+                140,
+                512,
+                865,
+                684
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 566,
+            "global_group_id": 566,
+            "block_polygon_points": [
+                [
+                    140.0,
+                    512.0
+                ],
+                [
+                    865.0,
+                    512.0
+                ],
+                [
+                    865.0,
+                    684.0
+                ],
+                [
+                    140.0,
+                    684.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Tỷ suất sinh lời, thu nhập mỗi cỗ phần - cỗ tức",
+            "block_bbox": [
+                141,
+                762,
+                559,
+                792
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 567,
+            "global_group_id": 567,
+            "block_polygon_points": [
+                [
+                    141.0,
+                    762.0
+                ],
+                [
+                    559.0,
+                    762.0
+                ],
+                [
+                    559.0,
+                    792.0
+                ],
+                [
+                    141.0,
+                    792.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                228,
+                796,
+                801,
+                1137
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 568,
+            "global_group_id": 568,
+            "block_polygon_points": [
+                [
+                    228.0,
+                    796.0
+                ],
+                [
+                    801.0,
+                    796.0
+                ],
+                [
+                    801.0,
+                    1137.0
+                ],
+                [
+                    228.0,
+                    1137.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2016",
+            "block_bbox": [
+                141,
+                1230,
+                279,
+                1253
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 569,
+            "global_group_id": 569,
+            "block_polygon_points": [
+                [
+                    141.0,
+                    1230.0
+                ],
+                [
+                    278.0,
+                    1230.0
+                ],
+                [
+                    278.0,
+                    1252.0
+                ],
+                [
+                    141.0,
+                    1252.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 57 of 78",
+            "block_bbox": [
+                746,
+                1232,
+                856,
+                1256
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 570,
+            "global_group_id": 570,
+            "block_polygon_points": [
+                [
+                    745.9999389648438,
+                    1231.9998779296875
+                ],
+                [
+                    854.9999389648438,
+                    1231.9998779296875
+                ],
+                [
+                    854.9999389648438,
+                    1254.9998779296875
+                ],
+                [
+                    745.9999389648438,
+                    1254.9998779296875
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.9571472406387329,
+                "coordinate": [
+                    159,
+                    80,
+                    872,
+                    458
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        159.0,
+                        80.0
+                    ],
+                    [
+                        872.0,
+                        80.0
+                    ],
+                    [
+                        872.0,
+                        458.0
+                    ],
+                    [
+                        159.0,
+                        458.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9419678449630737,
+                "coordinate": [
+                    140,
+                    512,
+                    865,
+                    684
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        140.0,
+                        512.0
+                    ],
+                    [
+                        865.0,
+                        512.0
+                    ],
+                    [
+                        865.0,
+                        684.0
+                    ],
+                    [
+                        140.0,
+                        684.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8667399287223816,
+                "coordinate": [
+                    141,
+                    762,
+                    559,
+                    792
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        141.0,
+                        762.0
+                    ],
+                    [
+                        559.0,
+                        762.0
+                    ],
+                    [
+                        559.0,
+                        792.0
+                    ],
+                    [
+                        141.0,
+                        792.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.9515478610992432,
+                "coordinate": [
+                    228,
+                    796,
+                    801,
+                    1137
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        228.0,
+                        796.0
+                    ],
+                    [
+                        801.0,
+                        796.0
+                    ],
+                    [
+                        801.0,
+                        1137.0
+                    ],
+                    [
+                        228.0,
+                        1137.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8242198824882507,
+                "coordinate": [
+                    141,
+                    1230,
+                    279,
+                    1253
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        141.0,
+                        1230.0
+                    ],
+                    [
+                        278.0,
+                        1230.0
+                    ],
+                    [
+                        278.0,
+                        1252.0
+                    ],
+                    [
+                        141.0,
+                        1252.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8412594199180603,
+                "coordinate": [
+                    746,
+                    1232,
+                    856,
+                    1256
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        745.9999389648438,
+                        1231.9998779296875
+                    ],
+                    [
+                        854.9999389648438,
+                        1231.9998779296875
+                    ],
+                    [
+                        854.9999389648438,
+                        1254.9998779296875
+                    ],
+                    [
+                        745.9999389648438,
+                        1254.9998779296875
+                    ]
+                ]
+            }
+        ]
+    }
+}

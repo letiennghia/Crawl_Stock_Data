@@ -1,0 +1,163 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 992,
+    "height": 1403,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td><img src=\"imgs/img_in_seal_box_502_1068_682_1247.jpg\" alt=\"Image\"\" /></td></tr></table>",
+            "block_bbox": [
+                1,
+                1,
+                992,
+                1379
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 637,
+            "global_group_id": 637,
+            "block_polygon_points": [
+                [
+                    1.0,
+                    1.0
+                ],
+                [
+                    993.0,
+                    1.0
+                ],
+                [
+                    993.0,
+                    1379.0
+                ],
+                [
+                    1.0,
+                    1379.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.7475121021270752,
+                "coordinate": [
+                    1,
+                    1,
+                    992,
+                    1379
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1.0,
+                        1.0
+                    ],
+                    [
+                        993.0,
+                        1.0
+                    ],
+                    [
+                        993.0,
+                        1379.0
+                    ],
+                    [
+                        1.0,
+                        1379.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 20,
+                "label": "seal",
+                "score": 0.8782748579978943,
+                "coordinate": [
+                    502,
+                    1068,
+                    682,
+                    1247
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        507,
+                        1075
+                    ],
+                    [
+                        502,
+                        1082
+                    ],
+                    [
+                        502,
+                        1123
+                    ],
+                    [
+                        502,
+                        1206
+                    ],
+                    [
+                        502,
+                        1233
+                    ],
+                    [
+                        512,
+                        1246
+                    ],
+                    [
+                        662,
+                        1246
+                    ],
+                    [
+                        677,
+                        1240
+                    ],
+                    [
+                        681,
+                        1219
+                    ],
+                    [
+                        681,
+                        1151
+                    ],
+                    [
+                        681,
+                        1082
+                    ],
+                    [
+                        677,
+                        1068
+                    ],
+                    [
+                        522,
+                        1068
+                    ]
+                ]
+            }
+        ]
+    }
+}

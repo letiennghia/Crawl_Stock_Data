@@ -1,0 +1,349 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "5. Các công ty con, công ty liên kết",
+            "block_bbox": [
+                212,
+                146,
+                779,
+                196
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 51,
+            "global_group_id": 51,
+            "block_polygon_points": [
+                [
+                    212.0,
+                    146.0
+                ],
+                [
+                    779.0,
+                    146.0
+                ],
+                [
+                    779.0,
+                    196.0
+                ],
+                [
+                    212.0,
+                    196.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "5.1. Các công ty con",
+            "block_bbox": [
+                272,
+                202,
+                604,
+                246
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 52,
+            "global_group_id": 52,
+            "block_polygon_points": [
+                [
+                    272.0,
+                    202.0
+                ],
+                [
+                    604.0,
+                    202.0
+                ],
+                [
+                    604.0,
+                    246.0
+                ],
+                [
+                    272.0,
+                    246.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>i. Tên Công ty</td><td>: Công ty TNHH MTV Án Độ Dương</td></tr><tr><td>Địa chỉ</td><td>: KCN Thốt Nốt, Phường Thới Thuận, Quận Thốt Nốt, Thành phố Cần Thơ.</td></tr><tr><td>Điện thoại</td><td>: 02923 649 262</td></tr><tr><td>Vốn điều lệ</td><td>: 36.000.000.000</td></tr><tr><td>Vốn NAVICORP góp</td><td>: 36.000.000.000</td></tr><tr><td>Tỷ lệ sở hữu của NAVICORP</td><td>: 100%</td></tr><tr><td>Ngành nghề kinh doanh chính</td><td>: Chế biến, bảo quản thủy sản và các sản phẩm từ thủy sản; chế biến đầu cá, bột cá.</td></tr><tr><td colspan=\"2\"></td></tr><tr><td>ii. Tên Công ty</td><td>: Công ty TNHH MTV Nuôi trồng thủy sản Nam Việt Bình Phú</td></tr><tr><td>Địa chỉ</td><td>: 19D Trần Hung Đạo, Phường Mỹ Quý, Thành phố Long Xuyên, Tinh An Giang</td></tr><tr><td>Điện thoại</td><td>: 02963 932 486</td></tr><tr><td>Vốn điều lệ</td><td>: 540.000.000.000</td></tr><tr><td>Vốn NAVICORP đã góp</td><td>: 540.000.000.000</td></tr><tr><td>Tỷ lệ sở hữu của NAVICORP</td><td>: 100%</td></tr><tr><td>Ngành nghề kinh doanh chính</td><td>: Nuôi trồng thủy sản</td></tr><tr><td colspan=\"2\"></td></tr><tr><td>iii. Tên Công ty</td><td>: Công ty TNHH MTV Phân bón hữu cơ Nam Việt</td></tr><tr><td>Địa chỉ</td><td>: 19D Trần Hung Đạo, Phường Mỹ Quý, Thành phố Long Xuyên, Tinh An Giang</td></tr><tr><td>Điện thoại</td><td>: 02963 932 486</td></tr><tr><td>Vốn điều lệ</td><td>: 5.000.000.000</td></tr><tr><td>Vốn NAVICORP đã góp</td><td>: 5.000.000.000</td></tr><tr><td>Tỷ lệ sở hữu của NAVICORP</td><td>: 100%</td></tr><tr><td>Ngành nghề kinh doanh chính</td><td>: Sản xuất phân bón hữu cơ</td></tr><tr><td colspan=\"2\"></td></tr><tr><td>iv. Tên Công ty</td><td>: Công ty TNHH MTV Nam Việt Solar</td></tr><tr><td>Địa chỉ</td><td>: 19D Trần Hung Đạo, Phường Mỹ Quý, Thành phố Long Xuyên, Tinh An Giang</td></tr><tr><td>Điện thoại</td><td>: 0296 3932486</td></tr><tr><td>Vốn điều lệ</td><td>: 54.000.000.000</td></tr><tr><td>Vốn NAVICORP đã góp</td><td>: 54.000.000.000</td></tr><tr><td>Tỷ lệ sở hữu của NAVICORP</td><td>: 100%</td></tr><tr><td>Ngành nghề kinh doanh chính</td><td>: Sản xuất điện năng lượng mặt trời.</td></tr><tr><td colspan=\"2\"></td></tr><tr><td>v. Tên Công ty</td><td>: Công ty TNHH MTV Án Độ Dương Solar</td></tr><tr><td>Địa chỉ</td><td>: 19D Trần Hung Đạo, Phường Mỹ Quý, Thành phố Long Xuyên, Tinh An Giang</td></tr><tr><td>Điện thoại</td><td>: 0296 3932486</td></tr><tr><td>Vốn điều lệ</td><td>: 5.000.000.000</td></tr><tr><td>Vốn NAVICORP đã góp</td><td>: 5.000.000.000</td></tr><tr><td>Tỷ lệ sở hữu của NAVICORP</td><td>: 100%</td></tr><tr><td>Ngành nghề kinh doanh chính</td><td>: Sản xuất điện năng lượng mặt trời.</td></tr><tr><td>vi. Tên Công ty</td><td>: Công ty TNHH MTV Đại Tây Dương Solar</td></tr><tr><td>Địa chỉ</td><td>: 19D Trần Hung Đạo, Phường Mỹ Quý, Thành phố Long Xuyên, Tinh An Giang</td></tr><tr><td>Điện thoại</td><td>: 0296 3932486</td></tr><tr><td>Vốn điều lệ</td><td>: 5.000.000.000</td></tr><tr><td>Vốn NAVICORP đã góp</td><td>: 5.000.000.000</td></tr><tr><td>Tỷ lệ sở hữu của NAVICORP</td><td>: 100%</td></tr><tr><td>Ngành nghề kinh doanh chính</td><td>: Sản xuất điện năng lượng mặt trời.</td></tr><tr><td colspan=\"2\">Các công ty liên kết</td></tr><tr><td>i. Tên Công ty</td><td>: Công ty TNHH Amicogen Nam Việt</td></tr><tr><td>Địa chỉ</td><td>: Lô 4A, KCN Thốt Nốt, Phường Thới Thuận, Quận Thốt Nốt, Thành phố Cần Thơ.</td></tr><tr><td>Điện thoại</td><td>: 0296 649 769</td></tr><tr><td>Vốn điều lệ</td><td>: 46.480.000.000</td></tr><tr><td>Vốn NAVICORP đã góp</td><td>: 23.240.000.000</td></tr><tr><td>Tỷ lệ sở hữu của NAVICORP</td><td>: 50%</td></tr><tr><td>Ngành nghề kinh doanh chính</td><td>: sản xuất collagen và gelatin</td></tr></table>",
+            "block_bbox": [
+                212,
+                245,
+                1474,
+                2046
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 53,
+            "global_group_id": 53,
+            "block_polygon_points": [
+                [
+                    220,
+                    262
+                ],
+                [
+                    212,
+                    2045
+                ],
+                [
+                    1466,
+                    2045
+                ],
+                [
+                    1466,
+                    245
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "5",
+            "block_bbox": [
+                823,
+                2116,
+                846,
+                2147
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 54,
+            "global_group_id": 54,
+            "block_polygon_points": [
+                [
+                    823.0,
+                    2116.0
+                ],
+                [
+                    845.0,
+                    2116.0
+                ],
+                [
+                    845.0,
+                    2146.0
+                ],
+                [
+                    823.0,
+                    2146.0
+                ]
+            ]
+        },
+        {
+            "block_label": "seal",
+            "block_content": "",
+            "block_bbox": [
+                1501,
+                1220,
+                1587,
+                1468
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "global_block_id": 55,
+            "global_group_id": 55,
+            "block_polygon_points": [
+                [
+                    1501.0,
+                    1220.0
+                ],
+                [
+                    1587.0,
+                    1220.0
+                ],
+                [
+                    1587.0,
+                    1468.0
+                ],
+                [
+                    1501.0,
+                    1468.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5021384954452515,
+                "coordinate": [
+                    212,
+                    146,
+                    779,
+                    196
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        212.0,
+                        146.0
+                    ],
+                    [
+                        779.0,
+                        146.0
+                    ],
+                    [
+                        779.0,
+                        196.0
+                    ],
+                    [
+                        212.0,
+                        196.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.555731475353241,
+                "coordinate": [
+                    272,
+                    202,
+                    604,
+                    246
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        272.0,
+                        202.0
+                    ],
+                    [
+                        604.0,
+                        202.0
+                    ],
+                    [
+                        604.0,
+                        246.0
+                    ],
+                    [
+                        272.0,
+                        246.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9566099047660828,
+                "coordinate": [
+                    212,
+                    245,
+                    1474,
+                    2046
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        220,
+                        262
+                    ],
+                    [
+                        212,
+                        2045
+                    ],
+                    [
+                        1466,
+                        2045
+                    ],
+                    [
+                        1466,
+                        245
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6057870984077454,
+                "coordinate": [
+                    823,
+                    2116,
+                    846,
+                    2147
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        823.0,
+                        2116.0
+                    ],
+                    [
+                        845.0,
+                        2116.0
+                    ],
+                    [
+                        845.0,
+                        2146.0
+                    ],
+                    [
+                        823.0,
+                        2146.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 20,
+                "label": "seal",
+                "score": 0.714911699295044,
+                "coordinate": [
+                    1501,
+                    1220,
+                    1587,
+                    1468
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        1501.0,
+                        1220.0
+                    ],
+                    [
+                        1587.0,
+                        1220.0
+                    ],
+                    [
+                        1587.0,
+                        1468.0
+                    ],
+                    [
+                        1501.0,
+                        1468.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

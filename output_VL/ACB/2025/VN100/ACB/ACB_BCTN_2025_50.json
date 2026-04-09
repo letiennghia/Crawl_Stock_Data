@@ -1,0 +1,538 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2272,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td colspan=\"2\">Công ty TNHH Quân lý nợ và khai thác tài sản Ngân hàng Á Châu</td></tr><tr><td>Tên viết tắt</td><td>ACBA</td></tr><tr><td>Đăng ký kinh doanh</td><td>0303539425</td></tr><tr><td>Giấy phép hoạt động</td><td>Số 0301452948 do Sở Kế hoạch và Đầu tư TP.HCM cấp lần đầu ngày 11/10/2004</td></tr><tr><td>Lĩnh vực hoạt động</td><td>Quản lý nợ, định giá tài sản và mua, bán, khai thác tài sản băm đảm cho các nghĩa vụ trả nợ tại ACB</td></tr><tr><td>Vốn điều lệ</td><td>505 tỷ đồng</td></tr><tr><td>Tỷ lệ sở hữu của ACB</td><td>100%</td></tr><tr><td>Trụ sở</td><td>Lầu 8, tòa nhà ACB Tower, 444A - 446 Cach mạng tháng 8, Phường Nhiêu Lộc, Thành Phố Hồ Chí Minh, Việt Nam</td></tr><tr><td>Điện thoại</td><td>08 3990 7794</td></tr><tr><td>Email</td><td>acba@acb.com.vn</td></tr><tr><td>Lợi nhuận trước thuế 2025 (đã kiểm toán)</td><td>168 tỷ đồng</td></tr><tr><td>Tổng tài sản</td><td>2.042 tỷ đồng</td></tr><tr><td>ROA</td><td>12%</td></tr><tr><td>ROE</td><td>35%</td></tr></table>",
+            "block_bbox": [
+                242,
+                409,
+                1419,
+                1560
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 643,
+            "global_group_id": 643,
+            "block_polygon_points": [
+                [
+                    242.0,
+                    409.0
+                ],
+                [
+                    1419.0,
+                    409.0
+                ],
+                [
+                    1419.0,
+                    1560.0
+                ],
+                [
+                    242.0,
+                    1560.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Thành tựu nổi bật năm 2025",
+            "block_bbox": [
+                241,
+                1565,
+                649,
+                1607
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 644,
+            "global_group_id": 644,
+            "block_polygon_points": [
+                [
+                    241.0,
+                    1565.0
+                ],
+                [
+                    649.0,
+                    1565.0
+                ],
+                [
+                    649.0,
+                    1607.0
+                ],
+                [
+                    241.0,
+                    1607.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "03: số lượng hoạt động nghiệp vụ mới đã triển khai thành công trong năm 2025 (Định giá tài sản; Dịch vụ gia tăng liên quan đến TSBĐ; Dịch vụ kiểm tra hàng hóa - kho bãi). Thông qua đó, ACBA giữ vai trò là một khâu quan trọng trong quy trình tín dụng của ACB, góp phần hỗ trợ phát triển kinh doanh, nâng cao chất lượng danh mục tài sản nhận thế chấp tại ACB.",
+            "block_bbox": [
+                242,
+                1620,
+                1436,
+                1849
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "global_block_id": 645,
+            "global_group_id": 645,
+            "block_polygon_points": [
+                [
+                    242.0,
+                    1620.0
+                ],
+                [
+                    1436.0,
+                    1620.0
+                ],
+                [
+                    1436.0,
+                    1849.0
+                ],
+                [
+                    242.0,
+                    1849.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "368 tỷ: quy mô tài sản bảo đảm nợ xấu được mua, bán trong năm 2025, góp phần tích cực vào kết quả kiểm soát nợ xấu của ACB.",
+            "block_bbox": [
+                234,
+                1856,
+                1434,
+                1945
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "global_block_id": 646,
+            "global_group_id": 646,
+            "block_polygon_points": [
+                [
+                    234.0,
+                    1856.0
+                ],
+                [
+                    1434.0,
+                    1856.0
+                ],
+                [
+                    1434.0,
+                    1945.0
+                ],
+                [
+                    234.0,
+                    1945.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Định hướng hoạt động năm 2026:",
+            "block_bbox": [
+                236,
+                1958,
+                717,
+                2000
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "global_block_id": 647,
+            "global_group_id": 647,
+            "block_polygon_points": [
+                [
+                    236.0,
+                    1958.0
+                ],
+                [
+                    717.0,
+                    1958.0
+                ],
+                [
+                    717.0,
+                    2000.0
+                ],
+                [
+                    236.0,
+                    2000.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Nâng cao hiệu quả xử lý, thu hồi và khai thác tài sản bảo đảm, gần với mục tiêu tối ưu hóa giá trị thu hồi cho ACB.",
+            "block_bbox": [
+                234,
+                2011,
+                1433,
+                2102
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "global_block_id": 648,
+            "global_group_id": 648,
+            "block_polygon_points": [
+                [
+                    234.0,
+                    2011.0
+                ],
+                [
+                    1433.0,
+                    2011.0
+                ],
+                [
+                    1433.0,
+                    2102.0
+                ],
+                [
+                    234.0,
+                    2102.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Báo cáo thường niên ACB năm 2025",
+            "block_bbox": [
+                144,
+                2181,
+                634,
+                2221
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 649,
+            "global_group_id": 649,
+            "block_polygon_points": [
+                [
+                    144.0,
+                    2181.0
+                ],
+                [
+                    634.0,
+                    2181.0
+                ],
+                [
+                    634.0,
+                    2221.0
+                ],
+                [
+                    144.0,
+                    2221.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "47 / 179",
+            "block_bbox": [
+                1305,
+                2183,
+                1419,
+                2220
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 650,
+            "global_group_id": 650,
+            "block_polygon_points": [
+                [
+                    1305.0,
+                    2183.0
+                ],
+                [
+                    1419.0,
+                    2183.0
+                ],
+                [
+                    1419.0,
+                    2220.0
+                ],
+                [
+                    1305.0,
+                    2220.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9721730351448059,
+                "coordinate": [
+                    242,
+                    409,
+                    1419,
+                    1560
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        242.0,
+                        409.0
+                    ],
+                    [
+                        1419.0,
+                        409.0
+                    ],
+                    [
+                        1419.0,
+                        1560.0
+                    ],
+                    [
+                        242.0,
+                        1560.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7086690664291382,
+                "coordinate": [
+                    241,
+                    1565,
+                    649,
+                    1607
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        241.0,
+                        1565.0
+                    ],
+                    [
+                        649.0,
+                        1565.0
+                    ],
+                    [
+                        649.0,
+                        1607.0
+                    ],
+                    [
+                        241.0,
+                        1607.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6521862745285034,
+                "coordinate": [
+                    242,
+                    1620,
+                    1436,
+                    1849
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        242.0,
+                        1620.0
+                    ],
+                    [
+                        1436.0,
+                        1620.0
+                    ],
+                    [
+                        1436.0,
+                        1849.0
+                    ],
+                    [
+                        242.0,
+                        1849.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6820414066314697,
+                "coordinate": [
+                    234,
+                    1856,
+                    1434,
+                    1945
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        234.0,
+                        1856.0
+                    ],
+                    [
+                        1434.0,
+                        1856.0
+                    ],
+                    [
+                        1434.0,
+                        1945.0
+                    ],
+                    [
+                        234.0,
+                        1945.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5786652565002441,
+                "coordinate": [
+                    236,
+                    1958,
+                    717,
+                    2000
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        236.0,
+                        1958.0
+                    ],
+                    [
+                        717.0,
+                        1958.0
+                    ],
+                    [
+                        717.0,
+                        2000.0
+                    ],
+                    [
+                        236.0,
+                        2000.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7785210013389587,
+                "coordinate": [
+                    234,
+                    2011,
+                    1433,
+                    2102
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        234.0,
+                        2011.0
+                    ],
+                    [
+                        1433.0,
+                        2011.0
+                    ],
+                    [
+                        1433.0,
+                        2102.0
+                    ],
+                    [
+                        234.0,
+                        2102.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8554946184158325,
+                "coordinate": [
+                    144,
+                    2181,
+                    634,
+                    2221
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        144.0,
+                        2181.0
+                    ],
+                    [
+                        634.0,
+                        2181.0
+                    ],
+                    [
+                        634.0,
+                        2221.0
+                    ],
+                    [
+                        144.0,
+                        2221.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8229040503501892,
+                "coordinate": [
+                    1305,
+                    2183,
+                    1419,
+                    2220
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1305.0,
+                        2183.0
+                    ],
+                    [
+                        1419.0,
+                        2183.0
+                    ],
+                    [
+                        1419.0,
+                        2220.0
+                    ],
+                    [
+                        1305.0,
+                        2220.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,791 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2310,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "figure_title",
+            "block_content": "Tổng lượng giấy tiết kiệm theo năm",
+            "block_bbox": [
+                515,
+                413,
+                992,
+                457
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1071,
+            "global_group_id": 1071,
+            "block_polygon_points": [
+                [
+                    515.0,
+                    413.0
+                ],
+                [
+                    992.0,
+                    413.0
+                ],
+                [
+                    992.0,
+                    457.0
+                ],
+                [
+                    515.0,
+                    457.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                518,
+                463,
+                1152,
+                878
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1072,
+            "global_group_id": 1072,
+            "block_polygon_points": [
+                [
+                    518.0,
+                    463.0
+                ],
+                [
+                    1152.0,
+                    463.0
+                ],
+                [
+                    1152.0,
+                    878.0
+                ],
+                [
+                    518.0,
+                    878.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Bên cạnh đó, lượng giấy đã qua sử dụng cần tiêu hủy sẽ được ACB tái chế để sử dụng nhiều lần, qua đó giám được lượng rác thải từ giấy.",
+            "block_bbox": [
+                285,
+                937,
+                1421,
+                1016
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "global_block_id": 1073,
+            "global_group_id": 1073,
+            "block_polygon_points": [
+                [
+                    285.0,
+                    937.0
+                ],
+                [
+                    1421.0,
+                    937.0
+                ],
+                [
+                    1421.0,
+                    1016.0
+                ],
+                [
+                    285.0,
+                    1016.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Giấy được tái chế",
+            "block_bbox": [
+                222,
+                1032,
+                513,
+                1077
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "global_block_id": 1074,
+            "global_group_id": 1074,
+            "block_polygon_points": [
+                [
+                    222.0,
+                    1032.0
+                ],
+                [
+                    513.0,
+                    1032.0
+                ],
+                [
+                    513.0,
+                    1077.0
+                ],
+                [
+                    222.0,
+                    1077.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Đối với các chứng từ cần tiêu hủy, ACB đã chuyển cho các nhà máy giấy để cất nhỏ, phần loại và mang đi tái chế.",
+            "block_bbox": [
+                286,
+                1089,
+                1422,
+                1170
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "global_block_id": 1075,
+            "global_group_id": 1075,
+            "block_polygon_points": [
+                [
+                    286.0,
+                    1089.0
+                ],
+                [
+                    1422.0,
+                    1089.0
+                ],
+                [
+                    1422.0,
+                    1170.0
+                ],
+                [
+                    286.0,
+                    1170.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "(ĐVT: tần)",
+            "block_bbox": [
+                1277,
+                1182,
+                1417,
+                1219
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 1076,
+            "global_group_id": 1076,
+            "block_polygon_points": [
+                [
+                    1277.0,
+                    1182.0
+                ],
+                [
+                    1417.0,
+                    1182.0
+                ],
+                [
+                    1417.0,
+                    1219.0
+                ],
+                [
+                    1277.0,
+                    1219.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Số lượng</td><td>2020</td><td>2021</td><td>2022</td></tr><tr><td>Giấy được tái chế</td><td>9</td><td>33</td><td>11</td></tr><tr><td>Tỷ lệ giấy được tái chế (%)</td><td>1</td><td>2</td><td>1</td></tr></table>",
+            "block_bbox": [
+                238,
+                1205,
+                1422,
+                1493
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 1077,
+            "global_group_id": 1077,
+            "block_polygon_points": [
+                [
+                    1421,
+                    1217
+                ],
+                [
+                    1264,
+                    1205
+                ],
+                [
+                    1256,
+                    1217
+                ],
+                [
+                    238,
+                    1217
+                ],
+                [
+                    238,
+                    1492
+                ],
+                [
+                    1421,
+                    1492
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Tổng lượng giấy tái chế theo năm",
+            "block_bbox": [
+                448,
+                1539,
+                997,
+                1577
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 1078,
+            "global_group_id": 1078,
+            "block_polygon_points": [
+                [
+                    448.0,
+                    1539.0
+                ],
+                [
+                    997.0,
+                    1539.0
+                ],
+                [
+                    997.0,
+                    1577.0
+                ],
+                [
+                    448.0,
+                    1577.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                447,
+                1570,
+                1216,
+                1987
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 1079,
+            "global_group_id": 1079,
+            "block_polygon_points": [
+                [
+                    447,
+                    1582
+                ],
+                [
+                    447,
+                    1986
+                ],
+                [
+                    1215,
+                    1986
+                ],
+                [
+                    1215,
+                    1570
+                ],
+                [
+                    1092,
+                    1570
+                ],
+                [
+                    1025,
+                    1570
+                ],
+                [
+                    1017,
+                    1582
+                ],
+                [
+                    621,
+                    1582
+                ],
+                [
+                    620,
+                    1570
+                ],
+                [
+                    563,
+                    1570
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2022",
+            "block_bbox": [
+                248,
+                2130,
+                467,
+                2167
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 1080,
+            "global_group_id": 1080,
+            "block_polygon_points": [
+                [
+                    248.0,
+                    2130.0
+                ],
+                [
+                    467.0,
+                    2130.0
+                ],
+                [
+                    467.0,
+                    2167.0
+                ],
+                [
+                    248.0,
+                    2167.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 82 of 113",
+            "block_bbox": [
+                1134,
+                2127,
+                1330,
+                2167
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "global_block_id": 1081,
+            "global_group_id": 1081,
+            "block_polygon_points": [
+                [
+                    1134.0,
+                    2127.0
+                ],
+                [
+                    1330.0,
+                    2127.0
+                ],
+                [
+                    1330.0,
+                    2167.0
+                ],
+                [
+                    1134.0,
+                    2167.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.4625791311264038,
+                "coordinate": [
+                    515,
+                    413,
+                    992,
+                    457
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        515.0,
+                        413.0
+                    ],
+                    [
+                        992.0,
+                        413.0
+                    ],
+                    [
+                        992.0,
+                        457.0
+                    ],
+                    [
+                        515.0,
+                        457.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.932589590549469,
+                "coordinate": [
+                    518,
+                    463,
+                    1152,
+                    878
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        518.0,
+                        463.0
+                    ],
+                    [
+                        1152.0,
+                        463.0
+                    ],
+                    [
+                        1152.0,
+                        878.0
+                    ],
+                    [
+                        518.0,
+                        878.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.853123664855957,
+                "coordinate": [
+                    285,
+                    937,
+                    1421,
+                    1016
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        285.0,
+                        937.0
+                    ],
+                    [
+                        1421.0,
+                        937.0
+                    ],
+                    [
+                        1421.0,
+                        1016.0
+                    ],
+                    [
+                        285.0,
+                        1016.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5407968163490295,
+                "coordinate": [
+                    222,
+                    1032,
+                    513,
+                    1077
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        222.0,
+                        1032.0
+                    ],
+                    [
+                        513.0,
+                        1032.0
+                    ],
+                    [
+                        513.0,
+                        1077.0
+                    ],
+                    [
+                        222.0,
+                        1077.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8725228905677795,
+                "coordinate": [
+                    286,
+                    1089,
+                    1422,
+                    1170
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        286.0,
+                        1089.0
+                    ],
+                    [
+                        1422.0,
+                        1089.0
+                    ],
+                    [
+                        1422.0,
+                        1170.0
+                    ],
+                    [
+                        286.0,
+                        1170.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.41625210642814636,
+                "coordinate": [
+                    1277,
+                    1182,
+                    1417,
+                    1219
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1277.0,
+                        1182.0
+                    ],
+                    [
+                        1417.0,
+                        1182.0
+                    ],
+                    [
+                        1417.0,
+                        1219.0
+                    ],
+                    [
+                        1277.0,
+                        1219.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9364920854568481,
+                "coordinate": [
+                    238,
+                    1205,
+                    1422,
+                    1493
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1421,
+                        1217
+                    ],
+                    [
+                        1264,
+                        1205
+                    ],
+                    [
+                        1256,
+                        1217
+                    ],
+                    [
+                        238,
+                        1217
+                    ],
+                    [
+                        238,
+                        1492
+                    ],
+                    [
+                        1421,
+                        1492
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.4612790048122406,
+                "coordinate": [
+                    448,
+                    1539,
+                    997,
+                    1577
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        448.0,
+                        1539.0
+                    ],
+                    [
+                        997.0,
+                        1539.0
+                    ],
+                    [
+                        997.0,
+                        1577.0
+                    ],
+                    [
+                        448.0,
+                        1577.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.8805957436561584,
+                "coordinate": [
+                    447,
+                    1570,
+                    1216,
+                    1987
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        447,
+                        1582
+                    ],
+                    [
+                        447,
+                        1986
+                    ],
+                    [
+                        1215,
+                        1986
+                    ],
+                    [
+                        1215,
+                        1570
+                    ],
+                    [
+                        1092,
+                        1570
+                    ],
+                    [
+                        1025,
+                        1570
+                    ],
+                    [
+                        1017,
+                        1582
+                    ],
+                    [
+                        621,
+                        1582
+                    ],
+                    [
+                        620,
+                        1570
+                    ],
+                    [
+                        563,
+                        1570
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8342419266700745,
+                "coordinate": [
+                    248,
+                    2130,
+                    467,
+                    2167
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        248.0,
+                        2130.0
+                    ],
+                    [
+                        467.0,
+                        2130.0
+                    ],
+                    [
+                        467.0,
+                        2167.0
+                    ],
+                    [
+                        248.0,
+                        2167.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8537626266479492,
+                "coordinate": [
+                    1134,
+                    2127,
+                    1330,
+                    2167
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        1134.0,
+                        2127.0
+                    ],
+                    [
+                        1330.0,
+                        2127.0
+                    ],
+                    [
+                        1330.0,
+                        2167.0
+                    ],
+                    [
+                        1134.0,
+                        2167.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

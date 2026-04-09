@@ -1,0 +1,97 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1700,
+    "height": 2200,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "BÁO CÁO CỦA\nHỘI ĐỒNG\nQUẢN TRỊ",
+            "block_bbox": [
+                320,
+                554,
+                1340,
+                1033
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 70,
+            "global_group_id": 70,
+            "block_polygon_points": [
+                [
+                    320.687744140625,
+                    550.9247436523438
+                ],
+                [
+                    1339.6103515625,
+                    570.3496704101562
+                ],
+                [
+                    1331.0,
+                    1022.0000610351562
+                ],
+                [
+                    312.077392578125,
+                    1002.5751342773438
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8600095510482788,
+                "coordinate": [
+                    320,
+                    554,
+                    1340,
+                    1033
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        320.687744140625,
+                        550.9247436523438
+                    ],
+                    [
+                        1339.6103515625,
+                        570.3496704101562
+                    ],
+                    [
+                        1331.0,
+                        1022.0000610351562
+                    ],
+                    [
+                        312.077392578125,
+                        1002.5751342773438
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,286 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2288,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "",
+            "block_bbox": [
+                151,
+                149,
+                1282,
+                1994
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1489,
+            "global_group_id": 1481,
+            "block_polygon_points": [
+                [
+                    151.0,
+                    149.0
+                ],
+                [
+                    1282.0,
+                    149.0
+                ],
+                [
+                    1282.0,
+                    1994.0
+                ],
+                [
+                    151.0,
+                    1994.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Báo cáo thưởng niên ACB năm 2025",
+            "block_bbox": [
+                1522,
+                1461,
+                1563,
+                1955
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1490,
+            "global_group_id": 1490,
+            "block_polygon_points": [
+                [
+                    1522.0,
+                    1461.0
+                ],
+                [
+                    1563.0,
+                    1461.0
+                ],
+                [
+                    1563.0,
+                    1955.0
+                ],
+                [
+                    1522.0,
+                    1955.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "(Ghi chú: Nhiệm kỳ 5 năm phải được yêu cầu bội các đạo luật đã có từ trước khi có thể điểm Quản trị Công ty ASEAN vào năm 2011.)",
+            "block_bbox": [
+                1392,
+                416,
+                1445,
+                1950
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1491,
+            "global_group_id": 1491,
+            "block_polygon_points": [
+                [
+                    1392.0,
+                    416.0
+                ],
+                [
+                    1445.0,
+                    416.0
+                ],
+                [
+                    1445.0,
+                    1950.0
+                ],
+                [
+                    1392.0,
+                    1950.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "136 / 179",
+            "block_bbox": [
+                1521,
+                671,
+                1561,
+                806
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 1492,
+            "global_group_id": 1492,
+            "block_polygon_points": [
+                [
+                    1521.0,
+                    671.0
+                ],
+                [
+                    1561.0,
+                    671.0
+                ],
+                [
+                    1561.0,
+                    806.0
+                ],
+                [
+                    1521.0,
+                    806.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9735907912254333,
+                "coordinate": [
+                    151,
+                    149,
+                    1282,
+                    1994
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        151.0,
+                        149.0
+                    ],
+                    [
+                        1282.0,
+                        149.0
+                    ],
+                    [
+                        1282.0,
+                        1994.0
+                    ],
+                    [
+                        151.0,
+                        1994.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.43275153636932373,
+                "coordinate": [
+                    1522,
+                    1461,
+                    1563,
+                    1955
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1522.0,
+                        1461.0
+                    ],
+                    [
+                        1563.0,
+                        1461.0
+                    ],
+                    [
+                        1563.0,
+                        1955.0
+                    ],
+                    [
+                        1522.0,
+                        1955.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.42987629771232605,
+                "coordinate": [
+                    1392,
+                    416,
+                    1445,
+                    1950
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1392.0,
+                        416.0
+                    ],
+                    [
+                        1445.0,
+                        416.0
+                    ],
+                    [
+                        1445.0,
+                        1950.0
+                    ],
+                    [
+                        1392.0,
+                        1950.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.40016791224479675,
+                "coordinate": [
+                    1521,
+                    671,
+                    1561,
+                    806
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        1521.0,
+                        671.0
+                    ],
+                    [
+                        1561.0,
+                        671.0
+                    ],
+                    [
+                        1561.0,
+                        806.0
+                    ],
+                    [
+                        1521.0,
+                        806.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

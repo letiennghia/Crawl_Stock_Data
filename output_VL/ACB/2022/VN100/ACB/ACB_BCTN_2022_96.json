@@ -1,0 +1,601 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1658,
+    "height": 2312,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                403,
+                380,
+                1182,
+                776
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1254,
+            "global_group_id": 1254,
+            "block_polygon_points": [
+                [
+                    403.0,
+                    380.0
+                ],
+                [
+                    1182.0,
+                    380.0
+                ],
+                [
+                    1182.0,
+                    776.0
+                ],
+                [
+                    403.0,
+                    776.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Cơ cấu lao động theo nhóm tuổi(*)</td><td>Nhân viên</td><td>Quản lý</td><td>Tổng số</td></tr><tr><td>Dưới 30 tuổi</td><td>4.840</td><td>50</td><td>4.890</td></tr><tr><td>Từ 30 - dưới 50 tuổi</td><td>5.668</td><td>1.846</td><td>7.514</td></tr><tr><td>Từ 50 tuổi trở lên</td><td>97</td><td>103</td><td>200</td></tr><tr><td>Tổng cộng</td><td>10.605</td><td>1.999</td><td>12.604</td></tr></table>",
+            "block_bbox": [
+                232,
+                832,
+                1418,
+                1190
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1255,
+            "global_group_id": 1255,
+            "block_polygon_points": [
+                [
+                    232.0,
+                    832.0
+                ],
+                [
+                    1418.0,
+                    832.0
+                ],
+                [
+                    1418.0,
+                    1190.0
+                ],
+                [
+                    232.0,
+                    1190.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "(⁶) Cơ cấu lao động theo nhóm tuổi của Ngân hàng ACB, không bao gồm các công ty con",
+            "block_bbox": [
+                249,
+                1202,
+                1344,
+                1244
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1256,
+            "global_group_id": 1256,
+            "block_polygon_points": [
+                [
+                    249.0,
+                    1202.0
+                ],
+                [
+                    1344.0,
+                    1202.0
+                ],
+                [
+                    1344.0,
+                    1244.0
+                ],
+                [
+                    249.0,
+                    1244.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                292,
+                1264,
+                1379,
+                1787
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 1257,
+            "global_group_id": 1257,
+            "block_polygon_points": [
+                [
+                    292.0,
+                    1264.0
+                ],
+                [
+                    1379.0,
+                    1264.0
+                ],
+                [
+                    1379.0,
+                    1787.0
+                ],
+                [
+                    292.0,
+                    1787.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "(⁹) Cơ cấu lao động theo nhóm tuổi của Ngân hàng ACB, không bao gồm các công ty con",
+            "block_bbox": [
+                258,
+                1812,
+                1351,
+                1854
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 1258,
+            "global_group_id": 1258,
+            "block_polygon_points": [
+                [
+                    258.0,
+                    1812.0
+                ],
+                [
+                    1351.0,
+                    1812.0
+                ],
+                [
+                    1351.0,
+                    1854.0
+                ],
+                [
+                    258.0,
+                    1854.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "3.2.4. Đãi ngộ",
+            "block_bbox": [
+                231,
+                1876,
+                457,
+                1915
+            ],
+            "block_id": 5,
+            "block_order": 1,
+            "group_id": 5,
+            "global_block_id": 1259,
+            "global_group_id": 1259,
+            "block_polygon_points": [
+                [
+                    231.0,
+                    1876.0
+                ],
+                [
+                    457.0,
+                    1876.0
+                ],
+                [
+                    457.0,
+                    1915.0
+                ],
+                [
+                    231.0,
+                    1915.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Các chế độ dãi ngộ có tham chiếu thị trường và luôn được điều chỉnh, nâng cao, thực hiện công bằng và minh bạch.",
+            "block_bbox": [
+                230,
+                1931,
+                1425,
+                2010
+            ],
+            "block_id": 6,
+            "block_order": 2,
+            "group_id": 6,
+            "global_block_id": 1260,
+            "global_group_id": 1260,
+            "block_polygon_points": [
+                [
+                    230.0,
+                    1931.0
+                ],
+                [
+                    1425.0,
+                    1931.0
+                ],
+                [
+                    1425.0,
+                    2010.0
+                ],
+                [
+                    230.0,
+                    2010.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2022",
+            "block_bbox": [
+                253,
+                2132,
+                474,
+                2170
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 1261,
+            "global_group_id": 1261,
+            "block_polygon_points": [
+                [
+                    253.0,
+                    2132.0
+                ],
+                [
+                    474.0,
+                    2132.0
+                ],
+                [
+                    474.0,
+                    2170.0
+                ],
+                [
+                    253.0,
+                    2170.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 96 of 113",
+            "block_bbox": [
+                1140,
+                2127,
+                1335,
+                2167
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 1262,
+            "global_group_id": 1262,
+            "block_polygon_points": [
+                [
+                    1140.0,
+                    2127.0
+                ],
+                [
+                    1335.0,
+                    2127.0
+                ],
+                [
+                    1335.0,
+                    2167.0
+                ],
+                [
+                    1140.0,
+                    2167.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.7371283173561096,
+                "coordinate": [
+                    403,
+                    380,
+                    1182,
+                    776
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        403.0,
+                        380.0
+                    ],
+                    [
+                        1182.0,
+                        380.0
+                    ],
+                    [
+                        1182.0,
+                        776.0
+                    ],
+                    [
+                        403.0,
+                        776.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9598718285560608,
+                "coordinate": [
+                    232,
+                    832,
+                    1418,
+                    1190
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        232.0,
+                        832.0
+                    ],
+                    [
+                        1418.0,
+                        832.0
+                    ],
+                    [
+                        1418.0,
+                        1190.0
+                    ],
+                    [
+                        232.0,
+                        1190.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.6832173466682434,
+                "coordinate": [
+                    249,
+                    1202,
+                    1344,
+                    1244
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        249.0,
+                        1202.0
+                    ],
+                    [
+                        1344.0,
+                        1202.0
+                    ],
+                    [
+                        1344.0,
+                        1244.0
+                    ],
+                    [
+                        249.0,
+                        1244.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.9457806348800659,
+                "coordinate": [
+                    292,
+                    1264,
+                    1379,
+                    1787
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        292.0,
+                        1264.0
+                    ],
+                    [
+                        1379.0,
+                        1264.0
+                    ],
+                    [
+                        1379.0,
+                        1787.0
+                    ],
+                    [
+                        292.0,
+                        1787.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.7243298888206482,
+                "coordinate": [
+                    258,
+                    1812,
+                    1351,
+                    1854
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        258.0,
+                        1812.0
+                    ],
+                    [
+                        1351.0,
+                        1812.0
+                    ],
+                    [
+                        1351.0,
+                        1854.0
+                    ],
+                    [
+                        258.0,
+                        1854.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8408143520355225,
+                "coordinate": [
+                    231,
+                    1876,
+                    457,
+                    1915
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        231.0,
+                        1876.0
+                    ],
+                    [
+                        457.0,
+                        1876.0
+                    ],
+                    [
+                        457.0,
+                        1915.0
+                    ],
+                    [
+                        231.0,
+                        1915.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8953848481178284,
+                "coordinate": [
+                    230,
+                    1931,
+                    1425,
+                    2010
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        230.0,
+                        1931.0
+                    ],
+                    [
+                        1425.0,
+                        1931.0
+                    ],
+                    [
+                        1425.0,
+                        2010.0
+                    ],
+                    [
+                        230.0,
+                        2010.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8473738431930542,
+                "coordinate": [
+                    253,
+                    2132,
+                    474,
+                    2170
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        253.0,
+                        2132.0
+                    ],
+                    [
+                        474.0,
+                        2132.0
+                    ],
+                    [
+                        474.0,
+                        2170.0
+                    ],
+                    [
+                        253.0,
+                        2170.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8591829538345337,
+                "coordinate": [
+                    1140,
+                    2127,
+                    1335,
+                    2167
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        1140.0,
+                        2127.0
+                    ],
+                    [
+                        1335.0,
+                        2127.0
+                    ],
+                    [
+                        1335.0,
+                        2167.0
+                    ],
+                    [
+                        1140.0,
+                        2167.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,712 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2278,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "- ACB chủ động trong việc kiểm soát và xử lý nợ xấu. Trong bối cảnh tỷ lệ nợ xấu toàn ngành nói chung và tại ACB nói riêng có xu hướng tăng trên 1%, ở mức 1,49%, ACB vẫn có tỷ lệ nợ xấu ở mức thấp hàng đầu thị trường.",
+            "block_bbox": [
+                206,
+                186,
+                1462,
+                328
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 619,
+            "global_group_id": 619,
+            "block_polygon_points": [
+                [
+                    204.9564208984375,
+                    196.00833129882812
+                ],
+                [
+                    1461.0,
+                    186.0
+                ],
+                [
+                    1462.043701171875,
+                    316.9916687011719
+                ],
+                [
+                    206.0001220703125,
+                    327.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>2020</td><td>2021</td><td>2022</td><td>2023</td><td>2024</td></tr><tr><td>Nợ nhóm 3-5 (tỷ đồng)</td><td>1.840</td><td>2.799</td><td>3.045</td><td>5.887</td><td>8.650</td></tr><tr><td>Tỷ lệ nợ nhóm 3-5/Tổng dư nợ cho vay (%)</td><td>0,59</td><td>0,77</td><td>0,74</td><td>1,21</td><td>1,49</td></tr><tr><td>Dự phòng/Tổng nợ xấu (%)</td><td>160</td><td>209</td><td>159</td><td>91</td><td>78</td></tr></table>",
+            "block_bbox": [
+                208,
+                336,
+                1436,
+                709
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 620,
+            "global_group_id": 620,
+            "block_polygon_points": [
+                [
+                    208.0,
+                    336.0
+                ],
+                [
+                    1436.0,
+                    336.0
+                ],
+                [
+                    1436.0,
+                    709.0
+                ],
+                [
+                    208.0,
+                    709.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                243,
+                737,
+                1492,
+                1113
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 621,
+            "global_group_id": 621,
+            "block_polygon_points": [
+                [
+                    243.0,
+                    737.0
+                ],
+                [
+                    1492.0,
+                    737.0
+                ],
+                [
+                    1492.0,
+                    1113.0
+                ],
+                [
+                    243.0,
+                    1113.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "f. Hoạt động huy động vốn",
+            "block_bbox": [
+                199,
+                1159,
+                612,
+                1205
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "global_block_id": 622,
+            "global_group_id": 622,
+            "block_polygon_points": [
+                [
+                    199.0,
+                    1159.0
+                ],
+                [
+                    612.0,
+                    1159.0
+                ],
+                [
+                    612.0,
+                    1205.0
+                ],
+                [
+                    199.0,
+                    1205.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Trong bối cảnh huy động vốn của nền kinh tế chỉ tăng khoảng 9% thì hoạt động nhận tiền gửi từ khách hàng tăng trưởng 11%, đạt 537 nghìn tỷ đồng, đảm bảo nguồn vốn cần thiết tài trợ cho các hoạt động sinh lời của ACB luôn ổn định.",
+            "block_bbox": [
+                198,
+                1219,
+                1456,
+                1357
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "global_block_id": 623,
+            "global_group_id": 623,
+            "block_polygon_points": [
+                [
+                    198.0,
+                    1219.0
+                ],
+                [
+                    1456.0,
+                    1219.0
+                ],
+                [
+                    1456.0,
+                    1357.0
+                ],
+                [
+                    198.0,
+                    1357.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Tiền gửi khách hàng",
+            "block_bbox": [
+                706,
+                1392,
+                1011,
+                1437
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 624,
+            "global_group_id": 624,
+            "block_polygon_points": [
+                [
+                    706.0,
+                    1392.0
+                ],
+                [
+                    1002.0,
+                    1392.0
+                ],
+                [
+                    1002.0,
+                    1436.0
+                ],
+                [
+                    706.0,
+                    1436.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                267,
+                1414,
+                1394,
+                1772
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 625,
+            "global_group_id": 625,
+            "block_polygon_points": [
+                [
+                    276,
+                    1448
+                ],
+                [
+                    276,
+                    1771
+                ],
+                [
+                    1393,
+                    1749
+                ],
+                [
+                    1377,
+                    1448
+                ],
+                [
+                    1336,
+                    1414
+                ],
+                [
+                    810,
+                    1414
+                ],
+                [
+                    768,
+                    1437
+                ],
+                [
+                    712,
+                    1414
+                ],
+                [
+                    612,
+                    1414
+                ],
+                [
+                    572,
+                    1414
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "ACB có ưu thế về ngân hàng bán lẻ; tỷ trọng tiền gửi từ khách hàng cá nhân lên đến gần 80% tổng tiền gửi. Trong năm 2024, tỷ trọng tiền gửi không kỳ hạn trên tổng tiền gửi cải thiện so với năm 2023, đạt mức 23%.",
+            "block_bbox": [
+                194,
+                1818,
+                1453,
+                1957
+            ],
+            "block_id": 7,
+            "block_order": 4,
+            "group_id": 7,
+            "global_block_id": 626,
+            "global_group_id": 626,
+            "block_polygon_points": [
+                [
+                    194.0,
+                    1818.0
+                ],
+                [
+                    1453.0,
+                    1818.0
+                ],
+                [
+                    1453.0,
+                    1957.0
+                ],
+                [
+                    194.0,
+                    1957.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2024",
+            "block_bbox": [
+                221,
+                2154,
+                459,
+                2192
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 627,
+            "global_group_id": 627,
+            "block_polygon_points": [
+                [
+                    221.0,
+                    2154.0
+                ],
+                [
+                    459.0,
+                    2154.0
+                ],
+                [
+                    459.0,
+                    2192.0
+                ],
+                [
+                    221.0,
+                    2192.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "41 / 86",
+            "block_bbox": [
+                1348,
+                2153,
+                1450,
+                2188
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 628,
+            "global_group_id": 628,
+            "block_polygon_points": [
+                [
+                    1348.0,
+                    2153.0
+                ],
+                [
+                    1450.0,
+                    2153.0
+                ],
+                [
+                    1450.0,
+                    2188.0
+                ],
+                [
+                    1348.0,
+                    2188.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9287063479423523,
+                "coordinate": [
+                    206,
+                    186,
+                    1462,
+                    328
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        204.9564208984375,
+                        196.00833129882812
+                    ],
+                    [
+                        1461.0,
+                        186.0
+                    ],
+                    [
+                        1462.043701171875,
+                        316.9916687011719
+                    ],
+                    [
+                        206.0001220703125,
+                        327.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.956171989440918,
+                "coordinate": [
+                    208,
+                    336,
+                    1436,
+                    709
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        208.0,
+                        336.0
+                    ],
+                    [
+                        1436.0,
+                        336.0
+                    ],
+                    [
+                        1436.0,
+                        709.0
+                    ],
+                    [
+                        208.0,
+                        709.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.903041660785675,
+                "coordinate": [
+                    243,
+                    737,
+                    1492,
+                    1113
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        243.0,
+                        737.0
+                    ],
+                    [
+                        1492.0,
+                        737.0
+                    ],
+                    [
+                        1492.0,
+                        1113.0
+                    ],
+                    [
+                        243.0,
+                        1113.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8436880707740784,
+                "coordinate": [
+                    199,
+                    1159,
+                    612,
+                    1205
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        199.0,
+                        1159.0
+                    ],
+                    [
+                        612.0,
+                        1159.0
+                    ],
+                    [
+                        612.0,
+                        1205.0
+                    ],
+                    [
+                        199.0,
+                        1205.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9344807863235474,
+                "coordinate": [
+                    198,
+                    1219,
+                    1456,
+                    1357
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        198.0,
+                        1219.0
+                    ],
+                    [
+                        1456.0,
+                        1219.0
+                    ],
+                    [
+                        1456.0,
+                        1357.0
+                    ],
+                    [
+                        198.0,
+                        1357.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.3843698501586914,
+                "coordinate": [
+                    706,
+                    1392,
+                    1011,
+                    1437
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        706.0,
+                        1392.0
+                    ],
+                    [
+                        1002.0,
+                        1392.0
+                    ],
+                    [
+                        1002.0,
+                        1436.0
+                    ],
+                    [
+                        706.0,
+                        1436.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.8691890835762024,
+                "coordinate": [
+                    267,
+                    1414,
+                    1394,
+                    1772
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        276,
+                        1448
+                    ],
+                    [
+                        276,
+                        1771
+                    ],
+                    [
+                        1393,
+                        1749
+                    ],
+                    [
+                        1377,
+                        1448
+                    ],
+                    [
+                        1336,
+                        1414
+                    ],
+                    [
+                        810,
+                        1414
+                    ],
+                    [
+                        768,
+                        1437
+                    ],
+                    [
+                        712,
+                        1414
+                    ],
+                    [
+                        612,
+                        1414
+                    ],
+                    [
+                        572,
+                        1414
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8806366920471191,
+                "coordinate": [
+                    194,
+                    1818,
+                    1453,
+                    1957
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        194.0,
+                        1818.0
+                    ],
+                    [
+                        1453.0,
+                        1818.0
+                    ],
+                    [
+                        1453.0,
+                        1957.0
+                    ],
+                    [
+                        194.0,
+                        1957.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.856988251209259,
+                "coordinate": [
+                    221,
+                    2154,
+                    459,
+                    2192
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        221.0,
+                        2154.0
+                    ],
+                    [
+                        459.0,
+                        2154.0
+                    ],
+                    [
+                        459.0,
+                        2192.0
+                    ],
+                    [
+                        221.0,
+                        2192.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8296452760696411,
+                "coordinate": [
+                    1348,
+                    2153,
+                    1450,
+                    2188
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1348.0,
+                        2153.0
+                    ],
+                    [
+                        1450.0,
+                        2153.0
+                    ],
+                    [
+                        1450.0,
+                        2188.0
+                    ],
+                    [
+                        1348.0,
+                        2188.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

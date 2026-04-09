@@ -1,0 +1,349 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1700,
+    "height": 2200,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "aside_text",
+            "block_content": "NAM VIET CORPORATION",
+            "block_bbox": [
+                165,
+                1448,
+                211,
+                1932
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 4,
+            "global_group_id": 4,
+            "block_polygon_points": [
+                [
+                    165.0,
+                    1448.0
+                ],
+                [
+                    211.0,
+                    1448.0
+                ],
+                [
+                    211.0,
+                    1932.0
+                ],
+                [
+                    165.0,
+                    1932.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "MỤE\nLỤC\nLU",
+            "block_bbox": [
+                159,
+                83,
+                577,
+                445
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 5,
+            "global_group_id": 5,
+            "block_polygon_points": [
+                [
+                    159.0,
+                    83.0
+                ],
+                [
+                    577.0,
+                    83.0
+                ],
+                [
+                    577.0,
+                    445.0
+                ],
+                [
+                    159.0,
+                    445.0
+                ]
+            ]
+        },
+        {
+            "block_label": "doc_title",
+            "block_content": "THÔNG ĐIỆP CỦA CHỦ TỊCH HỘI ĐỒNG QUẢN TRỊ",
+            "block_bbox": [
+                635,
+                460,
+                1568,
+                520
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 6,
+            "global_group_id": 6,
+            "block_polygon_points": [
+                [
+                    635.0,
+                    460.0
+                ],
+                [
+                    1568.0,
+                    460.0
+                ],
+                [
+                    1568.0,
+                    520.0
+                ],
+                [
+                    635.0,
+                    520.0
+                ]
+            ]
+        },
+        {
+            "block_label": "content",
+            "block_content": "LỊCH SỬ HOẠT ĐỘNG.....6\nI.Lịch sử hoạt động.....7\nII.Sơ đồ tổ chức.....9",
+            "block_bbox": [
+                634,
+                565,
+                1540,
+                761
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "global_block_id": 7,
+            "global_group_id": 7,
+            "block_polygon_points": [
+                [
+                    634.0,
+                    565.0
+                ],
+                [
+                    1540.0,
+                    565.0
+                ],
+                [
+                    1540.0,
+                    761.0
+                ],
+                [
+                    634.0,
+                    761.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                593,
+                797,
+                1578,
+                2184
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 8,
+            "global_group_id": 8,
+            "block_polygon_points": [
+                [
+                    593.0,
+                    797.0
+                ],
+                [
+                    1578.0,
+                    797.0
+                ],
+                [
+                    1578.0,
+                    2184.0
+                ],
+                [
+                    593.0,
+                    2184.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.8211406469345093,
+                "coordinate": [
+                    165,
+                    1448,
+                    211,
+                    1932
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        165.0,
+                        1448.0
+                    ],
+                    [
+                        211.0,
+                        1448.0
+                    ],
+                    [
+                        211.0,
+                        1932.0
+                    ],
+                    [
+                        165.0,
+                        1932.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.39558956027030945,
+                "coordinate": [
+                    159,
+                    83,
+                    577,
+                    445
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        159.0,
+                        83.0
+                    ],
+                    [
+                        577.0,
+                        83.0
+                    ],
+                    [
+                        577.0,
+                        445.0
+                    ],
+                    [
+                        159.0,
+                        445.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.34825924038887024,
+                "coordinate": [
+                    635,
+                    460,
+                    1568,
+                    520
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        635.0,
+                        460.0
+                    ],
+                    [
+                        1568.0,
+                        460.0
+                    ],
+                    [
+                        1568.0,
+                        520.0
+                    ],
+                    [
+                        635.0,
+                        520.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 4,
+                "label": "content",
+                "score": 0.9267811179161072,
+                "coordinate": [
+                    634,
+                    565,
+                    1540,
+                    761
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        634.0,
+                        565.0
+                    ],
+                    [
+                        1540.0,
+                        565.0
+                    ],
+                    [
+                        1540.0,
+                        761.0
+                    ],
+                    [
+                        634.0,
+                        761.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.96602863073349,
+                "coordinate": [
+                    593,
+                    797,
+                    1578,
+                    2184
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        593.0,
+                        797.0
+                    ],
+                    [
+                        1578.0,
+                        797.0
+                    ],
+                    [
+                        1578.0,
+                        2184.0
+                    ],
+                    [
+                        593.0,
+                        2184.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

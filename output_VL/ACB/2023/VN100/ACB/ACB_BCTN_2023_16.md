@@ -1,0 +1,22 @@
+Đến cuối năm 2023, ACB có 384 chi nhánh (CN) và phòng giao dịch (PGD) hoạt động tại 49 tinh thành trong cả nước. Các thị trường trọng điểm gồm có TP. Hồ Chí Minh, Đông Nam Bộ, Hà Nội và miền Trung. Thị phần cho vay và thị phần tiến gửi khách hàng của ACB tăng so với năm 2022, đều đạt 3,6%.
+
+TP. Hồ Chí Minh vẫn là khu vực đầu tàu của ACB về tăng trưởng và chiếm thị phần lớn trong toàn hệ thống với 137 CN và PGD, chiếm 63% tổng tiền gửi, 43% tổng dư nợ cho vay và đóng góp 50% trong tổng doanh thu toàn hàng.
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Khu vực (Phân loại nội bộ)</td><td style='text-align: center; word-wrap: break-word;'>Số lượng CN và PGD</td><td style='text-align: center; word-wrap: break-word;'>Tỷ trọng tiền gửi (%)</td><td style='text-align: center; word-wrap: break-word;'>Tỷ trọng cho vay (%)</td><td style='text-align: center; word-wrap: break-word;'>Tỷ trọng doanh thu (%)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>TP. Hồ Chí Minh</td><td style='text-align: center; word-wrap: break-word;'>137</td><td style='text-align: center; word-wrap: break-word;'>63</td><td style='text-align: center; word-wrap: break-word;'>43</td><td style='text-align: center; word-wrap: break-word;'>50</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Miền Trung</td><td style='text-align: center; word-wrap: break-word;'>59</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>12</td><td style='text-align: center; word-wrap: break-word;'>10</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Hà Nội</td><td style='text-align: center; word-wrap: break-word;'>55</td><td style='text-align: center; word-wrap: break-word;'>13</td><td style='text-align: center; word-wrap: break-word;'>10</td><td style='text-align: center; word-wrap: break-word;'>11</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Đồng Bằng Sông Cửu Long</td><td style='text-align: center; word-wrap: break-word;'>42</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>9</td><td style='text-align: center; word-wrap: break-word;'>7</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Đồng Nam Bộ</td><td style='text-align: center; word-wrap: break-word;'>37</td><td style='text-align: center; word-wrap: break-word;'>7</td><td style='text-align: center; word-wrap: break-word;'>16</td><td style='text-align: center; word-wrap: break-word;'>14</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Đồng Bắc Bộ</td><td style='text-align: center; word-wrap: break-word;'>27</td><td style='text-align: center; word-wrap: break-word;'>4</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>4</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Nam Hà Nội</td><td style='text-align: center; word-wrap: break-word;'>27</td><td style='text-align: center; word-wrap: break-word;'>3</td><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>4</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Tổng cộng</td><td style='text-align: center; word-wrap: break-word;'>384</td><td style='text-align: center; word-wrap: break-word;'>100</td><td style='text-align: center; word-wrap: break-word;'>100</td><td style='text-align: center; word-wrap: break-word;'>100</td></tr></table>
+
+3. Mô hình quản trị, tổ chức kinh doanh và bộ máy quản lý
+
+##### 3.1. Mô hình quản trị
+
+Mô hình quản trị của ACB gồm có: Đại hội đồng cổ đông, HĐQT, BKS, và Tổng giám đốc (theo khoản 1 Điều 32 Luật Các TCTD năm 2010, sửa đổi và bổ sung năm 2017, và điểm a khoản 1 Điều 137 Luật Doanh nghiệp năm 2020.)
+
+Người đại diện theo pháp luật là Tổng giám đốc (theo khoản 10 Điều 2 Điều lệ ACB).
+
+##### 3.2. Cơ cấu bộ máy quản lý
+
+BĐH gồm có Tổng giám độc, các Phó Tổng giám độc và Kế toán trưởng.
+
+ACB gồm có các đơn vị Hội sở, hệ thống CN và PGD, và Văn phòng đại diện tại Hà Nội. Các đơn vị Hội sở bao gồm 10 khối và 17 phòng, ban, trung tâm và văn phòng.
+
+##### 3.3. Sơ đồ tổ chức

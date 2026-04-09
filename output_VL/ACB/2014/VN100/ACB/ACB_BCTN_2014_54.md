@@ -1,0 +1,1 @@
+Với Cộng đồng: ACB cam kết, trên cơ sở khả năng và nguồn lực của mình, góp phần vào sự thay đổi và hỗ trợ cộng đồng thông qua các hoạt động xã hội từ thiện tập trung vào các lĩnh vực giáo dục, y tế và sức khỏe công đồng, chăm lo cho các đối tượng chính sách và người nghèo, và hỗ trợ khác phục hậu quả của thiên tại.

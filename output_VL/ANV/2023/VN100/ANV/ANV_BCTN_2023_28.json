@@ -1,0 +1,790 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1606,
+    "height": 3400,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>TT</td><td>Thành viên</td><td>Chức vụ tại Công ty Nam Việt</td><td>Số lượng cổ phần nắm giữ (Mã ANV)</td><td>Tỷ lệ sở hữu/Vốn điều lệ</td></tr><tr><td>1</td><td>Ông Đỗ Lập Nghiệp</td><td>Chủ tịch HĐQT</td><td>469.000</td><td>0,35%</td></tr><tr><td>2</td><td>Ông Doãn Tới</td><td>Phó Chủ tịch HĐQT</td><td>71.805.000</td><td>53,94%</td></tr><tr><td>3</td><td>Ông Trần Minh Cảnh</td><td>Thành viên HĐQT</td><td>450.000</td><td>0,34%</td></tr><tr><td>4</td><td>Bà Đỗ Thị Thanh Thủy</td><td>Thành viên HĐQT</td><td>370.000</td><td>0,28%</td></tr><tr><td>5</td><td>Nguyễn Thị Minh Ý</td><td>Thành viên HĐQT Độc lập</td><td>0</td><td>0%</td></tr></table>",
+            "block_bbox": [
+                189,
+                93,
+                1443,
+                678
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 340,
+            "global_group_id": 340,
+            "block_polygon_points": [
+                [
+                    189.0,
+                    93.0
+                ],
+                [
+                    1443.0,
+                    93.0
+                ],
+                [
+                    1443.0,
+                    678.0
+                ],
+                [
+                    189.0,
+                    678.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "b. Các tiêu ban thuộc Hội đồng Quản trị: Trong năm 2023 không thành lập tiêu",
+            "block_bbox": [
+                213,
+                685,
+                1415,
+                733
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 341,
+            "global_group_id": 341,
+            "block_polygon_points": [
+                [
+                    213.0,
+                    685.0
+                ],
+                [
+                    1415.0,
+                    685.0
+                ],
+                [
+                    1415.0,
+                    733.0
+                ],
+                [
+                    213.0,
+                    733.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "ban nào.",
+            "block_bbox": [
+                188,
+                728,
+                316,
+                764
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 342,
+            "global_group_id": 342,
+            "block_polygon_points": [
+                [
+                    188,
+                    728
+                ],
+                [
+                    188,
+                    763
+                ],
+                [
+                    315,
+                    763
+                ],
+                [
+                    315,
+                    728
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "c. Hoạt động của Hội đồng quản trị:",
+            "block_bbox": [
+                214,
+                782,
+                796,
+                827
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "global_block_id": 343,
+            "global_group_id": 343,
+            "block_polygon_points": [
+                [
+                    214.0,
+                    782.0
+                ],
+                [
+                    796.0,
+                    782.0
+                ],
+                [
+                    796.0,
+                    827.0
+                ],
+                [
+                    214.0,
+                    827.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- Chỉ đạo, giám sát, điều hành các hoạt động sản xuất kinh doanh năm 2023",
+            "block_bbox": [
+                187,
+                836,
+                1322,
+                885
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "global_block_id": 344,
+            "global_group_id": 344,
+            "block_polygon_points": [
+                [
+                    187.0,
+                    836.0
+                ],
+                [
+                    1322.0,
+                    836.0
+                ],
+                [
+                    1322.0,
+                    885.0
+                ],
+                [
+                    187.0,
+                    885.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Thường xuyên theo dõi, giám sát việc thực hiện các Nghi quyết của Hội đồng Quản trị và Đại hội đồng cổ đồng đã đề ra nhằm giải quyết kịp thời các vấn đề phát sinh thuộc thẩm quyền của HĐQT.",
+            "block_bbox": [
+                188,
+                894,
+                1419,
+                1022
+            ],
+            "block_id": 5,
+            "block_order": 3,
+            "group_id": 5,
+            "global_block_id": 345,
+            "global_group_id": 345,
+            "block_polygon_points": [
+                [
+                    188.0,
+                    894.0
+                ],
+                [
+                    1419.0,
+                    894.0
+                ],
+                [
+                    1419.0,
+                    1022.0
+                ],
+                [
+                    188.0,
+                    1022.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Số lượng các cuộc họp Hội đồng quản trị:",
+            "block_bbox": [
+                193,
+                1035,
+                886,
+                1078
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 346,
+            "global_group_id": 346,
+            "block_polygon_points": [
+                [
+                    193.0,
+                    1035.0
+                ],
+                [
+                    886.0,
+                    1035.0
+                ],
+                [
+                    886.0,
+                    1078.0
+                ],
+                [
+                    193.0,
+                    1078.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Thành viên HĐQT</td><td>Chức vụ</td><td>Số buổi hợp tham dự</td><td>Tỷ lệ</td><td>Lý do không tham dự</td><td>Ghi chú</td></tr><tr><td>1</td><td>Doãn Tói</td><td>P.Chủ tịch HĐQT</td><td>25</td><td>100%</td><td></td><td></td></tr><tr><td>2</td><td>Đỗ Lập Nghiệp</td><td>Chủ tịch HĐQT</td><td>25</td><td>100%</td><td></td><td></td></tr><tr><td>3</td><td>Trần Minh Cảnh</td><td>Thành viên HĐQT</td><td>25</td><td>100%</td><td></td><td></td></tr><tr><td>4</td><td>Nguyễn Thị Minh Ý</td><td>Thành viên HĐQT Độc lập</td><td>25</td><td>100%</td><td></td><td></td></tr><tr><td>5</td><td>Đỗ Thị Thanh Thủy</td><td>Thành viên HĐQT</td><td>25</td><td>100%</td><td></td><td></td></tr></table>",
+            "block_bbox": [
+                190,
+                1079,
+                1450,
+                1650
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 347,
+            "global_group_id": 347,
+            "block_polygon_points": [
+                [
+                    190.0,
+                    1079.0
+                ],
+                [
+                    1450.0,
+                    1079.0
+                ],
+                [
+                    1450.0,
+                    1650.0
+                ],
+                [
+                    190.0,
+                    1650.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Nội dung và kết quả của các cuộc họp Hội đồng Quản Trị:",
+            "block_bbox": [
+                187,
+                1720,
+                1092,
+                1767
+            ],
+            "block_id": 8,
+            "block_order": 4,
+            "group_id": 8,
+            "global_block_id": 348,
+            "global_group_id": 348,
+            "block_polygon_points": [
+                [
+                    187.0,
+                    1720.0
+                ],
+                [
+                    1092.0,
+                    1720.0
+                ],
+                [
+                    1092.0,
+                    1767.0
+                ],
+                [
+                    187.0,
+                    1767.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Số nghị quyết</td><td>Ngày</td><td>Nội dung</td></tr><tr><td>1</td><td>04/NQ-HĐQT</td><td>01/01/2023</td><td>NQ HĐQT chuyển lợi nhuận từ Cty ADD về Cty Nam Việt</td></tr><tr><td>2</td><td>21/NQ-HĐQT</td><td>31/01/2023</td><td>NQ HĐQT điều chỉnh thời gian chi trả cổ tức 2021</td></tr></table>",
+            "block_bbox": [
+                187,
+                1781,
+                1399,
+                2027
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 349,
+            "global_group_id": 349,
+            "block_polygon_points": [
+                [
+                    187.0,
+                    1781.0
+                ],
+                [
+                    1399.0,
+                    1781.0
+                ],
+                [
+                    1399.0,
+                    2027.0
+                ],
+                [
+                    187.0,
+                    2027.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "28",
+            "block_bbox": [
+                784,
+                2081,
+                816,
+                2107
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "global_block_id": 350,
+            "global_group_id": 350,
+            "block_polygon_points": [
+                [
+                    784.0,
+                    2081.0
+                ],
+                [
+                    815.0,
+                    2081.0
+                ],
+                [
+                    815.0,
+                    2106.0
+                ],
+                [
+                    784.0,
+                    2106.0
+                ]
+            ]
+        },
+        {
+            "block_label": "aside_text",
+            "block_content": "...",
+            "block_bbox": [
+                1569,
+                587,
+                1595,
+                885
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 351,
+            "global_group_id": 351,
+            "block_polygon_points": [
+                [
+                    1569.0,
+                    587.0
+                ],
+                [
+                    1595.0,
+                    587.0
+                ],
+                [
+                    1595.0,
+                    885.0
+                ],
+                [
+                    1569.0,
+                    885.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9636470079421997,
+                "coordinate": [
+                    189,
+                    93,
+                    1443,
+                    678
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        189.0,
+                        93.0
+                    ],
+                    [
+                        1443.0,
+                        93.0
+                    ],
+                    [
+                        1443.0,
+                        678.0
+                    ],
+                    [
+                        189.0,
+                        678.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.6106139421463013,
+                "coordinate": [
+                    213,
+                    685,
+                    1415,
+                    733
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        213.0,
+                        685.0
+                    ],
+                    [
+                        1415.0,
+                        685.0
+                    ],
+                    [
+                        1415.0,
+                        733.0
+                    ],
+                    [
+                        213.0,
+                        733.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.4560035169124603,
+                "coordinate": [
+                    188,
+                    728,
+                    316,
+                    764
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        188,
+                        728
+                    ],
+                    [
+                        188,
+                        763
+                    ],
+                    [
+                        315,
+                        763
+                    ],
+                    [
+                        315,
+                        728
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.42594680190086365,
+                "coordinate": [
+                    214,
+                    782,
+                    796,
+                    827
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        214.0,
+                        782.0
+                    ],
+                    [
+                        796.0,
+                        782.0
+                    ],
+                    [
+                        796.0,
+                        827.0
+                    ],
+                    [
+                        214.0,
+                        827.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7472702264785767,
+                "coordinate": [
+                    187,
+                    836,
+                    1322,
+                    885
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        187.0,
+                        836.0
+                    ],
+                    [
+                        1322.0,
+                        836.0
+                    ],
+                    [
+                        1322.0,
+                        885.0
+                    ],
+                    [
+                        187.0,
+                        885.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9004737138748169,
+                "coordinate": [
+                    188,
+                    894,
+                    1419,
+                    1022
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        188.0,
+                        894.0
+                    ],
+                    [
+                        1419.0,
+                        894.0
+                    ],
+                    [
+                        1419.0,
+                        1022.0
+                    ],
+                    [
+                        188.0,
+                        1022.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.6732977032661438,
+                "coordinate": [
+                    193,
+                    1035,
+                    886,
+                    1078
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        193.0,
+                        1035.0
+                    ],
+                    [
+                        886.0,
+                        1035.0
+                    ],
+                    [
+                        886.0,
+                        1078.0
+                    ],
+                    [
+                        193.0,
+                        1078.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.972633957862854,
+                "coordinate": [
+                    190,
+                    1079,
+                    1450,
+                    1650
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        190.0,
+                        1079.0
+                    ],
+                    [
+                        1450.0,
+                        1079.0
+                    ],
+                    [
+                        1450.0,
+                        1650.0
+                    ],
+                    [
+                        190.0,
+                        1650.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.41822758316993713,
+                "coordinate": [
+                    187,
+                    1720,
+                    1092,
+                    1767
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        187.0,
+                        1720.0
+                    ],
+                    [
+                        1092.0,
+                        1720.0
+                    ],
+                    [
+                        1092.0,
+                        1767.0
+                    ],
+                    [
+                        187.0,
+                        1767.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.948216438293457,
+                "coordinate": [
+                    187,
+                    1781,
+                    1399,
+                    2027
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        187.0,
+                        1781.0
+                    ],
+                    [
+                        1399.0,
+                        1781.0
+                    ],
+                    [
+                        1399.0,
+                        2027.0
+                    ],
+                    [
+                        187.0,
+                        2027.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6547672152519226,
+                "coordinate": [
+                    784,
+                    2081,
+                    816,
+                    2107
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        784.0,
+                        2081.0
+                    ],
+                    [
+                        815.0,
+                        2081.0
+                    ],
+                    [
+                        815.0,
+                        2106.0
+                    ],
+                    [
+                        784.0,
+                        2106.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.6413160562515259,
+                "coordinate": [
+                    1569,
+                    587,
+                    1595,
+                    885
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1569.0,
+                        587.0
+                    ],
+                    [
+                        1595.0,
+                        587.0
+                    ],
+                    [
+                        1595.0,
+                        885.0
+                    ],
+                    [
+                        1569.0,
+                        885.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

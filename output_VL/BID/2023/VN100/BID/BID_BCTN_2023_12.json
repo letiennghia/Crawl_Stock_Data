@@ -1,0 +1,682 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2340,
+    "height": 1654,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                103,
+                0,
+                414,
+                78
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 237,
+            "global_group_id": 237,
+            "block_polygon_points": [
+                [
+                    103.0,
+                    0.0
+                ],
+                [
+                    414.0,
+                    0.0
+                ],
+                [
+                    414.0,
+                    78.0
+                ],
+                [
+                    103.0,
+                    78.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "SỬ MỆNH, TẠM NHÌN, GIÁ TRỊ CỔT LỐI",
+            "block_bbox": [
+                105,
+                178,
+                869,
+                242
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 238,
+            "global_group_id": 238,
+            "block_polygon_points": [
+                [
+                    105.0,
+                    178.0
+                ],
+                [
+                    869.0,
+                    178.0
+                ],
+                [
+                    869.0,
+                    242.0
+                ],
+                [
+                    105.0,
+                    242.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "SỬ MỆNH\nĐem lại lợi ích, tiện ích tốt nhất cho\nkhách hàng, cổ dòng, người lao động\nvà công dòng xã hội.",
+            "block_bbox": [
+                449,
+                545,
+                722,
+                664
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 239,
+            "global_group_id": 239,
+            "block_polygon_points": [
+                [
+                    449.0,
+                    545.0
+                ],
+                [
+                    722.0,
+                    545.0
+                ],
+                [
+                    722.0,
+                    664.0
+                ],
+                [
+                    449.0,
+                    664.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                298,
+                390,
+                868,
+                1444
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 240,
+            "global_group_id": 240,
+            "block_polygon_points": [
+                [
+                    298,
+                    390
+                ],
+                [
+                    298,
+                    546
+                ],
+                [
+                    322,
+                    711
+                ],
+                [
+                    310,
+                    720
+                ],
+                [
+                    298,
+                    1081
+                ],
+                [
+                    298,
+                    1435
+                ],
+                [
+                    786,
+                    1443
+                ],
+                [
+                    833,
+                    1427
+                ],
+                [
+                    867,
+                    1378
+                ],
+                [
+                    867,
+                    1263
+                ],
+                [
+                    834,
+                    1255
+                ],
+                [
+                    821,
+                    1221
+                ],
+                [
+                    867,
+                    1032
+                ],
+                [
+                    867,
+                    827
+                ],
+                [
+                    844,
+                    555
+                ],
+                [
+                    833,
+                    399
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Trở thành định chế tài chính hàng đầu khu vực Đồng Nam Á, có nền tảng số tốt nhất Việt Nam, phần đầu thuộc nhóm 100 Ngàn hàng lớn nhất khu vực Châu Á.",
+            "block_bbox": [
+                448,
+                917,
+                721,
+                1041
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "global_block_id": 241,
+            "global_group_id": 241,
+            "block_polygon_points": [
+                [
+                    448,
+                    934
+                ],
+                [
+                    448,
+                    941
+                ],
+                [
+                    460,
+                    1032
+                ],
+                [
+                    494,
+                    1040
+                ],
+                [
+                    709,
+                    1040
+                ],
+                [
+                    720,
+                    974
+                ],
+                [
+                    720,
+                    967
+                ],
+                [
+                    720,
+                    950
+                ],
+                [
+                    720,
+                    917
+                ],
+                [
+                    460,
+                    917
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "GIÁ TRỊ CỔT LỘI\nTrí tuệ - Niềm tin - Liêm chính -\nChuyên nghiệp - Khát vọng.",
+            "block_bbox": [
+                469,
+                1260,
+                698,
+                1354
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "global_block_id": 242,
+            "global_group_id": 242,
+            "block_polygon_points": [
+                [
+                    469.0,
+                    1260.0
+                ],
+                [
+                    698.0,
+                    1260.0
+                ],
+                [
+                    698.0,
+                    1354.0
+                ],
+                [
+                    469.0,
+                    1354.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "20",
+            "block_bbox": [
+                107,
+                1558,
+                137,
+                1580
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 243,
+            "global_group_id": 243,
+            "block_polygon_points": [
+                [
+                    107.0,
+                    1558.0
+                ],
+                [
+                    136.0,
+                    1558.0
+                ],
+                [
+                    136.0,
+                    1579.0
+                ],
+                [
+                    107.0,
+                    1579.0
+                ]
+            ]
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                1165,
+                8,
+                2339,
+                1654
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 244,
+            "global_group_id": 244,
+            "block_polygon_points": [
+                [
+                    1165.0,
+                    8.0
+                ],
+                [
+                    2339.0,
+                    8.0
+                ],
+                [
+                    2339.0,
+                    1662.0
+                ],
+                [
+                    1165.0,
+                    1662.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.6876904368400574,
+                "coordinate": [
+                    103,
+                    0,
+                    414,
+                    78
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        103.0,
+                        0.0
+                    ],
+                    [
+                        414.0,
+                        0.0
+                    ],
+                    [
+                        414.0,
+                        78.0
+                    ],
+                    [
+                        103.0,
+                        78.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4348847568035126,
+                "coordinate": [
+                    105,
+                    178,
+                    869,
+                    242
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        105.0,
+                        178.0
+                    ],
+                    [
+                        869.0,
+                        178.0
+                    ],
+                    [
+                        869.0,
+                        242.0
+                    ],
+                    [
+                        105.0,
+                        242.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5900251865386963,
+                "coordinate": [
+                    449,
+                    545,
+                    722,
+                    664
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        449.0,
+                        545.0
+                    ],
+                    [
+                        722.0,
+                        545.0
+                    ],
+                    [
+                        722.0,
+                        664.0
+                    ],
+                    [
+                        449.0,
+                        664.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.4440705478191376,
+                "coordinate": [
+                    298,
+                    390,
+                    868,
+                    1444
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        298,
+                        390
+                    ],
+                    [
+                        298,
+                        546
+                    ],
+                    [
+                        322,
+                        711
+                    ],
+                    [
+                        310,
+                        720
+                    ],
+                    [
+                        298,
+                        1081
+                    ],
+                    [
+                        298,
+                        1435
+                    ],
+                    [
+                        786,
+                        1443
+                    ],
+                    [
+                        833,
+                        1427
+                    ],
+                    [
+                        867,
+                        1378
+                    ],
+                    [
+                        867,
+                        1263
+                    ],
+                    [
+                        834,
+                        1255
+                    ],
+                    [
+                        821,
+                        1221
+                    ],
+                    [
+                        867,
+                        1032
+                    ],
+                    [
+                        867,
+                        827
+                    ],
+                    [
+                        844,
+                        555
+                    ],
+                    [
+                        833,
+                        399
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.37084266543388367,
+                "coordinate": [
+                    448,
+                    917,
+                    721,
+                    1041
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        448,
+                        934
+                    ],
+                    [
+                        448,
+                        941
+                    ],
+                    [
+                        460,
+                        1032
+                    ],
+                    [
+                        494,
+                        1040
+                    ],
+                    [
+                        709,
+                        1040
+                    ],
+                    [
+                        720,
+                        974
+                    ],
+                    [
+                        720,
+                        967
+                    ],
+                    [
+                        720,
+                        950
+                    ],
+                    [
+                        720,
+                        917
+                    ],
+                    [
+                        460,
+                        917
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4419045150279999,
+                "coordinate": [
+                    469,
+                    1260,
+                    698,
+                    1354
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        469.0,
+                        1260.0
+                    ],
+                    [
+                        698.0,
+                        1260.0
+                    ],
+                    [
+                        698.0,
+                        1354.0
+                    ],
+                    [
+                        469.0,
+                        1354.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6910806894302368,
+                "coordinate": [
+                    107,
+                    1558,
+                    137,
+                    1580
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        107.0,
+                        1558.0
+                    ],
+                    [
+                        136.0,
+                        1558.0
+                    ],
+                    [
+                        136.0,
+                        1579.0
+                    ],
+                    [
+                        107.0,
+                        1579.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9385406970977783,
+                "coordinate": [
+                    1165,
+                    8,
+                    2339,
+                    1654
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1165.0,
+                        8.0
+                    ],
+                    [
+                        2339.0,
+                        8.0
+                    ],
+                    [
+                        2339.0,
+                        1662.0
+                    ],
+                    [
+                        1165.0,
+                        1662.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

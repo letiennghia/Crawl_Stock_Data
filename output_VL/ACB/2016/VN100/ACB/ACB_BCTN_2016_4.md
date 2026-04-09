@@ -1,0 +1,11 @@
+# PHÁT BIỂU CỦA CHỦ TỊCH HỘI ĐỒNG QUẢN TRỊ
+
+Kính thua quý cổ đông,
+
+Bức tranh tổng thề của kinh tế toàn cầu năm 2016 vẫn diễn biến theo chiều hướng tăng trưởng chậm và không đồng đều, thương mại giảm sút kéo dài, làm phát thấp và có chiều hướng biến động khó lường. Trong bối cảnh như vậy, dù phải ứng phó với nhiều thách thức, kinh tế Việt Nam tăng trưởng khả quan, duy trì ổn định vĩ mô, các chương trình cơ cấu lại và chuyển đổi mô hình kinh tế được khởi động. Chính sách tiền tệ và hoạt động tín dụng – ngân hàng được đánh giá tích cực, bảo đảm an toàn hệ thống. Tuy nhiên, hệ thống ngân hàng thương mại Việt Nam vẫn phải tiếp tục giải quyết vấn đề nợ xấu và cạnh tranh dẫn đến xu hướng giảm tỷ lệ thu nhập lãi cận biến.
+
+Năm 2016, ACB đã hoàn thành các chỉ tiêu kế hoạch theo lộ trình thực hiện chiến lược 2014-2018, trong đó giai đoạn 2015-2016 ưu tiên xây dựng và nâng cao năng lực cốt lỗi để cung cấp sản phẩm và dịch vụ đúng theo nhu cầu của khách hàng. Tăng trưởng huy động tập trung vào nguồn vốn không kỳ hạn, góp phần quan trọng trong việc giảm chi phí vốn. Chất lượng tín dụng tiếp tục được cải thiện; tỷ lệ nợ cần chú ý, nợ xấu giảm mạnh. Tái cấu trúc tổ chức và mô hình hoạt động đạt kết quả khả quan, hiệu quả hoạt động của kênh phân phối tăng, tổ chức tại Hội sở được tính gọn hơn. Quản trị rùi ro, kiểm toán nội bộ theo sát tình hình thực tế, cảnh báo sớm các loại rùi ro và giảm sát chặt chẽ tính hình hoạt động, đảm bảo tuân thủ đầy đủ các quy định, các tỷ lệ và giới hạn đảm bảo an toàn hoạt động. Với nỗ lực và quyết tâm cao, ACB đã và đang trở lại đúng quỹ đạo tăng trưởng ổn định.
+
+Để đạt được kết quả nêu trên, con người ACB là yếu tố quyết định. Đội ngũ quản tri, điều hành và nhân viên ACB là những người có năng lực, bản lĩnh và đạo dức. Các giá trị cốt lỗi được chất lực qua quá trình phát triển đó là: Chính trực, Cần trọng, Cách tân, Hải hòa và Hiệu quả vẫn tiếp tục là hệ quy chiếu cho các chính sách và định hướng mọi hoạt động của Ngân hàng.
+
+Bước sang năm 2017 kinh tế toàn cầu diễn biến khá phức tạp và khó đoán định, mức tăng trưởng dự báo 3,4% có thể bị điều chỉnh. Kinh tế Việt Nam năm 2017 sẽ đối mặt với nhiều khó khăn, môi trường đối ngoại nhìn chung là kém thuận lợi cho phát

@@ -1,0 +1,980 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2308,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Trung bình mục độ hài lòng của KH\nđối với ACB qua các năm (trên\nthang điểm 10)",
+            "block_bbox": [
+                299,
+                405,
+                644,
+                507
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1334,
+            "global_group_id": 1334,
+            "block_polygon_points": [
+                [
+                    299.0,
+                    405.0
+                ],
+                [
+                    644.0,
+                    405.0
+                ],
+                [
+                    644.0,
+                    507.0
+                ],
+                [
+                    299.0,
+                    507.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                292,
+                510,
+                670,
+                734
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1335,
+            "global_group_id": 1335,
+            "block_polygon_points": [
+                [
+                    292.0,
+                    510.0
+                ],
+                [
+                    670.0,
+                    510.0
+                ],
+                [
+                    670.0,
+                    734.0
+                ],
+                [
+                    292.0,
+                    734.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Trung bình mức độ hài lòng của KH đối với từng kênh giao dịch qua các năm (trên thang điểm 10)",
+            "block_bbox": [
+                801,
+                403,
+                1356,
+                464
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1336,
+            "global_group_id": 1336,
+            "block_polygon_points": [
+                [
+                    801.0,
+                    403.0
+                ],
+                [
+                    1356.0,
+                    403.0
+                ],
+                [
+                    1356.0,
+                    464.0
+                ],
+                [
+                    801.0,
+                    464.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                761,
+                473,
+                1425,
+                744
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 1337,
+            "global_group_id": 1337,
+            "block_polygon_points": [
+                [
+                    761.0,
+                    473.0
+                ],
+                [
+                    1425.0,
+                    473.0
+                ],
+                [
+                    1425.0,
+                    744.0
+                ],
+                [
+                    761.0,
+                    744.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Năm 2020 Nam 2021 Nam 2022",
+            "block_bbox": [
+                921,
+                765,
+                1248,
+                793
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 1338,
+            "global_group_id": 1338,
+            "block_polygon_points": [
+                [
+                    921.0,
+                    765.0
+                ],
+                [
+                    1248.0,
+                    765.0
+                ],
+                [
+                    1248.0,
+                    793.0
+                ],
+                [
+                    921.0,
+                    793.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Mức độ hài lòng của khách hàng đối với ACB được ghi nhận qua hình thức email đến khách hàng vừa có giao dịch tại quầy.",
+            "block_bbox": [
+                250,
+                794,
+                1418,
+                871
+            ],
+            "block_id": 5,
+            "block_order": 1,
+            "group_id": 5,
+            "global_block_id": 1339,
+            "global_group_id": 1339,
+            "block_polygon_points": [
+                [
+                    250.0,
+                    794.0
+                ],
+                [
+                    1418.0,
+                    794.0
+                ],
+                [
+                    1418.0,
+                    871.0
+                ],
+                [
+                    250.0,
+                    871.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Mức độ hài lòng của khách hàng đối với chi nhánh/phòng giao dịch được ghi nhận qua hệ thống QR-code đặt tại chi nhánh/phòng giao dịch.",
+            "block_bbox": [
+                252,
+                867,
+                1420,
+                945
+            ],
+            "block_id": 6,
+            "block_order": 2,
+            "group_id": 6,
+            "global_block_id": 1340,
+            "global_group_id": 1340,
+            "block_polygon_points": [
+                [
+                    252,
+                    879
+                ],
+                [
+                    252,
+                    944
+                ],
+                [
+                    1328,
+                    944
+                ],
+                [
+                    1419,
+                    933
+                ],
+                [
+                    1419,
+                    867
+                ],
+                [
+                    335,
+                    867
+                ],
+                [
+                    277,
+                    879
+                ],
+                [
+                    269,
+                    867
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Chất lượng dịch vụ đang được giám sát theo hành trình trải nghiệm khách hàng bao gồm không gian giao dịch, nhân viên bảo vệ, nhân viên các chức danh có tiếp xúc với khách hàng, v.v. Trong năm 2022, các đơn vị chi nhánh hay phòng giao dịch của ACB cũng đã nổ lực trong việc nâng cao chất lượng dịch vụ khách hàng với điểm trung bình là 93,40 điểm và đạt số điểm yêu cầu của ACB.",
+            "block_bbox": [
+                222,
+                949,
+                1423,
+                1133
+            ],
+            "block_id": 7,
+            "block_order": 3,
+            "group_id": 7,
+            "global_block_id": 1341,
+            "global_group_id": 1341,
+            "block_polygon_points": [
+                [
+                    222.0,
+                    949.0
+                ],
+                [
+                    1423.0,
+                    949.0
+                ],
+                [
+                    1423.0,
+                    1133.0
+                ],
+                [
+                    222.0,
+                    1133.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Biểu đồ tỷ lệ xếp loại chất lượng dịch vụ đơn vị qua các năm",
+            "block_bbox": [
+                804,
+                1179,
+                1328,
+                1211
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 1342,
+            "global_group_id": 1342,
+            "block_polygon_points": [
+                [
+                    804.0,
+                    1179.0
+                ],
+                [
+                    1328.0,
+                    1179.0
+                ],
+                [
+                    1328.0,
+                    1211.0
+                ],
+                [
+                    804.0,
+                    1211.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                293,
+                1203,
+                1395,
+                1690
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 1343,
+            "global_group_id": 1343,
+            "block_polygon_points": [
+                [
+                    302,
+                    1261
+                ],
+                [
+                    293,
+                    1689
+                ],
+                [
+                    1394,
+                    1678
+                ],
+                [
+                    1386,
+                    1215
+                ],
+                [
+                    774,
+                    1203
+                ],
+                [
+                    740,
+                    1227
+                ],
+                [
+                    376,
+                    1227
+                ],
+                [
+                    318,
+                    1238
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Kết quả ghi nhận từ chương trình đánh giá mức độ tuân thủ chuẩn mực dịch vụ khách hàng thông qua Khách hàng bí mật.",
+            "block_bbox": [
+                268,
+                1738,
+                1422,
+                1819
+            ],
+            "block_id": 10,
+            "block_order": 4,
+            "group_id": 10,
+            "global_block_id": 1344,
+            "global_group_id": 1344,
+            "block_polygon_points": [
+                [
+                    268.0,
+                    1738.0
+                ],
+                [
+                    1422.0,
+                    1738.0
+                ],
+                [
+                    1422.0,
+                    1819.0
+                ],
+                [
+                    268.0,
+                    1819.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(1) Giám sát thảo luận khách hàng trên trang mạng xã hội do Buzzmetrics thực hiện (tính đến 30/11/2022).",
+            "block_bbox": [
+                247,
+                1855,
+                1387,
+                1935
+            ],
+            "block_id": 11,
+            "block_order": 5,
+            "group_id": 11,
+            "global_block_id": 1345,
+            "global_group_id": 1345,
+            "block_polygon_points": [
+                [
+                    247.0,
+                    1855.0
+                ],
+                [
+                    1387.0,
+                    1855.0
+                ],
+                [
+                    1387.0,
+                    1935.0
+                ],
+                [
+                    247.0,
+                    1935.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2022",
+            "block_bbox": [
+                249,
+                2129,
+                469,
+                2166
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "global_block_id": 1346,
+            "global_group_id": 1346,
+            "block_polygon_points": [
+                [
+                    249.0,
+                    2129.0
+                ],
+                [
+                    469.0,
+                    2129.0
+                ],
+                [
+                    469.0,
+                    2166.0
+                ],
+                [
+                    249.0,
+                    2166.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 102 of 113",
+            "block_bbox": [
+                1120,
+                2125,
+                1332,
+                2164
+            ],
+            "block_id": 13,
+            "block_order": null,
+            "group_id": 13,
+            "global_block_id": 1347,
+            "global_group_id": 1347,
+            "block_polygon_points": [
+                [
+                    1120.0,
+                    2125.0
+                ],
+                [
+                    1332.0,
+                    2125.0
+                ],
+                [
+                    1332.0,
+                    2164.0
+                ],
+                [
+                    1120.0,
+                    2164.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.462066113948822,
+                "coordinate": [
+                    299,
+                    405,
+                    644,
+                    507
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        299.0,
+                        405.0
+                    ],
+                    [
+                        644.0,
+                        405.0
+                    ],
+                    [
+                        644.0,
+                        507.0
+                    ],
+                    [
+                        299.0,
+                        507.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.6069232821464539,
+                "coordinate": [
+                    292,
+                    510,
+                    670,
+                    734
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        292.0,
+                        510.0
+                    ],
+                    [
+                        670.0,
+                        510.0
+                    ],
+                    [
+                        670.0,
+                        734.0
+                    ],
+                    [
+                        292.0,
+                        734.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.44663599133491516,
+                "coordinate": [
+                    801,
+                    403,
+                    1356,
+                    464
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        801.0,
+                        403.0
+                    ],
+                    [
+                        1356.0,
+                        403.0
+                    ],
+                    [
+                        1356.0,
+                        464.0
+                    ],
+                    [
+                        801.0,
+                        464.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.8383371829986572,
+                "coordinate": [
+                    761,
+                    473,
+                    1425,
+                    744
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        761.0,
+                        473.0
+                    ],
+                    [
+                        1425.0,
+                        473.0
+                    ],
+                    [
+                        1425.0,
+                        744.0
+                    ],
+                    [
+                        761.0,
+                        744.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.6613163948059082,
+                "coordinate": [
+                    921,
+                    765,
+                    1248,
+                    793
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        921.0,
+                        765.0
+                    ],
+                    [
+                        1248.0,
+                        765.0
+                    ],
+                    [
+                        1248.0,
+                        793.0
+                    ],
+                    [
+                        921.0,
+                        793.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8464846014976501,
+                "coordinate": [
+                    250,
+                    794,
+                    1418,
+                    871
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        250.0,
+                        794.0
+                    ],
+                    [
+                        1418.0,
+                        794.0
+                    ],
+                    [
+                        1418.0,
+                        871.0
+                    ],
+                    [
+                        250.0,
+                        871.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8860270380973816,
+                "coordinate": [
+                    252,
+                    867,
+                    1420,
+                    945
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        252,
+                        879
+                    ],
+                    [
+                        252,
+                        944
+                    ],
+                    [
+                        1328,
+                        944
+                    ],
+                    [
+                        1419,
+                        933
+                    ],
+                    [
+                        1419,
+                        867
+                    ],
+                    [
+                        335,
+                        867
+                    ],
+                    [
+                        277,
+                        879
+                    ],
+                    [
+                        269,
+                        867
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.943192720413208,
+                "coordinate": [
+                    222,
+                    949,
+                    1423,
+                    1133
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        222.0,
+                        949.0
+                    ],
+                    [
+                        1423.0,
+                        949.0
+                    ],
+                    [
+                        1423.0,
+                        1133.0
+                    ],
+                    [
+                        222.0,
+                        1133.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.43612390756607056,
+                "coordinate": [
+                    804,
+                    1179,
+                    1328,
+                    1211
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        804.0,
+                        1179.0
+                    ],
+                    [
+                        1328.0,
+                        1179.0
+                    ],
+                    [
+                        1328.0,
+                        1211.0
+                    ],
+                    [
+                        804.0,
+                        1211.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.5122349858283997,
+                "coordinate": [
+                    293,
+                    1203,
+                    1395,
+                    1690
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        302,
+                        1261
+                    ],
+                    [
+                        293,
+                        1689
+                    ],
+                    [
+                        1394,
+                        1678
+                    ],
+                    [
+                        1386,
+                        1215
+                    ],
+                    [
+                        774,
+                        1203
+                    ],
+                    [
+                        740,
+                        1227
+                    ],
+                    [
+                        376,
+                        1227
+                    ],
+                    [
+                        318,
+                        1238
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5356075167655945,
+                "coordinate": [
+                    268,
+                    1738,
+                    1422,
+                    1819
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        268.0,
+                        1738.0
+                    ],
+                    [
+                        1422.0,
+                        1738.0
+                    ],
+                    [
+                        1422.0,
+                        1819.0
+                    ],
+                    [
+                        268.0,
+                        1819.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6571871042251587,
+                "coordinate": [
+                    247,
+                    1855,
+                    1387,
+                    1935
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        247.0,
+                        1855.0
+                    ],
+                    [
+                        1387.0,
+                        1855.0
+                    ],
+                    [
+                        1387.0,
+                        1935.0
+                    ],
+                    [
+                        247.0,
+                        1935.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8327727317810059,
+                "coordinate": [
+                    249,
+                    2129,
+                    469,
+                    2166
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        249.0,
+                        2129.0
+                    ],
+                    [
+                        469.0,
+                        2129.0
+                    ],
+                    [
+                        469.0,
+                        2166.0
+                    ],
+                    [
+                        249.0,
+                        2166.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8517881035804749,
+                "coordinate": [
+                    1120,
+                    2125,
+                    1332,
+                    2164
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        1120.0,
+                        2125.0
+                    ],
+                    [
+                        1332.0,
+                        2125.0
+                    ],
+                    [
+                        1332.0,
+                        2164.0
+                    ],
+                    [
+                        1120.0,
+                        2164.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

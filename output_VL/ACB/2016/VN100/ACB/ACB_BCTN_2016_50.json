@@ -1,0 +1,223 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 992,
+    "height": 1403,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "figure_title",
+            "block_content": "Đợt 2: Trong tháng 11 và tháng 12, ACB phát hành riêng lẻ tổng cộng 1.054 tỷ đồng (Một nghìn không trăm năm mươi bốn tỷ đồng) trái phiếu kỳ hạn mười (10) năm một (01) ngày.",
+            "block_bbox": [
+                159,
+                156,
+                857,
+                256
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 510,
+            "global_group_id": 510,
+            "block_polygon_points": [
+                [
+                    159.0,
+                    156.0
+                ],
+                [
+                    857.0,
+                    156.0
+                ],
+                [
+                    857.0,
+                    256.0
+                ],
+                [
+                    159.0,
+                    256.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 50 of 78",
+            "block_bbox": [
+                743,
+                1307,
+                853,
+                1331
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 511,
+            "global_group_id": 511,
+            "block_polygon_points": [
+                [
+                    742.9999389648438,
+                    1306.9998779296875
+                ],
+                [
+                    851.9999389648438,
+                    1306.9998779296875
+                ],
+                [
+                    851.9999389648438,
+                    1329.9998779296875
+                ],
+                [
+                    742.9999389648438,
+                    1329.9998779296875
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTNACB 2016",
+            "block_bbox": [
+                141,
+                1306,
+                277,
+                1330
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 512,
+            "global_group_id": 512,
+            "block_polygon_points": [
+                [
+                    141.0,
+                    1306.0
+                ],
+                [
+                    277.0,
+                    1306.0
+                ],
+                [
+                    277.0,
+                    1330.0
+                ],
+                [
+                    141.0,
+                    1330.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.8507291674613953,
+                "coordinate": [
+                    159,
+                    156,
+                    857,
+                    256
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        159.0,
+                        156.0
+                    ],
+                    [
+                        857.0,
+                        156.0
+                    ],
+                    [
+                        857.0,
+                        256.0
+                    ],
+                    [
+                        159.0,
+                        256.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8452453017234802,
+                "coordinate": [
+                    743,
+                    1307,
+                    853,
+                    1331
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        742.9999389648438,
+                        1306.9998779296875
+                    ],
+                    [
+                        851.9999389648438,
+                        1306.9998779296875
+                    ],
+                    [
+                        851.9999389648438,
+                        1329.9998779296875
+                    ],
+                    [
+                        742.9999389648438,
+                        1329.9998779296875
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8598580956459045,
+                "coordinate": [
+                    141,
+                    1306,
+                    277,
+                    1330
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        141.0,
+                        1306.0
+                    ],
+                    [
+                        277.0,
+                        1306.0
+                    ],
+                    [
+                        277.0,
+                        1330.0
+                    ],
+                    [
+                        141.0,
+                        1330.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

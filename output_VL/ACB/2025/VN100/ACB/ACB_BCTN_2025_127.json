@@ -1,0 +1,160 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2290,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Tiêu chí</td><td>Đánh giá 2025</td><td>Cơ sở cho việc đánh giá 2025</td></tr><tr><td>B.4.7</td><td>Công ty có viết báo cáo/nội dung riêng mô tả các nỗ lực về các vấn đề về môi trường/kinh tế và xã hội?</td><td>●</td><td>Thể hiện tại Báo cáo phát triển bền vững ACB.</td></tr><tr><td>B.5</td><td colspan=\"3\">Khi lợi ích của các bên có quyền lợi liên quan được pháp luật bảo vệ, các bên có quyền lợi liên quan phải có cơ hội được khiếu nại hiệu quả khi quyền lợi của họ bị vi phạm.</td></tr><tr><td>B.5.1</td><td>Công ty có cung cấp thông tin liên hệ trên website của công ty hay Báo cáo Thường niên đề các bên có quyền lợi liên quan (vd: khách hàng, nhà cung cấp, công chúng...) có thể sử dụng để lên tiếng về lo ngại và/hoặc khiếu kiện về những vi phạm có thể xây ra đối với quyền lợi của họ?</td><td>●</td><td>ACB cung cấp số điện thoại và phương thức liên hệ tại Báo cáo thường niên, website ACB.</td></tr><tr><td>B.6</td><td colspan=\"3\">Cần cho phép phát triển các cơ chế cho sự tham gia của nhân viên</td></tr><tr><td>B.6.1</td><td>Công ty có công bố rõ ràng chính sách và thực hành, nỗ lực về sức khỏe, an toàn, và phúc lợi cho nhân viên?</td><td>●</td><td>Thể hiện tại Báo cáo phát triển bền vững ACB.</td></tr><tr><td>B.6.2</td><td>Công ty có công bố rõ ràng chính sách và thực hành, nỗ lực về các chương trình đào tạo và phát triển cho nhân viên?</td><td>●</td><td>Thể hiện tại Báo cáo phát triển bền vững ACB.</td></tr><tr><td>B.6.3</td><td>Công ty có chính sách khen thưởng gắn với hiệu quả hoạt động của công ty trong dài hạn hơn là trong ngắn hạn?</td><td>●</td><td>Thể hiện tại Báo cáo phát triển bền vững ACB.</td></tr><tr><td>B.7</td><td colspan=\"3\">Các bên có quyền lợi liên quan, bao gồm cả người lao động và tổ chức đại diện cho họ, phải được tự do truyền đạt những loại ngại của họ về những việc làm không hợp pháp hoặc không phù hợp đạo đức lên HDQT và việc này không được ảnh hưởng tới quyền lợi của họ.</td></tr></table>",
+            "block_bbox": [
+                152,
+                148,
+                1382,
+                1994
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1455,
+            "global_group_id": 1455,
+            "block_polygon_points": [
+                [
+                    152.0,
+                    148.0
+                ],
+                [
+                    1382.0,
+                    148.0
+                ],
+                [
+                    1382.0,
+                    1994.0
+                ],
+                [
+                    152.0,
+                    1994.0
+                ]
+            ]
+        },
+        {
+            "block_label": "aside_text",
+            "block_content": "Báo cáo thưởng niên ACB năm 2025",
+            "block_bbox": [
+                1527,
+                1459,
+                1571,
+                1952
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1456,
+            "global_group_id": 1456,
+            "block_polygon_points": [
+                [
+                    1527.0,
+                    1459.0
+                ],
+                [
+                    1571.0,
+                    1459.0
+                ],
+                [
+                    1571.0,
+                    1952.0
+                ],
+                [
+                    1527.0,
+                    1952.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9689573645591736,
+                "coordinate": [
+                    152,
+                    148,
+                    1382,
+                    1994
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        152.0,
+                        148.0
+                    ],
+                    [
+                        1382.0,
+                        148.0
+                    ],
+                    [
+                        1382.0,
+                        1994.0
+                    ],
+                    [
+                        152.0,
+                        1994.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.42874041199684143,
+                "coordinate": [
+                    1527,
+                    1459,
+                    1571,
+                    1952
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1527.0,
+                        1459.0
+                    ],
+                    [
+                        1571.0,
+                        1459.0
+                    ],
+                    [
+                        1571.0,
+                        1952.0
+                    ],
+                    [
+                        1527.0,
+                        1952.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

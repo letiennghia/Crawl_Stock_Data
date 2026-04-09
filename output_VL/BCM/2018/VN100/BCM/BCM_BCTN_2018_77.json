@@ -1,0 +1,601 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1654,
+    "height": 2340,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "aside_text",
+            "block_content": "0",
+            "block_bbox": [
+                12,
+                1,
+                63,
+                2329
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1139,
+            "global_group_id": 1139,
+            "block_polygon_points": [
+                [
+                    18.649581909179688,
+                    12.890380859375
+                ],
+                [
+                    55.00000762939453,
+                    13.000244140625
+                ],
+                [
+                    48.0,
+                    2328.0
+                ],
+                [
+                    11.649572372436523,
+                    2327.89013671875
+                ]
+            ]
+        },
+        {
+            "block_label": "doc_title",
+            "block_content": "TỔNG CÔNG TY ĐẦU TỬ VÀ PHÁT TRIỂN CÔNG NGHIỆP – CTCP",
+            "block_bbox": [
+                155,
+                55,
+                1137,
+                100
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 1140,
+            "global_group_id": 1140,
+            "block_polygon_points": [
+                [
+                    155.0,
+                    55.0
+                ],
+                [
+                    1137.0,
+                    55.0
+                ],
+                [
+                    1137.0,
+                    100.0
+                ],
+                [
+                    155.0,
+                    100.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Cho năm tài chính kết thúc ngày 31 tháng 12 năm 2018",
+            "block_bbox": [
+                156,
+                172,
+                790,
+                204
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 1141,
+            "global_group_id": 1141,
+            "block_polygon_points": [
+                [
+                    156.0,
+                    172.0
+                ],
+                [
+                    790.0,
+                    172.0
+                ],
+                [
+                    790.0,
+                    204.0
+                ],
+                [
+                    156.0,
+                    204.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Bản thuyết minh Báo cáo tài chính tổng hợp (tiếp theo)",
+            "block_bbox": [
+                156,
+                204,
+                817,
+                241
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "global_block_id": 1142,
+            "global_group_id": 1142,
+            "block_polygon_points": [
+                [
+                    156.0,
+                    204.0
+                ],
+                [
+                    817.0,
+                    204.0
+                ],
+                [
+                    817.0,
+                    241.0
+                ],
+                [
+                    156.0,
+                    241.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>19b. Phải trả dài hạn khác</td><td>Số cuối năm</td><td>Số đầu năm</td></tr><tr><td>Phải trả các bên liên quan</td><td>757.840.000</td><td>694.840.000</td></tr><tr><td>Công ty Cổ phần Xây dựng và Giao thông Bình Dương – Nhận ký quỹ dài hạn</td><td>312.840.000</td><td>312.840.000</td></tr><tr><td>Công ty Cổ phần Phát triển Hà tầng Kỹ thuật – Nhận ký quỹ dài hạn</td><td>230.100.000</td><td>210.100.000</td></tr><tr><td>Công ty Cổ phần Kinh doanh và Phát triển Bình Dương – Nhận ký quỹ dài hạn</td><td>214.900.000</td><td>171.900.000</td></tr><tr><td>Phải trả các tổ chức và cá nhân khác</td><td>13.435.702.145</td><td>12.644.702.145</td></tr><tr><td>Cộng</td><td>14.193.542.145</td><td>13.339.542.145</td></tr></table>",
+            "block_bbox": [
+                155,
+                305,
+                1478,
+                738
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 1143,
+            "global_group_id": 1143,
+            "block_polygon_points": [
+                [
+                    155.0,
+                    305.0
+                ],
+                [
+                    1478.0,
+                    305.0
+                ],
+                [
+                    1478.0,
+                    738.0
+                ],
+                [
+                    155.0,
+                    738.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td colspan=\"3\">20. Vay và nợ thuê tài chính ngăn hạn/dài hạn</td></tr><tr><td colspan=\"3\">20a. Vay và nợ thuê tài chính ngắn hạn</td></tr><tr><td>Vay ngắn hạn ngân hàng</td><td>Số cuối năm</td><td>Số đầu năm</td></tr><tr><td>Ngân hàng TMCP Đầu tư và Phát triển Việt Nam - Chỉ nhánh Bình Dương $ ^{(i)} $</td><td>2.864.989.706.303</td><td>3.614.583.646.762</td></tr><tr><td>Ngân hàng TMCP Công Thương Việt Nam - Chỉ nhánh Đồng Nai</td><td>2.864.989.706.303</td><td>2.700.183.701.528</td></tr><tr><td>Ngân hàng TMCP Xuất Nhập khẩu Việt Nam - Chỉ nhánh Bình Dương</td><td>-</td><td>285.000.000.000</td></tr><tr><td>Ngân hàng TMCP Hàng Hải Việt Nam - Chỉ nhánh Bình Dương</td><td>-</td><td>100.000.000.000</td></tr><tr><td>Ngân hàng TMCP Đồng Nam Á</td><td>-</td><td>329.473.722.289</td></tr><tr><td>Vay ngắn hạn các tổ chức và cá nhân khác $ ^{(ii)} $</td><td>-</td><td>199.926.222.945</td></tr><tr><td>Vay dài hạn đến hạn trà (xem thuyết minh số V.20b)</td><td>74.136.650.000</td><td>89.668.000.000</td></tr><tr><td>Ngân hàng TMCP Đầu tư và Phát triển Việt Nam - Chỉ nhánh Bình Dương</td><td>822.064.999.997</td><td>626.030.000.000</td></tr><tr><td>Ngân hàng TMCP Quân đội - Chỉ nhánh Bình Dương</td><td>60.000.000.000</td><td>60.000.000.000</td></tr><tr><td>Ngân hàng TMCP Á Châu - Chỉ nhánh Nguyễn Văn Trỗi</td><td>140.000.000.000</td><td>-</td></tr><tr><td>Ngân hàng TMCP Ngoại thương Việt Nam - Chỉ nhánh Bình Dương</td><td>19.999.999.997</td><td>-</td></tr><tr><td>Ngân hàng TMCP Công Thương Việt Nam - Chỉ nhánh Đồng Nai</td><td>-</td><td>120.000.000.000</td></tr><tr><td>Ngân hàng China Construction Bank Corporation - Chỉ nhánh TP.Hồ Chí Minh</td><td>47.880.000.000</td><td>47.880.000.000</td></tr><tr><td>Quỹ Đầu tư và Phát triển Bình Dương</td><td>246.185.000.000</td><td>246.150.000.000</td></tr><tr><td>Trái phiếu thương dài hạn đến hạn trả (xem thuyết minh số V.20b)</td><td>308.000.000.000</td><td>152.000.000.000</td></tr><tr><td>Ngân hàng TMCP Công Thương Việt Nam - Chỉ nhánh Đồng Nai</td><td>4.189.500.000.000</td><td>2.538.000.000.000</td></tr><tr><td>Ngân hàng TMCP Bảo Việt</td><td>-</td><td>2.000.000.000.000</td></tr><tr><td>Công ty TNHH Bảo hiểm Nhân thọ AIA Việt Nam</td><td>37.500.000.000</td><td>50.000.000.000</td></tr><tr><td></td><td>33.000.000.000</td><td>44.000.000.000</td></tr></table>",
+            "block_bbox": [
+                149,
+                897,
+                1489,
+                2155
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 1144,
+            "global_group_id": 1144,
+            "block_polygon_points": [
+                [
+                    149.0,
+                    897.0
+                ],
+                [
+                    1489.0,
+                    897.0
+                ],
+                [
+                    1489.0,
+                    2155.0
+                ],
+                [
+                    149.0,
+                    2155.0
+                ]
+            ]
+        },
+        {
+            "block_label": "seal",
+            "block_content": "",
+            "block_bbox": [
+                1565,
+                1291,
+                1644,
+                1542
+            ],
+            "block_id": 6,
+            "block_order": 4,
+            "group_id": 6,
+            "global_block_id": 1145,
+            "global_group_id": 1145,
+            "block_polygon_points": [
+                [
+                    1565.0,
+                    1291.0
+                ],
+                [
+                    1644.0,
+                    1291.0
+                ],
+                [
+                    1644.0,
+                    1542.0
+                ],
+                [
+                    1565.0,
+                    1542.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Bản thuyết mình này là một bộ phận hợp thành và phải được độc cùng với Báo cáo tài chính tổng hợp",
+            "block_bbox": [
+                164,
+                2207,
+                1202,
+                2243
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 1146,
+            "global_group_id": 1146,
+            "block_polygon_points": [
+                [
+                    164.0,
+                    2207.0
+                ],
+                [
+                    1202.0,
+                    2207.0
+                ],
+                [
+                    1202.0,
+                    2243.0
+                ],
+                [
+                    164.0,
+                    2243.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "45",
+            "block_bbox": [
+                1478,
+                2205,
+                1517,
+                2237
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 1147,
+            "global_group_id": 1147,
+            "block_polygon_points": [
+                [
+                    1478.0,
+                    2205.0
+                ],
+                [
+                    1516.0,
+                    2205.0
+                ],
+                [
+                    1516.0,
+                    2236.0
+                ],
+                [
+                    1478.0,
+                    2236.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.613964319229126,
+                "coordinate": [
+                    12,
+                    1,
+                    63,
+                    2329
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        18.649581909179688,
+                        12.890380859375
+                    ],
+                    [
+                        55.00000762939453,
+                        13.000244140625
+                    ],
+                    [
+                        48.0,
+                        2328.0
+                    ],
+                    [
+                        11.649572372436523,
+                        2327.89013671875
+                    ]
+                ]
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.31031808257102966,
+                "coordinate": [
+                    155,
+                    55,
+                    1137,
+                    100
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        155.0,
+                        55.0
+                    ],
+                    [
+                        1137.0,
+                        55.0
+                    ],
+                    [
+                        1137.0,
+                        100.0
+                    ],
+                    [
+                        155.0,
+                        100.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.33325862884521484,
+                "coordinate": [
+                    156,
+                    172,
+                    790,
+                    204
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        156.0,
+                        172.0
+                    ],
+                    [
+                        790.0,
+                        172.0
+                    ],
+                    [
+                        790.0,
+                        204.0
+                    ],
+                    [
+                        156.0,
+                        204.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3622473478317261,
+                "coordinate": [
+                    156,
+                    204,
+                    817,
+                    241
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        156.0,
+                        204.0
+                    ],
+                    [
+                        817.0,
+                        204.0
+                    ],
+                    [
+                        817.0,
+                        241.0
+                    ],
+                    [
+                        156.0,
+                        241.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.8800501227378845,
+                "coordinate": [
+                    155,
+                    305,
+                    1478,
+                    738
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        155.0,
+                        305.0
+                    ],
+                    [
+                        1478.0,
+                        305.0
+                    ],
+                    [
+                        1478.0,
+                        738.0
+                    ],
+                    [
+                        155.0,
+                        738.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.91490238904953,
+                "coordinate": [
+                    149,
+                    897,
+                    1489,
+                    2155
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        149.0,
+                        897.0
+                    ],
+                    [
+                        1489.0,
+                        897.0
+                    ],
+                    [
+                        1489.0,
+                        2155.0
+                    ],
+                    [
+                        149.0,
+                        2155.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 20,
+                "label": "seal",
+                "score": 0.9087639451026917,
+                "coordinate": [
+                    1565,
+                    1291,
+                    1644,
+                    1542
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        1565.0,
+                        1291.0
+                    ],
+                    [
+                        1644.0,
+                        1291.0
+                    ],
+                    [
+                        1644.0,
+                        1542.0
+                    ],
+                    [
+                        1565.0,
+                        1542.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.6743863224983215,
+                "coordinate": [
+                    164,
+                    2207,
+                    1202,
+                    2243
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        164.0,
+                        2207.0
+                    ],
+                    [
+                        1202.0,
+                        2207.0
+                    ],
+                    [
+                        1202.0,
+                        2243.0
+                    ],
+                    [
+                        164.0,
+                        2243.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7047783732414246,
+                "coordinate": [
+                    1478,
+                    2205,
+                    1517,
+                    2237
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1478.0,
+                        2205.0
+                    ],
+                    [
+                        1516.0,
+                        2205.0
+                    ],
+                    [
+                        1516.0,
+                        2236.0
+                    ],
+                    [
+                        1478.0,
+                        2236.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

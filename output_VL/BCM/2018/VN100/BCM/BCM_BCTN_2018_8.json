@@ -1,0 +1,349 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1654,
+    "height": 2339,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Báo cáo thường niên 2018",
+            "block_bbox": [
+                1124,
+                139,
+                1468,
+                176
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 108,
+            "global_group_id": 108,
+            "block_polygon_points": [
+                [
+                    1124.0,
+                    139.0
+                ],
+                [
+                    1468.0,
+                    139.0
+                ],
+                [
+                    1468.0,
+                    176.0
+                ],
+                [
+                    1124.0,
+                    176.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "- Danh sách các công ty con, công ty liên kết tính đến thời điểm 31/12/2018.",
+            "block_bbox": [
+                147,
+                219,
+                1281,
+                268
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 109,
+            "global_group_id": 109,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    219.0
+                ],
+                [
+                    1281.0,
+                    219.0
+                ],
+                [
+                    1281.0,
+                    268.0
+                ],
+                [
+                    147.0,
+                    268.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Đơn vị: tỷ đồng",
+            "block_bbox": [
+                1267,
+                263,
+                1507,
+                307
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 110,
+            "global_group_id": 110,
+            "block_polygon_points": [
+                [
+                    1267.0,
+                    263.0
+                ],
+                [
+                    1507.0,
+                    263.0
+                ],
+                [
+                    1507.0,
+                    307.0
+                ],
+                [
+                    1267.0,
+                    307.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>TÊN CÔNG TY</td><td>VÔN DIÊU LỆ</td><td>VÔN GÓP</td><td>TỶ LỆ</td></tr><tr><td>1</td><td>Công ty Cổ phần Cao su Binh Dương</td><td>117</td><td>84,5</td><td>72,22%</td></tr><tr><td>2</td><td>Công ty Cổ phần Xây dựng và Giao thông Bình Dương (Becamex BCE)</td><td>300</td><td>155,4</td><td>51,82%</td></tr><tr><td>3</td><td>Công ty Cổ phần Kinh doanh và Phát triển Bình Dương (TDC)</td><td>1,000</td><td>607</td><td>60,70%</td></tr><tr><td>4</td><td>Công ty Cổ phần Phát triển Đô thị (Becamex UDJ)</td><td>165</td><td>84,15</td><td>51%</td></tr><tr><td>5</td><td>Công ty Cổ phần Phát triển Hạ tầng Kỹ thuật (Becamex IJC)</td><td>1,370</td><td>1,080</td><td>78,80%</td></tr><tr><td>6</td><td>Công ty CP Bê tông Becamex (ACC)</td><td>100</td><td>73,6</td><td>73%</td></tr><tr><td>7</td><td>Công ty Cổ phần Bệnh viện Mỹ Phước</td><td>200</td><td>130,9</td><td>65,47%</td></tr><tr><td>8</td><td>Trường Đại học Quốc tế Miền Đông</td><td>60</td><td>30,6</td><td>51%</td></tr><tr><td>9</td><td>Công ty Cổ phần Bệnh viện Đa khoa Quốc tế Becamex</td><td>200</td><td>170</td><td>85%</td></tr><tr><td>10</td><td>Công ty LD TNHH KCN VietNam-Singapore (VSIP)</td><td>946</td><td>461</td><td>49%</td></tr><tr><td>11</td><td>Công ty CP Nước - Môi trường Bình Dương (Biwase)</td><td>1,500</td><td>615</td><td>41%</td></tr><tr><td>12</td><td>Công ty CP Dược Becamex</td><td>60</td><td>20,6</td><td>34,34%</td></tr><tr><td>13</td><td>Công ty CP Dược phẩm Savi</td><td>160</td><td>56,3</td><td>35,19%</td></tr><tr><td>14</td><td>Công ty CP Bảo hiểm Hùng Vương</td><td>300</td><td>60</td><td>20%</td></tr><tr><td>15</td><td>Công ty CP Setia - Becamex</td><td>660</td><td>264</td><td>40%</td></tr><tr><td>16</td><td>Công ty CP Công nghệ &amp; Truyền thông Việt Nam (VNTT)</td><td>244,85</td><td>118,9</td><td>48,59%</td></tr><tr><td>17</td><td>Công ty CP Phát triển Giáo dục Miền Đông</td><td>183</td><td>91,5</td><td>50%</td></tr><tr><td>18</td><td>Công ty TNHH Becamex Tokyo</td><td>8,600</td><td>3,010</td><td>35%</td></tr><tr><td>19</td><td>Công ty CP Phát triển Công nghiệp BW</td><td>2,564</td><td>769</td><td>30%</td></tr><tr><td>20</td><td>Công ty CP Becamex Bình Phước</td><td>400</td><td>160</td><td>40%</td></tr></table>",
+            "block_bbox": [
+                166,
+                289,
+                1536,
+                2171
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 111,
+            "global_group_id": 111,
+            "block_polygon_points": [
+                [
+                    166,
+                    301
+                ],
+                [
+                    166,
+                    2170
+                ],
+                [
+                    1535,
+                    2170
+                ],
+                [
+                    1527,
+                    301
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "6",
+            "block_bbox": [
+                816,
+                2182,
+                839,
+                2211
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 112,
+            "global_group_id": 112,
+            "block_polygon_points": [
+                [
+                    816.0,
+                    2182.0
+                ],
+                [
+                    838.0,
+                    2182.0
+                ],
+                [
+                    838.0,
+                    2210.0
+                ],
+                [
+                    816.0,
+                    2210.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.839809775352478,
+                "coordinate": [
+                    1124,
+                    139,
+                    1468,
+                    176
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1124.0,
+                        139.0
+                    ],
+                    [
+                        1468.0,
+                        139.0
+                    ],
+                    [
+                        1468.0,
+                        176.0
+                    ],
+                    [
+                        1124.0,
+                        176.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.4054184854030609,
+                "coordinate": [
+                    147,
+                    219,
+                    1281,
+                    268
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        147.0,
+                        219.0
+                    ],
+                    [
+                        1281.0,
+                        219.0
+                    ],
+                    [
+                        1281.0,
+                        268.0
+                    ],
+                    [
+                        147.0,
+                        268.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7528894543647766,
+                "coordinate": [
+                    1267,
+                    263,
+                    1507,
+                    307
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1267.0,
+                        263.0
+                    ],
+                    [
+                        1507.0,
+                        263.0
+                    ],
+                    [
+                        1507.0,
+                        307.0
+                    ],
+                    [
+                        1267.0,
+                        307.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9842655658721924,
+                "coordinate": [
+                    166,
+                    289,
+                    1536,
+                    2171
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        166,
+                        301
+                    ],
+                    [
+                        166,
+                        2170
+                    ],
+                    [
+                        1535,
+                        2170
+                    ],
+                    [
+                        1527,
+                        301
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.666847825050354,
+                "coordinate": [
+                    816,
+                    2182,
+                    839,
+                    2211
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        816.0,
+                        2182.0
+                    ],
+                    [
+                        838.0,
+                        2182.0
+                    ],
+                    [
+                        838.0,
+                        2210.0
+                    ],
+                    [
+                        816.0,
+                        2210.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

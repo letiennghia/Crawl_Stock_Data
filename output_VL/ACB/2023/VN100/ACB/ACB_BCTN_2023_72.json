@@ -1,0 +1,349 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1652,
+    "height": 2296,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "3. Hoạt động từ thiện xã hội",
+            "block_bbox": [
+                254,
+                257,
+                629,
+                295
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 990,
+            "global_group_id": 990,
+            "block_polygon_points": [
+                [
+                    254.0,
+                    257.0
+                ],
+                [
+                    629.0,
+                    257.0
+                ],
+                [
+                    629.0,
+                    295.0
+                ],
+                [
+                    254.0,
+                    295.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Nội dung</td><td>Số tiền (đồng)</td></tr><tr><td>1</td><td>Tài trợ cho hoạt động giáo dục, bao gồm học bổng cho học sinh có hoàn cảnh khó khăn, quả cho học sinh có hoàn cảnh khó khăn.</td><td>1.494.000.000</td></tr><tr><td>2</td><td>Tài trợ an sinh xã hội cho các đối tượng hệ nghèo, hệ chính sách, v.v.</td><td>859.200.000</td></tr><tr><td>3</td><td>Tài trợ xây dựng nhà tính thương, cơ sở vật chất, trường học, v.v.</td><td>5.408.883.674</td></tr><tr><td>4</td><td>Tài trợ cho Quỹ bảo tồn động thực vật hoang đã Việt Nam</td><td>2.000.000.000</td></tr><tr><td>5</td><td>Tài trợ khác</td><td>1.214.000.000</td></tr><tr><td></td><td>Cộng</td><td>10.976.083.674</td></tr></table>",
+            "block_bbox": [
+                259,
+                304,
+                1376,
+                879
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 991,
+            "global_group_id": 991,
+            "block_polygon_points": [
+                [
+                    259.0,
+                    304.0
+                ],
+                [
+                    1376.0,
+                    304.0
+                ],
+                [
+                    1376.0,
+                    879.0
+                ],
+                [
+                    259.0,
+                    879.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2023",
+            "block_bbox": [
+                276,
+                1997,
+                489,
+                2032
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 992,
+            "global_group_id": 992,
+            "block_polygon_points": [
+                [
+                    276.0,
+                    1997.0
+                ],
+                [
+                    489.0,
+                    1997.0
+                ],
+                [
+                    489.0,
+                    2032.0
+                ],
+                [
+                    276.0,
+                    2032.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "71 / 111",
+            "block_bbox": [
+                1254,
+                1984,
+                1362,
+                2018
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 993,
+            "global_group_id": 993,
+            "block_polygon_points": [
+                [
+                    1254.0,
+                    1984.0
+                ],
+                [
+                    1362.0,
+                    1984.0
+                ],
+                [
+                    1362.0,
+                    2018.0
+                ],
+                [
+                    1254.0,
+                    2018.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": " $ H_{2}O $",
+            "block_bbox": [
+                711,
+                2236,
+                991,
+                2278
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 994,
+            "global_group_id": 994,
+            "block_polygon_points": [
+                [
+                    711.0,
+                    2236.0
+                ],
+                [
+                    991.0,
+                    2236.0
+                ],
+                [
+                    991.0,
+                    2278.0
+                ],
+                [
+                    711.0,
+                    2278.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4786251187324524,
+                "coordinate": [
+                    254,
+                    257,
+                    629,
+                    295
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        254.0,
+                        257.0
+                    ],
+                    [
+                        629.0,
+                        257.0
+                    ],
+                    [
+                        629.0,
+                        295.0
+                    ],
+                    [
+                        254.0,
+                        295.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9712061882019043,
+                "coordinate": [
+                    259,
+                    304,
+                    1376,
+                    879
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        259.0,
+                        304.0
+                    ],
+                    [
+                        1376.0,
+                        304.0
+                    ],
+                    [
+                        1376.0,
+                        879.0
+                    ],
+                    [
+                        259.0,
+                        879.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.7797433137893677,
+                "coordinate": [
+                    276,
+                    1997,
+                    489,
+                    2032
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        276.0,
+                        1997.0
+                    ],
+                    [
+                        489.0,
+                        1997.0
+                    ],
+                    [
+                        489.0,
+                        2032.0
+                    ],
+                    [
+                        276.0,
+                        2032.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7720305323600769,
+                "coordinate": [
+                    1254,
+                    1984,
+                    1362,
+                    2018
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        1254.0,
+                        1984.0
+                    ],
+                    [
+                        1362.0,
+                        1984.0
+                    ],
+                    [
+                        1362.0,
+                        2018.0
+                    ],
+                    [
+                        1254.0,
+                        2018.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.6032174825668335,
+                "coordinate": [
+                    711,
+                    2236,
+                    991,
+                    2278
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        711.0,
+                        2236.0
+                    ],
+                    [
+                        991.0,
+                        2236.0
+                    ],
+                    [
+                        991.0,
+                        2278.0
+                    ],
+                    [
+                        711.0,
+                        2278.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

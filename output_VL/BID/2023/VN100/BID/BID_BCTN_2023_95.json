@@ -1,0 +1,538 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2340,
+    "height": 1654,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                104,
+                0,
+                412,
+                77
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 2065,
+            "global_group_id": 2065,
+            "block_polygon_points": [
+                [
+                    104.0,
+                    0.0
+                ],
+                [
+                    412.0,
+                    0.0
+                ],
+                [
+                    412.0,
+                    77.0
+                ],
+                [
+                    104.0,
+                    77.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "CÁC CHI NHÁNH VÀ BƯỜN VI TRỰC THƯỚC",
+            "block_bbox": [
+                1698,
+                41,
+                2052,
+                73
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 2066,
+            "global_group_id": 2066,
+            "block_polygon_points": [
+                [
+                    1698.0,
+                    41.0
+                ],
+                [
+                    2052.0,
+                    41.0
+                ],
+                [
+                    2052.0,
+                    73.0
+                ],
+                [
+                    1698.0,
+                    73.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                2086,
+                31,
+                2231,
+                85
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 2067,
+            "global_group_id": 2067,
+            "block_polygon_points": [
+                [
+                    2086.0,
+                    31.0
+                ],
+                [
+                    2231.0,
+                    31.0
+                ],
+                [
+                    2231.0,
+                    85.0
+                ],
+                [
+                    2086.0,
+                    85.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "CÁC CHI NHÁNH VÀ ĐƠN VỊ TRỰC THUỘC (tiếp theo)",
+            "block_bbox": [
+                103,
+                183,
+                1045,
+                241
+            ],
+            "block_id": 3,
+            "block_order": 1,
+            "group_id": 3,
+            "global_block_id": 2068,
+            "global_group_id": 2068,
+            "block_polygon_points": [
+                [
+                    103.0,
+                    183.0
+                ],
+                [
+                    1045.0,
+                    183.0
+                ],
+                [
+                    1045.0,
+                    241.0
+                ],
+                [
+                    103.0,
+                    241.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Dan vi</td><td>Địa chỉ</td></tr><tr><td>92</td><td>CN Hà Giang</td><td>Đường Nguyễn Trãi, Tố 9, Phương Nguyễn Trãi, Thành phố Hà Giang, Tĩnh Hà Giang</td></tr><tr><td>93</td><td>CN Bắc Giang</td><td>Số 2, Đường Nguyễn Gia Thiêu, Phương Trần Phú, Thành phố Bắc Giang, Tĩnh Bắc Giang</td></tr><tr><td>94</td><td>CN Hoà Bình</td><td>Đường Lê Thành Tổng, Phương Hữu Nghi, Thành phố Hồ Bình, Tĩnh Hoà Bình</td></tr><tr><td>95</td><td>CN Sơn La</td><td>Số 188, Đường Tô Hiệu, Tố 5, Phương Tô Hiệu, Thành phố Sơn La, Tĩnh Sơn La</td></tr><tr><td>96</td><td>CN Yên Bái</td><td>Tố dân phố số 8, Phương Minh Tân, Thành phố Yên Bái, Tĩnh Yên Bái</td></tr><tr><td>97</td><td>CN Cao Bằng</td><td>Số 15, Đường Hoàng Đình Giong, Phương Hợp Giang, Thành phố Cao Bằng, Tĩnh Cao Bằng</td></tr><tr><td>98</td><td>CN Tuyên Quang</td><td>Số 04, Đường Bình Thuận, Phương Minh Xuân, Thành phố Tuyên Quang, Tĩnh Tuyên Quang</td></tr><tr><td>99</td><td>CN Bắc Kạn</td><td>Số 57, Đường Trường Chinh, Phương Đức Xuân, Thành phố Bắc Kạn, Tĩnh Bắc Kạn</td></tr><tr><td>100</td><td>CN Lai Châu</td><td>Tố 27, Phương Đông Phong, Thành phố Lai Châu, Tĩnh Lai Châu</td></tr><tr><td>101</td><td>CN Thái Nguyễn</td><td>Số 653, Đường Lương Ngọc Quyến, Tố 12, Phương Phan Đình Phùng, Thành phố Thái Nguyễn, Tĩnh Thái Nguyễn</td></tr><tr><td>102</td><td>CN Nam Thái Nguyễn</td><td>Số 120, Đường Trường Chinh, Tố dân phố 5, Phương Ba Hàng, Thành phố Phố Yên, Tĩnh Thái Nguyễn</td></tr><tr><td>103</td><td>CN Phú Thọ</td><td>Số 1155A, Đường Hùng Vương, Phương Tiên Cát, Thành phố Việt Trì, Tĩnh Phú Thọ</td></tr><tr><td>104</td><td>CN Hùng Vương</td><td>Tổà nhà của Nhà văn hoá Lao động tĩnh Phú Thọ, đường Hùng Vương, Phương Tiên Cát, Thành phố Việt Trì, Tĩnh Phú Thọ</td></tr><tr><td>105</td><td>CN Gia Lai</td><td>Số 112, Đường Lê Lợi, Phương Hoa Lư, Thành phố Pleiku, Tĩnh Gia Lai</td></tr><tr><td>106</td><td>CN Nam Gia Lai</td><td>Số 117, Đường Trần Phú, Phương Diễn Hồng, Thành phố Pleiku, Tĩnh Gia Lai</td></tr><tr><td>107</td><td>CN Phố Núi</td><td>Số 242, Đường Nguyễn Tất Thành, Phương Phù Đồng, Thành phố Pleiku, Tĩnh Gia Lai</td></tr><tr><td>108</td><td>CN Đắk Lắk</td><td>Số 17, Đường Nguyễn Tất Thành, Phương Tăn Lợi, Thành phố Buôn Ma Thuật, Tĩnh Đắk Lắk</td></tr><tr><td>109</td><td>CN Đồng Đắk Lắk</td><td>Số 55, Đường Nguyễn Tất Thành, Thị trấn Ea Kar, Huyên Ea Kar, Tĩnh Đắk Lắk</td></tr><tr><td>110</td><td>CN Buôn Hồ</td><td>Số 476, Đường Hùng Vương, Phương An Bình, Thị xã Buôn Hồ, Tĩnh Đắk Lắk</td></tr><tr><td>111</td><td>CN Ban Mê</td><td>Số 41, Đường Nguyễn Tất Thành, Phương Tăn An, Thành phố Buôn Ma Thuật, Tĩnh Đắk Lắk</td></tr><tr><td>112</td><td>CN Lâm Đồng</td><td>Số 22, Đường Trần Phú, Phương 3, Thành phố Đà Lạt, Tĩnh Lâm Đồng</td></tr><tr><td>113</td><td>CN Báo Lộc</td><td>Số 52, Đường Lê Thị Pha, Phương 1, Thành phố Báo Lộc, Tĩnh Lâm Đồng</td></tr><tr><td>114</td><td>CN Đà Lạt</td><td>Số 28, khu Hòa Bình, Phương 1, Thành phố Đà Lạt, Tĩnh Lâm Đồng</td></tr></table>",
+            "block_bbox": [
+                105,
+                381,
+                1063,
+                1509
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 2069,
+            "global_group_id": 2069,
+            "block_polygon_points": [
+                [
+                    105.0,
+                    381.0
+                ],
+                [
+                    1063.0,
+                    381.0
+                ],
+                [
+                    1063.0,
+                    1509.0
+                ],
+                [
+                    105.0,
+                    1509.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>STT</td><td>Đơn vị</td><td>Địa chỉ</td></tr><tr><td>115</td><td>CN Kon Turn</td><td>Số 1A, Đường Trần Phù, Phường Quyết Thắng, Thành phố Kon Tum, Tinh Kon Tum</td></tr><tr><td>116</td><td>CN Đắk Nông</td><td>Đường 23/3, Phường Nghĩa Trung, Thành phố Gia Nghĩa, Tinh Đắk Nông</td></tr><tr><td>117</td><td>CN TP Hồ Chí Minh</td><td>Số 134, Đường Nguyễn Công Trù, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh</td></tr><tr><td>118</td><td>CN Phú Nhưân</td><td>Số 203, Đường Hoàng Văn Thụ, Phường D8, Quận Phú Nhưân, Thành phố Hồ Chí Minh</td></tr><tr><td>119</td><td>CN Bắc Sài Gòn</td><td>Số 290, Đường Nam Kỳ Khói Nghĩa, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh</td></tr><tr><td>120</td><td>CN Số Giao Dịch 2</td><td>Số 4-6, Đường Vô Văn Kiệt, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh</td></tr><tr><td>121</td><td>CN Nam Sài Gòn</td><td>Tăng trị, tăng lừng, tăng 2,3,4,5 Tòa nhà Vinafood 2, Số 333 Đường Trần Hưng Đạo, Phường Câu Kho, Quận 1, Thành phố Hồ Chí Minh</td></tr><tr><td>122</td><td>CN Sài Gòn</td><td>Số 271, đường An Dương Vương, Phường 03, Quận 5, Thành phố Hồ Chí Minh</td></tr><tr><td>123</td><td>CN Chợ Lân</td><td>Số 49, Đường Kinh Dương Vương, Phường 12, Quận 6, Thành phố Hồ Chí Minh</td></tr><tr><td>124</td><td>CN Tây Sài Gòn</td><td>Tăng 1, số 70, Đường Lớ Gia, Phường 15, Quận 11, Thành phố Hồ Chí Minh</td></tr><tr><td>125</td><td>CN Đồng Sài Gòn</td><td>Số 23A và 25, Đường Động Văn Bi, Phường Trường Tho, Thành phố Thú Đức, Thành phố Hồ Chí Minh</td></tr><tr><td>126</td><td>CN Nam Kỳ Khói Nghĩa</td><td>Số 56 (sau), 58, 60, 62, 64 đường Nam Kỳ Khói Nghĩa, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh</td></tr><tr><td>127</td><td>CN Gia Định</td><td>Lô L1-01 Lầu 1 và Lô L3-01 Lầu 3 Trung tâm Thương mại Vincom Plaza KDT Saigonres, số 188, Đường Nguyễn Xí, Phường 26, Quận Bình Thạnh, Thành phố Hồ Chí Minh</td></tr><tr><td>128</td><td>CN Bến Thành</td><td>Số 85, Đường Bùi Thị Xuân, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh</td></tr><tr><td>129</td><td>CN Bến Nghê</td><td>Số 34, Đường Nguyễn Thị Diệu, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh</td></tr><tr><td>130</td><td>CN Ba Tháng Hai</td><td>Số 456, Đường Ba Tháng Hai, Phường 12, Quận 10, Thành phố Hồ Chí Minh</td></tr><tr><td>131</td><td>CN Tân Bình</td><td>Số 271-273-275, Đường Cộng Hoà, Phường 13, Quận Tân Bình, Thành phố Hồ Chí Minh</td></tr><tr><td>132</td><td>CN Cù Chỉ</td><td>Số 216-218, Tính Iộ B, Thị trần Cù Chỉ, Huyền Cù Chỉ, Thành phố Hồ Chí Minh</td></tr><tr><td>133</td><td>CN Phú Mỹ Hưng</td><td>Số 27-29 Đường Nguyễn Hữu Thọ, Khu phổ Kim Long, Xã Phước Kiến, Huyền Nhà Bè, Thành phố Hồ Chí Minh</td></tr><tr><td>134</td><td>CN Hốc Môn</td><td>Số 10/6A, Đường Lý Thường Kiệt, Thị trần Hốc Môn, Huyền Hốc Môn, Thành phố Hồ Chí Minh</td></tr><tr><td>135</td><td>CN Bình Chánh</td><td>Tăng trị tỏa nhà Hoàng Tháp Plaza, Lô 6-7 Đường 9A, KDC Trung Sơn, Xã Bình Hưng, Huyền Bình Chánh, Thành phố Hồ Chí Minh</td></tr><tr><td>136</td><td>CN Hàm Nghì</td><td>Số 32, Đường Hàm Nghì, Phường Bên Nghè, Quận 1, Thành phố Hồ Chí Minh</td></tr><tr><td>137</td><td>CN Kỳ Hòa</td><td>Số 137C, Đường Nguyễn Chí Thanh, Phường 09, Quận 5, Thành phố Hồ Chí Minh</td></tr></table>",
+            "block_bbox": [
+                1270,
+                383,
+                2231,
+                1513
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 2070,
+            "global_group_id": 2070,
+            "block_polygon_points": [
+                [
+                    1270.0,
+                    383.0
+                ],
+                [
+                    2231.0,
+                    383.0
+                ],
+                [
+                    2231.0,
+                    1513.0
+                ],
+                [
+                    1270.0,
+                    1513.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "186",
+            "block_bbox": [
+                107,
+                1558,
+                143,
+                1579
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 2071,
+            "global_group_id": 2071,
+            "block_polygon_points": [
+                [
+                    107.0,
+                    1558.0
+                ],
+                [
+                    142.0,
+                    1558.0
+                ],
+                [
+                    142.0,
+                    1578.0
+                ],
+                [
+                    107.0,
+                    1578.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "187",
+            "block_bbox": [
+                2199,
+                1557,
+                2232,
+                1579
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 2072,
+            "global_group_id": 2072,
+            "block_polygon_points": [
+                [
+                    2199.0,
+                    1557.0
+                ],
+                [
+                    2231.0,
+                    1557.0
+                ],
+                [
+                    2231.0,
+                    1578.0
+                ],
+                [
+                    2199.0,
+                    1578.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.8215265274047852,
+                "coordinate": [
+                    104,
+                    0,
+                    412,
+                    77
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        104.0,
+                        0.0
+                    ],
+                    [
+                        412.0,
+                        0.0
+                    ],
+                    [
+                        412.0,
+                        77.0
+                    ],
+                    [
+                        104.0,
+                        77.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8188052177429199,
+                "coordinate": [
+                    1698,
+                    41,
+                    2052,
+                    73
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1698.0,
+                        41.0
+                    ],
+                    [
+                        2052.0,
+                        41.0
+                    ],
+                    [
+                        2052.0,
+                        73.0
+                    ],
+                    [
+                        1698.0,
+                        73.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.778782308101654,
+                "coordinate": [
+                    2086,
+                    31,
+                    2231,
+                    85
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        2086.0,
+                        31.0
+                    ],
+                    [
+                        2231.0,
+                        31.0
+                    ],
+                    [
+                        2231.0,
+                        85.0
+                    ],
+                    [
+                        2086.0,
+                        85.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8775684833526611,
+                "coordinate": [
+                    103,
+                    183,
+                    1045,
+                    241
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        103.0,
+                        183.0
+                    ],
+                    [
+                        1045.0,
+                        183.0
+                    ],
+                    [
+                        1045.0,
+                        241.0
+                    ],
+                    [
+                        103.0,
+                        241.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9790579676628113,
+                "coordinate": [
+                    105,
+                    381,
+                    1063,
+                    1509
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        105.0,
+                        381.0
+                    ],
+                    [
+                        1063.0,
+                        381.0
+                    ],
+                    [
+                        1063.0,
+                        1509.0
+                    ],
+                    [
+                        105.0,
+                        1509.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9811457991600037,
+                "coordinate": [
+                    1270,
+                    383,
+                    2231,
+                    1513
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1270.0,
+                        383.0
+                    ],
+                    [
+                        2231.0,
+                        383.0
+                    ],
+                    [
+                        2231.0,
+                        1513.0
+                    ],
+                    [
+                        1270.0,
+                        1513.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7152382135391235,
+                "coordinate": [
+                    107,
+                    1558,
+                    143,
+                    1579
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        107.0,
+                        1558.0
+                    ],
+                    [
+                        142.0,
+                        1558.0
+                    ],
+                    [
+                        142.0,
+                        1578.0
+                    ],
+                    [
+                        107.0,
+                        1578.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6588837504386902,
+                "coordinate": [
+                    2199,
+                    1557,
+                    2232,
+                    1579
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        2199.0,
+                        1557.0
+                    ],
+                    [
+                        2231.0,
+                        1557.0
+                    ],
+                    [
+                        2231.0,
+                        1578.0
+                    ],
+                    [
+                        2199.0,
+                        1578.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

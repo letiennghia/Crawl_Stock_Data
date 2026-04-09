@@ -1,0 +1,853 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2310,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "figure_title",
+            "block_content": "Tỷ trọng nhân viên theo trình độ học vấn",
+            "block_bbox": [
+                480,
+                405,
+                1073,
+                453
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1226,
+            "global_group_id": 1226,
+            "block_polygon_points": [
+                [
+                    480.0,
+                    405.0
+                ],
+                [
+                    1073.0,
+                    405.0
+                ],
+                [
+                    1073.0,
+                    453.0
+                ],
+                [
+                    480.0,
+                    453.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                298,
+                464,
+                512,
+                1109
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "global_block_id": 1227,
+            "global_group_id": 1227,
+            "block_polygon_points": [
+                [
+                    298.0,
+                    464.0
+                ],
+                [
+                    512.0,
+                    464.0
+                ],
+                [
+                    512.0,
+                    1109.0
+                ],
+                [
+                    298.0,
+                    1109.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                544,
+                461,
+                1055,
+                1095
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 1228,
+            "global_group_id": 1228,
+            "block_polygon_points": [
+                [
+                    544.0,
+                    461.0
+                ],
+                [
+                    1055.0,
+                    461.0
+                ],
+                [
+                    1055.0,
+                    1095.0
+                ],
+                [
+                    544.0,
+                    1095.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "……",
+            "block_bbox": [
+                1220,
+                371,
+                1248,
+                1095
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 1229,
+            "global_group_id": 1229,
+            "block_polygon_points": [
+                [
+                    1220.0,
+                    371.0
+                ],
+                [
+                    1248.0,
+                    371.0
+                ],
+                [
+                    1248.0,
+                    1095.0
+                ],
+                [
+                    1220.0,
+                    1095.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Đào tạo",
+            "block_bbox": [
+                228,
+                1126,
+                339,
+                1165
+            ],
+            "block_id": 4,
+            "block_order": 1,
+            "group_id": 4,
+            "global_block_id": 1230,
+            "global_group_id": 1230,
+            "block_polygon_points": [
+                [
+                    228.0,
+                    1126.0
+                ],
+                [
+                    339.0,
+                    1126.0
+                ],
+                [
+                    339.0,
+                    1165.0
+                ],
+                [
+                    228.0,
+                    1165.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Chương trình đào tạo của ACB được lên kế hoạch và tổ chức hàng năm dựa trên các quy định bắt buộc của NHNN, tính chất công việc của các phòng ban, vị trí và nguyên vọng của nhân viên. Các khóa học được phân nhóm như sau: khóa học theo quy định của NHNN, khóa học về quản lý con người, khóa học nâng cao năng lực chuyển đổi số, v.v. Đặc biệt trong năm 2022, ACB dạy mạnh các khoá học liên quan đến nội dung chuyển đổi số liên kết với các đơn vị cấp chứng chỉ uy tín, đáp ứng mục tiêu và định hướng ngân hàng số.",
+            "block_bbox": [
+                224,
+                1178,
+                1423,
+                1401
+            ],
+            "block_id": 5,
+            "block_order": 2,
+            "group_id": 5,
+            "global_block_id": 1231,
+            "global_group_id": 1231,
+            "block_polygon_points": [
+                [
+                    224.0,
+                    1178.0
+                ],
+                [
+                    1423.0,
+                    1178.0
+                ],
+                [
+                    1423.0,
+                    1401.0
+                ],
+                [
+                    224.0,
+                    1401.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Tại ACB, hàng năm mỗi nhân viên phải hoàn thành ít nhất 48 giờ học và được ghi nhận như một trong các KPI học tập. Bên cạnh đó, ACB khuyến khích nhân viên tham gia da dạng các hình thức nâng cao năng lực và tích lũy điểm số thi đua trên nền tảng ACB Talent Ecosystem (ATE). Các phần thương và dãi ngộ tương ứng sẽ do nhân viên quy đổi dựa vào điểm số tích lũy của từng cá nhân.",
+            "block_bbox": [
+                225,
+                1414,
+                1424,
+                1597
+            ],
+            "block_id": 6,
+            "block_order": 3,
+            "group_id": 6,
+            "global_block_id": 1232,
+            "global_group_id": 1232,
+            "block_polygon_points": [
+                [
+                    223.429443359375,
+                    1424.94091796875
+                ],
+                [
+                    1421.4293212890625,
+                    1413.94091796875
+                ],
+                [
+                    1423.0,
+                    1585.0
+                ],
+                [
+                    225.0001220703125,
+                    1596.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Năm 2022 đánh dấu hoạt động học tập mạnh mẽ của nhân viên ACB với tổng số giờ học của tổ chức hơn 760.105 giờ. Nhân viên toàn hệ thống tham gia các hoạt động học tập với số ngày học trung bình 10,5 ngày/nhân viên/năm, so với chính ngày của năm 2021.",
+            "block_bbox": [
+                224,
+                1609,
+                1423,
+                1728
+            ],
+            "block_id": 7,
+            "block_order": 4,
+            "group_id": 7,
+            "global_block_id": 1233,
+            "global_group_id": 1233,
+            "block_polygon_points": [
+                [
+                    223.0985107421875,
+                    1619.0076904296875
+                ],
+                [
+                    1422.0,
+                    1609.0001220703125
+                ],
+                [
+                    1422.9014892578125,
+                    1716.9925537109375
+                ],
+                [
+                    224.0,
+                    1727.0001220703125
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Ngân sách cho đào tạo bao gồm học phí, chỉ phí tổ chức các lớp học và các khoản chỉ phi liên quan khác tăng liên tục qua các năm. Cụ thể, tổng ngân sách đào tạo tăng đến 85% trong năm 2021 và tiếp tục đà tăng 4% trong năm 2022.",
+            "block_bbox": [
+                226,
+                1740,
+                1424,
+                1854
+            ],
+            "block_id": 8,
+            "block_order": 5,
+            "group_id": 8,
+            "global_block_id": 1234,
+            "global_group_id": 1234,
+            "block_polygon_points": [
+                [
+                    226.0,
+                    1740.0
+                ],
+                [
+                    1424.0,
+                    1740.0
+                ],
+                [
+                    1424.0,
+                    1854.0
+                ],
+                [
+                    226.0,
+                    1854.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Số giờ đào tạo/học trung bình mỗi năm",
+            "block_bbox": [
+                229,
+                1860,
+                746,
+                1904
+            ],
+            "block_id": 9,
+            "block_order": 6,
+            "group_id": 9,
+            "global_block_id": 1235,
+            "global_group_id": 1235,
+            "block_polygon_points": [
+                [
+                    229.0,
+                    1860.0
+                ],
+                [
+                    746.0,
+                    1860.0
+                ],
+                [
+                    746.0,
+                    1904.0
+                ],
+                [
+                    229.0,
+                    1904.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Năm 2022, nhân viên ACB có tổng số giờ học là 760.105 giờ, tăng 17% so với năm 2021. Theo đó, số giờ học trung bình toàn hệ thống và theo phân nhóm như sau:",
+            "block_bbox": [
+                226,
+                1914,
+                1423,
+                2003
+            ],
+            "block_id": 10,
+            "block_order": 7,
+            "group_id": 10,
+            "global_block_id": 1236,
+            "global_group_id": 1236,
+            "block_polygon_points": [
+                [
+                    226.0,
+                    1914.0
+                ],
+                [
+                    1423.0,
+                    1914.0
+                ],
+                [
+                    1423.0,
+                    2003.0
+                ],
+                [
+                    226.0,
+                    2003.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2022",
+            "block_bbox": [
+                252,
+                2125,
+                472,
+                2165
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 1237,
+            "global_group_id": 1237,
+            "block_polygon_points": [
+                [
+                    252.0,
+                    2125.0
+                ],
+                [
+                    472.0,
+                    2125.0
+                ],
+                [
+                    472.0,
+                    2165.0
+                ],
+                [
+                    252.0,
+                    2165.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 94 of 113",
+            "block_bbox": [
+                1135,
+                2121,
+                1333,
+                2161
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "global_block_id": 1238,
+            "global_group_id": 1238,
+            "block_polygon_points": [
+                [
+                    1135.0,
+                    2121.0
+                ],
+                [
+                    1333.0,
+                    2121.0
+                ],
+                [
+                    1333.0,
+                    2161.0
+                ],
+                [
+                    1135.0,
+                    2161.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.44890832901000977,
+                "coordinate": [
+                    480,
+                    405,
+                    1073,
+                    453
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        480.0,
+                        405.0
+                    ],
+                    [
+                        1073.0,
+                        405.0
+                    ],
+                    [
+                        1073.0,
+                        453.0
+                    ],
+                    [
+                        480.0,
+                        453.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.37942421436309814,
+                "coordinate": [
+                    298,
+                    464,
+                    512,
+                    1109
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        298.0,
+                        464.0
+                    ],
+                    [
+                        512.0,
+                        464.0
+                    ],
+                    [
+                        512.0,
+                        1109.0
+                    ],
+                    [
+                        298.0,
+                        1109.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.5441284775733948,
+                "coordinate": [
+                    544,
+                    461,
+                    1055,
+                    1095
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        544.0,
+                        461.0
+                    ],
+                    [
+                        1055.0,
+                        461.0
+                    ],
+                    [
+                        1055.0,
+                        1095.0
+                    ],
+                    [
+                        544.0,
+                        1095.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.30169856548309326,
+                "coordinate": [
+                    1220,
+                    371,
+                    1248,
+                    1095
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1220.0,
+                        371.0
+                    ],
+                    [
+                        1248.0,
+                        371.0
+                    ],
+                    [
+                        1248.0,
+                        1095.0
+                    ],
+                    [
+                        1220.0,
+                        1095.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6986573338508606,
+                "coordinate": [
+                    228,
+                    1126,
+                    339,
+                    1165
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        228.0,
+                        1126.0
+                    ],
+                    [
+                        339.0,
+                        1126.0
+                    ],
+                    [
+                        339.0,
+                        1165.0
+                    ],
+                    [
+                        228.0,
+                        1165.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9402543306350708,
+                "coordinate": [
+                    224,
+                    1178,
+                    1423,
+                    1401
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        224.0,
+                        1178.0
+                    ],
+                    [
+                        1423.0,
+                        1178.0
+                    ],
+                    [
+                        1423.0,
+                        1401.0
+                    ],
+                    [
+                        224.0,
+                        1401.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9434163570404053,
+                "coordinate": [
+                    225,
+                    1414,
+                    1424,
+                    1597
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        223.429443359375,
+                        1424.94091796875
+                    ],
+                    [
+                        1421.4293212890625,
+                        1413.94091796875
+                    ],
+                    [
+                        1423.0,
+                        1585.0
+                    ],
+                    [
+                        225.0001220703125,
+                        1596.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9294534921646118,
+                "coordinate": [
+                    224,
+                    1609,
+                    1423,
+                    1728
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        223.0985107421875,
+                        1619.0076904296875
+                    ],
+                    [
+                        1422.0,
+                        1609.0001220703125
+                    ],
+                    [
+                        1422.9014892578125,
+                        1716.9925537109375
+                    ],
+                    [
+                        224.0,
+                        1727.0001220703125
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9294599890708923,
+                "coordinate": [
+                    226,
+                    1740,
+                    1424,
+                    1854
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        226.0,
+                        1740.0
+                    ],
+                    [
+                        1424.0,
+                        1740.0
+                    ],
+                    [
+                        1424.0,
+                        1854.0
+                    ],
+                    [
+                        226.0,
+                        1854.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8186451196670532,
+                "coordinate": [
+                    229,
+                    1860,
+                    746,
+                    1904
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        229.0,
+                        1860.0
+                    ],
+                    [
+                        746.0,
+                        1860.0
+                    ],
+                    [
+                        746.0,
+                        1904.0
+                    ],
+                    [
+                        229.0,
+                        1904.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9012817740440369,
+                "coordinate": [
+                    226,
+                    1914,
+                    1423,
+                    2003
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        226.0,
+                        1914.0
+                    ],
+                    [
+                        1423.0,
+                        1914.0
+                    ],
+                    [
+                        1423.0,
+                        2003.0
+                    ],
+                    [
+                        226.0,
+                        2003.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8400605916976929,
+                "coordinate": [
+                    252,
+                    2125,
+                    472,
+                    2165
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        252.0,
+                        2125.0
+                    ],
+                    [
+                        472.0,
+                        2125.0
+                    ],
+                    [
+                        472.0,
+                        2165.0
+                    ],
+                    [
+                        252.0,
+                        2165.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.837253749370575,
+                "coordinate": [
+                    1135,
+                    2121,
+                    1333,
+                    2161
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        1135.0,
+                        2121.0
+                    ],
+                    [
+                        1333.0,
+                        2121.0
+                    ],
+                    [
+                        1333.0,
+                        2161.0
+                    ],
+                    [
+                        1135.0,
+                        2161.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

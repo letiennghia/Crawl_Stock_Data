@@ -1,0 +1,869 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2310,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                648,
+                1,
+                997,
+                61
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1133,
+            "global_group_id": 1133,
+            "block_polygon_points": [
+                [
+                    648.0,
+                    1.0
+                ],
+                [
+                    997.0,
+                    1.0
+                ],
+                [
+                    997.0,
+                    61.0
+                ],
+                [
+                    648.0,
+                    61.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "dụng và đề cao ý thức sử dụng tiết kiệm nước trong nhân viên ACB thông qua các bản tin gửi đến nhân viên.",
+            "block_bbox": [
+                225,
+                250,
+                1407,
+                333
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 1134,
+            "global_group_id": 1134,
+            "block_polygon_points": [
+                [
+                    225.0,
+                    250.0
+                ],
+                [
+                    1407.0,
+                    250.0
+                ],
+                [
+                    1407.0,
+                    333.0
+                ],
+                [
+                    225.0,
+                    333.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "2.3.4. Phát thải khí nhà kính",
+            "block_bbox": [
+                208,
+                359,
+                608,
+                398
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 1135,
+            "global_group_id": 1135,
+            "block_polygon_points": [
+                [
+                    208.0,
+                    359.0
+                ],
+                [
+                    608.0,
+                    359.0
+                ],
+                [
+                    608.0,
+                    398.0
+                ],
+                [
+                    208.0,
+                    398.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "ACB sử dụng năng lượng hợp lý và thực hiện các biện pháp trung hòa, góp phần giảm phát thải khí nhà kinh.",
+            "block_bbox": [
+                204,
+                415,
+                1406,
+                501
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "global_block_id": 1136,
+            "global_group_id": 1136,
+            "block_polygon_points": [
+                [
+                    204.0,
+                    415.0
+                ],
+                [
+                    1406.0,
+                    415.0
+                ],
+                [
+                    1406.0,
+                    501.0
+                ],
+                [
+                    204.0,
+                    501.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Nguồn phát thải khí nhà kính từ ACB vào môi trường chủ yếu đến từ hai loại năng lượng đang được sử dụng là điện và xăng, chi tiết như băng bên dưới:",
+            "block_bbox": [
+                206,
+                520,
+                1407,
+                607
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "global_block_id": 1137,
+            "global_group_id": 1137,
+            "block_polygon_points": [
+                [
+                    206.0,
+                    520.0
+                ],
+                [
+                    1407.0,
+                    520.0
+                ],
+                [
+                    1407.0,
+                    607.0
+                ],
+                [
+                    206.0,
+                    607.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "(ĐVT: tần CO2)",
+            "block_bbox": [
+                1201,
+                623,
+                1406,
+                662
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 1138,
+            "global_group_id": 1138,
+            "block_polygon_points": [
+                [
+                    1201.0,
+                    623.0
+                ],
+                [
+                    1406.0,
+                    623.0
+                ],
+                [
+                    1406.0,
+                    662.0
+                ],
+                [
+                    1201.0,
+                    662.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Nguồn phát thải</td><td>2020</td><td>2021</td><td>2022</td></tr><tr><td>Diện năng $ ^{(1)} $</td><td>27.721</td><td>27.848</td><td>29.052</td></tr><tr><td>Xăng $ ^{(2)} $</td><td>3.663</td><td>3.061</td><td>4.483</td></tr><tr><td>Tổng</td><td>31.384</td><td>30.909</td><td>33.535</td></tr></table>",
+            "block_bbox": [
+                212,
+                642,
+                1410,
+                1015
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 1139,
+            "global_group_id": 1139,
+            "block_polygon_points": [
+                [
+                    1409,
+                    654
+                ],
+                [
+                    915,
+                    642
+                ],
+                [
+                    616,
+                    666
+                ],
+                [
+                    212,
+                    666
+                ],
+                [
+                    212,
+                    1014
+                ],
+                [
+                    1409,
+                    1003
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Tổng lượng phát thải khí nhà kinh theo năm",
+            "block_bbox": [
+                269,
+                1053,
+                1039,
+                1103
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "global_block_id": 1140,
+            "global_group_id": 1140,
+            "block_polygon_points": [
+                [
+                    269.0,
+                    1053.0
+                ],
+                [
+                    1039.0,
+                    1053.0
+                ],
+                [
+                    1039.0,
+                    1103.0
+                ],
+                [
+                    269.0,
+                    1103.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                260,
+                1103,
+                1392,
+                1699
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "global_block_id": 1141,
+            "global_group_id": 1141,
+            "block_polygon_points": [
+                [
+                    260.0,
+                    1103.0
+                ],
+                [
+                    1392.0,
+                    1103.0
+                ],
+                [
+                    1392.0,
+                    1699.0
+                ],
+                [
+                    260.0,
+                    1699.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Phát thái do tiêu thụ điện năng được thống kê tổng hợp số liệu từ Tập đoàn ACB",
+            "block_bbox": [
+                259,
+                1751,
+                1298,
+                1795
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "global_block_id": 1142,
+            "global_group_id": 1142,
+            "block_polygon_points": [
+                [
+                    259.0,
+                    1751.0
+                ],
+                [
+                    1298.0,
+                    1751.0
+                ],
+                [
+                    1298.0,
+                    1795.0
+                ],
+                [
+                    259.0,
+                    1795.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Phát thải do tiêu thụ xăng được thống kê tổng hợp số liệu của Ngân hàng ACB, không bao gồm các công ty con.",
+            "block_bbox": [
+                229,
+                1801,
+                1409,
+                1882
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "global_block_id": 1143,
+            "global_group_id": 1143,
+            "block_polygon_points": [
+                [
+                    229.0,
+                    1801.0
+                ],
+                [
+                    1409.0,
+                    1801.0
+                ],
+                [
+                    1409.0,
+                    1882.0
+                ],
+                [
+                    229.0,
+                    1882.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2022",
+            "block_bbox": [
+                231,
+                1998,
+                453,
+                2036
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 1144,
+            "global_group_id": 1144,
+            "block_polygon_points": [
+                [
+                    231.0,
+                    1998.0
+                ],
+                [
+                    453.0,
+                    1998.0
+                ],
+                [
+                    453.0,
+                    2036.0
+                ],
+                [
+                    231.0,
+                    2036.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 87 of 113",
+            "block_bbox": [
+                1119,
+                1993,
+                1316,
+                2033
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "global_block_id": 1145,
+            "global_group_id": 1145,
+            "block_polygon_points": [
+                [
+                    1119.0,
+                    1993.0
+                ],
+                [
+                    1316.0,
+                    1993.0
+                ],
+                [
+                    1316.0,
+                    2033.0
+                ],
+                [
+                    1119.0,
+                    2033.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.3333898186683655,
+                "coordinate": [
+                    648,
+                    1,
+                    997,
+                    61
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        648.0,
+                        1.0
+                    ],
+                    [
+                        997.0,
+                        1.0
+                    ],
+                    [
+                        997.0,
+                        61.0
+                    ],
+                    [
+                        648.0,
+                        61.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8984366059303284,
+                "coordinate": [
+                    225,
+                    250,
+                    1407,
+                    333
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        225.0,
+                        250.0
+                    ],
+                    [
+                        1407.0,
+                        250.0
+                    ],
+                    [
+                        1407.0,
+                        333.0
+                    ],
+                    [
+                        225.0,
+                        333.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8387116193771362,
+                "coordinate": [
+                    208,
+                    359,
+                    608,
+                    398
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        208.0,
+                        359.0
+                    ],
+                    [
+                        608.0,
+                        359.0
+                    ],
+                    [
+                        608.0,
+                        398.0
+                    ],
+                    [
+                        208.0,
+                        398.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8957796096801758,
+                "coordinate": [
+                    204,
+                    415,
+                    1406,
+                    501
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        204.0,
+                        415.0
+                    ],
+                    [
+                        1406.0,
+                        415.0
+                    ],
+                    [
+                        1406.0,
+                        501.0
+                    ],
+                    [
+                        204.0,
+                        501.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8838970065116882,
+                "coordinate": [
+                    206,
+                    520,
+                    1407,
+                    607
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        206.0,
+                        520.0
+                    ],
+                    [
+                        1407.0,
+                        520.0
+                    ],
+                    [
+                        1407.0,
+                        607.0
+                    ],
+                    [
+                        206.0,
+                        607.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.34504538774490356,
+                "coordinate": [
+                    1201,
+                    623,
+                    1406,
+                    662
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1201.0,
+                        623.0
+                    ],
+                    [
+                        1406.0,
+                        623.0
+                    ],
+                    [
+                        1406.0,
+                        662.0
+                    ],
+                    [
+                        1201.0,
+                        662.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9387781620025635,
+                "coordinate": [
+                    212,
+                    642,
+                    1410,
+                    1015
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1409,
+                        654
+                    ],
+                    [
+                        915,
+                        642
+                    ],
+                    [
+                        616,
+                        666
+                    ],
+                    [
+                        212,
+                        666
+                    ],
+                    [
+                        212,
+                        1014
+                    ],
+                    [
+                        1409,
+                        1003
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.5165414214134216,
+                "coordinate": [
+                    269,
+                    1053,
+                    1039,
+                    1103
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        269.0,
+                        1053.0
+                    ],
+                    [
+                        1039.0,
+                        1053.0
+                    ],
+                    [
+                        1039.0,
+                        1103.0
+                    ],
+                    [
+                        269.0,
+                        1103.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.9282814264297485,
+                "coordinate": [
+                    260,
+                    1103,
+                    1392,
+                    1699
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        260.0,
+                        1103.0
+                    ],
+                    [
+                        1392.0,
+                        1103.0
+                    ],
+                    [
+                        1392.0,
+                        1699.0
+                    ],
+                    [
+                        260.0,
+                        1699.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8121930360794067,
+                "coordinate": [
+                    259,
+                    1751,
+                    1298,
+                    1795
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        259.0,
+                        1751.0
+                    ],
+                    [
+                        1298.0,
+                        1751.0
+                    ],
+                    [
+                        1298.0,
+                        1795.0
+                    ],
+                    [
+                        259.0,
+                        1795.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8468303084373474,
+                "coordinate": [
+                    229,
+                    1801,
+                    1409,
+                    1882
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        229.0,
+                        1801.0
+                    ],
+                    [
+                        1409.0,
+                        1801.0
+                    ],
+                    [
+                        1409.0,
+                        1882.0
+                    ],
+                    [
+                        229.0,
+                        1882.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8271229863166809,
+                "coordinate": [
+                    231,
+                    1998,
+                    453,
+                    2036
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        231.0,
+                        1998.0
+                    ],
+                    [
+                        453.0,
+                        1998.0
+                    ],
+                    [
+                        453.0,
+                        2036.0
+                    ],
+                    [
+                        231.0,
+                        2036.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8424220681190491,
+                "coordinate": [
+                    1119,
+                    1993,
+                    1316,
+                    2033
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1119.0,
+                        1993.0
+                    ],
+                    [
+                        1316.0,
+                        1993.0
+                    ],
+                    [
+                        1316.0,
+                        2033.0
+                    ],
+                    [
+                        1119.0,
+                        2033.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

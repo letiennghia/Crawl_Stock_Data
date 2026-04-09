@@ -1,0 +1,2 @@
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'><img src="imgs/img_in_seal_box_502_1068_682_1247.jpg" alt="Image"" /></td></tr></table>

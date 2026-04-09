@@ -1,0 +1,814 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2308,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "2.3.3. Tiêu thụ nước",
+            "block_bbox": [
+                225,
+                388,
+                514,
+                428
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 1121,
+            "global_group_id": 1121,
+            "block_polygon_points": [
+                [
+                    225.0,
+                    388.0
+                ],
+                [
+                    514.0,
+                    388.0
+                ],
+                [
+                    514.0,
+                    428.0
+                ],
+                [
+                    225.0,
+                    428.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "ACB xây dựng và để cao ý thức sử dụng tiết kiệm nước trong nhân viên.",
+            "block_bbox": [
+                224,
+                444,
+                1121,
+                490
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 1122,
+            "global_group_id": 1122,
+            "block_polygon_points": [
+                [
+                    224.0,
+                    444.0
+                ],
+                [
+                    1121.0,
+                    444.0
+                ],
+                [
+                    1121.0,
+                    490.0
+                ],
+                [
+                    224.0,
+                    490.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Nước tiêu thụ tại ACB được mua từ nguồn cấp nước đô thị và dùng cho sinh hoạt hàng ngày của nhân viên ACB, chi tiết:",
+            "block_bbox": [
+                223,
+                509,
+                1423,
+                594
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "global_block_id": 1123,
+            "global_group_id": 1123,
+            "block_polygon_points": [
+                [
+                    223.0,
+                    509.0
+                ],
+                [
+                    1423.0,
+                    509.0
+                ],
+                [
+                    1423.0,
+                    594.0
+                ],
+                [
+                    223.0,
+                    594.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "(DVT: megalit)",
+            "block_bbox": [
+                1226,
+                612,
+                1420,
+                651
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 1124,
+            "global_group_id": 1124,
+            "block_polygon_points": [
+                [
+                    1226.0,
+                    612.0
+                ],
+                [
+                    1420.0,
+                    612.0
+                ],
+                [
+                    1420.0,
+                    651.0
+                ],
+                [
+                    1226.0,
+                    651.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>2020</td><td>2021</td><td>2022</td></tr><tr><td>Lương nước tiêu thụ (megalit) $ ^{(1)} $</td><td>182</td><td>169</td><td>184</td></tr></table>",
+            "block_bbox": [
+                228,
+                633,
+                1418,
+                817
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 1125,
+            "global_group_id": 1125,
+            "block_polygon_points": [
+                [
+                    1417,
+                    633
+                ],
+                [
+                    1409,
+                    645
+                ],
+                [
+                    931,
+                    633
+                ],
+                [
+                    930,
+                    645
+                ],
+                [
+                    228,
+                    656
+                ],
+                [
+                    228,
+                    816
+                ],
+                [
+                    1417,
+                    805
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                337,
+                855,
+                1215,
+                1521
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 1126,
+            "global_group_id": 1126,
+            "block_polygon_points": [
+                [
+                    337.0,
+                    855.0
+                ],
+                [
+                    1215.0,
+                    855.0
+                ],
+                [
+                    1215.0,
+                    1521.0
+                ],
+                [
+                    337.0,
+                    1521.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "Lượng nước tiêu thụ được tổng hợp thống kê số liệu từ Tập đoàn ACB.",
+            "block_bbox": [
+                279,
+                1550,
+                1184,
+                1593
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "global_block_id": 1127,
+            "global_group_id": 1127,
+            "block_polygon_points": [
+                [
+                    279.0,
+                    1550.0
+                ],
+                [
+                    1184.0,
+                    1550.0
+                ],
+                [
+                    1184.0,
+                    1593.0
+                ],
+                [
+                    279.0,
+                    1593.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "So với năm 2021 và năm 2020, tổng lượng nước tiểu thư tăng năm 2022 lần lượt là 8,90% và 1,10%. Tổng lượng nước tiểu thư tăng từ tiểu thư 169 megalít trong năm 2021 và 182 megalít trong năm 2020 lên đến 184 megalít trong năm 2022.",
+            "block_bbox": [
+                244,
+                1610,
+                1423,
+                1735
+            ],
+            "block_id": 7,
+            "block_order": 4,
+            "group_id": 7,
+            "global_block_id": 1128,
+            "global_group_id": 1128,
+            "block_polygon_points": [
+                [
+                    244.0,
+                    1610.0
+                ],
+                [
+                    1423.0,
+                    1610.0
+                ],
+                [
+                    1423.0,
+                    1735.0
+                ],
+                [
+                    244.0,
+                    1735.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Lượng nước tiêu thụ tại ACB có xu hướng tăng nhẹ qua các năm và đặc biệt là trong năm 2022 là do ACB đã hoàn toàn phục hồi các hoạt động, vốn bị giảm sút do tác động của dịch Covid-19 trong năm 2020 và 2021. Số lượng nước tiêu thụ trong năm 2022 gia tăng một phần là do mở rộng mạng lưới kênh phân phối, cụ thể là 11 chi nhánh, phòng giao dịch được mở mới và có thêm nhân sự làm việc tại Hội sở.",
+            "block_bbox": [
+                242,
+                1756,
+                1424,
+                1956
+            ],
+            "block_id": 8,
+            "block_order": 5,
+            "group_id": 8,
+            "global_block_id": 1129,
+            "global_group_id": 1129,
+            "block_polygon_points": [
+                [
+                    242.0,
+                    1756.0
+                ],
+                [
+                    1424.0,
+                    1756.0
+                ],
+                [
+                    1424.0,
+                    1956.0
+                ],
+                [
+                    242.0,
+                    1956.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Mặc dù phải tiêu thụ nhiều nước hơn cho phục hồi và phát triển hoạt động, nhưng ACB luôn xây",
+            "block_bbox": [
+                243,
+                1978,
+                1420,
+                2021
+            ],
+            "block_id": 9,
+            "block_order": 6,
+            "group_id": 9,
+            "global_block_id": 1130,
+            "global_group_id": 1130,
+            "block_polygon_points": [
+                [
+                    243.0,
+                    1978.0
+                ],
+                [
+                    1420.0,
+                    1978.0
+                ],
+                [
+                    1420.0,
+                    2021.0
+                ],
+                [
+                    243.0,
+                    2021.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2022",
+            "block_bbox": [
+                248,
+                2128,
+                469,
+                2165
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "global_block_id": 1131,
+            "global_group_id": 1131,
+            "block_polygon_points": [
+                [
+                    248.0,
+                    2128.0
+                ],
+                [
+                    469.0,
+                    2128.0
+                ],
+                [
+                    469.0,
+                    2165.0
+                ],
+                [
+                    248.0,
+                    2165.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 86 of 113",
+            "block_bbox": [
+                1133,
+                2125,
+                1331,
+                2165
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "global_block_id": 1132,
+            "global_group_id": 1132,
+            "block_polygon_points": [
+                [
+                    1133.0,
+                    2125.0
+                ],
+                [
+                    1331.0,
+                    2125.0
+                ],
+                [
+                    1331.0,
+                    2165.0
+                ],
+                [
+                    1133.0,
+                    2165.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8496807217597961,
+                "coordinate": [
+                    225,
+                    388,
+                    514,
+                    428
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        225.0,
+                        388.0
+                    ],
+                    [
+                        514.0,
+                        388.0
+                    ],
+                    [
+                        514.0,
+                        428.0
+                    ],
+                    [
+                        225.0,
+                        428.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.848705530166626,
+                "coordinate": [
+                    224,
+                    444,
+                    1121,
+                    490
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        224.0,
+                        444.0
+                    ],
+                    [
+                        1121.0,
+                        444.0
+                    ],
+                    [
+                        1121.0,
+                        490.0
+                    ],
+                    [
+                        224.0,
+                        490.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9021713733673096,
+                "coordinate": [
+                    223,
+                    509,
+                    1423,
+                    594
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        223.0,
+                        509.0
+                    ],
+                    [
+                        1423.0,
+                        509.0
+                    ],
+                    [
+                        1423.0,
+                        594.0
+                    ],
+                    [
+                        223.0,
+                        594.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.4956705868244171,
+                "coordinate": [
+                    1226,
+                    612,
+                    1420,
+                    651
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1226.0,
+                        612.0
+                    ],
+                    [
+                        1420.0,
+                        612.0
+                    ],
+                    [
+                        1420.0,
+                        651.0
+                    ],
+                    [
+                        1226.0,
+                        651.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9038867950439453,
+                "coordinate": [
+                    228,
+                    633,
+                    1418,
+                    817
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        1417,
+                        633
+                    ],
+                    [
+                        1409,
+                        645
+                    ],
+                    [
+                        931,
+                        633
+                    ],
+                    [
+                        930,
+                        645
+                    ],
+                    [
+                        228,
+                        656
+                    ],
+                    [
+                        228,
+                        816
+                    ],
+                    [
+                        1417,
+                        805
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.9339560270309448,
+                "coordinate": [
+                    337,
+                    855,
+                    1215,
+                    1521
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        337.0,
+                        855.0
+                    ],
+                    [
+                        1215.0,
+                        855.0
+                    ],
+                    [
+                        1215.0,
+                        1521.0
+                    ],
+                    [
+                        337.0,
+                        1521.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.41578221321105957,
+                "coordinate": [
+                    279,
+                    1550,
+                    1184,
+                    1593
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        279.0,
+                        1550.0
+                    ],
+                    [
+                        1184.0,
+                        1550.0
+                    ],
+                    [
+                        1184.0,
+                        1593.0
+                    ],
+                    [
+                        279.0,
+                        1593.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9288016557693481,
+                "coordinate": [
+                    244,
+                    1610,
+                    1423,
+                    1735
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        244.0,
+                        1610.0
+                    ],
+                    [
+                        1423.0,
+                        1610.0
+                    ],
+                    [
+                        1423.0,
+                        1735.0
+                    ],
+                    [
+                        244.0,
+                        1735.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.956638514995575,
+                "coordinate": [
+                    242,
+                    1756,
+                    1424,
+                    1956
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        242.0,
+                        1756.0
+                    ],
+                    [
+                        1424.0,
+                        1756.0
+                    ],
+                    [
+                        1424.0,
+                        1956.0
+                    ],
+                    [
+                        242.0,
+                        1956.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.83637535572052,
+                "coordinate": [
+                    243,
+                    1978,
+                    1420,
+                    2021
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        243.0,
+                        1978.0
+                    ],
+                    [
+                        1420.0,
+                        1978.0
+                    ],
+                    [
+                        1420.0,
+                        2021.0
+                    ],
+                    [
+                        243.0,
+                        2021.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8426831364631653,
+                "coordinate": [
+                    248,
+                    2128,
+                    469,
+                    2165
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        248.0,
+                        2128.0
+                    ],
+                    [
+                        469.0,
+                        2128.0
+                    ],
+                    [
+                        469.0,
+                        2165.0
+                    ],
+                    [
+                        248.0,
+                        2165.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8392925262451172,
+                "coordinate": [
+                    1133,
+                    2125,
+                    1331,
+                    2165
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        1133.0,
+                        2125.0
+                    ],
+                    [
+                        1331.0,
+                        2125.0
+                    ],
+                    [
+                        1331.0,
+                        2165.0
+                    ],
+                    [
+                        1133.0,
+                        2165.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

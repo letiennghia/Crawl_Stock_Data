@@ -1,0 +1,412 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1650,
+    "height": 2284,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "3.6.1 Đánh giá liên quan đến các chỉ tiêu môi trường",
+            "block_bbox": [
+                194,
+                203,
+                973,
+                249
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 708,
+            "global_group_id": 708,
+            "block_polygon_points": [
+                [
+                    194.0,
+                    203.0
+                ],
+                [
+                    973.0,
+                    203.0
+                ],
+                [
+                    973.0,
+                    249.0
+                ],
+                [
+                    194.0,
+                    249.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3.6.2 Đánh giá liên quan đến vấn đề người lao động",
+            "block_bbox": [
+                195,
+                262,
+                961,
+                310
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 709,
+            "global_group_id": 709,
+            "block_polygon_points": [
+                [
+                    195.0,
+                    262.0
+                ],
+                [
+                    961.0,
+                    262.0
+                ],
+                [
+                    961.0,
+                    310.0
+                ],
+                [
+                    195.0,
+                    310.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3.6.3 Đánh giá liên quan đến trách nhiệm xã hội của ACB đối với công đồng địa phương",
+            "block_bbox": [
+                196,
+                315,
+                1355,
+                417
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "global_block_id": 710,
+            "global_group_id": 710,
+            "block_polygon_points": [
+                [
+                    195.145263671875,
+                    326.0080871582031
+                ],
+                [
+                    1354.0001220703125,
+                    314.9999694824219
+                ],
+                [
+                    1354.85498046875,
+                    404.9918518066406
+                ],
+                [
+                    196.0001220703125,
+                    415.9999694824219
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(Xin xem Chương 9 \"Báo cáo phát triển bền vững\".)",
+            "block_bbox": [
+                197,
+                430,
+                908,
+                478
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "global_block_id": 711,
+            "global_group_id": 711,
+            "block_polygon_points": [
+                [
+                    197.0,
+                    430.0
+                ],
+                [
+                    908.0,
+                    430.0
+                ],
+                [
+                    908.0,
+                    478.0
+                ],
+                [
+                    197.0,
+                    478.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2024",
+            "block_bbox": [
+                228,
+                2178,
+                466,
+                2214
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 712,
+            "global_group_id": 712,
+            "block_polygon_points": [
+                [
+                    228.0,
+                    2178.0
+                ],
+                [
+                    466.0,
+                    2178.0
+                ],
+                [
+                    466.0,
+                    2214.0
+                ],
+                [
+                    228.0,
+                    2214.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "48 / 86",
+            "block_bbox": [
+                1358,
+                2162,
+                1461,
+                2198
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "global_block_id": 713,
+            "global_group_id": 713,
+            "block_polygon_points": [
+                [
+                    1358.0,
+                    2162.0
+                ],
+                [
+                    1461.0,
+                    2162.0
+                ],
+                [
+                    1461.0,
+                    2198.0
+                ],
+                [
+                    1358.0,
+                    2198.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7957285046577454,
+                "coordinate": [
+                    194,
+                    203,
+                    973,
+                    249
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        194.0,
+                        203.0
+                    ],
+                    [
+                        973.0,
+                        203.0
+                    ],
+                    [
+                        973.0,
+                        249.0
+                    ],
+                    [
+                        194.0,
+                        249.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7999096512794495,
+                "coordinate": [
+                    195,
+                    262,
+                    961,
+                    310
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        195.0,
+                        262.0
+                    ],
+                    [
+                        961.0,
+                        262.0
+                    ],
+                    [
+                        961.0,
+                        310.0
+                    ],
+                    [
+                        195.0,
+                        310.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8418123722076416,
+                "coordinate": [
+                    196,
+                    315,
+                    1355,
+                    417
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        195.145263671875,
+                        326.0080871582031
+                    ],
+                    [
+                        1354.0001220703125,
+                        314.9999694824219
+                    ],
+                    [
+                        1354.85498046875,
+                        404.9918518066406
+                    ],
+                    [
+                        196.0001220703125,
+                        415.9999694824219
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7880851626396179,
+                "coordinate": [
+                    197,
+                    430,
+                    908,
+                    478
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        197.0,
+                        430.0
+                    ],
+                    [
+                        908.0,
+                        430.0
+                    ],
+                    [
+                        908.0,
+                        478.0
+                    ],
+                    [
+                        197.0,
+                        478.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.848143994808197,
+                "coordinate": [
+                    228,
+                    2178,
+                    466,
+                    2214
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        228.0,
+                        2178.0
+                    ],
+                    [
+                        466.0,
+                        2178.0
+                    ],
+                    [
+                        466.0,
+                        2214.0
+                    ],
+                    [
+                        228.0,
+                        2214.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8041268587112427,
+                "coordinate": [
+                    1358,
+                    2162,
+                    1461,
+                    2198
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        1358.0,
+                        2162.0
+                    ],
+                    [
+                        1461.0,
+                        2162.0
+                    ],
+                    [
+                        1461.0,
+                        2198.0
+                    ],
+                    [
+                        1358.0,
+                        2198.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

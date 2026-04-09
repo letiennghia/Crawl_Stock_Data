@@ -1,0 +1,349 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 992,
+    "height": 1403,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                325,
+                160,
+                681,
+                488
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 560,
+            "global_group_id": 560,
+            "block_polygon_points": [
+                [
+                    325.0,
+                    160.0
+                ],
+                [
+                    681.0,
+                    160.0
+                ],
+                [
+                    681.0,
+                    488.0
+                ],
+                [
+                    325.0,
+                    488.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Năm 2016, ACB tiếp tục thực hiện hàng loạt các kế hoạch dầu tư liên quan đến phát triển nhân sự, xây dựng hệ thống nhận diện thương hiệu mới đã được triển khai từ năm 2015 và nâng cấp hạ tầng công nghệ thông tin trên toàn hệ thống. Tuy nhiên, nhờ vào nỗ lực kiểm soát chặt chẽ và khoa học, chi phí thực tế tăng thấp hơn so với kế hoạch (16%). Tỷ lệ chi phí trên thu nhập được cải thiện còn 54% so với 56% vào cuối năm 2015.",
+            "block_bbox": [
+                135,
+                498,
+                858,
+                705
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 561,
+            "global_group_id": 561,
+            "block_polygon_points": [
+                [
+                    135.0,
+                    498.0
+                ],
+                [
+                    858.0,
+                    498.0
+                ],
+                [
+                    858.0,
+                    705.0
+                ],
+                [
+                    135.0,
+                    705.0
+                ]
+            ]
+        },
+        {
+            "block_label": "chart",
+            "block_content": "",
+            "block_bbox": [
+                327,
+                718,
+                682,
+                1050
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "global_block_id": 562,
+            "global_group_id": 562,
+            "block_polygon_points": [
+                [
+                    327.0,
+                    718.0
+                ],
+                [
+                    682.0,
+                    718.0
+                ],
+                [
+                    682.0,
+                    1050.0
+                ],
+                [
+                    327.0,
+                    1050.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 56 of 78",
+            "block_bbox": [
+                745,
+                1310,
+                855,
+                1334
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 563,
+            "global_group_id": 563,
+            "block_polygon_points": [
+                [
+                    744.9999389648438,
+                    1309.9998779296875
+                ],
+                [
+                    853.9999389648438,
+                    1309.9998779296875
+                ],
+                [
+                    853.9999389648438,
+                    1332.9998779296875
+                ],
+                [
+                    744.9999389648438,
+                    1332.9998779296875
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2016",
+            "block_bbox": [
+                142,
+                1311,
+                278,
+                1333
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 564,
+            "global_group_id": 564,
+            "block_polygon_points": [
+                [
+                    142.0,
+                    1311.0
+                ],
+                [
+                    277.0,
+                    1311.0
+                ],
+                [
+                    277.0,
+                    1332.0
+                ],
+                [
+                    142.0,
+                    1332.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.67494136095047,
+                "coordinate": [
+                    325,
+                    160,
+                    681,
+                    488
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        325.0,
+                        160.0
+                    ],
+                    [
+                        681.0,
+                        160.0
+                    ],
+                    [
+                        681.0,
+                        488.0
+                    ],
+                    [
+                        325.0,
+                        488.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7958621382713318,
+                "coordinate": [
+                    135,
+                    498,
+                    858,
+                    705
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        135.0,
+                        498.0
+                    ],
+                    [
+                        858.0,
+                        498.0
+                    ],
+                    [
+                        858.0,
+                        705.0
+                    ],
+                    [
+                        135.0,
+                        705.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "chart",
+                "score": 0.8979528546333313,
+                "coordinate": [
+                    327,
+                    718,
+                    682,
+                    1050
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        327.0,
+                        718.0
+                    ],
+                    [
+                        682.0,
+                        718.0
+                    ],
+                    [
+                        682.0,
+                        1050.0
+                    ],
+                    [
+                        327.0,
+                        1050.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8472726941108704,
+                "coordinate": [
+                    745,
+                    1310,
+                    855,
+                    1334
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        744.9999389648438,
+                        1309.9998779296875
+                    ],
+                    [
+                        853.9999389648438,
+                        1309.9998779296875
+                    ],
+                    [
+                        853.9999389648438,
+                        1332.9998779296875
+                    ],
+                    [
+                        744.9999389648438,
+                        1332.9998779296875
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8491036891937256,
+                "coordinate": [
+                    142,
+                    1311,
+                    278,
+                    1333
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        142.0,
+                        1311.0
+                    ],
+                    [
+                        277.0,
+                        1311.0
+                    ],
+                    [
+                        277.0,
+                        1332.0
+                    ],
+                    [
+                        142.0,
+                        1332.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

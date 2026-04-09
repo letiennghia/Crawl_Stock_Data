@@ -1,0 +1,349 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2276,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "ACB không chấp nhận và nghiêm cấm các hành vi mang tính de dọa, trả đũa, trù dập người lên tiếng và tổ giác; nội dung này được ghi nhận trong Nội quy lao động của Ngân hàng. Đồng thời ACB cam kết rõ ràng trong Quy trình giải quyết thông tin ăn danh rằng trong phạm vi của mình, ACB sẽ có những biện pháp cần thiết để bảo vệ người lên tiếng và tổ giác.",
+            "block_bbox": [
+                234,
+                283,
+                1404,
+                515
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "global_block_id": 1624,
+            "global_group_id": 1624,
+            "block_polygon_points": [
+                [
+                    234.0,
+                    283.0
+                ],
+                [
+                    1404.0,
+                    283.0
+                ],
+                [
+                    1404.0,
+                    515.0
+                ],
+                [
+                    234.0,
+                    515.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "5.12.3. Thông tin liên hệ để các bên có quyền lợi liên quan có thể sử dụng để lên tiếng về lo ngại và hoặc khiếu nại về những vi phạm có thể xảy ra đối với quyền lợi của mình",
+            "block_bbox": [
+                141,
+                525,
+                1400,
+                618
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "global_block_id": 1625,
+            "global_group_id": 1625,
+            "block_polygon_points": [
+                [
+                    141.0,
+                    525.0
+                ],
+                [
+                    1400.0,
+                    525.0
+                ],
+                [
+                    1400.0,
+                    618.0
+                ],
+                [
+                    141.0,
+                    618.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Các bên có quyền lợi liên quan có thể lên tiếng về lo ngại và/hoặc khiếu nại về những vi phạm có thể xây ra đối với quyền lợi của mình thông qua nhiều hình thức, như: trực tiếp tại quầy giao dịch của các chi nhánh và phòng giao dịch hoặc tại Hội sở ACB, điện thoại (kênh hotline 24/7 qua các tổng dài 1900 54 54 86 hoặc 028 38 247 247), chat trên website/Fanpage/Zalo ACB, mục Liên hệ trên website ACB: https://acb.com.vn/lien-he?tab=1, email, Fanpage/Zalo ACB, hoặc văn bản/thư gửi đến ACB.",
+            "block_bbox": [
+                228,
+                628,
+                1404,
+                915
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "global_block_id": 1626,
+            "global_group_id": 1626,
+            "block_polygon_points": [
+                [
+                    228.0,
+                    628.0
+                ],
+                [
+                    1404.0,
+                    628.0
+                ],
+                [
+                    1404.0,
+                    915.0
+                ],
+                [
+                    228.0,
+                    915.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Báo cáo thường niên ACB năm 2025",
+            "block_bbox": [
+                147,
+                2057,
+                640,
+                2097
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "global_block_id": 1627,
+            "global_group_id": 1627,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    2057.0
+                ],
+                [
+                    640.0,
+                    2057.0
+                ],
+                [
+                    640.0,
+                    2097.0
+                ],
+                [
+                    147.0,
+                    2097.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "162 / 179",
+            "block_bbox": [
+                1273,
+                2054,
+                1404,
+                2094
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "global_block_id": 1628,
+            "global_group_id": 1628,
+            "block_polygon_points": [
+                [
+                    1273.0,
+                    2054.0
+                ],
+                [
+                    1404.0,
+                    2054.0
+                ],
+                [
+                    1404.0,
+                    2094.0
+                ],
+                [
+                    1273.0,
+                    2094.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9440249800682068,
+                "coordinate": [
+                    234,
+                    283,
+                    1404,
+                    515
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        234.0,
+                        283.0
+                    ],
+                    [
+                        1404.0,
+                        283.0
+                    ],
+                    [
+                        1404.0,
+                        515.0
+                    ],
+                    [
+                        234.0,
+                        515.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.41167494654655457,
+                "coordinate": [
+                    141,
+                    525,
+                    1400,
+                    618
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        141.0,
+                        525.0
+                    ],
+                    [
+                        1400.0,
+                        525.0
+                    ],
+                    [
+                        1400.0,
+                        618.0
+                    ],
+                    [
+                        141.0,
+                        618.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.774349570274353,
+                "coordinate": [
+                    228,
+                    628,
+                    1404,
+                    915
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        228.0,
+                        628.0
+                    ],
+                    [
+                        1404.0,
+                        628.0
+                    ],
+                    [
+                        1404.0,
+                        915.0
+                    ],
+                    [
+                        228.0,
+                        915.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8555504679679871,
+                "coordinate": [
+                    147,
+                    2057,
+                    640,
+                    2097
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        147.0,
+                        2057.0
+                    ],
+                    [
+                        640.0,
+                        2057.0
+                    ],
+                    [
+                        640.0,
+                        2097.0
+                    ],
+                    [
+                        147.0,
+                        2097.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8218826055526733,
+                "coordinate": [
+                    1273,
+                    2054,
+                    1404,
+                    2094
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        1273.0,
+                        2054.0
+                    ],
+                    [
+                        1404.0,
+                        2054.0
+                    ],
+                    [
+                        1404.0,
+                        2094.0
+                    ],
+                    [
+                        1273.0,
+                        2094.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

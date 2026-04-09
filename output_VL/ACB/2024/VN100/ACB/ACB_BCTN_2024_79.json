@@ -1,0 +1,976 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1649,
+    "height": 2282,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Phạm vi phát thải</td><td>Nguồn phát thải</td><td>Tổng phát thải quy đổi (tCO2-eq)</td></tr><tr><td>1</td><td>Xăng: 1.776.661 lít</td><td>3.902,1</td></tr><tr><td>1</td><td>Dầu: 56.539 lít</td><td>152,2</td></tr><tr><td>2</td><td>Điện: 41.159.548 kWh</td><td>27.132,4</td></tr><tr><td>3</td><td>Giấy: 1.098.041 kg</td><td>1.470,2</td></tr><tr><td colspan=\"2\">Tổng cộng</td><td>32.656,9</td></tr><tr><td colspan=\"2\">Cường độ phát thải KNK từ các nguồn trực tiếp (tấn/người/năm)</td><td>2,4</td></tr></table>",
+            "block_bbox": [
+                245,
+                311,
+                1414,
+                920
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "global_block_id": 1057,
+            "global_group_id": 1057,
+            "block_polygon_points": [
+                [
+                    245.0,
+                    311.0
+                ],
+                [
+                    1414.0,
+                    311.0
+                ],
+                [
+                    1414.0,
+                    920.0
+                ],
+                [
+                    245.0,
+                    920.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Tổng phát thải KNK của Ngân hàng năm 2024 là 32.656,9 tấn CO₂ (đã quy đổi tương đương) trong đó phát thải ở phạm vi 2 (từ nguồn phát thải sử dụng điện) chiếm 83,1%; phát thải ở phạm vi 1 (từ việc sử dụng xăng dầu) chiếm 11,9%.",
+            "block_bbox": [
+                235,
+                934,
+                1417,
+                1062
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "global_block_id": 1058,
+            "global_group_id": 1058,
+            "block_polygon_points": [
+                [
+                    235.0,
+                    934.0
+                ],
+                [
+                    1417.0,
+                    934.0
+                ],
+                [
+                    1417.0,
+                    1062.0
+                ],
+                [
+                    235.0,
+                    1062.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Tổng phát thải năm 2024 tăng 4,5% so với năm 2023 (31.238 tấn); lí do tăng là trong năm 2024, Ngân hàng ghi nhận thêm dữ liệu từ việc sử dụng dầu.",
+            "block_bbox": [
+                234,
+                1077,
+                1416,
+                1162
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "global_block_id": 1059,
+            "global_group_id": 1059,
+            "block_polygon_points": [
+                [
+                    234.0,
+                    1077.0
+                ],
+                [
+                    1416.0,
+                    1077.0
+                ],
+                [
+                    1416.0,
+                    1162.0
+                ],
+                [
+                    234.0,
+                    1162.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Cường độ phát thải KNK từ các nguồn trực tiếp (phạm vi 1-2-3) trong năm là 2,4 tấn/người/năm.",
+            "block_bbox": [
+                233,
+                1178,
+                1417,
+                1261
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "global_block_id": 1060,
+            "global_group_id": 1060,
+            "block_polygon_points": [
+                [
+                    233.0,
+                    1178.0
+                ],
+                [
+                    1417.0,
+                    1178.0
+                ],
+                [
+                    1417.0,
+                    1261.0
+                ],
+                [
+                    233.0,
+                    1261.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Trong năm 2025, Ngân hàng sẽ nghiên cứu rà soát mức bổ sung dữ liệu các nguồn phát thải ở Phạm vi 3; Ngân hàng cũng sẽ cần nhắc tính toán mức phát thải cơ sở để từ đó xây dựng kế hoạch giảm phát thải hàng năm nhằm đạt được mục tiêu Net Zero vào năm 2050 mà Chính phủ đã đề ra.",
+            "block_bbox": [
+                232,
+                1276,
+                1417,
+                1445
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "global_block_id": 1061,
+            "global_group_id": 1061,
+            "block_polygon_points": [
+                [
+                    232.0,
+                    1276.0
+                ],
+                [
+                    1417.0,
+                    1276.0
+                ],
+                [
+                    1417.0,
+                    1445.0
+                ],
+                [
+                    232.0,
+                    1445.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "9.2.2 Các sáng kiến và biện pháp giảm thiểu phát thải khí nhà kính",
+            "block_bbox": [
+                230,
+                1463,
+                1158,
+                1503
+            ],
+            "block_id": 5,
+            "block_order": 5,
+            "group_id": 5,
+            "global_block_id": 1062,
+            "global_group_id": 1062,
+            "block_polygon_points": [
+                [
+                    230.0,
+                    1463.0
+                ],
+                [
+                    1158.0,
+                    1463.0
+                ],
+                [
+                    1158.0,
+                    1503.0
+                ],
+                [
+                    230.0,
+                    1503.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Sáng kiến và biện pháp giảm thiểu phát thải trực tiếp từ tiêu thụ xăng và dầu",
+            "block_bbox": [
+                232,
+                1519,
+                1243,
+                1561
+            ],
+            "block_id": 6,
+            "block_order": 6,
+            "group_id": 6,
+            "global_block_id": 1063,
+            "global_group_id": 1063,
+            "block_polygon_points": [
+                [
+                    232.0,
+                    1519.0
+                ],
+                [
+                    1243.0,
+                    1519.0
+                ],
+                [
+                    1243.0,
+                    1561.0
+                ],
+                [
+                    232.0,
+                    1561.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Ban hành các quy định nội bộ về sử dụng phương tiện hiệu quả: ví dụ không sử dụng xe công cho mục đích cá nhân, đăng ký lịch trình di chuyển, v.v.",
+            "block_bbox": [
+                231,
+                1577,
+                1410,
+                1662
+            ],
+            "block_id": 7,
+            "block_order": 7,
+            "group_id": 7,
+            "global_block_id": 1064,
+            "global_group_id": 1064,
+            "block_polygon_points": [
+                [
+                    231.0,
+                    1577.0
+                ],
+                [
+                    1410.0,
+                    1577.0
+                ],
+                [
+                    1410.0,
+                    1662.0
+                ],
+                [
+                    231.0,
+                    1662.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Xây dựng hệ thống định vị trên xe và hướng dẫn để đảm bảo vận hành hiệu quả và tối ưu quãng đường.",
+            "block_bbox": [
+                229,
+                1675,
+                1410,
+                1761
+            ],
+            "block_id": 8,
+            "block_order": 8,
+            "group_id": 8,
+            "global_block_id": 1065,
+            "global_group_id": 1065,
+            "block_polygon_points": [
+                [
+                    229.0,
+                    1675.0
+                ],
+                [
+                    1410.0,
+                    1675.0
+                ],
+                [
+                    1410.0,
+                    1761.0
+                ],
+                [
+                    229.0,
+                    1761.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "b. Sáng kiến và biện pháp giảm thiểu phát thải gián tiếp từ tiêu thụ điện năng",
+            "block_bbox": [
+                230,
+                1775,
+                1218,
+                1818
+            ],
+            "block_id": 9,
+            "block_order": 9,
+            "group_id": 9,
+            "global_block_id": 1066,
+            "global_group_id": 1066,
+            "block_polygon_points": [
+                [
+                    230.0,
+                    1775.0
+                ],
+                [
+                    1218.0,
+                    1775.0
+                ],
+                [
+                    1218.0,
+                    1818.0
+                ],
+                [
+                    230.0,
+                    1818.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Lắp đặt các thiết bị tiết kiệm điện năng như hệ thống chiếu sáng tiết kiệm năng lượng, cảm ứng tự động, điều hòa thông minh; khuyến khích sử dụng các thiết bị văn phòng tiết kiệm điện.",
+            "block_bbox": [
+                229,
+                1831,
+                1409,
+                1957
+            ],
+            "block_id": 10,
+            "block_order": 10,
+            "group_id": 10,
+            "global_block_id": 1067,
+            "global_group_id": 1067,
+            "block_polygon_points": [
+                [
+                    229.0,
+                    1831.0
+                ],
+                [
+                    1409.0,
+                    1831.0
+                ],
+                [
+                    1409.0,
+                    1957.0
+                ],
+                [
+                    229.0,
+                    1957.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Lắp đặt các loại kính hai lớp cách nhiệt tại các tòa nhà nhằm giảm lượng nhiệt hấp thu vào từ bên ngoài, ngăn chặn sự mất nhiệt từ bên trong, tiết kiệm chi phí làm mát, làm ấm không gian trong nhà.",
+            "block_bbox": [
+                228,
+                1972,
+                1411,
+                2101
+            ],
+            "block_id": 11,
+            "block_order": 11,
+            "group_id": 11,
+            "global_block_id": 1068,
+            "global_group_id": 1068,
+            "block_polygon_points": [
+                [
+                    228.0,
+                    1972.0
+                ],
+                [
+                    1411.0,
+                    1972.0
+                ],
+                [
+                    1411.0,
+                    2101.0
+                ],
+                [
+                    228.0,
+                    2101.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "BCTN ACB 2024",
+            "block_bbox": [
+                251,
+                2161,
+                477,
+                2197
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "global_block_id": 1069,
+            "global_group_id": 1069,
+            "block_polygon_points": [
+                [
+                    251.0,
+                    2161.0
+                ],
+                [
+                    477.0,
+                    2161.0
+                ],
+                [
+                    477.0,
+                    2197.0
+                ],
+                [
+                    251.0,
+                    2197.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "77/86",
+            "block_bbox": [
+                1314,
+                2162,
+                1408,
+                2196
+            ],
+            "block_id": 13,
+            "block_order": null,
+            "group_id": 13,
+            "global_block_id": 1070,
+            "global_group_id": 1070,
+            "block_polygon_points": [
+                [
+                    1314.0,
+                    2162.0
+                ],
+                [
+                    1408.0,
+                    2162.0
+                ],
+                [
+                    1408.0,
+                    2196.0
+                ],
+                [
+                    1314.0,
+                    2196.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9728032350540161,
+                "coordinate": [
+                    245,
+                    311,
+                    1414,
+                    920
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        245.0,
+                        311.0
+                    ],
+                    [
+                        1414.0,
+                        311.0
+                    ],
+                    [
+                        1414.0,
+                        920.0
+                    ],
+                    [
+                        245.0,
+                        920.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.616158664226532,
+                "coordinate": [
+                    1170,
+                    375,
+                    1295,
+                    414
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        1170,
+                        375
+                    ],
+                    [
+                        1170,
+                        413
+                    ],
+                    [
+                        1294,
+                        413
+                    ],
+                    [
+                        1294,
+                        375
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8475956320762634,
+                "coordinate": [
+                    235,
+                    934,
+                    1417,
+                    1062
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        235.0,
+                        934.0
+                    ],
+                    [
+                        1417.0,
+                        934.0
+                    ],
+                    [
+                        1417.0,
+                        1062.0
+                    ],
+                    [
+                        235.0,
+                        1062.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5350412726402283,
+                "coordinate": [
+                    1026,
+                    938,
+                    1085,
+                    972
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        1026,
+                        938
+                    ],
+                    [
+                        1026,
+                        971
+                    ],
+                    [
+                        1084,
+                        971
+                    ],
+                    [
+                        1084,
+                        938
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9121326208114624,
+                "coordinate": [
+                    234,
+                    1077,
+                    1416,
+                    1162
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        234.0,
+                        1077.0
+                    ],
+                    [
+                        1416.0,
+                        1077.0
+                    ],
+                    [
+                        1416.0,
+                        1162.0
+                    ],
+                    [
+                        234.0,
+                        1162.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.894055187702179,
+                "coordinate": [
+                    233,
+                    1178,
+                    1417,
+                    1261
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        233.0,
+                        1178.0
+                    ],
+                    [
+                        1417.0,
+                        1178.0
+                    ],
+                    [
+                        1417.0,
+                        1261.0
+                    ],
+                    [
+                        233.0,
+                        1261.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9293781518936157,
+                "coordinate": [
+                    232,
+                    1276,
+                    1417,
+                    1445
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        232.0,
+                        1276.0
+                    ],
+                    [
+                        1417.0,
+                        1276.0
+                    ],
+                    [
+                        1417.0,
+                        1445.0
+                    ],
+                    [
+                        232.0,
+                        1445.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8526369333267212,
+                "coordinate": [
+                    230,
+                    1463,
+                    1158,
+                    1503
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        230.0,
+                        1463.0
+                    ],
+                    [
+                        1158.0,
+                        1463.0
+                    ],
+                    [
+                        1158.0,
+                        1503.0
+                    ],
+                    [
+                        230.0,
+                        1503.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8377541899681091,
+                "coordinate": [
+                    232,
+                    1519,
+                    1243,
+                    1561
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        232.0,
+                        1519.0
+                    ],
+                    [
+                        1243.0,
+                        1519.0
+                    ],
+                    [
+                        1243.0,
+                        1561.0
+                    ],
+                    [
+                        232.0,
+                        1561.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9178500771522522,
+                "coordinate": [
+                    231,
+                    1577,
+                    1410,
+                    1662
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        231.0,
+                        1577.0
+                    ],
+                    [
+                        1410.0,
+                        1577.0
+                    ],
+                    [
+                        1410.0,
+                        1662.0
+                    ],
+                    [
+                        231.0,
+                        1662.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9098668098449707,
+                "coordinate": [
+                    229,
+                    1675,
+                    1410,
+                    1761
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        229.0,
+                        1675.0
+                    ],
+                    [
+                        1410.0,
+                        1675.0
+                    ],
+                    [
+                        1410.0,
+                        1761.0
+                    ],
+                    [
+                        229.0,
+                        1761.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8437334299087524,
+                "coordinate": [
+                    230,
+                    1775,
+                    1218,
+                    1818
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        230.0,
+                        1775.0
+                    ],
+                    [
+                        1218.0,
+                        1775.0
+                    ],
+                    [
+                        1218.0,
+                        1818.0
+                    ],
+                    [
+                        230.0,
+                        1818.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9390978217124939,
+                "coordinate": [
+                    229,
+                    1831,
+                    1409,
+                    1957
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        229.0,
+                        1831.0
+                    ],
+                    [
+                        1409.0,
+                        1831.0
+                    ],
+                    [
+                        1409.0,
+                        1957.0
+                    ],
+                    [
+                        229.0,
+                        1957.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9355939030647278,
+                "coordinate": [
+                    228,
+                    1972,
+                    1411,
+                    2101
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        228.0,
+                        1972.0
+                    ],
+                    [
+                        1411.0,
+                        1972.0
+                    ],
+                    [
+                        1411.0,
+                        2101.0
+                    ],
+                    [
+                        228.0,
+                        2101.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8423764705657959,
+                "coordinate": [
+                    251,
+                    2161,
+                    477,
+                    2197
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        251.0,
+                        2161.0
+                    ],
+                    [
+                        477.0,
+                        2161.0
+                    ],
+                    [
+                        477.0,
+                        2197.0
+                    ],
+                    [
+                        251.0,
+                        2197.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8074811100959778,
+                "coordinate": [
+                    1314,
+                    2162,
+                    1408,
+                    2196
+                ],
+                "order": 14,
+                "polygon_points": [
+                    [
+                        1314.0,
+                        2162.0
+                    ],
+                    [
+                        1408.0,
+                        2162.0
+                    ],
+                    [
+                        1408.0,
+                        2196.0
+                    ],
+                    [
+                        1314.0,
+                        2196.0
+                    ]
+                ]
+            }
+        ]
+    }
+}
