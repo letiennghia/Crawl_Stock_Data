@@ -20,7 +20,7 @@ def classify_pdf(file_path, sample_size=5):
         
         # Lỗi: File rỗng hoặc không có trang
         if total_pages == 0:
-            return "CORRUPTED", 0
+            return "CORRUPTED", 0, 0
             
         # Lấy mẫu: Bỏ qua trang bìa (index 0), lấy tối đa sample_size trang
         start_page = 1 if total_pages > 1 else 0
@@ -39,23 +39,23 @@ def classify_pdf(file_path, sample_size=5):
         
         # Nếu không lấy được trang mẫu nào
         if pages_sampled == 0:
-            return "UNKNOWN", 0
+            return "UNKNOWN", 0, total_pages
             
         # Tính trung bình ký tự trên mỗi trang mẫu
         avg_chars_per_page = total_chars / pages_sampled
         
         # 3. NGƯỠNG PHÂN LOẠI (THRESHOLDS)
         if avg_chars_per_page < 50:
-            return "SCANNED", round(avg_chars_per_page, 1)
+            return "SCANNED", round(avg_chars_per_page, 1), total_pages
         elif avg_chars_per_page > 500:
-            return "NATIVE", round(avg_chars_per_page, 1)
+            return "NATIVE", round(avg_chars_per_page, 1), total_pages
         else:
-            return "MIXED", round(avg_chars_per_page, 1)
+            return "MIXED", round(avg_chars_per_page, 1), total_pages
             
     except fitz.FileDataError:
-        return "CORRUPTED (File hỏng/Không phải PDF)", 0
+        return "CORRUPTED (File hỏng/Không phải PDF)", 0, 0
     except Exception as e:
-        return f"ERROR ({str(e)})", 0
+        return f"ERROR ({str(e)})", 0, 0
 
 # 4. LUỒNG QUÉT TOÀN BỘ DATA LAKE
 def run_triage_pipeline():
@@ -78,20 +78,24 @@ def run_triage_pipeline():
         filename = os.path.basename(file_path)
         
         # Phân tích file
-        category, avg_density = classify_pdf(file_path)
+        category, avg_density, total_pages = classify_pdf(file_path)
         
         # Tách tên file để lấy Ticker và Năm (Giả định định dạng: VNM_BCTN_2022.pdf)
         parts = filename.replace('.pdf', '').split('_')
         ticker = parts[0] if len(parts) > 0 else "UNKNOWN"
-        year = parts[-1] if len(parts) > 0 else "UNKNOWN"
+        year = parts[2] if len(parts) > 0 else "UNKNOWN"
+        
+        # Đảm bảo relative path chuẩn hóa bằng dấu / (phù hợp cả trên Windows và Docker Linux)
+        normalized_path = file_path.replace('\\', '/')
         
         results.append({
             'Filename': filename,
-            "Path": file_path,
+            "Path": normalized_path,
             'Ticker': ticker,
             'Year': year,
             'Category': category,
             'Avg_Chars_Per_Page': avg_density,
+            'Total_Pages': total_pages,
             'File_Size_MB': round(os.path.getsize(file_path) / (1024 * 1024), 2)
         })
         
@@ -100,12 +104,91 @@ def run_triage_pipeline():
     df.to_csv(OUTPUT_CSV, index=False, encoding='utf-8-sig')
     
     print("\n\n=== TỔNG KẾT THỐNG KÊ (TRIAGE REPORT) ===")
+    total_document_pages = df['Total_Pages'].sum()
+    print(f"- Tổng số trang của tất cả PDF: {total_document_pages:,} trang")
+    
+    # Lọc và đếm số lượng file từ 2015 đến 2025
+    valid_years = pd.to_numeric(df['Year'], errors='coerce')
+    files_in_range = df[(valid_years >= 2015) & (valid_years <= 2025)]
+    print(f"- Tổng số lượng file từ năm 2015 đến 2025: {len(files_in_range)} files")
+    pages_in_range = files_in_range['Total_Pages'].sum()
+    print(f"- Tổng số trang của các file từ năm 2015 đến 2025: {pages_in_range:,} trang")
+    
     summary = df['Category'].value_counts()
     for cat, count in summary.items():
         percentage = (count / len(pdf_files)) * 100
         print(f"- {cat}: {count} files ({percentage:.1f}%)")
         
     print(f"\nĐã lưu báo cáo chi tiết tại: {OUTPUT_CSV}")
+def report():
+    df = pd.read_csv(OUTPUT_CSV)
+    total_document_pages = df['Total_Pages'].sum()
+    print(f"- Tổng số trang của tất cả PDF: {total_document_pages:,} trang")
+    
+    # Lọc và đếm số lượng file từ 2015 đến 2025
+    valid_years = pd.to_numeric(df['Year'], errors='coerce')
+    files_in_range = df[(valid_years >= 2015) & (valid_years <= 2025)]
+    print(f"- Tổng số lượng file từ năm 2015 đến 2025: {len(files_in_range)} files")
+    pages_in_range = files_in_range['Total_Pages'].sum()
+    print(f"- Tổng số trang của các file từ năm 2015 đến 2025: {pages_in_range:,} trang")
+    
+    # summary = df['Category'].value_counts()
+    # for cat, count in summary.items():
+    #     percentage = (count / len(df)) * 100
+    #     print(f"- {cat}: {count} files ({percentage:.1f}%)")
 
+    print("\n--- Tiến độ xử lý NATIVE PDF ---")
+    native_dirs = [f"output_{i}" for i in range(1, 6)]
+    completed_native_files = set()
+    
+    native_df = df[df['Category'] == 'NATIVE']
+    total_native = len(native_df)
+    native_basenames = set(native_df['Filename'].str.replace('.pdf', '', regex=False))
+    
+    for d in native_dirs:
+        if os.path.exists(d):
+            for root_dir, _, files in os.walk(d):
+                for f in files:
+                    if f.endswith('.md') or f.endswith('.json'):
+                        basename = f.rsplit('.', 1)[0]
+                        if basename in native_basenames:
+                            completed_native_files.add(basename)
+                        
+    completed_native_count = len(completed_native_files)
+    left_native_count = total_native - completed_native_count
+    
+    print(f"- Tổng số file NATIVE: {total_native} files")
+    if total_native > 0:
+        print(f"- Đã xử lý xong: {completed_native_count} files ({(completed_native_count/total_native)*100:.1f}%)")
+    else:
+        print(f"- Đã xử lý xong: {completed_native_count} files (0.0%)")
+    print(f"- Còn lại chưa xử lý: {left_native_count} files")
+
+    print("\n--- Tiến độ xử lý SCANNED PDF ---")
+    scanned_dir = "output_VL_merged"
+    completed_scanned_files = set()
+    
+    scanned_df = df[df['Category'] == 'SCANNED']
+    total_scanned = len(scanned_df)
+    scanned_basenames = set(scanned_df['Filename'].str.replace('.pdf', '', regex=False))
+    
+    if os.path.exists(scanned_dir):
+        for root_dir, _, files in os.walk(scanned_dir):
+            for f in files:
+                if f.endswith('.md') or f.endswith('.json'):
+                    basename = f.rsplit('.', 1)[0]
+                    if basename in scanned_basenames:
+                        completed_scanned_files.add(basename)
+                    
+    completed_scanned_count = len(completed_scanned_files)
+    left_scanned_count = total_scanned - completed_scanned_count
+    
+    print(f"- Tổng số file SCANNED: {total_scanned} files")
+    if total_scanned > 0:
+        print(f"- Đã xử lý xong: {completed_scanned_count} files ({(completed_scanned_count/total_scanned)*100:.1f}%)")
+    else:
+        print(f"- Đã xử lý xong: {completed_scanned_count} files (0.0%)")
+    print(f"- Còn lại chưa xử lý: {left_scanned_count} files")
 if __name__ == "__main__":
-    run_triage_pipeline()
+    #run_triage_pipeline()
+    report()

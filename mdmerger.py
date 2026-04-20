@@ -1,211 +1,124 @@
-from __future__ import annotations
-
 import argparse
-import json
-from pathlib import Path
-from typing import Iterable, Literal
+import os
+import re
 
-__all__ = ["merge"]
-
-
-def _collect_files(
-	input_dir: str | Path,
-	suffix: str,
-	recursive: bool = True,
-	exclude_path: str | Path | None = None,
-) -> list[Path]:
-	"""Collect files by suffix with deterministic path ordering."""
-	root = Path(input_dir)
-	if not root.exists() or not root.is_dir():
-		raise FileNotFoundError(f"Input directory does not exist: {root}")
-
-	pattern = f"**/*{suffix}" if recursive else f"*{suffix}"
-	files = [p for p in root.glob(pattern) if p.is_file()]
-
-	if exclude_path is not None:
-		excluded = Path(exclude_path).resolve()
-		files = [p for p in files if p.resolve() != excluded]
-
-	return sorted(files, key=lambda p: str(p.as_posix()).lower())
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output_VL")
 
 
-def _merge_markdown_files(
-	input_dir: str | Path,
-	output_file: str | Path,
-	recursive: bool = True,
-	add_file_headers: bool = True,
-	separator: str = "\n\n---\n\n",
-	encoding: str = "utf-8",
-) -> Path:
-	"""
-	Combine all .md files under input_dir into one Markdown file.
+def find_md_parts(base_dir: str):
+	"""Find markdown part files inside output_VL/{ticker}/{year}/VN100/{ticker}."""
+	# Example: ACB_BCTN_2014_12.md -> base: ACB_BCTN_2014, part: 12
+	pattern = re.compile(r"^([A-Za-z0-9]+_BCTN_\d{4})_(\d+)\.md$", re.IGNORECASE)
+	grouped = {}
 
-	Returns the output file path.
-	"""
-	output_path = Path(output_file)
-	md_files = _collect_files(
-		input_dir=input_dir,
-		suffix=".md",
-		recursive=recursive,
-		exclude_path=output_path,
-	)
-
-	if not md_files:
-		raise ValueError("No Markdown files found to combine.")
-
-	chunks: list[str] = []
-	for file_path in md_files:
-		content = file_path.read_text(encoding=encoding)
-		if add_file_headers:
-			header = f"# Source: {file_path.as_posix()}"
-			chunks.append(f"{header}\n\n{content.strip()}")
-		else:
-			chunks.append(content.strip())
-
-	output_path.parent.mkdir(parents=True, exist_ok=True)
-	output_path.write_text(separator.join(chunks).strip() + "\n", encoding=encoding)
-	return output_path
-
-
-def _merge_json_files(
-	input_dir: str | Path,
-	output_file: str | Path,
-	recursive: bool = True,
-	flatten_lists: bool = False,
-	encoding: str = "utf-8",
-) -> Path:
-	"""
-	Combine all .json files under input_dir into one JSON array file.
-
-	Output format:
-	- Default: [{"source_file": "...", "data": <parsed_json>}, ...]
-	- If flatten_lists=True and a file contains a top-level list, each item is expanded
-	  into an entry preserving source_file metadata.
-
-	Returns the output file path.
-	"""
-	output_path = Path(output_file)
-	json_files = _collect_files(
-		input_dir=input_dir,
-		suffix=".json",
-		recursive=recursive,
-		exclude_path=output_path,
-	)
-
-	if not json_files:
-		raise ValueError("No JSON files found to combine.")
-
-	merged: list[dict] = []
-	for file_path in json_files:
-		with file_path.open("r", encoding=encoding) as f:
-			payload = json.load(f)
-
-		if flatten_lists and isinstance(payload, list):
-			for item in payload:
-				merged.append({"source_file": file_path.as_posix(), "data": item})
+	for root, _, files in os.walk(base_dir):
+		root_normalized = root.replace("\\", "/")
+		if "/VN100/" not in root_normalized:
 			continue
 
-		merged.append({"source_file": file_path.as_posix(), "data": payload})
+		path_parts = root_normalized.split("/")
+		try:
+			vn100_index = path_parts.index("VN100")
+		except ValueError:
+			continue
 
-	output_path.parent.mkdir(parents=True, exist_ok=True)
-	with output_path.open("w", encoding=encoding) as f:
-		json.dump(merged, f, ensure_ascii=False, indent=2)
-		f.write("\n")
+		# Expecting .../output_VL/{ticker}/{year}/VN100/{ticker}
+		if vn100_index < 2 or vn100_index + 1 >= len(path_parts):
+			continue
 
-	return output_path
+		year = path_parts[vn100_index - 1]
+		ticker = path_parts[vn100_index - 2]
 
+		for filename in files:
+			match = pattern.match(filename)
+			if not match:
+				continue
 
-def merge(
-	mode: Literal["md", "json"],
-	input_dir: str | Path,
-	output_file: str | Path,
-	recursive: bool = True,
-	**kwargs,
-) -> Path:
-	"""
-	Public entry point for file merging, designed for importing from other files.
-
-	Parameters for mode="md":
-	- add_file_headers: bool = True
-	- separator: str = "\n\n---\n\n"
-	- encoding: str = "utf-8"
-
-	Parameters for mode="json":
-	- flatten_lists: bool = False
-	- encoding: str = "utf-8"
-	"""
-	if mode == "md":
-		return _merge_markdown_files(
-			input_dir=input_dir,
-			output_file=output_file,
-			recursive=recursive,
-			add_file_headers=kwargs.get("add_file_headers", True),
-			separator=kwargs.get("separator", "\n\n---\n\n"),
-			encoding=kwargs.get("encoding", "utf-8"),
-		)
-
-	if mode == "json":
-		return _merge_json_files(
-			input_dir=input_dir,
-			output_file=output_file,
-			recursive=recursive,
-			flatten_lists=kwargs.get("flatten_lists", False),
-			encoding=kwargs.get("encoding", "utf-8"),
-		)
-
-	raise ValueError("mode must be either 'md' or 'json'.")
+			base_name = match.group(1)
+			part_number = int(match.group(2))
+			grouped.setdefault((ticker, year, base_name), []).append(
+				(part_number, os.path.join(root, filename))
+			)
+	return grouped
 
 
-def _build_parser() -> argparse.ArgumentParser:
+def merge_markdown_files(input_dir: str, dest_dir: str, overwrite: bool = False):
+	grouped_parts = find_md_parts(input_dir)
+	if not grouped_parts:
+		print(f"No markdown parts found under: {input_dir}")
+		return
+
+	merged_count = 0
+	skipped_count = 0
+
+	for (ticker, year, base_name), parts in sorted(grouped_parts.items()):
+		parts.sort(key=lambda item: item[0])
+
+		destination_dir = os.path.join(dest_dir, ticker, year)
+		os.makedirs(destination_dir, exist_ok=True)
+		destination_file = os.path.join(destination_dir, f"{base_name}.md")
+
+		if os.path.exists(destination_file) and not overwrite:
+			print(f"[SKIP] Exists: {destination_file}")
+			skipped_count += 1
+			continue
+
+		merged_content = []
+		for part_number, part_path in parts:
+			try:
+				with open(part_path, "r", encoding="utf-8") as md_file:
+					content = md_file.read().strip()
+					if content:
+						merged_content.append(content)
+					else:
+						merged_content.append(f"<!-- Empty markdown part: {part_number} -->")
+			except Exception as exc:
+				print(f"[ERROR] Cannot read {part_path}: {exc}")
+				merged_content = []
+				break
+
+		if not merged_content:
+			print(f"[SKIP] Failed to merge: {ticker}/{year}/{base_name}")
+			skipped_count += 1
+			continue
+
+		try:
+			with open(destination_file, "w", encoding="utf-8") as out_file:
+				out_file.write("\n\n".join(merged_content) + "\n")
+			merged_count += 1
+			print(f"[OK] {destination_file}")
+		except Exception as exc:
+			print(f"[ERROR] Cannot write {destination_file}: {exc}")
+			skipped_count += 1
+
+	print(
+		f"Done. Merged: {merged_count}, Skipped/Failed: {skipped_count}, Total groups: {len(grouped_parts)}"
+	)
+
+
+def parse_args():
 	parser = argparse.ArgumentParser(
-		description="Combine all Markdown or JSON files in a directory into one output file."
-	)
-	parser.add_argument("mode", choices=["md", "json"], help="Merge mode.")
-	parser.add_argument("input_dir", help="Directory containing source files.")
-	parser.add_argument("output_file", help="Combined output file path.")
-	parser.add_argument(
-		"--no-recursive",
-		action="store_true",
-		help="Only scan files in input_dir, not subdirectories.",
+		description="Merge markdown parts and write to output_VL/{ticker}/{year}."
 	)
 	parser.add_argument(
-		"--no-headers",
-		action="store_true",
-		help="For md mode: do not add source-file header before each section.",
+		"--input-dir",
+		default=OUTPUT_DIR,
+		help="Root folder containing part files (default: output_VL)",
 	)
 	parser.add_argument(
-		"--flatten-lists",
-		action="store_true",
-		help="For json mode: flatten top-level lists into individual entries.",
+		"--output-dir",
+		default=os.path.join(SCRIPT_DIR, "output_merged"),
+		help="Root output folder for merged files (default: output_merged)",
 	)
-	return parser
-
-
-def main(argv: Iterable[str] | None = None) -> None:
-	parser = _build_parser()
-	args = parser.parse_args(argv)
-
-	recursive = not args.no_recursive
-
-	if args.mode == "md":
-		out_path = merge(
-			mode="md",
-			input_dir=args.input_dir,
-			output_file=args.output_file,
-			recursive=recursive,
-			add_file_headers=not args.no_headers,
-		)
-	else:
-		out_path = merge(
-			mode="json",
-			input_dir=args.input_dir,
-			output_file=args.output_file,
-			recursive=recursive,
-			flatten_lists=args.flatten_lists,
-		)
-
-	print(f"Combined output written to: {out_path}")
+	parser.add_argument(
+		"--overwrite",
+		action="store_true",
+		help="Overwrite existing merged markdown file if it already exists.",
+	)
+	return parser.parse_args()
 
 
 if __name__ == "__main__":
-	main()
+	arguments = parse_args()
+	merge_markdown_files(input_dir=arguments.input_dir, dest_dir=arguments.output_dir, overwrite=arguments.overwrite)

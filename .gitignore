@@ -1,1 +1,20 @@
 /data_lake
+/output_VL_merged
+# Ignore all files in the data_lake directory
+/data_lake/*
+# But do not ignore the stat directory and its contents
+!/data_lake/stat/
+/output_VL/*
+/output/
+/data/
+/output_1/
+/output_2/
+/output_3/
+/output_4/
+/output_5/
+/output_VL/*
+/output_VL_merged/
+/1/
+/temp_split_pdfs/
+/yaml_config/
+/Crawl_Stock_Data.worktrees/

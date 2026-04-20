@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  paddle_vllm_server:
+    image: ccr-2vdh3abv-pub.cnc.bj.baidubce.com/paddlepaddle/paddleocr-genai-fastdeploy-server:latest-nvidia-gpu
+    container_name: paddle_vllm_server
+    ports:
+      - "8118:8118"
+    volumes:
+      - ./yaml_config:/tmp
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    command: paddleocr genai_server --model_name PaddleOCR-VL-1.5-0.9B --host 0.0.0.0 --port 8118 --backend fastdeploy --backend_config /tmp/vllm_config.yml
+
+  ocrvl-tester:
+    build: .
+    container_name: ocrvl-pipeline
+    depends_on:
+      - paddle_vllm_server
+    volumes:
+      - ./data_lake:/app/data_lake
+      - ./output_VL_merged:/app/output_VL_merged
+    environment:
+      - INPUT_CSV=./data_lake/stat/pdf_triage_stats.csv
+      - OUTPUT_DIR=./output_VL_merged
+      - VLLM_URL=http://paddle_vllm_server:8118/v1
+      - TEST_MODE=false
+
