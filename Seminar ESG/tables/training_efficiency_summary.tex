@@ -1,0 +1,14 @@
+\begin{table*}[t]
+\centering
+\caption{Final 20-epoch comparison between full fine-tuning and DoRA-PhoBERT on the ESG paragraph classification task.}
+\label{tab:training_efficiency_summary}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{Method} & \textbf{Trainable Params} & \textbf{Trainable \%} & \textbf{Time (s)} & \textbf{Acc.} & \textbf{Micro F1} & \textbf{Macro F1} \\
+\midrule
+Full FT & 135,005,962 & 100.00 & 1,221.6 & 0.902 & 0.940 & 0.815 \\
+DoRA ($r=8$) & 911,626 & 0.67 & 1,006.4 & 0.866 & 0.921 & 0.831 \\
+\bottomrule
+\end{tabular}
+\end{table*}

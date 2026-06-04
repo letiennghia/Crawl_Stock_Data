@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Structured output schema used by the LLM-based ESG disclosure scoring module.}
+\label{tab:llm_scoring_schema}
+\small
+\begin{tabularx}{\textwidth}{lllX}
+\toprule
+\textbf{Block} & \textbf{Field} & \textbf{Type} & \textbf{Description} \\
+\midrule
+Company & \texttt{ticker} & string & Stock ticker associated with the evidence batch. \\
+Time series & \texttt{years} & integer list & Fiscal years included in the same company-level LLM call. \\
+Year score & \texttt{scores} & numeric object & Year-level \texttt{E}, \texttt{S}, \texttt{G}, and \texttt{overall} disclosure-quality scores on a 0--100 scale. \\
+Topic score & \texttt{subscores} & numeric object & Scores for the ten implemented labels: \texttt{E\_COMMON}, \texttt{E1}, \texttt{E2}, \texttt{E3}, \texttt{S4}, \texttt{S5}, \texttt{S6}, \texttt{G9}, \texttt{G10}, and \texttt{G11}. \\
+Audit trail & \texttt{rationale} & text object & Concise explanations for \texttt{E}, \texttt{S}, \texttt{G}, and \texttt{overall}, grounded in selected evidence. \\
+Audit trail & \texttt{evidence\_ids} & string lists & Evidence identifiers cited by the model for each ESG dimension. \\
+Uncertainty & \texttt{confidence} & number & Model confidence in the score, bounded between 0 and 1. \\
+Temporal synthesis & \texttt{trend\_analysis} & text object & Cross-year analysis of changes in disclosure quality for \texttt{E}, \texttt{S}, \texttt{G}, and \texttt{overall}. \\
+\bottomrule
+\end{tabularx}
+\end{table*}

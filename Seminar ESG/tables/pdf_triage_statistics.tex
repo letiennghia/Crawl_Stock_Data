@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{PDF Triage Statistics Used for Format-Aware Extraction}
+\label{tab:pdf_triage_statistics}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\columnwidth}{@{}l r r r@{}}
+\hline
+\textbf{Category} & \textbf{Files} & \textbf{Pages} & \textbf{Routing} \\
+\hline
+NATIVE & 1,119 & 107,082 & Docling \\
+SCANNED & 313 & 21,801 & PaddleOCR-VL \\
+MIXED & 106 & 13,709 & PaddleOCR-VL \\
+ERROR & 1 & 0 & Excluded \\
+\hline
+\textbf{Total} & \textbf{1,539} & \textbf{142,592} & -- \\
+\hline
+\end{tabularx}
+\vbox{\vspace{1ex}\small \textit{Note:} Categories are assigned from a five-page post-cover sample using the average number of extractable characters per page.}
+\end{table}

@@ -1,0 +1,788 @@
+%%%%%%%% General English Research Paper Template %%%%%%%%%%%%%%%%
+% Based on the provided ICML 2024-style LaTeX configuration.
+% Put all figures in: img/
+% Put all external table files in: tables/
+
+\documentclass{article}
+
+% -----------------------------------------------------------------------------
+% Packages: typography, figures, tables, math, algorithms, and hyperlinks
+% -----------------------------------------------------------------------------
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{manyfoot}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[capitalize,noabbrev]{cleveref}
+
+
+
+% -----------------------------------------------------------------------------
+% ICML style
+% -----------------------------------------------------------------------------
+% For the initial blind submission, use:
+% \usepackage{icml2024}
+%
+% For the accepted/camera-ready version, use:
+\usepackage[accepted]{icml2024}
+
+
+
+% -----------------------------------------------------------------------------
+% Useful custom commands
+% -----------------------------------------------------------------------------
+\newcommand{\method}{\textsc{MethodName}}
+\newcommand{\dataset}{\textsc{DatasetName}}
+\newcommand{\etal}{\textit{et al.}}
+\newcommand{\todoinline}[1]{\textcolor{red}{[TODO: #1]}}
+
+% Safe figure command: if the image file is missing, LaTeX still compiles and
+% shows a placeholder box. Place real images under img/ and keep the same name.
+\newcommand{\safeincludegraphics}[2][]{%
+  \IfFileExists{#2}{%
+    \includegraphics[#1]{#2}%
+  }{%
+    \fbox{%
+      \begin{minipage}[c][0.22\textheight][c]{0.92\linewidth}
+        \centering
+        \textbf{Missing figure}\\[0.5em]
+        \texttt{#2}\\[0.5em]
+        Place the image in the \texttt{img/} directory.
+      \end{minipage}%
+    }%
+  }%
+}
+
+% -----------------------------------------------------------------------------
+% Theorem environments
+% -----------------------------------------------------------------------------
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}[theorem]{Assumption}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% -----------------------------------------------------------------------------
+% Title metadata
+% -----------------------------------------------------------------------------
+\icmltitlerunning{NLP-Based ESG Disclosure in Vietnam}
+
+\begin{document}
+
+\twocolumn[
+\icmltitle{Measuring ESG Disclosure from Vietnamese Annual Reports with Natural Language Processing and Its Effect on the Cost of Equity Capital}
+
+\begin{icmlauthorlist}
+\icmlauthor{Phung-Huu Khoa\textsuperscript{*}}{inst1}
+\icmlauthor{Le-Tuan Duy\textsuperscript{*}}{inst1}
+\icmlauthor{Le-Tien Nghia\textsuperscript{*}}{inst1}
+\end{icmlauthorlist}
+
+
+\icmlaffiliation{inst1}{Institute for Artificial Intelligence, VNU University of Engineering and Technology}
+% \icmlaffiliation{inst2}{Department of Data Science, University 2}
+
+
+\icmlcorrespondingauthor{Khoa Phung-Huu}{24022370@vnu.edu.vn}
+
+
+\icmlkeywords{Machine Learning, Deep Learning, Research Paper}
+
+\vskip 0.3in
+]
+
+% Leave the argument empty if no equal-contribution note is needed.
+\printAffiliationsAndNotice{\icmlEqualContribution}
+
+% -----------------------------------------------------------------------------
+% Abstract
+% -----------------------------------------------------------------------------
+\begin{abstract}
+Evaluating Environmental, Social, and Governance (ESG) disclosure is vital for emerging markets, yet automated ESG scoring in non-English contexts lacks structured, high-quality data. Annual corporate reports in Vietnam offer rich insights but suffer from severe noise during optical character recognition (OCR) and lack domain-specific labels. To address this, we propose a hybrid framework for automated Vietnamese ESG text classification and disclosure scoring. We first clean noisy OCR text from Vietnamese annual reports, then employ a dictionary-based weak supervision approach with manual refinement to generate high-fidelity training data. These datasets are used to fine-tune a PhoBERT model for automated ESG context classification. Finally, we filter the classified evidence and pass company-level time-series batches to a structured Large Language Model (LLM) scoring module, which returns year-level ESG disclosure-quality scores, sublabel scores, rationales, evidence identifiers, confidence estimates, and trend analysis under a strict JSON schema. Experimental results on real-world Vietnamese financial documents demonstrate that our approach significantly enhances classification accuracy and provides interpretable, auditable, and cost-effective ESG disclosure evaluations.
+\end{abstract}
+
+% -----------------------------------------------------------------------------
+% 1. Introduction
+% -----------------------------------------------------------------------------
+\section{Introduction}
+\label{sec:introduction}
+
+Environmental, social, and governance (ESG) disclosure has become an increasingly important source of information for investors, regulators, and other capital-market participants. In theory, richer corporate disclosure can reduce information asymmetry, improve market liquidity, and lower the risk premium required by investors \citep{diamond1991disclosure,easley2004information}. This mechanism is particularly relevant for emerging markets, where disclosure practices are often less standardized and where investors may face higher uncertainty regarding firms' long-term risk exposure, governance quality, and sustainability performance.
+
+Vietnam provides a meaningful setting for examining this issue. Although listed firms have gradually expanded their non-financial disclosure, ESG-related information is still frequently dispersed across annual reports, sustainability sections, management discussions, appendices, and tables. Much of this information is written in Vietnamese, embedded in heterogeneous PDF formats, and expressed in unstructured or semi-structured text. As a result, traditional manual scoring approaches are costly, difficult to replicate, and limited in scale. At the same time, relying on commercial ESG ratings or English keyword dictionaries may fail to capture the local linguistic, regulatory, and reporting characteristics of Vietnamese firms.
+
+
+Prior research suggests that voluntary non-financial disclosure and corporate social responsibility can be associated with a lower cost of equity capital \citep{dhaliwal2011voluntary,elghoul2011csr,chava2014environmental}. However, empirical evidence for emerging markets remains constrained by data availability and measurement limitations. In the Vietnamese context, a key research gap is the lack of a reproducible firm-year ESG disclosure measure constructed directly from domestic annual reports. Addressing this gap requires not only an accounting and finance research design, but also a natural language processing framework capable of extracting ESG signals from Vietnamese corporate text.
+
+% This study proposes a Vietnamese NLP-based pipeline to measure ESG disclosure from annual reports of listed non-financial firms in Vietnam. The pipeline first classifies PDF files into text-based and scanned documents, then applies text extraction and OCR procedures to recover machine-readable content. The extracted text is segmented using a sliding-window strategy and classified into ESG topics using PhoBERT, a Vietnamese pre-trained language model \citep{nguyen2020phobert}. To make fine-tuning feasible under limited computational resources, the study adopts Low-Rank Adaptation (LoRA), which combines low-rank adapters with 4-bit quantization \citep{hu2022lora,dettmers2023qlora}. In addition, table-aware information is incorporated through table fusion techniques inspired by TAPAS, allowing ESG signals from tables and nearby text to be jointly considered \citep{herzig2020tapas}.
+
+% This study proposes a Vietnamese NLP-based pipeline to measure ESG disclosure from annual reports of listed non-financial firms in Vietnam. The pipeline first classifies PDF files into text-based and scanned documents, then applies text extraction and OCR procedures to recover machine-readable content. The extracted text is segmented using a sliding-window strategy and classified into ESG topics using PhoBERT, a Vietnamese pre-trained language model \citep{nguyen2020phobert}. To make fine-tuning feasible under limited computational resources, the study adopts Weight-Decomposed Low-Rank Adaptation (DoRA) \citep{liu2024dora}. Specifically, the framework leverages DoRA's weight decomposition mechanism, which decouples the pre-trained weights into magnitude and directional components and updates only the directional components using low-rank adapters, thereby significantly reducing the number of trainable parameters while maintaining high fine-tuning accuracy. In addition, table-aware information is incorporated through table fusion techniques inspired by TAPAS, allowing ESG signals from tables and nearby text to be jointly considered \citep{herzig2020tapas}.
+
+This study proposes a Vietnamese NLP-based pipeline to measure ESG disclosure from annual reports of listed non-financial firms in Vietnam. The pipeline first classifies PDF files into text-based and scanned documents, then applies text extraction and OCR procedures to recover machine-readable content. The extracted text is segmented into paragraph-level units and classified into ESG topics using PhoBERT, a Vietnamese pre-trained language model \citep{nguyen2020phobert}. To make fine-tuning feasible under limited computational resources, the study adopts Weight-Decomposed Low-Rank Adaptation (DoRA) \citep{liu2024dora}. Specifically, the framework leverages DoRA's weight decomposition mechanism, which decouples the pre-trained weights into magnitude and directional components and updates only the directional components using low-rank adapters, thereby significantly reducing the number of trainable parameters while maintaining high fine-tuning accuracy.
+
+The resulting ESG disclosure score is computed over ten implemented ESG labels covering environmental, social, and governance dimensions: \texttt{E\_COMMON}, \texttt{E1}, \texttt{E2}, \texttt{E3}, \texttt{S4}, \texttt{S5}, \texttt{S6}, \texttt{G9}, \texttt{G10}, and \texttt{G11}. In the current scoring stage, filtered evidence is assembled into company time-series batches so that the LLM can produce year-level ESG disclosure-quality scores while also considering temporal changes in reporting specificity and coverage. The downstream capital-market analysis linking these scores to the cost of equity capital, estimated using implied cost-of-capital models based on residual income, PEG, and abnormal earnings growth approaches \citep{gebhardt2001toward,easton2004pe,ohlson2005expected}, is treated as the next empirical stage rather than a completed result in this version.
+
+
+The study addresses the following research questions. First, can a reliable ESG disclosure measure be constructed from Vietnamese annual reports using an NLP pipeline based on PhoBERT, weak supervision, and DoRA? Second, can filtered paragraph-level evidence be synthesized into auditable company time-series ESG disclosure scores through structured LLM scoring? Third, does DoRA provide a computationally efficient alternative to full fine-tuning while maintaining sufficient classification quality for ESG disclosure measurement?
+
+\paragraph{Motivation.}
+Environmental, Social, and Governance (ESG) performance has increasingly become a critical determinant of corporate sustainability, long-term valuation, and investment allocation. For listed non-financial firms in emerging markets like Vietnam, transparent ESG disclosure is essential to attract foreign capital and mitigate economic externalities. However, assessing these disclosures remains a formidable challenge. Annual reports published by Vietnamese firms are often heterogeneous, unstructured, and distributed across a mix of text-heavy digital PDFs and poor-quality scanned documents. Manually auditing these multi-page reports for localized ESG signals is not only labor-intensive and error-prone but also highly subjective, demonstrating a pressing practical need for an automated, scalable, and standardized natural language processing (NLP) pipeline tailored to the Vietnamese regulatory and linguistic context.
+
+\paragraph{Research Gap.}
+Globally, the automation of ESG disclosure measurement through Natural Language Processing (NLP) has witnessed significant advancements, primarily driven by domain-specific models such as FinBERT-ESG and large-scale proprietary AI systems utilized by institutional data providers like MSCI or Refinitiv. However, existing methodologies exhibit critical limitations. First, these state-of-the-art frameworks are almost exclusively English-centric, rendering them ineffective when applied to emerging markets with localized languages and distinct regulatory environments. Second, standard global pipelines typically treat financial disclosures as sequential text, largely overlooking dense tabular data and the complex structural cross-dependencies between tables and narrative texts. 
+
+In the specific context of Vietnam, this gap is even more profound. To date, there is a total absence of any automated or systematic ESG extraction framework designed for the Vietnamese language. Prior local literature remains bottlenecked by manual content analysis, forcing researchers to hand-code multi-page annual reports - a practice that is unscalable, subjective, and prone to human oversight. Generic Vietnamese NLP models are also unequipped to handle the heterogeneous layouts and poor-quality scanned PDFs common among listed non-financial firms in Vietnam. Consequently, a comprehensive, table-aware, and computationally efficient pipeline that bridges global automated ESG extraction techniques with the unique linguistic and structural challenges of Vietnamese corporate reporting remains entirely unaddressed.
+\paragraph{Main Contributions.}
+The main contributions of this paper are summarized as follows:
+\begin{itemize}
+    \item We propose a comprehensive, fully automated NLP pipeline designed to systematically extract and measure ESG disclosures from both text-based and scanned annual reports of listed Vietnamese non-financial firms.
+    \item We develop a programmatic weak-labeling mechanism utilizing a domain-specific Vietnamese ESG dictionary and an adaptive percentile-based thresholding strategy to automatically annotate large-scale financial text without human labor.
+    \item We introduce an efficient model adaptation strategy by leveraging Weight-Decomposed Low-Rank Adaptation (DoRA) on top of PhoBERT, systematically analyzing how decomposing pre-trained weights enhances parameter-efficient fine-tuning on domain-specific Vietnamese text without full-parameter retraining.
+    \item We design a structured LLM scoring module that converts filtered ESG evidence into auditable time-series disclosure scores with JSON-constrained outputs, evidence identifiers, confidence estimates, and trend analysis.
+    \item We conduct empirical experiments on a newly curated dataset of Vietnamese corporate reports, comparing full fine-tuning and DoRA-PhoBERT under a 20-epoch training setup.
+\end{itemize}
+% \paragraph{Main Contributions.}
+% The main contributions of this paper are summarized as follows:
+% \begin{itemize}
+%     \item We propose \method, a method/framework/system designed to address \todoinline{describe the core research problem}.
+%     \item We provide a systematic analysis of \todoinline{describe the main theoretical, empirical, or technical insight}.
+%     \item We conduct extensive experiments on \todoinline{list datasets, benchmarks, or case studies} and show improvements over strong baselines.
+%     \item We release \todoinline{code, dataset, model, benchmark, or implementation details if applicable} to support reproducibility.
+% \end{itemize}
+
+\paragraph{Paper Organization.}
+\Cref{sec:related_work} reviews related studies. \Cref{sec:problem_formulation} defines the research problem. \Cref{sec:methodology} presents the proposed method. \Cref{sec:experimental_setup} describes the experimental design. \Cref{sec:results} reports and analyzes the results. \Cref{sec:discussion} discusses implications and limitations. \Cref{sec:conclusion} concludes the paper.
+
+% -----------------------------------------------------------------------------
+% 2. Related Work
+% -----------------------------------------------------------------------------
+\section{Related Work}
+\label{sec:related_work}
+
+This section reviews three streams of literature that are most relevant to our study: 
+(1) corporate disclosure, ESG reporting, and the cost of equity capital; 
+(2) machine learning and natural language processing methods for financial and ESG text analysis; and 
+(3) weak supervision and parameter-efficient adaptation for low-resource domain-specific NLP. 
+We then position our paper relative to these studies and clarify the specific gap addressed in the Vietnamese emerging-market setting.
+
+\subsection{Corporate Disclosure, ESG Reporting, and Cost of Equity Capital}
+
+A large body of accounting and finance research suggests that corporate disclosure can reduce information asymmetry between firms and capital-market participants, thereby lowering investors' required rate of return. Early theoretical and empirical work shows that more informative disclosure can improve market liquidity and reduce the cost of capital by mitigating adverse selection and estimation risk \citep{diamond1991disclosure,easley2004information,botosan1997disclosure}. 
+In a related setting, \citet{sengupta1998disclosure} finds that firms with higher disclosure quality tend to face lower costs of debt financing, supporting the broader view that transparent reporting is economically valuable to external capital providers.
+
+Within the non-financial disclosure literature, corporate social responsibility (CSR) and ESG reporting have been studied as channels through which firms communicate long-term sustainability, governance quality, and risk exposure. \citet{dhaliwal2011voluntary} show that firms initiating standalone CSR reports tend to experience a subsequent reduction in the cost of equity capital, particularly when prior information asymmetry is high. 
+Similarly, \citet{elghoul2011csr} document that firms with stronger CSR profiles exhibit lower ex ante cost of equity, while \citet{chava2014environmental} finds that investors demand higher expected returns from firms with adverse environmental profiles. 
+These studies provide an important theoretical foundation for our paper: if ESG disclosure conveys value-relevant information to investors, then a reliable firm-year ESG disclosure measure should be associated with the cost of equity capital.
+
+Another related line of research focuses on how disclosure content is measured. Traditional studies often rely on manually constructed disclosure indices or third-party ratings \citep{botosan1997disclosure,clarkson2008environmental}. 
+Although such approaches are interpretable, they are expensive to scale, difficult to reproduce across large document collections, and may be unavailable in emerging markets. 
+This limitation is particularly salient in Vietnam, where ESG information is frequently dispersed across annual reports, sustainability sections, management discussions, appendices, and tables, and where commercial ESG coverage remains limited. 
+Our study extends this literature by constructing an NLP-based ESG disclosure measure directly from Vietnamese annual reports rather than relying on external ESG ratings or manual content analysis.
+
+To examine the capital-market implications of ESG disclosure, our empirical design also relates to the literature on implied cost of equity capital. 
+\citet{gebhardt2001toward} estimate expected returns using a residual income valuation framework, while \citet{easton2004pe} develops PEG-based approaches for estimating the implied expected rate of return. 
+\citet{ohlson2005expected} further links equity valuation to expected earnings per share, earnings growth, and the cost of equity capital. 
+These implied cost-of-capital models are useful when realized returns are noisy proxies for expected returns, and they motivate our use of multiple ex ante cost-of-equity estimates in the empirical analysis.
+
+\subsection{NLP for Financial Disclosure and ESG Text Analysis}
+
+Machine learning has increasingly been used to extract structured signals from corporate disclosures. 
+One influential early example is \citet{li2010information}, who applies a Naive Bayes approach to classify forward-looking statements in 10-K and 10-Q filings, showing that textual information in financial reports can contain value-relevant signals. 
+Subsequent advances in deep learning and transformer architectures have substantially improved the ability of NLP systems to represent financial text. 
+For example, FinBERT adapts BERT-style representations to financial language and has been used for tasks such as financial sentiment analysis and ESG categorization \citep{huang2022finbert}. 
+More specifically, FinBERT-ESG provides ESG-oriented sentence classification by fine-tuning a financial-language model on manually annotated ESG sentences from corporate reports \citep{finbertesg}. 
+Other ESG-specific models, such as ESGBERT, further demonstrate that domain adaptation can improve classification performance on sustainability-related text \citep{mehra2022esgbert}.
+
+Despite these advances, most existing ESG NLP systems are designed primarily for English-language documents, global corporate disclosures, or news-based ESG classification. 
+This creates two important limitations for our research setting. 
+First, English-centric ESG models may not capture Vietnamese morphology, diacritics, word segmentation, regulatory language, and localized reporting conventions. 
+Second, many global ESG pipelines assume relatively clean digital text, whereas Vietnamese annual reports often include scanned PDFs, OCR artifacts, inconsistent encoding, and semi-structured tabular information. 
+Directly applying English ESG dictionaries or English financial language models to Vietnamese reports is therefore unlikely to produce reliable firm-year disclosure measures.
+
+Vietnamese NLP has benefited from the development of monolingual pre-trained language models. 
+PhoBERT, introduced by \citet{nguyen2020phobert}, is one of the first large-scale Vietnamese-specific pre-trained language models and has shown strong performance on Vietnamese downstream tasks such as part-of-speech tagging, dependency parsing, named entity recognition, and natural language inference. 
+This motivates our use of PhoBERT as the backbone encoder for Vietnamese ESG context classification. 
+However, PhoBERT by itself is a general-purpose Vietnamese language model rather than a financial or ESG-specific classifier. 
+Our work therefore adapts PhoBERT to the specialized domain of Vietnamese corporate ESG disclosure using weakly supervised labels and parameter-efficient fine-tuning.
+
+\subsection{Weak Supervision and Programmatic Labeling}
+
+A central challenge in ESG disclosure measurement is the scarcity of high-quality labeled data. 
+Manual annotation of ESG paragraphs requires both language proficiency and domain expertise, making it costly and difficult to scale across thousands of annual reports. 
+Weak supervision provides a practical alternative by using labeling functions, heuristics, dictionaries, or knowledge bases to generate noisy but scalable training labels. 
+The Snorkel framework introduced by \citet{ratner2017snorkel} formalizes this idea through programmatic labeling functions and demonstrates that large training datasets can be created without manually labeling every instance.
+
+Our weak-labeling strategy follows the same broad motivation but is tailored to Vietnamese ESG disclosure. 
+Instead of relying on generic labeling functions, we construct a domain-specific Vietnamese ESG dictionary and combine it with dual-index matching over both normalized and accent-folded text. 
+This design is intended to improve robustness to OCR noise, Vietnamese diacritic variation, and encoding errors. 
+Moreover, rather than applying fixed keyword-count thresholds across all ESG categories, we use adaptive percentile-based thresholds estimated from positive-only empirical distributions. 
+This addresses a practical problem in dictionary-based labeling: broad ESG categories naturally contain more keywords and may otherwise dominate the label assignment process.
+
+The weak supervision literature also highlights a trade-off between scalability and label noise. 
+Programmatic labels can introduce false positives when keywords appear in irrelevant contexts, and false negatives when ESG concepts are expressed using unseen terminology. 
+Our pipeline mitigates this issue in two ways. 
+First, weak labels are used as intermediate supervision for training a contextual classifier, allowing PhoBERT to learn beyond exact keyword matching. 
+Second, the generated weak labels can be serialized into a human-verifiable format, creating a bridge between scalable automation and manual refinement. 
+Thus, our approach uses dictionary-based weak supervision not as the final scoring mechanism, but as a cost-effective method for building training data in a low-resource ESG setting.
+
+\subsection{Parameter-Efficient Adaptation of Pre-trained Language Models}
+
+Fine-tuning all parameters of a transformer model can be computationally expensive, especially when training must be performed on consumer-grade hardware. 
+Parameter-efficient fine-tuning methods address this issue by updating only a small number of task-specific parameters while keeping most pre-trained weights frozen. 
+LoRA, proposed by \citet{hu2022lora}, injects low-rank trainable matrices into transformer layers and substantially reduces the number of trainable parameters while preserving competitive downstream performance. 
+This makes LoRA attractive for low-resource domain adaptation, including financial and ESG classification tasks.
+
+Weight-Decomposed Low-Rank Adaptation (DoRA), introduced by \citet{liu2024dora}, extends this idea by decomposing pre-trained weights into magnitude and direction components and applying low-rank updates to the directional component. 
+The motivation of DoRA is to narrow the performance gap between standard LoRA and full fine-tuning while retaining the efficiency advantages of low-rank adaptation. 
+Because our research setting requires domain adaptation of a Vietnamese transformer model under limited GPU memory, DoRA is a natural fit for this study. 
+Our framework applies DoRA to PhoBERT in order to obtain an efficient Vietnamese ESG classifier without the cost of full-parameter fine-tuning.
+
+Recent work on large language models also suggests that generative models can be useful for ESG analysis, particularly when the task requires synthesis, summarization, or structured reasoning over multiple pieces of evidence. 
+However, using a generative LLM directly on entire annual reports is costly and may be unreliable when the input contains OCR noise, long-context constraints, or irrelevant text. 
+Our framework therefore separates the problem into two stages: a local PhoBERT-based classifier filters and structures ESG-relevant contexts, and a downstream LLM scoring module synthesizes the filtered evidence into document-level ESG scores. 
+This decoupled design reduces token cost, improves traceability, and avoids exposing the LLM to the full noise of raw corporate filings.
+
+\subsection{Position of This Paper}
+
+The closest studies to ours are those that use NLP to classify ESG-related financial text and those that examine the relation between ESG disclosure and the cost of equity capital. 
+However, existing ESG NLP research is largely English-centric and is often built on clean, manually annotated datasets or global ESG taxonomies. 
+Existing finance studies, in contrast, provide strong evidence that disclosure and CSR are associated with financing costs, but they typically rely on manual disclosure indices, commercial ESG ratings, or developed-market samples.
+
+Our paper connects these two streams by developing a reproducible NLP-based ESG disclosure measure for Vietnamese annual reports and preparing that measure for downstream cost-of-equity analysis. 
+Compared with prior work, our contribution is threefold. 
+First, we address a low-resource non-English setting where ESG labels, commercial ratings, and clean machine-readable reports are limited. 
+Second, we combine Vietnamese weak supervision, OCR-aware preprocessing, and PhoBERT-based contextual classification to construct firm-year ESG disclosure scores directly from domestic corporate reports. 
+Third, we introduce a parameter-efficient DoRA-PhoBERT adaptation strategy and a decoupled LLM-based scoring module, making the framework practical under limited computational resources while retaining interpretability through evidence-based scoring. 
+To the best of our knowledge, this is among the first attempts to build an automated, Vietnamese-language ESG disclosure measurement pipeline that can support future firm-year capital-market analysis in Vietnam.
+
+% -----------------------------------------------------------------------------
+% 3. Problem Formulation
+% -----------------------------------------------------------------------------
+\section{Problem Formulation}
+\label{sec:problem_formulation}
+
+In this section, we formally define our hybrid framework as a two-stage pipeline: (1) paragraph-level ESG context classification via parameter-efficient fine-tuning, and (2) company time-series ESG disclosure scoring and synthesis via structured Large Language Model (LLM) API orchestration.
+
+\subsection{Notation and Preliminary}
+Let $\mathcal{D} = \{x_i\}_{i=1}^{N}$ denote a corporate disclosure corpus containing $N$ paragraph-level text blocks. We define a domain-specific ESG taxonomy with $K=10$ thematic labels,
+\begin{equation}
+    \mathcal{Y} = \mathcal{Y}_E \cup \mathcal{Y}_S \cup \mathcal{Y}_G,
+\end{equation}
+where $\mathcal{Y}_E=\{\texttt{E1}, \texttt{E2}, \texttt{E3}, \texttt{E\_COMMON}\}$, $\mathcal{Y}_S=\{\texttt{S4}, \texttt{S5}, \texttt{S6}\}$, and $\mathcal{Y}_G=\{\texttt{G9}, \texttt{G10}, \texttt{G11}\}$.
+Because a paragraph may discuss multiple ESG themes, the classification task is multi-label rather than single-label. Each paragraph $x_i$ is therefore associated with a multi-hot target vector $\tilde{\mathbf{y}}_i \in \{0,1\}^{K}$.
+
+Instead of relying on fully manual annotations, we employ an adaptive keyword-based thresholding mechanism as a labeling function $\Lambda(x_i) \rightarrow \tilde{\mathbf{y}}_i$, where $\tilde{\mathbf{y}}_i$ represents the programmatically generated weak multi-label target for sample $x_i$. The resulting weakly-labeled training dataset is denoted as $\mathcal{D}_{weak} = \{(x_i, \tilde{\mathbf{y}}_i)\}_{i=1}^{N}$.
+
+Let $f_{\theta}$ denote a \texttt{vinai/phobert-base-v2} sequence classifier with $K=10$ sigmoid output units. In the full fine-tuning baseline, all backbone and classifier parameters are trainable. In the DoRA configuration, the pretrained backbone parameters $\theta_0$ remain frozen except for parameter-efficient adapters applied through PEFT. Specifically, DoRA is enabled through a LoRA-style adapter configuration with rank $r=8$, scaling factor $\alpha=16$, dropout $0.05$, and target modules \texttt{query} and \texttt{value}, corresponding to the attention projection matrices $W_q$ and $W_v$. The task head is saved and trained with the adapter through the sequence-classification modules.
+
+Under Weight-Decomposed Low-Rank Adaptation, an adapted pretrained weight matrix $W_0 \in \mathbb{R}^{d \times k}$ is decomposed into a magnitude component and a directional component. The directional update is parameterized by a low-rank matrix $\Delta V = B A$, where $B \in \mathbb{R}^{d \times r}$ and $A \in \mathbb{R}^{r \times k}$ with $r \ll \min(d,k)$. The DoRA trainable parameter set is therefore restricted to the adapter parameters and classification head rather than the full PhoBERT backbone, yielding 911,626 trainable parameters in the recorded $r=8$ run.
+
+For the downstream synthesis stage, let $\mathcal{M}_{LLM}$ represent a generative Large Language Model accessed via external API endpoints. We define $\mathcal{P}(\cdot)$ as a structured prompting function that compiles text payloads into localized instructions.
+
+\subsection{Objective Function and API Synthesis}
+The optimization and execution of our framework are governed by two distinct objectives across the pipeline:
+
+\paragraph{Stage 1: Context Classification Optimization}
+Given the weakly-labeled corpus $\mathcal{D}_{weak}$, we optimize either all model parameters in the full fine-tuning baseline or the DoRA adapter and classification-head parameters in the parameter-efficient setting. For the DoRA run, the core PhoBERT backbone parameters $\theta_0$ are frozen and the trainable parameters are denoted by $\theta_a$. The optimal parameter configuration $\theta_a^{\star}$ is achieved by minimizing the empirical risk under a multi-label binary cross-entropy objective:
+\begin{equation}
+    \theta_a^{\star} =
+    \arg\min_{\theta_a}
+    \frac{1}{N}\sum_{i=1}^{N}\sum_{k=1}^{K}
+    \ell_{BCE}\left(p_{i,k}, \tilde{y}_{i,k}\right)
+    + \lambda \| \theta_a \|_2^2,
+    \label{eq:stage1_dora_objective}
+\end{equation}
+where $p_{i,k}=\sigma(f_{\theta_0,\theta_a}(x_i)_k)$, $\sigma(\cdot)$ is the sigmoid function applied independently to each ESG label, $\tilde{y}_{i,k}$ is the $k$-th component of the weak multi-hot label vector, $\ell_{BCE}(\cdot)$ is binary cross-entropy, and $\lambda$ governs the weight decay applied to the trainable parameters. This formulation matches the implementation setting \texttt{problem\_type=multi\_label\_classification}.
+
+\paragraph{Stage 2: Time-Series LLM-Based ESG Disclosure Scoring}
+Once the optimal classifier is obtained, each annual report is mapped into a structured context set $\mathcal{C}_{f,t} = \{(x_i, \hat{\mathbf{y}}_i, \mathbf{q}_i, s_i)\}_{i=1}^{N_{f,t}}$, where $f$ denotes the firm, $t$ denotes the fiscal year, $\hat{\mathbf{y}}_i \in \{0,1\}^{K}$ is the predicted multi-label ESG vector, $\mathbf{q}_i \in [0,1]^{K}$ stores label-level classifier scores, and $s_i$ is the sentiment metadata associated with paragraph $x_i$. In practice, the evidence builder serializes the retained labels, label scores, sentiment label, sentiment score, text, and evidence identifier for each selected paragraph.
+
+Rather than sending the full annual report to the generative model, we first apply a deterministic evidence selection function $\mathcal{F}(\cdot)$ that removes short non-informative paragraphs, headings, boilerplate text, duplicate or near-duplicate paragraphs, and low-confidence classifier outputs. The filter preserves rare labels with a lower confidence boundary and caps the number of selected passages per ESG label and per ESG group to prevent broad categories from dominating the LLM context. The selected evidence for a company time-series is therefore:
+\begin{equation}
+    \mathcal{E}_{f,T_f} = \{\mathcal{F}(\mathcal{C}_{f,t}) \mid t \in T_f\},
+    \label{eq:evidence_filter}
+\end{equation}
+where $T_f$ is the ordered set of years available for firm $f$.
+
+The final ESG disclosure-quality scores are formulated as a structured inference problem executed via remote API calls to $\mathcal{M}_{LLM}$:
+\begin{equation}
+    \{\mathcal{S}_{f,t}\}_{t \in T_f}, \mathcal{A}^{trend}_{f}
+    =
+    \mathcal{M}_{LLM}\Big(\mathcal{P}\big(\mathcal{E}_{f,T_f}, \mathcal{T}_{schema}\big)\Big),
+    \label{eq:llm_api}
+\end{equation}
+where $\mathcal{T}_{schema}$ represents a strict JSON schema embedded within the prompt constraint. The schema forces the API to return year-level scores for \texttt{E}, \texttt{S}, \texttt{G}, and \texttt{overall}; sublabel scores for the ten implemented ESG labels; concise rationales; cited evidence identifiers; confidence estimates; and a cross-year trend analysis. A single firm-year schema remains a compatible fallback for pilot scoring, but the primary implementation uses company-level time-series batches. All scores are interpreted as disclosure-quality measures on a 0--100 scale rather than direct ESG performance ratings or investment recommendations.
+
+\subsection{Assumptions and Scope}
+The development and evaluation of our framework are bounded by the following explicit architectural assumptions and domain scopes:
+\begin{itemize}
+    \item \textbf{Assumption on Keyword Sufficiency:} We assume that the structural domain-specific dictionary engineered for Vietnamese ESG definitions possesses sufficient coverage such that high-percentile keyword frequencies strongly correlate with the true underlying latent ESG themes.
+    \item \textbf{Asynchronous Decoupling:} We assume that the sequence classification task (Stage 1) and the generative scoring task (Stage 2) can be completely decoupled. The downstream LLM relies strictly on the structured context stream $\mathcal{C}$ filtered by the fine-tuned PhoBERT model, preventing raw text noise from flooding the API context window.
+    \item \textbf{Selected-Evidence Interpretation:} If an ESG group or sublabel is not represented in the selected evidence subset, this indicates absence from the filtered LLM context rather than definitive absence from the original annual report. Such cases should reduce scoring confidence and be interpreted conservatively.
+    \item \textbf{Out-of-Scope Variations:} This study specifically restricts its scope to paragraph-level textual data from corporate filings and does not address multi-modal elements such as financial charts or embedded images present in ESG reports.
+\end{itemize}
+% -----------------------------------------------------------------------------
+% 4. Methodology
+% % -----------------------------------------------------------------------------
+
+\section{Methodology}
+\label{sec:methodology}
+
+This section presents the proposed hybrid framework for automated Vietnamese ESG text classification and scoring. The pipeline consists of three main stages: (1) Robust OCR text preprocessing and paragraph extraction, (2) Adaptive dictionary-based weak supervision for high-fidelity training data generation, and (3) Document scoring via fine-tuned PhoBERT and Large Language Model (LLM) reasoning.
+
+\subsection{System Overview}
+The high-level architecture of our proposed framework is designed to transform noisy, unlabelled Vietnamese corporate annual reports into structured ESG scores. 
+The workflow begins with text extraction from PDF documents, where an isolated preprocessing module handles Markdown structure parsing and resolves text encoding anomalies caused by Optical Character Recognition (OCR). 
+Next, we feed the cleansed paragraphs into a data-driven weak labeling engine. This engine compiles a dual-index keyword matcher and computes adaptive thematic thresholds based on positive-only distribution sampling. The output consists of high-fidelity hard-labeled data, which is further refined via a manual verification UI before being utilized to fine-tune a PhoBERT classifier. Finally, an evidence builder selects compact, auditable ESG passages from the classified paragraph stream, and an LLM-based reasoning module synthesizes these passages into structured time-series ESG disclosure scores.
+
+% \begin{figure}[t]
+% \centering
+% \includegraphics[width=\linewidth]{figures/method_overview.pdf}
+% \caption{Overview of the proposed hybrid Vietnamese ESG classification and scoring framework.}
+% \label{fig:method_overview}
+% \end{figure}
+
+\subsection{OCR Text Preprocessing and Paragraph Extraction}
+
+Vietnamese annual reports in our corpus are not homogeneous OCR inputs: many files contain a usable embedded text layer, while others are fully scanned or contain only sparse extractable text. We therefore use a format-aware preprocessing stage rather than applying a single OCR engine to every document. The triage stage opens each PDF with PyMuPDF \citep{pymupdf}, skips the cover page when possible, and samples up to five subsequent pages. For each sampled page, the native PDF text layer is extracted and aggregated into an average character-density statistic, $\bar{c}$. Documents with $\bar{c}<50$ are treated as scanned PDFs, documents with $\bar{c}>500$ are treated as text-native PDFs, and the remaining files are classified as mixed-layout documents with an unreliable text layer.
+
+\input{tables/pdf_triage_statistics}
+
+This routing policy is used to select the extraction backend. Text-native reports are processed with Docling, which converts PDF documents into structured Markdown while preserving layout and table structure where possible \citep{docling2024}. Because these files already contain a machine-readable text layer, this branch avoids unnecessary vision-language OCR and focuses on stable text and table reconstruction. In contrast, scanned reports are processed with PaddleOCR-VL, a compact vision-language document parsing model designed to recognize text and complex document elements such as tables and charts \citep{paddleocrvl2025}. Mixed documents are routed to the same PaddleOCR-VL branch because their low-density text layer is not reliable enough for text-only parsing and may omit visually embedded tables, captions, or section content.
+
+For the PaddleOCR-VL branch, each report is split into page chunks of up to 100 pages to keep inference memory bounded. Each chunk is parsed with layout detection and chart recognition enabled, then the page-level outputs are restructured into document-level results. The final output of both extraction branches is normalized into Markdown for paragraph extraction and human inspection, with JSON retained when available for structured layout metadata. This unified representation allows the downstream NLP stages to operate on a common document surface regardless of whether the original PDF was native, scanned, or mixed.
+
+Let $\mathcal{D}$ be the extracted Markdown document. The text is first partitioned into a sequence of blocks $\mathcal{B} = \{b_1, b_2, \dots, b_N\}$ delimited by consecutive blank lines. To filter out non-informative elements, HTML comments, image references, and low-value formatting artifacts are discarded. Tabular blocks are compacted before downstream labeling so that ESG-relevant rows remain attached to their nearby textual context rather than being fragmented across isolated cells.
+
+For standard prose blocks, the cleaning function removes Markdown link wrappers, normalizes whitespace, repairs common encoding anomalies, and deduplicates repeated lines or paragraphs introduced by PDF conversion artifacts. A paragraph block $b_i$ is retained in the corpus if and only if it satisfies the length constraint:
+\begin{equation}
+\text{Length}(b_i) \geq \gamma_{min}
+\end{equation}
+where $\gamma_{min}$ denotes the minimum character threshold required to preserve sufficient context for thematic labeling. The resulting paragraph stream is then passed to the adaptive weak-supervision stage, which operates on cleaned textual evidence rather than raw PDF or OCR output.
+
+\subsection{Adaptive Dictionary-Based Weak Supervision}
+To circumvent the scarcity of human-annotated Vietnamese ESG datasets, we develop an advanced dictionary-based weak supervision mechanism to generate high-fidelity training labels, following the broader programmatic weak supervision paradigm \citep{ratner2017snorkel}.
+
+\subsubsection{Thematic Taxonomy and Keyword Normalization}
+Let $\mathcal{T} = \{t_1, t_2, \dots, t_M\}$ represent the set of target ESG themes predefined in our domain dictionary. During the initial vocabulary loading phase, cross-lingual and linguistic variants are mapped onto normalized themes. Formally, a normalization function $\phi(w)$ maps raw thematic keys (including Vietnamese extensions such as \textit{``chung\_moi\_truong''}, \textit{``moi\_truong\_chung''}) into a consolidated canonical domain space $\mathcal{T}$ (e.g., mapping all generic environmental concepts to an overarching $E_{\text{COMMON}}$ theme).
+
+To guarantee robust matching against OCR-induced typographical errors, we compile a dual-index keyword registry for each normalized theme. For a given keyword term $K$, we derive two distinct representations:
+\begin{enumerate}
+    \item A normalized lowercase form: $K_{\text{norm}} = \text{casefold}(\text{normalize}(K))$
+    \item An accent-folded form to capture diacritic-stripped text variants: $K_{\text{fold}} = \text{fold\_accents}(K_{\text{norm}})$
+\end{enumerate}
+Regular expressions bounded by word boundaries ($\backslash b$) are constructed for both $K_{\text{norm}}$ and $K_{\text{fold}}$, yielding regex patterns $\mathcal{P}_{\text{norm}}$ and $\mathcal{P}_{\text{fold}}$ respectively.
+
+\subsubsection{Dual-Index Matching and Soft Label Estimation}
+Given a cleansed paragraph $p$, we apply case-folding and accent-folding transformations to obtain $p_{\text{norm}}$ and $p_{\text{fold}}$. The raw keyword hit count $C(t, p)$ for a specific theme $t \in \mathcal{T}$ within paragraph $p$ is computed by taking the maximum frequency detected across the dual-index representations to maximize recall over noisy text:
+
+\begin{equation}
+\begin{split}
+C(t, p) = \sum_{K \in V_t} \max \Big( & \text{count}(\mathcal{P}_{\text{norm}}(K), p_{\text{norm}}), \\
+& \text{count}(\mathcal{P}_{\text{fold}}(K), p_{\text{fold}}) \Big)
+\end{split}
+\end{equation}
+where $V_t$ denotes the vocabulary set associated with theme $t$.
+
+Directly converting raw frequency counts into annotations induces substantial bias, as certain broad categories inherently contain larger vocabularies or higher natural baseline frequencies. We address this by computing a normalized soft score $S(t, p) \in [0, 1]$, defined as:
+\begin{equation}
+\label{eq:soft_score}
+S(t, p) = \min \left( 1.0, \frac{C(t, p)}{\Lambda(t)} \right)
+\end{equation}
+where $\Lambda(t)$ represents the adaptive thematic threshold calculated for theme $t$.
+
+\subsubsection{Data-Driven Adaptive Thresholding}
+Instead of relying on rigid, heuristics-based static thresholds, we propose an adaptive thresholding estimation algorithm utilizing positive-only empirical distributions. Let $\mathcal{D}_{\text{sample}}$ be a representative subset of paragraphs drawn from the corpus. For each theme $t \in \mathcal{T}$, we filter out non-participating segments and compute percentiles exclusively on the positive sample space $\mathcal{X}_t = \{ C(t, p) \mid p \in \mathcal{D}_{\text{sample}} \land C(t, p) > 0 \}$.
+
+To prevent penalizing themes with large keyword vocabularies, we establish a sub-linear vocabulary-size floor function. The final adaptive threshold $\Lambda(t)$ is mathematically formulated as:
+\begin{equation}
+\Lambda(t) = \max \left( 1.0, \, \mathcal{P}_{\alpha}(\mathcal{X}_t), \, \beta \cdot \sqrt{|V_t|} \right)
+\end{equation}
+where $\mathcal{P}_{\alpha}$ denotes the $\alpha$-th percentile (e.g., $p_{75}$ or $p_{90}$) calculated over the positive-only distribution $\mathcal{X}_t$, $|V_t|$ is the vocabulary size of theme $t$, and $\beta$ is a scaling hyperparameter. If a theme registers no positive hits during the sampling phase, $\Lambda(t)$ defaults to $1.0$.
+
+\subsubsection{Hard Label Assignment and Verification Bridge}
+To synthesize discrete training targets for the downstream deep learning classifier, a hard label assignment function converts continuous soft signals into binary assignments. A paragraph $p$ is assigned a hard label for theme $t$ if and only if its soft score meets a strict hyperparameterized global boundary $\tau_{\text{hard}}$ and exhibits at least one concrete physical hit:
+\begin{equation}
+\mathcal{Y}_{\text{hard}}(p) = \{ t \in \mathcal{T} \mid S(t, p) \geq \tau_{\text{hard}} \land C(t, p) > 0 \}
+\end{equation}
+
+To bridge the gap between weak automation and human gold standards, the pipeline can optionally serialize these weak labels back into annotated Markdown segments using specialized blockquote syntaxes (\texttt{> weak\_hard\_labels: ...}). This dual JSON/Markdown representation provides an efficient layout interface for human experts to rapidly perform manual refinements, ensuring high-fidelity ground truth data before model training.
+
+\subsection{Training and Optimization Procedure}
+The high-fidelity hard-labeled datasets generated in the previous phase are utilized to fine-tune a PhoBERT model (\Cref{alg:training}), which serves as our core automated ESG context classifier. 
+
+Given a text sequence $p$, PhoBERT projects it into a contextualized latent space to predict a multi-label probability distribution $\hat{y} = f_{\theta}(p)$. The model parameters $\theta$ are optimized by minimizing a Multi-Label Binary Cross-Entropy (BCE) Loss over the weakly supervised training distribution:
+\begin{equation}
+\label{eq:objective}
+\mathcal{L}(\theta) = - \frac{1}{|\mathcal{B}|} \sum_{p \in \mathcal{B}} \sum_{t \in \mathcal{T}} \left[ y_{t} \log(\hat{y}_{t}) + (1 - y_{t}) \log(1 - \hat{y}_{t}) \right]
+\end{equation}
+where $y_{t} \in \mathcal{Y}_{\text{hard}}(p)$ signifies the binary presence indicator of the ESG theme $t$ generated by the weak supervisor.
+
+\begin{algorithm}[h]
+\caption{Training Procedure of the Proposed Framework}
+\label{alg:training}
+\begin{algorithmic}[1]
+\STATE \textbf{Input:} Raw Vietnamese annual reports $\mathcal{D}$, Domain Dictionary $\mathcal{V}$, Sample size $\mathcal{D}_{\text{sample}}$, Hyperparameters $\alpha, \beta, \tau_{\text{hard}}, \eta$, Epochs $T$
+\STATE $\mathcal{B}_{\text{cleansed}} \leftarrow \text{ExtractAndCleanBlocks}(\mathcal{D})$ \COMMENT{OCR Preprocessing Section}
+\FOR{each theme $t \in \mathcal{T}$}
+    \STATE $\mathcal{X}_t \leftarrow \{ \text{ComputeHits}(t, p, \mathcal{V}) \mid p \in \mathcal{D}_{\text{sample}} \land \text{Hits} > 0 \}$
+    \STATE $\Lambda(t) \leftarrow \max \left( 1.0, \, \mathcal{P}_{\alpha}(\mathcal{X}_t), \, \beta \cdot \sqrt{|V_t|} \right)$ \COMMENT{Adaptive Thresholding}
+\ENDFOR
+\STATE $\mathcal{D}_{\text{train}} \leftarrow \emptyset$
+\FOR{each paragraph $p \in \mathcal{B}_{\text{cleansed}}$}
+    \STATE Compute $S(t, p)$ for all $t \in \mathcal{T}$ via \Cref{eq:soft_score}
+    \STATE $\mathcal{Y}_{\text{hard}}(p) \leftarrow \{ t \in \mathcal{T} \mid S(t, p) \geq \tau_{\text{hard}} \land C(t, p) > 0 \}$
+    \STATE $\mathcal{D}_{\text{train}} \leftarrow \mathcal{D}_{\text{train}} \cup \{(p, \mathcal{Y}_{\text{hard}}(p))\}$
+\ENDFOR
+\STATE Initialize PhoBERT parameters $\theta$
+\FOR{$epoch=1$ to $T$}
+    \STATE Sample a mini-batch $\mathcal{B} \subset \mathcal{D}_{\text{train}}$
+    \STATE Compute multi-label BCE loss $\mathcal{L}$ using \Cref{eq:objective}
+    \STATE Update parameters $\theta \leftarrow \theta - \eta \nabla_{\theta}\mathcal{L}$
+\ENDFOR
+\STATE \textbf{Output:} Fine-tuned PhoBERT context classifier $\theta^{\star}$
+\end{algorithmic}
+\end{algorithm}
+
+Following the context classification phase, classified text segments are aggregated and passed to a Large Language Model (LLM) scoring module. We design advanced domain-specific prompting techniques that input the filtered contextual evidence into the LLM, leveraging its zero-shot or few-shot reasoning capabilities to synthesize the raw classifications into final corporate ESG disclosure scores.
+
+\subsection{Evidence Selection for LLM Scoring}
+The LLM scoring module is intentionally not exposed to the full raw annual report. Instead, it receives a compact evidence batch built from the classifier output. For each company-year, the evidence builder removes paragraphs that are too short to contain substantive disclosure, obvious headings, boilerplate fragments, and duplicate or near-duplicate text identified by normalized text keys. Paragraphs with classifier confidence below the default threshold are excluded, while rare labels such as \texttt{G9}, \texttt{S5}, and \texttt{E\_COMMON} are retained with a lower threshold to reduce the risk of erasing sparse categories.
+
+The selected evidence is then capped by label and by ESG group. This prevents frequent categories, especially broad environmental or social disclosure labels, from exhausting the prompt context. Each retained evidence item contains an identifier, ESG label, classifier score, sentiment label, sentiment score, and paragraph text. Sentiment is used as contextual metadata for disclosure tone; it does not replace the ESG disclosure label and is not treated as the primary scoring target.
+
+\subsection{Time-Series LLM Scoring and Schema Enforcement}
+For the primary scoring workflow, the selected evidence is organized as a company-level time-series batch. A single LLM call contains the evidence for multiple fiscal years of the same firm, allowing the model to score each year independently while also evaluating temporal changes in disclosure coverage, specificity, and balance. The prompt instructs the model to use only the supplied annual-report evidence, avoid outside knowledge, cite evidence identifiers in its rationale, and treat all scores as disclosure-quality scores on a 0--100 scale.
+
+The output is constrained by a strict JSON schema summarized in \Cref{tab:llm_scoring_schema}. For each fiscal year, the schema requires dimension scores for \texttt{E}, \texttt{S}, \texttt{G}, and \texttt{overall}; sublabel scores for the ten implemented ESG labels; concise rationales; cited evidence identifiers; and confidence. At the company level, the schema also requires trend analysis across years. When a category has no selected evidence, the score is interpreted as weak evidence coverage within the selected subset rather than a definitive claim that the company made no such disclosure in the source report.
+
+\input{tables/llm_scoring_schema_summary}
+
+\subsection{Computational Complexity}
+The computational footprint of our proposed methodology is split into offline dataset generation and online inference. 
+
+The offline weak labeling phase scales linearly with respect to the number of document text segments and vocabulary size, denoted as $\mathcal{O}(N \cdot |V|)$. Because the dual-index matching depends on compiled regular expressions, tokenization overhead is bypassed during the weak-label construction stage. The calculation of the adaptive thresholds requires sorting positive frequency counts for each theme, contributing an isolated preprocessing cost of $\mathcal{O}(M \cdot |\mathcal{X}| \log |\mathcal{X}|)$, which is negligible.
+
+During training, the complexity is dominated by the standard Transformer backpropagation passes of PhoBERT, scaling as $\mathcal{O}(T \cdot \frac{N}{|\mathcal{B}|} \cdot L^2 \cdot d)$, where $L$ represents the maximum sequence length and $d$ is the hidden layer dimensionality. For inference, our framework achieves high cost-effectiveness compared to brute-force LLM evaluation methods; by utilizing the fine-tuned PhoBERT model as a lightweight, high-precision contextual filter, we dramatically reduce the input token overhead fed into the downstream generative LLM scoring engine, optimizing both time complexity and API inference costs.
+% \section{Methodology}
+% \label{sec:methodology}
+
+% This section presents the proposed method in enough detail for readers to understand and reproduce the work.
+
+% \subsection{Overview}
+% Provide a high-level overview of the proposed method. Explain the main components and how they interact. \Cref{fig:method_overview} shows a placeholder for the system or method overview.
+
+
+% \subsection{Core Component}
+% Describe the main technical component of the method. Include mathematical definitions, model architecture, data processing steps, or algorithmic details as needed.
+
+% \subsection{Training or Optimization Procedure}
+% Explain how the method is trained or optimized. Include losses, hyperparameters, stopping criteria, and implementation choices that affect reproducibility.
+
+% \begin{algorithm}[t]
+% \caption{Training Procedure of \method}
+% \label{alg:training}
+% \begin{algorithmic}[1]
+% \STATE \textbf{Input:} Training dataset $\mathcal{D}$, model $f_{\theta}$, learning rate $\eta$, number of epochs $T$
+% \STATE Initialize model parameters $\theta$
+% \FOR{$t=1$ to $T$}
+%     \STATE Sample a mini-batch $\mathcal{B}\subset\mathcal{D}$
+%     \STATE Compute the loss $\mathcal{L}$ using \Cref{eq:objective}
+%     \STATE Update parameters $\theta \leftarrow \theta - \eta \nabla_{\theta}\mathcal{L}$
+% \ENDFOR
+% \STATE \textbf{Output:} Optimized model parameters $\theta^{\star}$
+% \end{algorithmic}
+% \end{algorithm}
+
+% \subsection{Computational Complexity}
+% Discuss time complexity, memory complexity, parameter count, inference cost, or scalability. Compare with baseline methods when appropriate.
+
+% -----------------------------------------------------------------------------
+% 5. Experimental Setup
+% -----------------------------------------------------------------------------
+% \section{Experimental Setup}
+% \label{sec:experimental_setup}
+
+% Describe the experimental design in a way that allows readers to reproduce the results.
+
+% \subsection{Research Questions}
+% State the main questions the experiments aim to answer:
+% \begin{itemize}
+%     \item RQ1: Does \method improve performance compared with existing baselines?
+%     \item RQ2: Which components contribute most to the final performance?
+%     \item RQ3: How robust is \method under different datasets, settings, or hyperparameters?
+% \end{itemize}
+
+% \subsection{Datasets}
+% Describe each dataset, including its source, size, task type, preprocessing, and train/validation/test split. Dataset statistics should be placed in \texttt{tables/dataset\_statistics.tex}.
+
+% % \input{tables/dataset_statistics}
+
+% \subsection{Baselines}
+% List the baseline methods used for comparison. Briefly explain why each baseline is relevant and whether it is reimplemented or taken from prior work.
+
+% \subsection{Evaluation Metrics}
+% Define all metrics used in the experiments. For classification, examples include accuracy, precision, recall, and F1-score. For regression, examples include MAE, RMSE, and $R^2$. For generation tasks, examples include BLEU, ROUGE, BERTScore, or human evaluation.
+
+% \subsection{Implementation Details}
+% Report hardware, software versions, hyperparameters, random seeds, number of runs, and any important engineering details. This subsection is essential for reproducibility.
+
+
+\section{Experimental Setup}
+\label{sec:experimental_setup}
+
+This section details the experimental design established to evaluate our proposed pipeline. The setup is structured to ensure comprehensive evaluation, rigorous baseline comparison, and full reproducibility of our empirical findings.
+
+\subsection{Research Questions}
+Our experiments are designed to address the following primary research questions:
+\begin{itemize}
+    \item \textbf{RQ1:} Does our fine-tuned DoRA-PhoBERT framework improve ESG classification performance compared with standard Vietnamese NLP models and traditional fine-tuning baselines?
+    \item \textbf{RQ2:} How much trainable-parameter and training-time reduction does DoRA provide relative to full-parameter fine-tuning under the same 20-epoch setting?
+    \item \textbf{RQ3:} Can filtered paragraph-level ESG evidence be synthesized into auditable company time-series disclosure scores with evidence-linked rationales?
+\end{itemize}
+
+\subsection{Datasets}
+We evaluate our pipeline on a newly curated dataset constructed from the annual reports of listed non-financial firms in Vietnam spanning multiple fiscal years. The dataset construction consists of two major phases:
+\begin{enumerate}
+    \item \textbf{Raw Data Collection and Processing:} Multi-page PDF annual reports were harvested and classified into text-based and scanned formats. We applied specialized text extraction and OCR pipelines to recover machine-readable content. The raw characters were further processed using \texttt{ftfy} and custom encoding repair scripts (\texttt{detect\_vietnamese\_encoding\_issues.py}) to resolve layout anomalies and text corruptions.
+    \item \textbf{Programmatic Weak Labeling:} The cleaned text was segmented into localized paragraph blocks using a blank-line separation strategy. Using our domain-specific Vietnamese ESG dictionary (\texttt{ESG-DICTIONARY}), keywords were matched using case-folded regex patterns with strict word boundaries. Rather than using arbitrary counts, an adaptive percentile-based thresholding approach (\texttt{compute\_thresholds.py}) calculated positive-only distributions to assign soft scores and final hard labels (e.g., \texttt{E\_COMMON}, specific E, S, G themes). 
+\end{enumerate}
+For the supervised downstream task, the programmatically annotated paragraphs were split into training, validation, and testing sets using a stratified $80/10/10$ ratio based on the generated hard labels to ensure balanced distribution across all ESG dimensions. Detailed corpus statistics, including paragraph counts, theme distributions, and vocabulary sizes, are detailed in \Cref{tab:dataset_statistics}.
+
+
+\input{tables/dataset_statistics}
+
+
+\subsection{Baselines}
+To validate the efficacy of the proposed framework, we compare our method against several prominent text classification baselines, which we reimplemented within our specific computational environment:
+\begin{itemize}
+    \item \textbf{Keyword-Based Weak Labeling:} The raw dictionary and adaptive-threshold mechanism used to construct the weak labels, serving as a transparent heuristic reference point for the supervised classifier.
+    \item \textbf{PhoBERT Full Fine-Tuning:} Full-parameter optimization of \texttt{vinai/phobert-base-v2} \citep{nguyen2020phobert}, acting as the high-capacity baseline but requiring substantially higher trainable-parameter and checkpoint overhead.
+    \item \textbf{DoRA-PhoBERT:} Weight-Decomposed Low-Rank Adaptation \citep{liu2024dora} applied to PhoBERT with rank $r=8$ and scaling factor $\alpha=16$, serving as the parameter-efficient alternative evaluated in this study.
+\end{itemize}
+
+\subsection{Evaluation Metrics}
+As corporate ESG classification represents a multi-class and potentially multi-label task, we evaluate model performance using standard classification metrics, reporting macro-averaged values to account for inherent theme imbalances:
+\begin{itemize}
+    \item \textbf{Accuracy:} Measures the overall proportion of correctly predicted paragraphs across the entire dataset.
+    \item \textbf{Precision:} Evaluates the exactness of the model, defined as:
+    \begin{equation}
+        \text{Precision} = \frac{\text{True Positives (TP)}}{\text{True Positives (TP)} + \text{False Positives (FP)}}
+    \end{equation}
+    \item \textbf{Recall:} Evaluates the completeness of the model, defined as:
+    \begin{equation}
+        \text{Recall} = \frac{\text{True Positives (TP)}}{\text{True Positives (TP)} + \text{False Negatives (FN)}}
+    \end{equation}
+    \item \textbf{Macro F1-Score:} The harmonic mean of Precision and Recall, calculated independently for each ESG theme and then averaged, serving as our primary optimization metric:
+    \begin{equation}
+        \text{F1-Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+    \end{equation}
+\end{itemize}
+
+\subsection{Implementation Details}
+For complete reproducibility, our workflow was executed on a Windows 11 workstation equipped with an Intel Core i5-13500 CPU and an NVIDIA GeForce RTX 3060 GPU with 12GB VRAM. The software environment used PyTorch 2.8.0 with CUDA 12.9, Hugging Face Transformers 4.57.6, and PEFT 0.19.1.
+
+For the data curation phase, text blocks less than a minimum character ceiling were systematically filtered out via \texttt{is\_valid\_paragraph()}. The index compiler computed patterns across both normalized strings and folded accents (\texttt{fold\_accents}) to bypass Vietnamese diacritic variations. The adaptive thresholds utilized a positive-only percentile setting at $p=90$, with an inventory floor scaling proportionally with $\sqrt{|\text{vocab}|}$.
+
+For the model fine-tuning phase, the backbone network used is \texttt{vinai/phobert-base-v2} with ten sigmoid output labels and the multi-label classification setting. The full fine-tuning run updated all 135,005,962 model parameters. The DoRA implementation used PEFT with \texttt{use\_dora=true}, target modules \texttt{query} and \texttt{value}, rank $r=8$, alpha $\alpha=16$, dropout $0.05$, and 911,626 trainable parameters, corresponding to approximately 0.67\% of the total parameter count. Both full fine-tuning and DoRA were trained for 20 epochs with seed 42, per-device train batch size 8, per-device evaluation batch size 16, and a linear learning-rate schedule. The full fine-tuning run used an initial learning rate of $2\times 10^{-5}$, while the DoRA run used an initial learning rate of $2\times 10^{-4}$.
+
+
+
+% -----------------------------------------------------------------------------
+% 6. Results and Analysis
+% -----------------------------------------------------------------------------
+\section{Results and Analysis}
+\label{sec:results}
+
+\subsection{Main Results}
+The main classification comparison is reported in \Cref{tab:training_efficiency_summary}. Full fine-tuning achieves higher accuracy and micro-F1, while DoRA trains only 0.67\% of the parameters and obtains a higher macro-F1 in the recorded 20-epoch run. This result is important for imbalanced ESG labels because macro-F1 gives more weight to underrepresented categories than aggregate accuracy.
+
+\input{tables/training_efficiency_summary}
+
+\begin{figure*}[t]
+\centering
+\safeincludegraphics[width=0.95\textwidth]{img/epoch_metric_comparison.png}
+\caption{Training and validation dynamics for full fine-tuning and DoRA across 20 epochs.}
+\label{fig:epoch_metric_comparison}
+\end{figure*}
+
+\begin{figure}[t]
+\centering
+\safeincludegraphics[width=\linewidth]{img/trainable_params_and_time.png}
+\caption{Trainable-parameter count and total training time for full fine-tuning and DoRA.}
+\label{fig:trainable_params_and_time}
+\end{figure}
+
+\subsection{Qualitative Analysis}
+The LLM scoring module produces auditable company time-series outputs rather than a single opaque score. \Cref{tab:time_series_score_examples} reports pilot outputs for ACB, PLX, and GAS. Each row is generated from filtered evidence selected from the corresponding annual reports, and the raw JSON output stores rationales and evidence identifiers for audit. These values should be interpreted as disclosure-quality scores within the selected evidence context.
+
+\input{tables/time_series_score_examples}
+
+
+\subsection{Ablation Study}
+The current implementation focuses on the principal comparison between full fine-tuning and DoRA. A broader ablation over evidence filtering thresholds, rare-label retention, and LLM prompt variants remains future work.
+
+\subsection{Sensitivity Analysis}
+The current DoRA experiment uses rank $r=8$ with $\alpha=16$ and dropout $0.05$. Future sensitivity analysis should vary adapter rank, evidence caps per label and ESG group, and LLM scoring schema variants to quantify the robustness of both classification and downstream disclosure scoring.
+
+\subsection{Error Analysis}
+Errors can arise from three stages. First, OCR and PDF parsing may produce incomplete or noisy paragraphs. Second, weak labels and classifier predictions can propagate false positives or false negatives into the evidence pool. Third, the LLM can under-score a category when the selected evidence subset lacks representative passages. Therefore, a low LLM subscore should be read as weak evidence coverage in the selected context, not as definitive proof that the original annual report contains no relevant disclosure.
+
+% -----------------------------------------------------------------------------
+% 7. Discussion
+% -----------------------------------------------------------------------------
+\section{Discussion}
+\label{sec:discussion}
+
+The experimental findings validate the efficacy of our hybrid framework, demonstrating that combining localized, parameter-efficient encoders with downstream generative Large Language Model (LLM) orchestration yields a robust, accessible paradigm for Vietnamese ESG auditing. 
+
+The core architectural strength of the framework lies in its decoupled design. By offloading the high-throughput, paragraph-level classification task to a fine-tuned \texttt{vinai/phobert-base-v2} model, we effectively shield the remote generative LLM from processing massive volumes of raw, noisy OCR text. Instead, the LLM functions strictly as a high-level reasoning engine over an already distilled, structured evidence matrix $\mathcal{E}_{f,T_f}$. This approach addresses a critical trade-off between accuracy, computational efficiency, and economic cost. 
+
+While a pure generative LLM baseline struggles with long-context window limits and high token costs when processing entire corporate filings, and a pure encoder baseline lacks the synthesis capability to output structured numerical scores with human-like justifications, our hybrid system successfully merges the semantic precision of both worlds. 
+
+Furthermore, utilizing Weight-Decomposed Low-Rank Adaptation (DoRA) adapters rather than full parameter updates presents a vital trade-off in resource-constrained environments: it maintains high classification accuracy comparable to full fine-tuning while reducing trainable parameter overhead by over 90\%. This directly enables localized training and deployment on consumer-grade, commercial hardware like the NVIDIA GeForce RTX 3060 (12GB VRAM), democratizing advanced ESG analytics for institutions without access to high-performance computing clusters.
+
+\subsection{Practical Implications}
+Our multi-stage pipeline introduces immediate practical utility for financial institutions, regulatory bodies, and sustainability auditors operating within emerging markets:
+\begin{itemize}
+    \item \textbf{Automated and Scalable ESG Auditing:} Financial analysts can ingest thousands of unstructured PDF corporate reports, automate noise-resilient text extraction, and compute localized ESG disclosure scores without the prohibitive costs or time bottlenecks associated with hiring domain-expert human annotators.
+    \item \textbf{High Interpretability and Auditability:} Because the downstream LLM API yields structured JSON outputs containing explicit textual justifications tied directly to selected evidence identifiers, the final ESG disclosure metrics are traceable. This directly mitigates the ``black box'' criticism often levied against pure neural network classifiers, fulfilling corporate requirements for auditable compliance.
+\end{itemize}
+
+\subsection{Limitations and Architectural Pivots}
+Despite the promising empirical results, several constraints bound the generalizability of this study and open critical avenues for future work:
+\begin{itemize}
+    \item \textbf{Sensitivity to Dictionary Quality:} The quality of the Stage 1 programmatic weak supervision is inherently tied to the coverage and precision of the localized Vietnamese ESG dictionary. Subtle shifts in corporate sustainability terminology or industry-specific jargon may require manual updates to the keyword seed inventory.
+    \item \textbf{Asynchronous Error Propagation:} Since our pipeline is decoupled, any classification errors generated by the fine-tuned PhoBERT model in Stage 1 will propagate directly into the LLM context pool in Stage 2, potentially distorting the final synthesized scores.
+    \item \textbf{Selected-Evidence Coverage:} The LLM only observes the filtered evidence subset. Missing evidence in this subset should lower confidence and should not be interpreted as a definitive absence of disclosure in the original annual report.
+    \item \textbf{Dependence on External API Stability:} The execution of the downstream scoring module relies heavily on the availability, latency, and consistency of external generative LLM API endpoints. Variations in model versions or API rate-limiting constraints pose operational risks for real-time production deployment.
+\end{itemize}
+
+\begin{center}
+\color{red}
+\noindent\fbox{
+    \begin{minipage}{\dimexpr\columnwidth-2\fboxsep-2\fboxrule\relax}
+        \vspace{1ex}
+        \textbf{TODO: Future Work Verification} \\
+        Verify if the following text regarding the pivot from on-premise reasoning models matches the team's long-term technical roadmap.
+        \vspace{1ex}
+    \end{minipage}
+}
+\end{center}
+
+\paragraph{Evolution Towards Localized Reasoning Frameworks} 
+Our conceptual idealized framework initially aimed to integrate an on-premise, unified Reasoning LLM capable of executing joint sequence labeling and advanced Chain-of-Thought (CoT) reasoning internally to output final corporate ESG scores. However, open-source frontier reasoning models typically require hundreds of billions of parameters, demanding dense multi-node GPU clusters that are prohibitively expensive and impractical for broad market adoption. 
+
+To ensure our framework remains highly democratized and deployable within strict consumer-grade hardware constraints (such as a single NVIDIA RTX 3060), we purposefully pivoted toward the current decoupled paradigm. This architectural trade-off allows us to exploit localized encoding efficiency while safely offloading heavy multi-step semantic synthesis to external APIs. Tightly integrating smaller, localized open-source reasoning models through parameter-efficient distillation stands as a primary trajectory for our future research. This would enable us to eventually eliminate external API dependencies while maintaining the same level of interpretability and structured output, fully realizing the vision of a self-contained, on-premise ESG auditing system.
+% -----------------------------------------------------------------------------
+% 8. Conclusion
+% -----------------------------------------------------------------------------
+\section{Conclusion}
+\label{sec:conclusion}
+
+\begin{center}
+\color{red}
+\noindent\fbox{
+    \begin{minipage}{\dimexpr\columnwidth-2\fboxsep-2\fboxrule\relax}
+        \vspace{1ex}
+        \textbf{TODO: Review Conclusion \& Roadmap} \\
+        Review the summary of the hybrid architecture and future work. Ensure the transition toward localized reasoning models and dynamic dictionary updates aligns precisely with the project's actual technical roadmap.
+        \vspace{1ex}
+    \end{minipage}
+}
+\end{center}
+
+In this work, we addressed the critical challenge of automated Environmental, Social, and Governance (ESG) disclosure scoring within non-English emerging markets, which are heavily constrained by noisy OCR text extraction and a severe shortage of domain-specific human annotations. To resolve this, we introduced a scalable, hybrid multi-stage framework tailored for Vietnamese corporate disclosures. Our method leverages an adaptive dictionary-based weak supervision mechanism to programmatically generate high-fidelity training data, which is then used to fine-tune a localized encoder backbone (\texttt{vinai/phobert-base-v2}) via Parameter-Efficient DoRA adapters. Finally, dense paragraph-level classifications are filtered into structured evidence batches and synthesized into traceable company time-series ESG disclosure scores through external Large Language Model (LLM) API orchestration driven by customized JSON schema constraints.
+
+Our key experimental findings demonstrate that this decoupled architecture successfully validates the feasibility and operational viability of deploying automated ESG evaluations in the Vietnamese financial context. By isolating heavy context classification from downstream generative reasoning, the framework successfully mitigates long-context window limits, drastically lowers external API token costs, and eliminates the risk of raw OCR noise polluting the LLM prompt space. The main takeaway of this study is that advanced, auditable domain-specific auditing can be successfully democratized and executed within strict consumer-grade hardware constraints, specifically utilizing a single commercial GPU (NVIDIA RTX 3060 12GB VRAM).
+
+Future work will focus on two major trajectories. First, we aim to refine the programmatic labeling phase by integrating dynamic keyword discovery to automatically update the ESG dictionary against evolving industry jargon. Second, following our technical roadmap, we intend to transition away from external API dependencies by distilling heavy multi-step semantic synthesis capabilities into smaller, on-premise open-source reasoning models, fully localizing the Chain-of-Thought (CoT) scoring process.
+
+% -----------------------------------------------------------------------------
+% Acknowledgements
+% -----------------------------------------------------------------------------
+\section*{Acknowledgements}
+The authors sincerely express their gratitude to the advisors and research coordinators at our institution for their invaluable guidance, continuous technical oversight, and structural feedback throughout the development of this project. We also acknowledge the open-source community for maintaining foundational repositories, specifically the Hugging Face Transformers ecosystem, the PyTorch development team, and VinAI Research for providing the open-source PhoBERT weight checkpoints. 
+
+\begin{center}
+\color{red}
+\noindent\fbox{
+    \begin{minipage}{\dimexpr\columnwidth-2\fboxsep-2\fboxrule\relax}
+        \vspace{1ex}
+        \textbf{TODO: Double-Blind Review Reminder} \\
+        If this paper is currently being submitted to a venue with a double-blind review process (e.g., ICML anonymous submission), you must comment out or remove the entire \texttt{Acknowledgements} section before compiling the final submission PDF to prevent deanonymization.
+        \vspace{1ex}
+    \end{minipage}
+}
+\end{center}
+
+% -----------------------------------------------------------------------------
+% Impact Statement
+% -----------------------------------------------------------------------------
+\section*{Impact Statement}
+This study presents significant positive broader impacts by democratizing automated ESG analytics for financial institutions, regulators, and researchers in emerging markets who lack the capital to employ elite human auditing teams or maintain expensive multi-node GPU clusters. By replacing ``black box'' neural network predictions with traceable LLM-generated JSON justifications, our framework enhances transparency and helps mitigate ``greenwashing'' practices in corporate governance. 
+
+Regarding ethical considerations and potential risks, the framework relies heavily on the neutral execution of both the localized dictionary and the downstream generative LLM. If the underlying dictionary contains implicit domain biases, or if the external LLM API exhibits hallucination tendencies, the system could propagate erroneous ESG scores, potentially impacting corporate valuations unfairly. Users are advised to utilize this framework as an advanced decision-support instrument rather than a completely unmonitored compliance authority. Finally, regarding environmental costs, by opting for parameter-efficient DoRA adaptation instead of full model fine-tuning and heavy on-premise LLM training, this work substantially reduces the overall carbon footprint and computational energy expenditures required for domain-specific AI adaptation.
+% -----------------------------------------------------------------------------
+% References
+% -----------------------------------------------------------------------------
+\bibliography{references.bib}
+\bibliographystyle{icml2024}
+
+% -----------------------------------------------------------------------------
+% Appendix
+% -----------------------------------------------------------------------------
+\newpage
+\appendix
+\onecolumn
+
+\section{Appendix}
+\label{sec:appendix}
+
+\subsection{Additional Experimental Details}
+Provide additional implementation details, full hyperparameter settings, hardware information, preprocessing steps, and training configurations.
+
+\subsection{Additional Results}
+Place supplementary tables and figures here. Large tables should be stored in separate files under the \texttt{tables/} directory.
+
+\subsection{Proofs and Derivations}
+Include mathematical proofs, derivations, or extended theoretical analysis if the main text only contains the core ideas.
+
+\begin{theorem}[Example Theorem]
+Under the assumptions stated in \Cref{sec:problem_formulation}, the proposed objective in \Cref{eq:objective} admits an optimal solution $\theta^{\star}$ in the feasible parameter space.
+\end{theorem}
+
+\begin{proof}
+This is a placeholder proof. Replace it with the actual proof or remove this theorem if the paper does not include theoretical analysis.
+\end{proof}
+
+\subsection{Reproducibility Checklist}
+Use this checklist to verify that the paper provides enough information for replication:
+\begin{itemize}
+    \item Dataset sources and preprocessing steps are described.
+    \item Train/validation/test splits are specified.
+    \item Baselines and evaluation metrics are clearly defined.
+    \item Hyperparameters, random seeds, and hardware are reported.
+    \item Code, model checkpoints, or configuration files are provided when possible.
+\end{itemize}
+
+\end{document}
